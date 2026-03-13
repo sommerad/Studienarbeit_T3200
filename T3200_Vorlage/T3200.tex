@@ -1,0 +1,556 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% LaTeX-Rahmen fuer das Erstellen von Masterarbeiten
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% allgemeine Einstellungen
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[12pt,a4paper]{report}
+%\usepackage[utf8]{inputenc}
+
+\usepackage{amsmath}
+%\usepackage[scaled=0.92]{helvet}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows, calc}
+
+% Definition der Styles
+\tikzstyle{startstop} = [rectangle, rounded corners, minimum width=3cm, minimum height=1cm,text centered, draw=black, fill=red!30]
+\tikzstyle{process} = [rectangle, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=blue!10]
+\tikzstyle{arrow} = [thick,->,>=stealth]
+\tikzstyle{io} = [trapezium, trapezium left angle=70, trapezium right angle=110, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=blue!30]
+\tikzstyle{decision} = [diamond, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=green!30]
+\tikzstyle{subroutine} = [rectangle, double, minimum width=4cm, minimum height=1cm, text centered, draw=black, fill=orange!10]
+\usepackage[scaled=1.1]{nimbusmononarrow}
+%\usepackage[T1]{fontenc}
+
+\usepackage{microtype} %Ermöglicht Blocksatz durch minimale Veränderung der Buchstabenbreite
+\usepackage{noto}
+\usepackage{subcaption}
+\usepackage{cite}
+\usepackage{eurosym}
+\usepackage[english,ngerman]{babel}
+\usepackage{bibgerm}
+\usepackage{graphics, graphicx}
+\usepackage{wrapfig}
+\usepackage[margin=10pt,font=small,labelfont=bf]{caption}
+\usepackage{sistyle}
+\usepackage{latexsym}
+\usepackage{hyperref}
+\usepackage{csquotes}
+\usepackage[textwidth=14cm,textheight=22cm]{geometry}
+\usepackage{url}
+\usepackage{caption}
+\usepackage{float}
+\usepackage{tabularx}
+\usepackage{pdfpages} 
+\usepackage{pdflscape}
+\usepackage[toc,page]{appendix}
+
+
+\usepackage{titlesec}
+\titleformat{\chapter}[hang] % Kapitelüberschrift in einer Zeile
+{\normalfont\Huge\bfseries} % Schriftart, Größe, fett
+{\thechapter\quad}          % Kapitelnummer mit Abstand
+{0pt}                       % Abstand zwischen Nummer und Text
+{}                          % Kein zusätzlicher Text (wie "Kapitel")
+
+% Abstand vor und nach Kapitelüberschrift ändern (optional):
+\titlespacing*{\chapter}{0pt}{*3}{*2}
+
+%\footskip 2cm
+%\parskip 0.5ex plus 0.1ex minus 0.1ex
+%\parindent0pt
+\usepackage{setspace}
+\onehalfspacing   
+
+%Numerierungstiefe
+\setcounter{secnumdepth}{3}
+%Inhaltsverzeichnis-Tiefe
+\setcounter{tocdepth}{3}
+
+% Hurenkinder und Schusterjungen verhindern
+% http://projekte.dante.de/DanteFAQ/Silbentrennung -- link deprecated!
+\clubpenalty = 10000 % schließt Schusterjungen aus (Seitenumbruch nach der ersten Zeile eines neuen Absatzes)
+\widowpenalty = 10000 % schließt Hurenkinder aus (die letzte Zeile eines Absatzes steht auf einer neuen Seite)
+\displaywidowpenalty=10000
+
+
+% Kann nach persönlichem Geschmack verändert werden.
+%\usepackage{fancyhdr}
+%\pagestyle{fancy}
+%\fancyhead[LO,RE]{\textsl{\nouppercase{\leftmark}}}
+%\fancyhead[LE,RO]{\thepage}
+%\fancyfoot{}
+
+%\fancyhead[LE,RO]{\textsl{\rightmark}}
+
+
+% Kommentar-Style zum Einfügen von To-Do's Befehle: \todo , \note und \listoftodos
+\usepackage[textsize=footnotesize,textwidth=0.8in]{todonotes} % Kommentare einschalten
+%\usepackage[disable]{todonotes} % Kommentarausgabe ausschalten
+\setlength{\emergencystretch}{0.8in} % Abstand vom Rand
+\newcommand{\note}{\todo[inline,color=yellow,caption={}]} %Notiz über volle Seitenbreite
+
+%Blockschaltbilder
+\usepackage{tikz}
+\usetikzlibrary{positioning, arrows.meta, shapes.geometric}
+
+\tikzset{
+	block/.style = {draw, rectangle, minimum height=2em, minimum width=4em},
+	arrow/.style = {->, >=Stealth}
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% kopf und fußzeile
+\usepackage[headsepline, footsepline, plainheadsepline, plainfootsepline]{scrlayer-scrpage}		% linie aktivieren für "headings" und "plain" seiten
+%\automark{chapter}		% aktivieren das "chapter" und "section" oeben angezeigt werden kann
+%\automark*{section}
+
+\setlength{\headheight}{35pt}			% header abstand
+\setlength{\footheight}{\baselineskip}	% footer abstand
+
+\clearpairofpagestyles
+
+% Der "*" macht, dass hier konfigurierte Einstellungen auch für "plain"-Seiten gelten
+%\ihead*{\vspace*{-0.0cm}\includegraphics[height=1cm, width=0.3\textwidth, keepaspectratio, angle=0]{\firmenlogo}}	%pdf firmenlogo etwas runtersetzen, da komisch formatiert
+\chead{\normalfont \headmark}		% "chapter" und "section" oben mittig anzeigen
+\ohead*{\includegraphics[height=1cm, angle=0]{figures/dhbwlogo.png}}	% DHBW Logo
+
+\ifoot*{\scriptsize \normalfont Autoren: \autor \ | \ \autorzwei}	% Autoren hintereinander in einer Zeile (Links)
+%\cfoot*{}  % Mitte bleibt leer, Datum entfernt
+\ofoot*{\pagemark} % Seitenzahl (Rechts)
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%TODO: create variables and implement syntax like \art{T1000}
+\newcommand{\art}{Studienarbeit T3200} %feminin
+\newcommand{\titel}{Vorlage Studienarbeit T3200}
+\newcommand{\untertitel}{}
+
+\newcommand{\studiengang}{Elektrotechnik}
+\newcommand{\studienfach}{Elektrotechnik} %Wird nur für Bachelordeckblatt benötigt.
+\newcommand{\fachrichtung}{Elektronik} 
+\newcommand{\hochschule}{Dualen Hochschule Stuttgart} %An der ...
+\newcommand{\campus}{Campus Horb}
+
+\newcommand{\autor}{Luis Magnus Thiel}
+\newcommand{\strassehausnr}{Hugo-Bertsch-Straße 15}
+\newcommand{\plzwohnort}{72459 Albstadt}
+
+\newcommand{\autorzwei}{Adrian Sommer}
+\newcommand{\strassehausnrzwei}{Hechinger Straße 40}
+\newcommand{\plzwohnortzwei}{72336 Balingen}
+
+\newcommand{\jahrgang}{TET2023}
+\newcommand{\matrikelnr}{8616207}
+\newcommand{\matrikelnrzwei}{9519924}
+\newcommand{\kurs}{ET2023} % Nicht verwendet
+\newcommand{\bearbeitungszeitraum}{02. März 2026 bis 22. Juni 2026}
+\newcommand{\betreuer}{Norman Bläse (Mercedes-Benz)}
+\newcommand{\ausbildungsleiter}{} % Nicht verwendet
+\newcommand{\gutachter}{Musterbetreuer 2} % Nicht verwendet
+
+\newcommand{\dateiname}{Studienarbeit T3200} % Nicht verwendet
+\newcommand{\abgabeort}{Horb am Neckar}
+\newcommand{\firma}{ASSA ABLOY Sicherheitstechnik GmbH}
+\newcommand{\firmenstrasse}{Bildstockstraße 20}
+\newcommand{\firmenort}{72458 Albstadt}
+\newcommand{\firmenlogo}{figures/assaabloy_logo.jpg}
+\newcommand{\firmazwei}{Groz-Beckert KG}
+\newcommand{\firmenstrassezwei}{Parkweg 2}
+\newcommand{\firmenortzwei}{72458 Albstadt}
+\newcommand{\csharp}{C\#}
+
+\newcommand{\ladeliteratur}{
+	\addbibresource{Literatur.bib}
+	%\addbibresource{WeitereLiteratur.bib}
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% hier steht die neue Titelseite 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{titlepage}
+	
+	\thispagestyle{plain}
+	\renewcommand*{\pagemark}{} % Unterdrückt die Ausgabe der Seitenzahl (Lokal für diese Umgebung)
+	\ifoot*{}
+	\vspace{-10pt}
+	\begin{center}
+		
+		\begin{LARGE}
+			\titel
+			\\		
+			\vspace{14pt}
+		\end{LARGE}
+		\begin{LARGE}
+			\art\\
+			\vspace{16pt}
+		\end{LARGE}
+		\begin{LARGE}
+			\untertitel	
+		\end{LARGE}
+	\end{center}
+	
+	\begin{center}
+		Studiengang \studienfach\\
+		%Fachrichtung \fachrichtung
+		
+		An der \hochschule \\ \campus\\
+	\end{center}
+	
+	\let\stretchbuffer\arraystretch % buffer \arraystretch to restore later
+	\renewcommand{\arraystretch}{1.25} % make table spacing same as line spacing
+	\begin{table}[b!]
+		\normalsize
+		\begin{tabularx}{\textwidth}{lXX} % 3 Spalten: 1x linksbündig (Labels), 2x für die Autoren
+			% NEU: "Eingereicht von:" über den Autoren-Spalten (2 Spalten, linksbündig)
+			\multicolumn{1}{l}{\textbf{Eingereicht von:}} & \multicolumn{2}{l}{} \\
+			\\[-0.5em] 
+			
+			\textbf{Name:} 			& \autor 				& \autorzwei \\
+			\textbf{Matrikelnr.:} 	& \matrikelnr 			& \matrikelnrzwei \\
+			\textbf{Straße, Nr.:} 	& \strassehausnr 		& \strassehausnrzwei \\
+			\textbf{PLZ, Ort:} 		& \plzwohnort 			& \plzwohnortzwei \\
+			\\[1cm]
+			% Firmeninformationen in separaten Spalten
+			\textbf{Partner:} 	    & \firma 				& \firmazwei \\
+			\textbf{Adresse:} 	    & \firmenstrasse 		& \firmenstrassezwei \\
+			\textbf{Ort:} 	        & \firmenort 			& \firmenortzwei \\
+			\\[1cm]
+			
+			% Zusätzliche Informationen über volle Breite
+			\multicolumn{3}{l}{\textbf{Studienjahrgang:} \jahrgang} \\
+			\multicolumn{3}{l}{\textbf{Bearbeitungszeitraum:} \bearbeitungszeitraum} \\
+			\multicolumn{3}{l}{\textbf{Betreuer:} \betreuer} \\
+		\end{tabularx}
+	\end{table}
+	\renewcommand{\arraystretch}{\stretchbuffer} % restore \arraystretch
+	%\clearpage
+\end{titlepage}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\pagenumbering{roman}
+\setcounter{page}{1}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Kurzzusammenfassung
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\thispagestyle{plain}
+\section*{Kurzzusammenfassung}
+ Diese Studienarbeit befasst sich mit der Optimierung und Erweiterung eines autonomen Robotersystems, bestehend aus einem Mitsubishi Movemaster EX RV-M1, einer 3D-ToF-Kamera sowie einer 2D-Industriekamera. Dabei ist das übergeordnete Ziel die Transformation des vorliegenden Aufbaus hin zu einem intelligenten System, welches durch die Implementierung von bildbasierten Sicherheitsfunktionen Potenziale für einen kollaborativen Betrieb aufzeigt.\\
+ \\Zunächst wird der Einfluss verschiedener Beleuchtungsbedingungen auf das Bildgewinnungssystem in einer Messreihe erforscht und mögliche Optimierungen erarbeitet. Nachfolgend gibt die Analyse der C++/\csharp-Softwarearchitektur Aufschluss über vorhandene Schwachstellen, wie auftretende Probleme bei der Thread-Synchronisierung und der Implementierung einer statischen Robotersteuerung. Für letzteres wird durch die Konzeptionierung einer dynamischen und geschlossenen Ansteuerung eine Alternative geschaffen.\\
+ \\Aufbauend auf den Erkenntnissen der Analyse und Konzeptionierung der dynamischen Ansteuerung wird ein Gesamtkonzept für die Entwicklung einer \textit{Geschwindigkeits- und Abstandsüberwachung (SSM)} erstellt. Dieses Konzept nutzt die Fusion der 2D- und 3D-Bilddaten, um dynamische Warn- und Stoppbereiche softwareseitig zu realisieren. Die Arbeit bildet somit das Fundament für die sicherheitstechnische und steuerungstechnische Implementierung in der nachfolgenden Studienarbeit.
+\newpage
+%\thispagestyle{plain}
+\section*{Abstract}
+This student research project deals with the optimisation and expansion of an autonomous robot system consisting of a Mitsubishi Movemaster EX RV-M1, a 3D ToF camera and a 2D industrial camera. The overarching goal is to transform the existing setup into an intelligent system that reveals the potential for collaborative operation through the implementation of image-based safety functions.\\
+\\
+First, the influence of different lighting conditions on the image acquisition system is investigated in a series of measurements and possible optimisations are developed. Subsequently, the analysis of the C++/C\# software architecture highlights existing weaknesses, such as problems occurring in thread synchronisation and the implementation of a static robot control system. For the latter, an alternative is created by designing a dynamic and closed-loop control system.\\
+\\
+Based on the findings of the analysis and design of the dynamic control system, an overall concept for the development of a \textit{Speed and Separation Monitoring (SSM)} system is created. This concept uses the fusion of 2D and 3D image data to implement dynamic warning and stop areas software-side. The work thus forms the foundation for the safety-related and control-related implementation in the subsequent student research project.
+\newpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Erklaerung
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\thispagestyle{empty}
+\section*{Selbständigkeitserklärung}
+
+%Hiermit versichere ich, dass ich die vorliegende Masterarbeit selbständig und nur mit den angegebenen Hilfsmitteln angefertigt habe und dass alle Stellen, die dem Wortlaut oder dem Sinne nach anderen Werken entnommen sind, durch Angaben von Quellen als Entlehnung kenntlich gemacht worden sind. Diese Masterarbeit wurde in gleicher oder ähnlicher Form in keinem anderen Studiengang als Prüfungsleistung vorgelegt. 
+
+% Erklärung aus dem Formular zur Anmeldung einer Bachelor-, Master- oder Diplomarbeit
+% http://www.uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/studium/downloads/allgemein-und-formulare.html
+Hiermit erklären wir, \autor{} und \autorzwei, dass wir diese schriftliche Studienarbeit selbständig verfasst haben. Es wurden keine anderen als die angegebenen Hilfsmittel und Quellen benutzt und alle wörtlich oder sinngemäß aus anderen Werken übernommenen Aussagen sind als solche gekennzeichnet.
+
+\vspace{2cm} % Abstand zum Text
+
+% --- Block für Autor 1 (Luis) ---
+\noindent
+\begin{tabular}{@{}p{6cm}p{7cm}@{}}
+	% Ort mit Datum & Unterschrift (mit raisebox nach unten geschoben)
+	\vspace{1.1cm} Horb, den \today & 
+	% ÄNDERUNG: raisebox schiebt das Bild tiefer.
+	% Spiel mit dem Wert "-1.8cm", bis es perfekt auf der Linie sitzt.
+	\raisebox{-1.8cm}[0pt][0pt]{\includegraphics[height=1.5cm, keepaspectratio]{figures/L_Signature.png}} 
+	\\[-0.5ex] 
+	
+	% Die Linien
+	\rule{5.5cm}{0.4pt} & \rule{6.5cm}{0.4pt} \\
+	
+	% Beschriftung
+	\footnotesize Ort, Datum & \footnotesize Unterschrift (\autor)
+\end{tabular}
+
+\vspace{1.5cm} % Abstand zwischen den Autoren
+
+% --- Block für Autor 2 ---
+\noindent
+\begin{tabular}{@{}p{6cm}p{7cm}@{}}
+	\vspace{1.1cm} Horb, den \today & 
+	% ÄNDERUNG: Auch hier raisebox nutzen
+	\raisebox{-1.8cm}[0pt][0pt]{\includegraphics[height=1.5cm, keepaspectratio]{figures/A_Signature.png}} 
+	\\[-0.5ex]
+	
+	\rule{5.5cm}{0.4pt} & \rule{6.5cm}{0.4pt} \\
+	
+	\footnotesize Ort, Datum & \footnotesize Unterschrift (\autorzwei)
+\end{tabular}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Inhaltsverzeichnis
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\renewcommand{\baselinestretch}{1}
+\small\normalsize
+
+\tableofcontents
+
+\renewcommand{\baselinestretch}{1}
+\small\normalsize
+
+\newpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Der Haupttext, ab hier mit arabischer Numerierung
+%%% Mit \input{dateiname} werden die Datei `dateiname' eingebunden
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+%% Introduction
+\input{sec1}
+\newpage
+
+%% 
+\input{sec2}
+\newpage
+
+%%
+\input{sec3}
+\newpage
+
+%%
+\input{sec4}
+\newpage
+
+%%
+\input{sec5}
+\newpage
+
+%%
+\input{sec6}
+\newpage
+
+\pagenumbering{roman}
+\setcounter{page}{7}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Bibliographie
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\addcontentsline{toc}{chapter}{Literaturverzeichnis}
+
+\bibliographystyle{IEEEtran}
+\bibliography{mylit}
+%% Obige Anweisung legt fest, dass BibTeX-Datei `mylit.bib' verwendet
+%% wird. Hier koennen mehrere Dateinamen mit Kommata getrennt aufgelistet
+%% werden.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Abk"urzungsverzeichnis
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\addcontentsline{toc}{chapter}{Abk"urzungsverzeichnis}
+\chapter*{Abk"urzungsverzeichnis}
+\markboth{ABKÜRZUNGSVERZEICHNIS}{ABKÜRZUNGSVERZEICHNIS}
+\begin{tabbing}
+	
+	% Definiere den Abstand: Hier 4cm für die Abkürzung, dann kommt der Rest
+	xxxxxxxxxxxxxx \= \kill 
+	
+	
+	CLR \> Common Language Runtime
+	\\CMOS \> Complementary Metal-Oxide-Semiconducto
+	\\Cobot \> Collaborative Robot
+	\\CTS \> Clear to Send 
+	\\DFT \> Diskrete Fouriertransformation
+	\\DH \> Denavit Hartenberg
+	\\DIN \> Deutsches Institut für Normung
+	\\DLL \> Dynamic Link Library
+	\\DSR \> Data Set Ready 
+	\\DTR \> Data Terminal Ready
+	\\DU \> Drive Unit
+	\\EN \> Europäische Norm
+	\\ER \> Error Read
+	\\FG \> Frame Ground
+	\\FOV \> Field of View
+	\\fps \> frames per second (Bilder pro Sekunde)
+	\\IPK \> Institut für Produktionsanlagen und Konstruktionstechnik
+	\\ISO \> International Organization for Standardization
+	\\JSON \> JavaScript Object Notation
+	\\KI \> Künstliche Intelligenz
+	\\LED \> Leuchtdiode
+	\\LIDAR \> Light Detection and Ranging
+	\\MC \> Move Continuous 
+	\\ML \> Maschinelles Lernen
+	\\MO \> Move
+	\\ms \> Millisekunde
+	\\Mutex \> Mutual Exclusions
+	\\MVC \> Model View Controller
+	\\NC \> Not Connected 
+	\\P/Invoke \> Platform Invocation Services 
+	\\PCL \> Point Cloud Library 
+	\\PL \> Performance Level 
+	\\RANSAC \> Random Sample Consensus Algorithmus
+	\\RXD \> Receive Data
+	\\ROR \> Radius Outlier Removal 
+	\\RS-232 \> Recommended Standard 232
+	\\SCARA \> Selective Compliance Assembly Robot Arm 
+	\\SOR \> Statistical Outlier Removal 
+	\\SP \> Speed  
+	\\SSM \> Speed and Separation Monitoring 
+	\\TCP \> Tool Center Point 
+	\\TCP/IP \> Transmission Control Protocol/Internet Protocol 
+	\\ToF \> Time of Flight
+	\\TXD \> Transmit Data
+	\\WH \> Where
+	\\2D \> Zweidimensional  
+	\\3D \> Dreidimensional
+\end{tabbing}
+
+\newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Abbildungsverzeichnis
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\renewcommand{\baselinestretch}{1.3}
+\small\normalsize
+
+\addcontentsline{toc}{chapter}{Abbildungsverzeichnis}
+\listoffigures
+
+\renewcommand{\baselinestretch}{1}
+\small\normalsize
+
+\newpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Tabellenverzeichnis
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\renewcommand{\baselinestretch}{1.3}
+%\small\normalsize
+
+%\addcontentsline{toc}{chapter}{Tabellenverzeichnis}
+%\listoftables
+
+%\renewcommand{\baselinestretch}{1}
+%\small\normalsize
+
+%\newpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Anhang
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\clearpage % Beendet das vorherige Kapitel sauber
+\newpage
+\addcontentsline{toc}{chapter}{Erklärungen zur Arbeit und Hilfsmitteln}
+\chapter*{Erklärungen zur Arbeit und Hilfsmitteln}
+\markboth{ERKLÄRUNGEN}{ERKLÄRUNGEN}
+
+\subsection*{Verwendete Hilfsmittel}
+Für die Erstellung dieser Studienarbeit wurden folgende Tools eingesetzt:
+\begin{itemize}
+	\item \textbf{Hardware:} SICK Visionary-T Mini-CX, Mitsubishi Movemaster EX-RV M1, uEye Industriekamera
+	\item \textbf{Software:} OpenCV Bibliothek, Visual Studio (C++ und \csharp), RoboETH, drawIO (Erstellung von Grafiken), texStudio, uEye-Cockpit und IDS Kameramanager, GitHub (Kollaboratives Arbeiten und Versionsverwaltung der LaTeX-Vorlage).
+\end{itemize}
+\subsubsection*{KI-Tools und relevanter Einsatzbereich}
+\label{KI-Tools und relevanter Einsatzbereich}
+Dies erfolgt im Einklang mit der entsprechenden Verordnung der DHBW \href{https://www.dhbw.de/fileadmin/user_upload/Dokumente/Dokumente_fuer_Studierende/191212_Leitlinien_Praxismodule_Studien_Bachelorarbeiten.pdf}{(Weblink)}.
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|p{3cm}|p{6cm}|p{2.5cm}|}
+		\hline
+		\textbf{Tool} & \textbf{Art der Nutzung} & \textbf{Abschnitt} \\ \hline
+		{Google Gemini AI Student Pro License} & {Formatierung von LaTeX-Code, Erstellung von Blankovorlagen für Tabellen und Listen} & {gesamte Arbeit} \\ \hline
+		{Google Gemini AI Student Pro License: Deep Search-Feature} & {Tiefgreifende Analyse des Datenblatts des Movemaster EX RV-M1: Finden von Abschlusszeichen im RS232-String, Pin-Belegung für Hardwaregestütztes Acknowledgement über RS232, Physikalische Signalanalyse für die Implementierung einer Flow-Control; Ergebnis der "Deep Search" kann jederzeit als PDF-Dokument bereitgestellt werden} & {4.3.2} \\ \hline
+		{DeepL AI Übersetzer} & {Formulierung des englischsprachigen Abstracts} & {Abstract} \\ \hline
+	\end{tabular}
+\end{table}
+\newpage
+\subsection*{Aufteilung der Kapitel}
+Die Erstellung der vorliegenden Studienarbeit erfolgte in gemeinsamer Kooperation. In der folgenden Tabelle ist dokumentiert, welcher Autor die primäre Urheberschaft für die jeweiligen Kapitel bzw. Abschnitte trägt:
+
+\vspace{0.5cm}
+\renewcommand{\arraystretch}{1.5} %Felder dieser Tabelle auf 1.5x 
+\noindent
+\begin{tabularx}{\textwidth}{|X|l|l|}
+	\hline
+	\textbf{Kapitel / Abschnitt} & \textbf{Kapitelnummer} & \textbf{Autor} \\ \hline
+	Einleitung                           & \ref{Einleitung} & Gemeinsame Bearbeitung \\ \hline
+	Robotik                              & \ref{Robotik} & \autor \\ \hline
+	Industrielle Bildverarbeitung        & \ref{Bildverarbeitung} & \autorzwei \\ \hline
+	Grundlagen der Informatik            & \ref{Grundlagen der Informatik} & \autor \\ \hline
+	Hardware                             & \ref{Ausgangslage: Hardware} & \autor \\ \hline
+	Software                             & \ref{Ausgangslage: Software} & \autorzwei \\ \hline
+	Messreihe							 & \ref{Messreihe} & \autor \\ \hline
+	Optimierung der Softwarestruktur	 & \ref{Optimierung der Softwarestruktur} & \autor \\ \hline
+	Optimierung der Bildgewinnung   	 & \ref{Optimierung der Bildgewinnung} & \autor \\ \hline
+	Optimierung und Verbesserungsmöglichkeiten an der Software & \ref{Optimierung und Verbesserungsmöglichkeiten an der Software} & \autorzwei \\ \hline
+	Normative Anforderungen 		     & \ref{Normative Anforderungen und Grenzen des RV-M1} & Gemeinsame Bearbeitung \\ \hline
+	Umsetzbare Sicherheitsanforderungen	 & \ref{Umsetzbare Sicherheitsmerkmale} & Gemeinsame Bearbeitung \\ \hline
+	Ansatz Geschwindigkeits- und Abstandsüberwachung & \ref{Ansatz Geschwindigkeits- und Abstandsüberwachung} & \autorzwei \\ \hline
+	Fazit und Ausblick                   & \ref{Fazit und Ausblick} & Gemeinsame Bearbeitung \\ \hline
+\end{tabularx}
+\newpage
+Hiermit bestätigen wir, \autor{} und \autorzwei, dass die oben gemachten Angaben der Wahrheit entsprechen.
+\vspace{2cm} % Abstand zum Text
+% --- Block für Autor 1 (Luis) ---
+\noindent
+\begin{tabular}{@{}p{6cm}p{7cm}@{}}
+	% Ort mit Datum & Unterschrift (mit raisebox nach unten geschoben)
+	\vspace{1.1cm} Horb, den \today & 
+	% ÄNDERUNG: raisebox schiebt das Bild tiefer.
+	% Spiel mit dem Wert "-1.8cm", bis es perfekt auf der Linie sitzt.
+	\raisebox{-1.8cm}[0pt][0pt]{\includegraphics[height=1.5cm, keepaspectratio]{figures/L_Signature.png}} 
+	\\[-0.5ex] 
+	
+	% Die Linien
+	\rule{5.5cm}{0.4pt} & \rule{6.5cm}{0.4pt} \\
+	
+	% Beschriftung
+	\footnotesize Ort, Datum & \footnotesize Unterschrift (\autor)
+\end{tabular}
+
+\vspace{0.75cm} % Abstand zwischen den Autoren
+
+% --- Block für Autor 2 ---
+\noindent
+\begin{tabular}{@{}p{6cm}p{7cm}@{}}
+	\vspace{1.1cm} Horb, den \today & 
+	% ÄNDERUNG: Auch hier raisebox nutzen
+	\raisebox{-1.8cm}[0pt][0pt]{\includegraphics[height=1.5cm, keepaspectratio]{figures/A_Signature.png}} 
+	\\[-0.5ex]
+	
+	\rule{5.5cm}{0.4pt} & \rule{6.5cm}{0.4pt} \\
+	
+	\footnotesize Ort, Datum & \footnotesize Unterschrift (\autorzwei)
+\end{tabular}
+\clearpage % Beendet das vorherige Kapitel sauber
+\chapter*{Anhang}
+
+\section*{Inhalt des digitalen Anhangs}
+\label{Inhalt des digitalen Anhangs}
+\begin{itemize}
+	\item Anleitung zur Programmaufsetzung (Luis Thiel)
+	\item gesamter LaTeX-Ordner
+\end{itemize}
+\newpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Ende
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{document}
+
