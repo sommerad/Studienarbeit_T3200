@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Objekterkennung_RoboETHCore": {
+      "commandName": "Project",
+      "nativeDebugging": true
+    }
+  }
+}

@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Objekterkennung.CalibrationWindow">
+    <Position X="0.5" Y="0.5" Width="2.5" />
+    <Members>
+      <Field Name="backgroundWorker1" Hidden="true" />
+      <Field Name="backgroundWorker2" Hidden="true" />
+      <Field Name="bStartKalibration" Hidden="true" />
+      <Field Name="btn_SaveMat" Hidden="true" />
+      <Field Name="btn_SetHomography" Hidden="true" />
+      <Field Name="Button_Quit" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="DisplayWindow" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="Refresh" Hidden="true" />
+    </Members>
+    <AssociationLine Name="aController" Type="Objekterkennung._2_Controller.Controller" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="3" Y="2.188" />
+        <Point X="3.75" Y="2.188" />
+        <Point X="3.75" Y="2.188" />
+        <Point X="4.5" Y="2.188" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>IECAAAAAACjQABEAAACCAAACAAAQQBQAABBAACIAACA=</HashCode>
+      <FileName>1_View\CalibrationWindow.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="aController" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Objekterkennung.MainView">
+    <Position X="0.5" Y="4.25" Width="2.25" />
+    <Members>
+      <Field Name="btn_ConnectToCamera" Hidden="true" />
+      <Field Name="btn_ConnectToServer" Hidden="true" />
+      <Field Name="btn_GoToStartPos" Hidden="true" />
+      <Field Name="btn_ResetMagazin" Hidden="true" />
+      <Field Name="btn_StartCalibration" Hidden="true" />
+      <Field Name="btn_StartSearching" Hidden="true" />
+      <Field Name="btn_StartSorting" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="pbBox1" Hidden="true" />
+      <Field Name="pbBox2" Hidden="true" />
+      <Field Name="pbBox3" Hidden="true" />
+      <Field Name="pbBox4" Hidden="true" />
+    </Members>
+    <AssociationLine Name="derController" Type="Objekterkennung._2_Controller.Controller" FixedFromPoint="true">
+      <Path>
+        <Point X="2.75" Y="5" />
+        <Point X="4.5" Y="5" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>EEAAIAYAACAApAIAAASACAECkAAAAAAGQAAAgAAIUgI=</HashCode>
+      <FileName>1_View\MainView.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="derController" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Objekterkennung._2_Controller.Controller">
+    <Position X="4.5" Y="0.5" Width="2.25" />
+    <AssociationLine Name="aRoboter" Type="Objekterkennung_RoboETH._3_Model.Roboter" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="6.75" Y="2.938" />
+        <Point X="7.376" Y="2.938" />
+        <Point X="7.376" Y="2.938" />
+        <Point X="7.75" Y="2.938" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAgCEAAAQAgAAAQAEFCiIgAIQgAAAgABBAhAAAEAAIA=</HashCode>
+      <FileName>2_Controller\Controller.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="dieView" />
+      <Field Name="dieViewKalibrierung" />
+      <Field Name="aKalibrierung" />
+      <Field Name="aRoboter" />
+      <Field Name="aBild" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Objekterkennung._3_Model.Kalibrierung">
+    <Position X="12.5" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAJQCAAAIgAAAAAAIkGAggAECEARAAkgAAIAIQA=</HashCode>
+      <FileName>3_Model\Kalibrierung.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Objekterkennung_RoboETH._3_Model.Homographie">
+    <Position X="12.5" Y="7.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>3_Model\Homographie.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Objekterkennung._3_Model.Bildverarbeitung">
+    <Position X="9.75" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>IEyAAAABAQBACAQJoIAAIIQQCAAAkAAAAAAAQAACAMA=</HashCode>
+      <FileName>3_Model\Bildverarbeitung.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Objekterkennung_RoboETH._3_Model.MatExtension">
+    <Position X="0.5" Y="8.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAgAAAAAAAAAgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>3_Model\MatExtension.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Objekterkennung_RoboETH._3_Model.Roboter">
+    <Position X="7.75" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>MQABAAAAAIAAACABIIABAFAICAAQAEAAAAAAACAEAAA=</HashCode>
+      <FileName>3_Model\Roboter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
