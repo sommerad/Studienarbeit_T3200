@@ -3,7 +3,7 @@
 \contentsline {chapter}{\numberline {1}Einleitung}{1}{chapter.1}%
 \contentsline {chapter}{\numberline {2}Analyse der Ausgangslage}{2}{chapter.2}%
 \contentsline {chapter}{\numberline {3}Herleitung der Aufgabenstellung}{3}{chapter.3}%
-\contentsline {chapter}{\numberline {4}Konzeptionierung von Sicherheitsfunktionen}{4}{chapter.4}%
+\contentsline {chapter}{\numberline {4}Roboter-Befehlspipeline}{4}{chapter.4}%
 \contentsline {chapter}{\numberline {5}Fazit und Ausblick}{5}{chapter.5}%
 \contentsline {chapter}{Literaturverzeichnis}{vii}{chapter.5}%
 \contentsline {chapter}{Abk"urzungsverzeichnis}{vii}{chapter*.3}%

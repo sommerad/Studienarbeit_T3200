@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.12.9)  29 APR 2026 09:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.12.9)  19 MAY 2026 14:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1684,21 +1684,21 @@ L3 programming layer <2024-08-30>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `T3200.out' has not changed.
-(rerunfilecheck)             Checksum: C94364429A1AF03A26ED2DB804317B94;1562.
+(rerunfilecheck)             Checksum: 4F7AFC90BEB8100C5E1856116D18FB35;1461.
  ) 
 Here is how much of TeX's memory you used:
- 33147 strings out of 473892
- 671339 string characters out of 5724920
- 1095507 words of memory out of 5000000
+ 33149 strings out of 473892
+ 671374 string characters out of 5724920
+ 1095488 words of memory out of 5000000
  55242 multiletter control sequences out of 15000+600000
- 632360 words of font info for 183 fonts, out of 8000000 for 9000
+ 632473 words of font info for 184 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  123i,25n,131p,1004b,897s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/sommerad/AppData/Local/Programs/MiKTeX/fonts/type1/google/noto/Noto
 Serif-Bold.pfb><C:/Users/sommerad/AppData/Local/Programs/MiKTeX/fonts/type1/goo
 gle/noto/NotoSerif-Italic.pfb><C:/Users/sommerad/AppData/Local/Programs/MiKTeX/
 fonts/type1/google/noto/NotoSerif-Regular.pfb>
-Output written on T3200.pdf (18 pages, 112482 bytes).
+Output written on T3200.pdf (18 pages, 112766 bytes).
 PDF statistics:
  174 PDF objects out of 1000 (max. 8388607)
  31 named destinations out of 1000 (max. 500000)
