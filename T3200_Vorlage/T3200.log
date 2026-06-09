@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.12.9)  9 JUN 2026 10:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.12.9)  9 JUN 2026 15:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1224,7 +1224,7 @@ LaTeX Font Info:    Font shape `T1/NotoSerif-TLF/m/sl' in size <12> not availab
 le
 (Font)              Font shape `T1/NotoSerif-TLF/m/it' tried instead on input l
 ine 230.
-<figures/dhbwlogo.png, id=61, 184.69pt x 77.28876pt>
+<figures/dhbwlogo.png, id=97, 184.69pt x 77.28876pt>
 File: figures/dhbwlogo.png Graphic file (type png)
 <use figures/dhbwlogo.png>
 Package pdftex.def Info: figures/dhbwlogo.png  used on input line 230.
@@ -1318,12 +1318,12 @@ File: figures/dhbwlogo.png Graphic file (type png)
 Package pdftex.def Info: figures/dhbwlogo.png  used on input line 253.
 (pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
 [2]
-<figures/L_Signature.png, id=81, 239.89626pt x 111.41624pt>
+<figures/L_Signature.png, id=117, 239.89626pt x 111.41624pt>
 File: figures/L_Signature.png Graphic file (type png)
 <use figures/L_Signature.png>
 Package pdftex.def Info: figures/L_Signature.png  used on input line 276.
 (pdftex.def)             Requested size: 91.89362pt x 42.67912pt.
-<figures/A_Signature.png, id=82, 155.83218pt x 51.19125pt>
+<figures/A_Signature.png, id=118, 155.83218pt x 51.19125pt>
 File: figures/A_Signature.png Graphic file (type png)
 <use figures/A_Signature.png>
 Package pdftex.def Info: figures/A_Signature.png  used on input line 293.
@@ -1380,15 +1380,95 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--1
 |[]\T1/NotoSerif-TLF/b/n/24.88 (+20) Ausgangssituation/IST-
  []
 
-)
+
+LaTeX Warning: Command \" invalid in math mode on input line 45.
+
+Missing character: There is no ü in font cmr8!
+
+Underfull \hbox (badness 1515) in paragraph at lines 8--48
+[]\T1/NotoSerif-TLF/m/n/12 (+20) 3.1[] zeigt qua-li-ta-tiv auf, wie ei-ne sol-c
+he Ab-fol-ge aus-sieht. Es ist
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--48
+\T1/NotoSerif-TLF/m/n/12 (+20) den ge-sam-ten Haupt-thread für ei-ne nicht ver-
+nach-läs-sig-ba-re
+ []
+
+
+Underfull \hbox (badness 2961) in paragraph at lines 8--48
+\T1/NotoSerif-TLF/m/n/12 (+20) wird, bis ein Be-fehl voll-stän-dig an den Ro-bo
+-ter ge-sen-det, von
+ []
+
+
+Underfull \hbox (badness 1584) in paragraph at lines 8--48
+\T1/NotoSerif-TLF/m/n/12 (+20) ihm ver-ar-bei-tet und aus-ge-führt wird, lässt 
+sich ver-ein-facht mit
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--48
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--48
+\T1/NotoSerif-TLF/m/n/12 (+20) Während die-ser Zeit-span-ne friert die ge-sam-t
+e Be-nut-ze-ro-ber-
+ []
+
+
+Underfull \hbox (badness 2689) in paragraph at lines 8--48
+\T1/NotoSerif-TLF/m/n/12 (+20) flä-che so-wie die Hand-lungs-fä-hig-keit des Ha
+upt-threads ein. Um
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--48
+\T1/NotoSerif-TLF/m/n/12 (+20) die Aus-wir-kun-gen der se-quen-zi-el-len Be-feh
+ls-be-reit-stel-lung auf
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--48
+\T1/NotoSerif-TLF/m/n/12 (+20) die Ge-samt-lauf-zeit und die Sys-tem-sta-bi-li-
+tät zu quan-ti-fi-zie-ren,
+ []
+
+
+Underfull \hbox (badness 6559) in paragraph at lines 8--48
+\T1/NotoSerif-TLF/m/n/12 (+20) ist ei-ne de-tail-lier-te Ana-ly-se der Aus-füh-
+rungs-zei-ten so-wie der
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--48
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--48
+\T1/NotoSerif-TLF/m/n/12 (+20) Das Ziel die-ser Ana-ly-se ist die Iden-ti-fi-ka
+-ti-on der kri-ti-schen
+ []
+
+
+
+File: figures/dhbwlogo.png Graphic file (type png)
+<use figures/dhbwlogo.png>
+Package pdftex.def Info: figures/dhbwlogo.png  used on input line 48.
+(pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
+[3
+
+])
 
 File: figures/dhbwlogo.png Graphic file (type png)
 <use figures/dhbwlogo.png>
 Package pdftex.def Info: figures/dhbwlogo.png  used on input line 332.
 (pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
-[3
-
-] (sec4.tex
+[4] (sec4.tex
 Kapitel 4.
 )
 
@@ -1396,7 +1476,7 @@ File: figures/dhbwlogo.png Graphic file (type png)
 <use figures/dhbwlogo.png>
 Package pdftex.def Info: figures/dhbwlogo.png  used on input line 336.
 (pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
-[4
+[5
 
 ] (sec5.tex
 Kapitel 5.
@@ -1406,7 +1486,7 @@ File: figures/dhbwlogo.png Graphic file (type png)
 <use figures/dhbwlogo.png>
 Package pdftex.def Info: figures/dhbwlogo.png  used on input line 340.
 (pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
-[5
+[6
 
 ] (sec6.tex
 Kapitel 6.
@@ -1416,7 +1496,7 @@ File: figures/dhbwlogo.png Graphic file (type png)
 <use figures/dhbwlogo.png>
 Package pdftex.def Info: figures/dhbwlogo.png  used on input line 344.
 (pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
-[6
+[7
 
 ] (sec7.tex
 Kapitel 7.
@@ -1426,7 +1506,7 @@ File: figures/dhbwlogo.png Graphic file (type png)
 <use figures/dhbwlogo.png>
 Package pdftex.def Info: figures/dhbwlogo.png  used on input line 348.
 (pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
-[7
+[8
 
 ] (T3200.bbl
 
@@ -1718,23 +1798,27 @@ L3 programming layer <2024-08-30>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `T3200.out' has not changed.
-(rerunfilecheck)             Checksum: 869E3DF4F616235329B22C2C8F3FDA65;2401.
+(rerunfilecheck)             Checksum: 3B9AD2A364DD1280D9981A83EDDF929D;4550.
  ) 
 Here is how much of TeX's memory you used:
- 33173 strings out of 473892
- 671704 string characters out of 5724920
- 1095414 words of memory out of 5000000
- 55255 multiletter control sequences out of 15000+600000
- 632582 words of font info for 185 fonts, out of 8000000 for 9000
+ 33346 strings out of 473892
+ 675546 string characters out of 5724920
+ 1095709 words of memory out of 5000000
+ 55380 multiletter control sequences out of 15000+600000
+ 639583 words of font info for 210 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  123i,25n,131p,1004b,897s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/sommerad/AppData/Local/Programs/MiKTeX/fonts/type1/google/noto/Noto
 Serif-Bold.pfb><C:/Users/sommerad/AppData/Local/Programs/MiKTeX/fonts/type1/goo
 gle/noto/NotoSerif-Italic.pfb><C:/Users/sommerad/AppData/Local/Programs/MiKTeX/
-fonts/type1/google/noto/NotoSerif-Regular.pfb>
-Output written on T3200.pdf (20 pages, 119927 bytes).
+fonts/type1/google/noto/NotoSerif-Regular.pfb><C:/Users/sommerad/AppData/Local/
+Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/sommerad/Ap
+pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/
+sommerad/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb
+>
+Output written on T3200.pdf (21 pages, 165953 bytes).
 PDF statistics:
- 208 PDF objects out of 1000 (max. 8388607)
- 38 named destinations out of 1000 (max. 500000)
- 55948 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 278 PDF objects out of 1000 (max. 8388607)
+ 49 named destinations out of 1000 (max. 500000)
+ 62164 words of extra memory for PDF output out of 74296 (max. 10000000)
 

@@ -1,4 +1,52 @@
 \chapter{Ausgangssituation/IST-Analyse}
 \label{Ausgangssituation/IST-Analyse}
 
-Laufzeitanalyse bestehendes System
+\section{Architekturlimitationen des bisherigen Systems}
+
+\subsection{Sequenzielle Befehlsstruktur}
+\label{Sequenzielle Befehelsstruktur}
+Die vorliegende Befehlsübermittlung an den Movemaster EX RV-M1 wird in der Software \textit{Objekterkennung\_RoboETH} sequenziell realisiert. \ref{sequenzielle Abfolge an Befehlen} zeigt qualitativ auf, wie eine solche Abfolge aussieht.
+\begin{figure}[h!]
+	\centering
+	\begin{tikzpicture}[
+		node distance=0cm, 
+		block/.style={draw=black, thick, minimum height=0.8cm, minimum width=2.2cm, align=center},
+		action/.style={block, fill=blue!20},
+		wait/.style={block, fill=red!40, minimum width=2.8cm}
+		]
+		
+		% Haupt-Thread Zeitstrahl
+		\draw[thick, ->] (0,-1.5) -- (11,-1.5) node[right] {$T$};
+		
+		% Blöcke nebeneinander positioniert
+		\node[action] (b1) at (1.1, 0) {Befehl 1};
+		\node[wait, right=0cm of b1] (w1) {Thread.Sleep()};
+		\node[action, right=0cm of w1] (b2) {Befehl 2};
+		\node[wait, right=0cm of b2] (w2) {Thread.Sleep()};
+		
+		% Annotationen für T_senden (unter den Befehlen)
+		\draw[<->, thick] (b1.south west) ++(0,-0.2) -- ++(2.2,0) node[midway, below] {$T_{senden}$};
+		\draw[<->, thick] (b2.south west) ++(0,-0.2) -- ++(2.2,0) node[midway, below] {$T_{senden}$};
+		
+		% T_sleep Annotations unter den Wait-Blöcken
+		\draw[<->, thick] (w1.south west) ++(0,-0.2) -- ++(3.2,0) node[midway, below] {$T_{schlafen}$};
+		\draw[<->, thick] (w2.south west) ++(0,-0.2) -- ++(3.2,0) node[midway, below] {$T_{schlafen}$};
+		
+		% Hilfslinien von den Blöcken zum Zeitstrahl
+		\draw[dashed, gray] (w1.south west) -- ++(0,-0.7);
+		\draw[dashed, gray] (w1.south east) -- ++(0,-0.7);
+		\draw[dashed, gray] (w2.south west) -- ++(0,-0.7);
+		\draw[dashed, gray] (w2.south east) -- ++(0,-0.7);
+		
+	\end{tikzpicture}
+	\caption{Sequenzielle Abfolge an Befehlen (Eigene Darstellung)}
+	\label{sequenzielle Abfolge an Befehlen}
+\end{figure}
+Es ist erkennbar, dass nach jedem gesendeten Befehl ein \textit{Thread.Sleep()-Befehl} den gesamten Hauptthread für eine nicht vernachlässigbare Zeitspanne $T_{schlafen}$ blockiert. Die theoretische Zeit $T$ die benötigt wird, bis ein Befehl vollständig an den Roboter gesendet, von ihm verarbeitet und ausgeführt wird, lässt sich vereinfacht mit $T_{befehlsausführung} = T_{senden} + T_{schlafen}$ beschreiben.\\
+\\Während dieser Zeitspanne friert die gesamte Benutzeroberfläche sowie die Handlungsfähigkeit des Hauptthreads ein. Um die Auswirkungen der sequenziellen Befehlsbereitstellung auf die Gesamtlaufzeit und die Systemstabilität zu quantifizieren, ist eine detaillierte Analyse der Ausführungszeiten sowie der Thread-Verteilung erforderlich. Hierfür wird ein reproduzierbares Simulationsexperiment aufgesetzt - hierzu nachfolgend mehr.\\
+\\Das Ziel dieser Analyse ist die Identifikation der kritischen Pfade. Durch eine explizite Messung der Zeitstempel für den Eintritt in die Befehlsverarbeitung, die Dauer der Hardware-Kommunikation und die Verweildauer in den Wartezuständen wird der „Flaschenhals“ der synchronen Architektur isoliert. Erst durch diese messtechnische Herleitung wird transparent, an welcher Stelle die CPU-Last ungenutzt bleibt und wie sich die Thread-Auslastung sowie die Laufzeit bei einer Umstellung auf eine asynchrone Pipeline-Architektur verbessern lässt.
+\subsubsection{Theoretische Limitationen}
+\label{Theoretische Limitationen}
+Wird erneut \ref{sequenzielle Abfolge an Befehlen} betrachtet, so fällt auf, dass die Zeit, welche benötigt wird, um die Koordinaten der einzelnen Objekte im Arbeitsbereich des Roboters zu berechnen, nicht betrachtet wird. Grund hierfür ist die Annahme, dass die Berechnungszeit in beiden Fällen (sequenzielle Befehlsstruktur oder asynchrone Befehlspipeline) voraussichtlich gleich ist. 
+
+
