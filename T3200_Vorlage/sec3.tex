@@ -1,4 +1,84 @@
 \chapter{Ausgangssituation/IST-Analyse}
 \label{Ausgangssituation/IST-Analyse}
 
-Laufzeitanalyse bestehendes System
+\section{Architekturlimitationen des bisherigen Systems}
+
+\subsection{Sequenzielle Befehlsstruktur}
+\label{Sequenzielle Befehelsstruktur}
+Die vorliegende Befehlsübermittlung an den Movemaster EX RV-M1 wird in der Software \textit{Objekterkennung\_RoboETH} sequenziell realisiert. \ref{sequenzielle Abfolge an Befehlen} zeigt qualitativ auf, wie eine solche Abfolge aussieht.
+\begin{figure}[h!]
+	\centering
+	\begin{tikzpicture}[
+		node distance=0cm, 
+		block/.style={draw=black, thick, minimum height=0.8cm, minimum width=2.2cm, align=center},
+		action/.style={block, fill=blue!20},
+		wait/.style={block, fill=red!40, minimum width=2.8cm}
+		]
+		
+		% Haupt-Thread Zeitstrahl
+		\draw[thick, ->] (0,-1.5) -- (11,-1.5) node[right] {$T$};
+		
+		% Blöcke nebeneinander positioniert
+		\node[action] (b1) at (1.1, 0) {Befehl 1};
+		\node[wait, right=0cm of b1] (w1) {Thread.Sleep()};
+		\node[action, right=0cm of w1] (b2) {Befehl 2};
+		\node[wait, right=0cm of b2] (w2) {Thread.Sleep()};
+		
+		% Annotationen für T_senden (unter den Befehlen)
+		\draw[<->, thick] (b1.south west) ++(0,-0.2) -- ++(2.2,0) node[midway, below] {$T_{senden}$};
+		\draw[<->, thick] (b2.south west) ++(0,-0.2) -- ++(2.2,0) node[midway, below] {$T_{senden}$};
+		
+		% T_sleep Annotations unter den Wait-Blöcken
+		\draw[<->, thick] (w1.south west) ++(0,-0.2) -- ++(3.2,0) node[midway, below] {$T_{schlafen}$};
+		\draw[<->, thick] (w2.south west) ++(0,-0.2) -- ++(3.2,0) node[midway, below] {$T_{schlafen}$};
+		
+		% Hilfslinien von den Blöcken zum Zeitstrahl
+		\draw[dashed, gray] (w1.south west) -- ++(0,-0.7);
+		\draw[dashed, gray] (w1.south east) -- ++(0,-0.7);
+		\draw[dashed, gray] (w2.south west) -- ++(0,-0.7);
+		\draw[dashed, gray] (w2.south east) -- ++(0,-0.7);
+		
+	\end{tikzpicture}
+	\caption{Sequenzielle Abfolge an Befehlen (Eigene Darstellung)}
+	\label{sequenzielle Abfolge an Befehlen}
+\end{figure}
+Es ist erkennbar, dass nach jedem gesendeten Befehl ein \textit{Thread.Sleep()-Befehl} den gesamten Hauptthread für eine nicht vernachlässigbare Zeitspanne $T_{schlafen}$ blockiert. Die theoretische Zeit $T$ die benötigt wird, bis ein Befehl vollständig an den Roboter gesendet, von ihm verarbeitet und ausgeführt wird, lässt sich vereinfacht mit $T_{befehlsausfuehrung} = T_{senden} + T_{schlafen}$ beschreiben.\\
+\\Während dieser Zeitspanne friert die gesamte Benutzeroberfläche sowie die Handlungsfähigkeit des Hauptthreads ein. Um die Auswirkungen der sequenziellen Befehlsbereitstellung auf die Gesamtlaufzeit und die Systemstabilität zu quantifizieren, ist eine detaillierte Analyse der Ausführungszeiten sowie der Thread-Verteilung erforderlich. Hierfür wird ein reproduzierbares Messexperiment aufgesetzt - hierzu nachfolgend mehr.\\
+\\Das Ziel dieser Analyse ist die Identifikation der kritischen Pfade. Durch eine explizite Messung der Zeitstempel für den Eintritt in die Befehlsverarbeitung, die Dauer der Hardware-Kommunikation und die Verweildauer in den Wartezuständen wird der „Flaschenhals“ der synchronen Architektur isoliert. Erst durch diese messtechnische Herleitung wird transparent, an welcher Stelle die CPU-Last ungenutzt bleibt und wie sich die Thread-Auslastung sowie die Laufzeit bei einer Umstellung auf eine asynchrone Pipeline-Architektur verbessern lässt.
+\subsubsection{Theoretische Limitation}
+\label{Theoretische Limitation}
+Wird erneut \ref{sequenzielle Abfolge an Befehlen} betrachtet, so fällt auf, dass die Zeit, welche benötigt wird, um die Koordinaten der einzelnen Objekte im Arbeitsbereich des Roboters zu berechnen, nicht eingerechnet wird. Grund hierfür ist die Annahme, dass die Berechnungszeit in beiden Fällen (sequenzielle Befehlsstruktur oder asynchrone Befehlspipeline) voraussichtlich gleich ist.\\
+\\Die theoretische Gesamtlaufzeit $T_{s}$ einer Befehlssequenz lässt sich durch Summation der Befehlsausführungszeiten $T_{befehlsausfuehrung}$ bestimmen:
+\begin{equation}
+	T_{s} = \sum_{i=1}^{n} \sum_{j=1}^{k} T_{befehlsausfuehrung, i, j}
+	\label{Summation Befehlsausführungszeiten}
+\end{equation}
+Einsetzen der zuvor beschriebenen Zeiten ergibt:
+\begin{equation}
+		T_{s} = \sum_{i=1}^{n} \sum_{j=1}^{k} (T_{senden, i, j} + T_{schlafen, i, j})
+		\label{Summation Befehlsausführungszeiten mit eingesetzten Zeiten}
+\end{equation}
+Hierbei repräsentiert der Index $i$ das jeweilige Objekt innerhalb der Bearbeitungsreihenfolge (mit $n$ als Gesamtzahl der Objekte), während der Index $j$ die spezifische Befehlsposition innerhalb eines Manipulationszyklus angibt (mit $k$ als Anzahl der Befehle pro Objekt).\\
+\\In den Gleichungen \ref{Summation Befehlsausführungszeiten} und \ref{Summation Befehlsausführungszeiten mit eingesetzten Zeiten} lässt sich die direkte Korrelation zwischen dem Parameter $n$ und der durch die Bildverarbeitungsklasse erkannten Objekte erkennen. Des weiteren wird verdeutlicht, dass die Gesamtausführungszeit einer Befehlssequenz (bestehend aus $1,...,k$ Befehlen pro Objekt) linear von der Objektanzahl $n$ und der aufsummierten Wartezeiten durch \textit{Thread.Sleep()}-Befehlen abhängt.\\
+\\Bei dieser theoretischen Betrachtung wird bewusst eine Worst-Case-Abschätzung mittels der fest definierten Wartezeiten getroffen, da der vorliegende Roboter und die zugehörige Software keine Bestätigung für eine abgeschlossene Bewegung liefern. Das wird in der Software durch statische Wartezeiten (erfahrungsbasiert oder alternativ grob berechnet) kompensiert, was in der Praxis allerdings zu Einbußen der Systemeffizienz führen kann.
+\subsubsection{Messexperiment}
+Um die theoretisch hergeleiteten Ineffizienzen und die zeitlichen Auswirkungen der sequenziellen Befehlserteilung quantitativ nachzuweisen, wurde ein deterministisches Messexperiment aufgesetzt. Selbiges muss für Vergleichbarkeit und Bewertbarkeit auch bei nachfolgenden Erweiterungen des Systems zu Grunde gelegt werden.  
+\subsubsection{Praktische Limitation - Laufzeitmessung mit Simulationsexperiment}
+\begin{table}[h!]
+	\
+	\renewcommand{\arraystretch}{1.2} % Etwas mehr Zeilenabstand
+	\begin{tabular}{|l|c|c|}
+		\hline
+		\textbf{Objekt-ID} & \textbf{Theoretische Zeit $T_S$ [s]} & \textbf{Gemessene Zeit $T_{mess}$ [s]} \\ \hline
+		Objekt 1 & 17,5 &  \\ \hline
+		Objekt 2 & 17,5 &  \\ \hline
+		Objekt 3 & 17,5 &  \\ \hline
+		Objekt 4 & 17,5 &  \\ \hline
+		Objekt 5 & 17,5 &  \\ \hline \hline
+		\textbf{Mittelwert} & \textbf{17,5} & \textbf{} \\ \hline
+		\textbf{Gesamtzeit} & \textbf{} & \textbf{} \\ \hline
+	\end{tabular}
+	\caption{Vergleich der theoretischen Laufzeit $T_S$ mit den gemessenen Werten $T_{mess}$}
+	\label{tab:laufzeitanalyse_ist}
+\end{table}
+
