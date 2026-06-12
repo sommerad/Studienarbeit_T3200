@@ -23,14 +23,29 @@ Filter, Algorithmen, Linien-/Kantendetektion mit OpenCV
 
 \section{Grundlagen der Informatik}
 
-\subsection{Asynchrone Programmierung in CSharp - TPL}
-
 \subsection{Producer-Consumer-Pattern}
 
-\subsection{Thread-Sicherheit \& Blocking-Collection}
-Blocking-Collection, ...
+\begin{figure}[h!]
+	\begin{tikzpicture}[
+		block/.style={rectangle, draw=blue!70!black, fill=blue!5, rounded corners, minimum width = 3.5cm, minimum height = 1.2cm, align=center, font=\sffamily\bfseries},
+		buffer/.style={rectangle, draw=green!60!black, fill=green!8, minimum width=0.8cm, minimum height=0.8cm, align=center},
+		arrow/.style={-{Stealth[scale=1.2]}, thick, draw=gray!80!black,font=\sffamily\small},
+		labelstyle/.style={font=\sffamily\scriptsize\itshape,color=gray!90!black}]
+		
+		% Layer 1 = Producer (Hauptanwendung & Kamerasystem)
+		
+		
+		
+	\end{tikzpicture}
+\end{figure}
 
-\subsection{Cancellation-Tokens}
+\subsection{Task Parallel Library (TPL)}
+
+\subsection{Task-based Asynchronous Pattern (TAP)}
+
+\subsection{Vergleich: Polling \& reaktives System}
+
+\subsection{Task Cancellation/kooperativer Abbruch}
 
 \subsection{TCP-Socket \& Protokoll-Parsing}
 
