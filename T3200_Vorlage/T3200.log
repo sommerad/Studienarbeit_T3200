@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.12.9)  11 JUN 2026 15:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.12.9)  11 JUN 2026 15:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1344,6 +1344,94 @@ Package pdftex.def Info: figures/dhbwlogo.png  used on input line 312.
 
 ] (sec1.tex
 Kapitel 1.
+
+Underfull \hbox (badness 1460) in paragraph at lines 10--15
+\T1/NotoSerif-TLF/m/n/12 (+20) Die vor-lie-gen-de Stu-di-en-ar-beit be-fasst si
+ch im ers-ten Schritt mit
+ []
+
+
+Underfull \hbox (badness 1701) in paragraph at lines 10--15
+\T1/NotoSerif-TLF/m/n/12 (+20) der fun-dier-ten Er-ar-bei-tung der ver-wen-de-t
+en me-tho-di-schen und
+ []
+
+
+Underfull \hbox (badness 6542) in paragraph at lines 10--15
+\T1/NotoSerif-TLF/m/n/12 (+20) den Stand der vor-he-ri-gen Stu-di-en-ar-beit an
+-knüpft. Be-stand-teil
+ []
+
+
+Underfull \hbox (badness 3000) in paragraph at lines 10--15
+\T1/NotoSerif-TLF/m/n/12 (+20) die-ser Eva-lua-ti-on sind ei-ne um-fas-sen-de I
+st- und Lauf-zeit-ana-ly-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--15
+
+ []
+
+
+Underfull \hbox (badness 2418) in paragraph at lines 10--15
+\T1/NotoSerif-TLF/m/n/12 (+20) Auf Ba-sis die-ser Er-kennt-nis-se wid-met sich 
+die Ar-beit der Kon-
+ []
+
+
+Underfull \hbox (badness 5374) in paragraph at lines 10--15
+\T1/NotoSerif-TLF/m/n/12 (+20) zep-tio-nie-rung neu-er Lö-sungs-an-sät-ze. Ein 
+zen-tra-ler Fo-kus liegt
+ []
+
+
+Underfull \hbox (badness 2012) in paragraph at lines 10--15
+\T1/NotoSerif-TLF/m/n/12 (+20) hier-bei auf der Op-ti-mie-rung und Er-wei-te-ru
+ng der be-ste-hen-den
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--15
+\T1/NotoSerif-TLF/m/n/12 (+20) Sys-te-mar-chi-tek-tur. Dies bein-hal-tet ins-be
+-son-de-re die ef-fi-zi-en-te
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--15
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--15
+\T1/NotoSerif-TLF/m/n/12 (+20) Ein wei-te-rer in-halt-li-cher Schwer-punkt ist 
+die in-for-ma-ti-ons-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--15
+\T1/NotoSerif-TLF/m/n/12 (+20) tech-ni-sche Um-set-zung ei-ner Be-fehl-spi-pe-l
+i-ne so-wie re-le-van-ter
+ []
+
+
+Underfull \hbox (badness 2818) in paragraph at lines 10--15
+\T1/NotoSerif-TLF/m/n/12 (+20) Safety-Features. In die-sem Zu-ge wer-den die zu
+-grun-de lie-gen-de
+ []
+
+
+Underfull \hbox (badness 7981) in paragraph at lines 10--15
+\T1/NotoSerif-TLF/m/n/12 (+20) be-leuch-tet. Nach ei-ner kri-ti-schen Ab-wä-gun
+g und Ein-ord-nung
+ []
+
+
+Underfull \hbox (badness 8151) in paragraph at lines 10--15
+\T1/NotoSerif-TLF/m/n/12 (+20) Er-wei-te-run-gen, ge-ziel-te Ver-bes-se-rungs-v
+or-schlä-ge und kon-kre-te
+ []
+
 )
 
 File: figures/dhbwlogo.png Graphic file (type png)
@@ -1365,15 +1453,142 @@ Overfull \hbox (2.40323pt too wide) in paragraph at lines 4--4
 |[]\T1/NotoSerif-TLF/b/n/17.28 (-20) Stand der Tech-nik: Safety-Implementation
  []
 
+
+LaTeX Warning: Citation `bdiwi2017strategy' on page 2 undefined on input line 1
+1.
+
+
+Underfull \hbox (badness 1803) in paragraph at lines 5--12
+\T1/NotoSerif-TLF/m/n/12 (+20) der Bil-der-fas-sung, bei der ent-we-der kos-ten
+-güns-ti-ge 2D-Kameras
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--12
+\T1/NotoSerif-TLF/m/n/12 (+20) va-ri-iert die Sys-te-mar-chi-tek-tur hin-sicht-
+lich der Ka-me-raan-zahl:
+ []
+
+
+Underfull \hbox (badness 1924) in paragraph at lines 5--12
+\T1/NotoSerif-TLF/m/n/12 (+20) Wäh-rend Mo-no-ka-me-ra-sys-te-me ei-ne ein-fa-c
+he Raum-über-wa-chung
+ []
+
+
+Underfull \hbox (badness 3240) in paragraph at lines 5--12
+\T1/NotoSerif-TLF/m/n/12 (+20) er-mög-li-chen, bie-ten Mul-ti-ka-me-ra-sys-te-m
+e durch hard-wa-re-sei-ti-ge
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--12
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--12
+\T1/NotoSerif-TLF/m/n/12 (+20) Die al-go-rith-mi-sche Aus-wer-tung lässt sich w
+ie-der-um in zwei
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--12
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--12
+\T1/NotoSerif-TLF/m/n/12 (+20) Die in-for-ma-ti-ons-tech-ni-sche Ab-si-che-rung
+ des Ar-beits-rau-mes
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--12
+\T1/NotoSerif-TLF/m/n/12 (+20) er-folgt je nach Sys-tem-kom-ple-xi-tät über die
+ Fest-le-gung ei-ner
+ []
+
+
+Underfull \hbox (badness 2828) in paragraph at lines 5--12
+\T1/NotoSerif-TLF/m/n/12 (+20) fle-xi-ble Zo-nen. Letz-te-res er-mög-licht die 
+Im-ple-men-tie-rung ei-ner
+ []
+
+
+Underfull \hbox (badness 2865) in paragraph at lines 5--12
+\T1/NotoSerif-TLF/m/n/12 (+20) bei der die Sys-tem-ge-schwin-dig-keit ad-ap-tiv
+ an die Po-si-ti-on des
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--12
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--12
+\T1/NotoSerif-TLF/m/n/12 (+20) Ein zen-tra-les wis-sen-schaft-li-ches Fun-da-me
+nt für sol-che fle-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--12
+\T1/NotoSerif-TLF/m/n/12 (+20) xiblen Si-cher-heits-ar-chi-tek-tu-ren be-schrei
+-ben Bdi-wi, M., Pfei-fer,
+ []
+
+
+Underfull \hbox (badness 1917) in paragraph at lines 5--12
+\T1/NotoSerif-TLF/m/n/12 (+20) M. und Ster-zing, A. [\T1/NotoSerif-TLF/b/n/12 (
++20) ?\T1/NotoSerif-TLF/m/n/12 (+20) ], die sich in-ten-siv mit un-ter-schied-l
+i-chen
+ []
+
+
+Underfull \hbox (badness 1097) in paragraph at lines 5--12
+\T1/NotoSerif-TLF/m/n/12 (+20) Die Au-to-ren schla-gen ei-ne sys-te-ma-ti-sche 
+Ta-xo-no-mie vor, wel-che
+ []
+
+
+
+File: figures/dhbwlogo.png Graphic file (type png)
+<use figures/dhbwlogo.png>
+Package pdftex.def Info: figures/dhbwlogo.png  used on input line 12.
+(pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
+[2
+
+]
+LaTeX Font Info:    Trying to load font information for TS1+NotoSerif-TLF on in
+put line 14.
+
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/noto\ts1notoserif-tl
+f.fd
+File: TS1NotoSerif-TLF.fd 2021/09/07 (autoinst) Font definitions for TS1/NotoSe
+rif-TLF.
 )
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `NotoSerif-TLF' (encoding: TS1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+Package microtype Info: Character `textminus ' is missing
+(microtype)             in font `TS1/NotoSerif-TLF/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+
+
+File: figures/dhbwlogo.png Graphic file (type png)
+<use figures/dhbwlogo.png>
+Package pdftex.def Info: figures/dhbwlogo.png  used on input line 33.
+(pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
+[3{C:/Users/sommerad/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/noto/a_honop
+s.enc}])
 
 File: figures/dhbwlogo.png Graphic file (type png)
 <use figures/dhbwlogo.png>
 Package pdftex.def Info: figures/dhbwlogo.png  used on input line 328.
 (pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
-[2
-
-] (sec3.tex
+[4] (sec3.tex
 Kapitel 3.
 
 Underfull \hbox (badness 10000) in paragraph at lines 1--1
@@ -1444,7 +1659,7 @@ File: figures/dhbwlogo.png Graphic file (type png)
 <use figures/dhbwlogo.png>
 Package pdftex.def Info: figures/dhbwlogo.png  used on input line 48.
 (pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
-[3
+[5
 
 ]
 Underfull \hbox (badness 1715) in paragraph at lines 50--52
@@ -1491,13 +1706,13 @@ File: figures/dhbwlogo.png Graphic file (type png)
 <use figures/dhbwlogo.png>
 Package pdftex.def Info: figures/dhbwlogo.png  used on input line 64.
 (pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
-[4])
+[6])
 
 File: figures/dhbwlogo.png Graphic file (type png)
 <use figures/dhbwlogo.png>
 Package pdftex.def Info: figures/dhbwlogo.png  used on input line 332.
 (pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
-[5] (sec4.tex
+[7] (sec4.tex
 Kapitel 4.
 )
 
@@ -1505,7 +1720,7 @@ File: figures/dhbwlogo.png Graphic file (type png)
 <use figures/dhbwlogo.png>
 Package pdftex.def Info: figures/dhbwlogo.png  used on input line 336.
 (pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
-[6
+[8
 
 ] (sec5.tex
 Kapitel 5.
@@ -1515,7 +1730,7 @@ File: figures/dhbwlogo.png Graphic file (type png)
 <use figures/dhbwlogo.png>
 Package pdftex.def Info: figures/dhbwlogo.png  used on input line 340.
 (pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
-[7
+[9
 
 ] (sec6.tex
 Kapitel 6.
@@ -1525,7 +1740,7 @@ File: figures/dhbwlogo.png Graphic file (type png)
 <use figures/dhbwlogo.png>
 Package pdftex.def Info: figures/dhbwlogo.png  used on input line 344.
 (pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
-[8
+[10
 
 ] (sec7.tex
 Kapitel 7.
@@ -1535,7 +1750,7 @@ File: figures/dhbwlogo.png Graphic file (type png)
 <use figures/dhbwlogo.png>
 Package pdftex.def Info: figures/dhbwlogo.png  used on input line 348.
 (pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
-[9
+[11
 
 ] (T3200.bbl
 
@@ -1580,21 +1795,6 @@ Underfull \hbox (badness 6758) in paragraph at lines 463--463
 |\T1/NotoSerif-TLF/b/n/24.88 (+20) Erklärungen zur Ar-beit und
  []
 
-LaTeX Font Info:    Trying to load font information for TS1+NotoSerif-TLF on in
-put line 469.
-
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/noto\ts1notoserif-tl
-f.fd
-File: TS1NotoSerif-TLF.fd 2021/09/07 (autoinst) Font definitions for TS1/NotoSe
-rif-TLF.
-)
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `NotoSerif-TLF' (encoding: TS1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-Package microtype Info: Character `textminus ' is missing
-(microtype)             in font `TS1/NotoSerif-TLF/m/n/12'.
-(microtype)             Ignoring protrusion settings for this character.
 
 Underfull \hbox (badness 3019) in paragraph at lines 480--480
 \T1/NotoSerif-TLF/m/n/12 (+20) Er-stel-lung von Blan-ko-vor-la-
@@ -1684,8 +1884,7 @@ Package pdftex.def Info: figures/dhbwlogo.png  used on input line 485.
 [11
 
 
-{C:/Users/sommerad/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/noto/a_honops.
-enc}]
+]
 
 LaTeX Warning: Reference `Robotik' on page xii undefined on input line 509.
 
@@ -1830,11 +2029,11 @@ Package rerunfilecheck Info: File `T3200.out' has not changed.
 (rerunfilecheck)             Checksum: CA9D5D7D06F09CCCB312BAE587F5AEA4;5094.
  ) 
 Here is how much of TeX's memory you used:
- 33397 strings out of 473892
- 676777 string characters out of 5724920
- 1095924 words of memory out of 5000000
- 55402 multiletter control sequences out of 15000+600000
- 642806 words of font info for 231 fonts, out of 8000000 for 9000
+ 33417 strings out of 473892
+ 677293 string characters out of 5724920
+ 1095925 words of memory out of 5000000
+ 55403 multiletter control sequences out of 15000+600000
+ 644074 words of font info for 243 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  123i,25n,131p,1004b,897s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/sommerad/AppData/Local/Programs/MiKTeX/fonts/type1/google/noto/Noto
@@ -1848,9 +2047,9 @@ fb><C:/Users/sommerad/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
 /cm/cmmi8.pfb><C:/Users/sommerad/AppData/Local/Programs/MiKTeX/fonts/type1/publ
 ic/amsfonts/cm/cmr12.pfb><C:/Users/sommerad/AppData/Local/Programs/MiKTeX/fonts
 /type1/public/amsfonts/cm/cmr8.pfb>
-Output written on T3200.pdf (22 pages, 202895 bytes).
+Output written on T3200.pdf (24 pages, 210925 bytes).
 PDF statistics:
- 314 PDF objects out of 1000 (max. 8388607)
- 55 named destinations out of 1000 (max. 500000)
+ 322 PDF objects out of 1000 (max. 8388607)
+ 57 named destinations out of 1000 (max. 500000)
  63716 words of extra memory for PDF output out of 74296 (max. 10000000)
 
