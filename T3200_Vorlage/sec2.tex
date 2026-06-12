@@ -10,6 +10,30 @@ Für die Modernisierung älterer Industrie- und Robotersysteme (Retrofitting) im
 \\
 \\Ein zentrales wissenschaftliches Fundament für solche flexiblen Sicherheitsarchitekturen beschreiben Bdiwi, M., Pfeifer, M. und Sterzing, A. \cite{bdiwi2017strategy}, die sich intensiv mit unterschiedlichen Aufgabenszenarien der Mensch-Roboter-Kollaboration (MRK) befassen. Die Autoren schlagen eine systematische Taxonomie vor, welche die Interaktion zwischen Mensch und Maschine in vier aufeinander aufbauende Stufen gliedert:
 
+\begin{tikzpicture}[
+	node distance = 0.6cm,
+	levelBox/.style={
+		rectangle, 
+		rounded corners=3pt, 
+		draw=black!60, 
+		thick, 
+		text centered, 
+		align=center, % Erlaubt Zeilenumbrüche
+		minimum height=1.3cm, % Etwas höher, falls Text umbricht
+		font=\sffamily\bfseries\small,
+		drop shadow={opacity=0.2, shadow xshift=2pt, shadow yshift=-2pt}
+	}
+	]
+	
+	\node (l1) [levelBox, fill=green!30,  text width=7.5cm] {Level 1: Geteilter Raum\\(Sicherheitsgerichteter Stopp)};
+	
+	\node (l2) [levelBox, fill=yellow!30, text width=8.5cm,  below=of l1] {Level 2: Gemeinsame Aufgabe\\(Speed \& Separation Monitoring)};
+	
+	\node (l3) [levelBox, fill=orange!30, text width=9.5cm,  below=of l2] {Level 3: Handing-Over\\(Hybride Steuerung / Dynamik)};
+	
+	\node (l4) [levelBox, fill=red!30,    text width=10.5cm,  below=of l3] {Level 4: Physische Interaktion\\(Kraftregelung / Guiding)};
+\end{tikzpicture}
+
 \begin{itemize}
 	\item \textbf{1. Geteilter Arbeitsraum:} In diesem Szenario arbeiten Mensch und Roboter räumlich nah beieinander, führen jedoch strikt getrennte Aufgaben in exakt zugewiesenen Zonen aus. Sobald der Mensch die virtuelle Grenze zur Roboterzone überschreitet, detektiert die Sensorik eine Schutzraumverletzung und löst unverzüglich einen Sicherheitsstopp der Anlage aus.
 	\item \textbf{2. Gemeinsame Aufgabe ohne physischen Kontakt:} Hier agieren beide Akteure innerhalb einer vordefinierten Kooperationszone an einem gemeinsamen Prozess. Anstelle eines abrupten Halts wird die Geschwindigkeit des Roboters in Abhängigkeit vom realen Abstand zum Menschen kontinuierlich gedrosselt.
@@ -17,6 +41,25 @@ Für die Modernisierung älterer Industrie- und Robotersysteme (Retrofitting) im
 	\item \textbf{4. Gemeinsame Aufgabe mit physischer Interaktion:} Auf der höchsten Kooperationsstufe ist ein direkter Körperkontakt zwingend erforderlich. Ein Praxisbeispiel hierfür ist die manuelle Führung eines Schwerlastroboters durch menschliche Handkräfte, um schwere Bauteile präzise zu positionieren. 
 \end{itemize}
 Die technische Umsetzung der Überwachung innerhalb dieser Interaktionsstufen stützt sich im Wesentlichen auf drei Säulen: die permanente Überwachung der internen Roboterparameter (wie Position, Achsgeschwindigkeiten und Kräfte), eine automatisierte Ereigniserkennung zur Identifikation kritischer Zustände (z. B. die visuelle Verdeckung eines Menschen im Sensorschatten) sowie eine kamerabasierte Nahfelderkennung. Letztere dient dazu, im direkten Umfeld des Endeffektors sowohl die sensorische Bereitschaft des Bedieners (z. B. via Gesichtserkennung) als auch die exakte Lage von Körperteilen zu erfassen, um Verletzungen oder Quetschungen effektiv zu verhindern.
+
+\begin{table}[htbp]
+	\centering
+	\caption{Entscheidungsmatrix zur Auswahl der MRK-Sicherheitsüberwachung}
+	\label{tab:Entscheidungsmatrix}
+	% l|l|l bedeutet: drei linksbündige Spalten mit vertikalen Trennlinien dazwischen
+	\begin{tabular}{l|l|l}
+		\toprule
+		% Optionale Kopfzeile für die Matrix-Kategorien (falls gewünscht)
+		\textbf{Kriterium} & \textbf{Variante A } & \textbf{Variante B } \\
+		\midrule
+		\textbf{Sicherheitsbereich} & statisch                 & dynamisch \\
+		\textbf{Ereignis}       & Objekterkennung          & Handerkennung \\
+		\textbf{Sensorik}       & visuell                  & physisch \\
+		\textbf{Aktion}         & Nothalt                  & Speed and Separation-Prinzip \\
+		\bottomrule
+	\end{tabular}
+\end{table}
+
 
 \section{Bildverarbeitung}
 Filter, Algorithmen, Linien-/Kantendetektion mit OpenCV
