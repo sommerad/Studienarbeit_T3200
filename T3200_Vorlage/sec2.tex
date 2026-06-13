@@ -42,24 +42,6 @@ Für die Modernisierung älterer Industrie- und Robotersysteme (Retrofitting) im
 \end{itemize}
 Die technische Umsetzung der Überwachung innerhalb dieser Interaktionsstufen stützt sich im Wesentlichen auf drei Säulen: die permanente Überwachung der internen Roboterparameter (wie Position, Achsgeschwindigkeiten und Kräfte), eine automatisierte Ereigniserkennung zur Identifikation kritischer Zustände (z. B. die visuelle Verdeckung eines Menschen im Sensorschatten) sowie eine kamerabasierte Nahfelderkennung. Letztere dient dazu, im direkten Umfeld des Endeffektors sowohl die sensorische Bereitschaft des Bedieners (z. B. via Gesichtserkennung) als auch die exakte Lage von Körperteilen zu erfassen, um Verletzungen oder Quetschungen effektiv zu verhindern.
 
-\begin{table}[htbp]
-	\centering
-	\caption{Entscheidungsmatrix zur Auswahl der MRK-Sicherheitsüberwachung}
-	\label{tab:Entscheidungsmatrix}
-	% l|l|l bedeutet: drei linksbündige Spalten mit vertikalen Trennlinien dazwischen
-	\begin{tabular}{l|l|l}
-		\toprule
-		% Optionale Kopfzeile für die Matrix-Kategorien (falls gewünscht)
-		\textbf{Kriterium} & \textbf{Variante A } & \textbf{Variante B } \\
-		\midrule
-		\textbf{Sicherheitsbereich} & statisch                 & dynamisch \\
-		\textbf{Ereignis}       & Objekterkennung          & Handerkennung \\
-		\textbf{Sensorik}       & visuell                  & physisch \\
-		\textbf{Aktion}         & Nothalt                  & Speed and Separation-Prinzip \\
-		\bottomrule
-	\end{tabular}
-\end{table}
-
 
 \section{Bildverarbeitung}
 Filter, Algorithmen, Linien-/Kantendetektion mit OpenCV

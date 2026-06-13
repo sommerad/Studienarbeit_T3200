@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 24.1) (preloaded format=xelatex 2026.2.20)  13 JUN 2026 20:59
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 24.1) (preloaded format=xelatex 2026.2.20)  13 JUN 2026 22:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1398,45 +1398,7 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'ngerman'.
- (T3200.aux
-
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.21 <
-      <<<<<< Updated upstream
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: Label `Ausgangssituation/IST-Analyse' multiply defined.
-
-
-LaTeX Warning: Label `Sequenzielle Befehelsstruktur' multiply defined.
-
-
-LaTeX Warning: Label `sequenzielle Abfolge an Befehlen' multiply defined.
-
-
-LaTeX Warning: Label `Theoretische Limitation' multiply defined.
-
-
-LaTeX Warning: Label `Summation Befehlsausführungszeiten' multiply defined.
-
-
-LaTeX Warning: Label `Summation Befehlsausführungszeiten mit eingesetzten Zeite
-n' multiply defined.
-
-
-LaTeX Warning: Label `tab:laufzeitanalyse_ist' multiply defined.
-
-
-LaTeX Warning: Label `Inhalt des digitalen Anhangs' multiply defined.
-
-)
+ (T3200.aux)
 \openout1 = `T3200.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 169.
@@ -1450,7 +1412,8 @@ LaTeX Font Info:    ... okay on input line 169.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 169.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
 69.
- (C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmr.fd
+
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmr.fd
 File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 169.
@@ -1634,24 +1597,6 @@ an be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to
 loading the todonotes package. on input line 169.
 
 
-Underfull \hbox (badness 6110) in paragraph at lines 6--170
-[]\TU/NotoSerif(0)/m/n/12 «««< Updated upstream ======= »»»> Stashed changes []
-[][][][]«««<
- []
-
-LaTeX Font Info:    Font shape `TU/NotoSerif(0)/m/sl' in size <12> not availabl
-e
-(Font)              Font shape `TU/NotoSerif(0)/m/it' tried instead on input li
-ne 174.
-File: figures/dhbwlogo.png Graphic file (type bmp)
-<figures/dhbwlogo.png>
-LaTeX Font Info:    Font shape `TU/NotoSerif(0)/m/sl' in size <8> not available
-
-(Font)              Font shape `TU/NotoSerif(0)/m/it' tried instead on input li
-ne 174.
-[1
-
-]
 Underfull \hbox (badness 10000) in paragraph at lines 227--227
 []|\TU/NotoSerif(0)/m/n/12 Hugo-Bertsch-Straße
  []
@@ -1661,9 +1606,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 227--227
 []|\TU/NotoSerif(0)/m/n/12 ASSA ABLOY Sicher-
  []
 
+LaTeX Font Info:    Font shape `TU/NotoSerif(0)/m/sl' in size <12> not availabl
+e
+(Font)              Font shape `TU/NotoSerif(0)/m/it' tried instead on input li
+ne 231.
 File: figures/dhbwlogo.png Graphic file (type bmp)
 <figures/dhbwlogo.png>
-[1]
+[1
+
+]
 Underfull \hbox (badness 10000) in paragraph at lines 243--246
 \TU/NotoSerif(0)/m/n/12 Movemaster EX RV-M1, einer 3D-ToF-Kamera sowie einer 2D
 -
@@ -1717,6 +1668,10 @@ Underfull \hbox (badness 4739) in paragraph at lines 243--246
 
 File: figures/dhbwlogo.png Graphic file (type bmp)
 <figures/dhbwlogo.png>
+LaTeX Font Info:    Font shape `TU/NotoSerif(0)/m/sl' in size <8> not available
+
+(Font)              Font shape `TU/NotoSerif(0)/m/it' tried instead on input li
+ne 246.
 [1]
 Underfull \hbox (badness 5787) in paragraph at lines 249--254
 \TU/NotoSerif(0)/m/n/12 This student research project deals with the optimisati
@@ -1771,24 +1726,16 @@ File: figures/L_Signature.png Graphic file (type bmp)
 File: figures/A_Signature.png Graphic file (type bmp)
 <figures/A_Signature.png>
  [3] (T3200.toc
+Underfull \hbox (badness 10000) in paragraph at lines 24--24
+ [][] [][]\TU/NotoSerif(0)/m/n/12 Kriterienbasierte Evaluierung der Sicherheits
+- 
+ []
+
 File: figures/dhbwlogo.png Graphic file (type bmp)
 <figures/dhbwlogo.png>
- [4
+[4
 
-]
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.44 ...ter}{Literaturverzeichnis}{vii}{chapter.7}
-                                                  %
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-)
+])
 \tf@toc=\write5
 \openout5 = `T3200.toc'.
 
@@ -2030,24 +1977,10 @@ ie
 
 File: figures/dhbwlogo.png Graphic file (type bmp)
 <figures/dhbwlogo.png>
-[3]
-Underfull \hbox (badness 10000) in paragraph at lines 47--47
-[]\TU/NotoSerif(0)/b/n/10.95 Tabelle 2.1: |\TU/NotoSerif(0)/m/n/10.95 Entscheid
-ungsmatrix zur Auswahl der MRK-
- []
-
-
-Overfull \hbox (23.10947pt too wide) in paragraph at lines 50--61
- [][] 
- []
-
-)
+[3])
 File: figures/dhbwlogo.png Graphic file (type bmp)
 <figures/dhbwlogo.png>
- [4]
-File: figures/dhbwlogo.png Graphic file (type bmp)
-<figures/dhbwlogo.png>
- [5] (sec3.tex
+ [4] (sec3.tex
 Kapitel 3.
 
 Overfull \hbox (27.01pt too wide) in paragraph at lines 1--1
@@ -2144,7 +2077,7 @@ bessern
 
 File: figures/dhbwlogo.png Graphic file (type bmp)
 <figures/dhbwlogo.png>
-[6
+[5
 
 ]
 Underfull \hbox (badness 5231) in paragraph at lines 50--52
@@ -2211,7 +2144,7 @@ iert oder
 
 File: figures/dhbwlogo.png Graphic file (type bmp)
 <figures/dhbwlogo.png>
-[7]
+[6]
 LaTeX Font Info:    Font shape `TU/NotoSans(0)/m/n' will be
 (Font)              scaled to size 10.95pt on input line 81.
 LaTeX Font Info:    Font shape `TU/NotoSansMono(0)/m/n' will be
@@ -2219,7 +2152,7 @@ LaTeX Font Info:    Font shape `TU/NotoSansMono(0)/m/n' will be
 )
 File: figures/dhbwlogo.png Graphic file (type bmp)
 <figures/dhbwlogo.png>
- [8] (sec4.tex
+ [7] (sec4.tex
 Kapitel 4.
 
 Underfull \hbox (badness 10000) in paragraph at lines 1--1
@@ -2229,28 +2162,441 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--1
 )
 File: figures/dhbwlogo.png Graphic file (type bmp)
 <figures/dhbwlogo.png>
- [9
+ [8
 
 ] (sec5.tex
 Kapitel 5.
-)
+
+Underfull \hbox (badness 1383) in paragraph at lines 6--6
+|[]\TU/NotoSerif(0)/b/n/14.4 Kriterienbasierte Evaluierung der Sicherheits-
+ []
+
+
+Underfull \hbox (badness 1052) in paragraph at lines 8--11
+\TU/NotoSerif(0)/m/n/12 und Anwendungsfelder basiert. Dieser Ansatz ist maßgebl
+ich, um
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--11
+\TU/NotoSerif(0)/m/n/12 Interaction (HRI) beziehungsweise im industriellen Umfe
+ld als
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--11
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--11
+\TU/NotoSerif(0)/m/n/12 Die Auswahl einer geeigneten MRK-Sicherheitsüberwachung
+
+ []
+
+
+Underfull \hbox (badness 1755) in paragraph at lines 8--11
+\TU/NotoSerif(0)/m/n/12 Um den Rahmen dieser Arbeit zu wahren, konzentriert sic
+h die
+ []
+
+
+Underfull \hbox (badness 1742) in paragraph at lines 8--11
+\TU/NotoSerif(0)/m/n/12 Darstellung für jede Kategorie exemplarisch auf eine Ge
+genüber-
+ []
+
+
+Underfull \hbox (badness 1009) in paragraph at lines 8--11
+\TU/NotoSerif(0)/m/n/12 stellung zweier primärer Ausprägungen (Variante A und V
+ariante
+ []
+
+
+Underfull \hbox (badness 1019) in paragraph at lines 8--11
+\TU/NotoSerif(0)/m/n/12 B), wenngleich in der Praxis weitere technologische Mis
+chformen
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--14
+[]\TU/NotoSerif(0)/b/n/10.95 Tabelle 5.1: |\TU/NotoSerif(0)/m/n/10.95 Entscheid
+ungsmatrix zur Auswahl der MRK-
+ []
+
+
+Overfull \hbox (23.10947pt too wide) in paragraph at lines 17--28
+ [][] 
+ []
+
+
+Underfull \hbox (badness 7925) in paragraph at lines 30--44
+\TU/NotoSerif(0)/m/n/12 realisiert werden. Eine Kaskadierung des Raumes in mehr
+ere
+ []
+
+
+Underfull \hbox (badness 1102) in paragraph at lines 30--44
+\TU/NotoSerif(0)/m/n/12 ebene. Erkennt der Algorithmus innerhalb dieses Sichtfe
+ldes eine
+ []
+
+
+Underfull \hbox (badness 2237) in paragraph at lines 30--44
+\TU/NotoSerif(0)/m/n/12 Verletzung der definierten Grenzen durch eine Bedrohung
+, wird
+ []
+
+
+Underfull \hbox (badness 1048) in paragraph at lines 30--44
+\TU/NotoSerif(0)/m/n/12 die Sicherheitsreaktion des Roboters initiiert. Da der 
+Sichtbereich
+ []
+
+
+Underfull \hbox (badness 1383) in paragraph at lines 30--44
+\TU/NotoSerif(0)/m/n/12 geometrische Ausrichtung auf den zu betrachtenden Arbei
+tsraum
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--44
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--44
+\TU/NotoSerif(0)/m/n/12 Demgegenüber passt sich ein dynamischer Sicherheitsbere
+ich
+ []
+
+
+Underfull \hbox (badness 1789) in paragraph at lines 30--44
+\TU/NotoSerif(0)/m/n/12 Komplexität dieser Implementierung ist bedeutend höher 
+als bei
+ []
+
+
+Underfull \hbox (badness 1881) in paragraph at lines 30--44
+\TU/NotoSerif(0)/m/n/12 werden müssen. Dies bedingt eine sehr geringe Datenbus-
+Latenz
+ []
+
+
+Underfull \hbox (badness 3019) in paragraph at lines 30--44
+\TU/NotoSerif(0)/m/n/12 des Gesamtsystems und erfordert für den Werker eine dyn
+ami-
+ []
+
+
+Underfull \hbox (badness 3364) in paragraph at lines 30--44
+\TU/NotoSerif(0)/m/n/12 sche, visuelle Anzeige des aktiven Bereichs, beispielsw
+eise über
+ []
+
+
+Underfull \hbox (badness 5771) in paragraph at lines 30--44
+\TU/NotoSerif(0)/m/n/12 Lichtprojektionen oder innerhalb eines Digitalen Zwilli
+ngs. Der
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--44
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--44
+\TU/NotoSerif(0)/m/n/12 Bei der algorithmischen Ereignissteuerung wird zwischen
+ uni-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--44
+\TU/NotoSerif(0)/m/n/12 verseller Objekterkennung und spezifischer Handerkennun
+g
+ []
+
+
+Underfull \hbox (badness 1527) in paragraph at lines 30--44
+\TU/NotoSerif(0)/m/n/12 Ereignis für einen Sicherheitsstopp oder eine Geschwind
+igkeitsre-
+ []
+
+
+Underfull \hbox (badness 1097) in paragraph at lines 30--44
+\TU/NotoSerif(0)/m/n/12 und permanent aus dem Bild herauskalkuliert (maskiert) 
+werden
+ []
+
+
+Underfull \hbox (badness 5832) in paragraph at lines 30--44
+\TU/NotoSerif(0)/m/n/12 erkannt werden. Diese hohe Rate an Falsch-Positiv-Detek
+tionen
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--44
+\TU/NotoSerif(0)/m/n/12 VDI-Richtlinie 3634 die wirtschaftliche Gesamtanlagenef
+fizienz
+ []
+
+
+Overfull \hbox (3.90825pt too wide) in paragraph at lines 30--44
+\TU/NotoSerif(0)/m/n/12 Hände trainiertes KI-Modell $\OT1/cmr/m/n/12 (\OML/cmm/
+m/it/12 z:B:einConvolutionalNeuralNetwork; CNN\OT1/cmr/m/n/12 )$
+ []
+
+
+Underfull \hbox (badness 2600) in paragraph at lines 30--44
+\TU/NotoSerif(0)/m/n/12 zuverlässiger und minimiert die Erkennung von Pseudoobj
+ekten.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--44
+\TU/NotoSerif(0)/m/n/12 Klassifikation (Falsch-Negativ-Rate). Zudem muss die Au
+slegung
+ []
+
+
+Underfull \hbox (badness 1005) in paragraph at lines 30--44
+\TU/NotoSerif(0)/m/n/12 chen Handgeschwindigkeit von $\OT1/cmr/m/n/12 1600 []$ 
+\TU/NotoSerif(0)/m/n/12 bis $\OT1/cmr/m/n/12 2000 []$ \TU/NotoSerif(0)/m/n/12 a
+usgehen.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--44
+\TU/NotoSerif(0)/m/n/12 abzugreifen. Ein ungelöstes Problem bleibt die mathemat
+ische
+ []
+
+
+Underfull \hbox (badness 7613) in paragraph at lines 30--44
+\TU/NotoSerif(0)/m/n/12 ”Black-Box-Problematik”von Deep-Learning-Algorithmen, d
+a diese
+ []
+
+
+Underfull \hbox (badness 3872) in paragraph at lines 30--44
+\TU/NotoSerif(0)/m/n/12 schwer deterministisch zu verifizieren sind. Für sicher
+heitskriti-
+ []
+
+
+Underfull \hbox (badness 1509) in paragraph at lines 30--44
+\TU/NotoSerif(0)/m/n/12 fehlerfreien Entscheidung eine der größten aktuellen Fo
+rschungs-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--44
+
+ []
+
+
+Underfull \hbox (badness 3439) in paragraph at lines 30--44
+\TU/NotoSerif(0)/m/n/12 Auf der sensorischen Ebene stehen sich physische und vi
+suelle
+ []
+
+
+Underfull \hbox (badness 4181) in paragraph at lines 30--44
+\TU/NotoSerif(0)/m/n/12 Systeme gegenüber. Die physische Sensorik realisiert di
+e Raum-
+ []
+
+
+Underfull \hbox (badness 6445) in paragraph at lines 30--44
+\TU/NotoSerif(0)/m/n/12 und Kontaktherausforderung über klassische Komponenten 
+wie
+ []
+
+
+Underfull \hbox (badness 1137) in paragraph at lines 30--44
+\TU/NotoSerif(0)/m/n/12 (z.B. als sensitive Roboterhaut) oder induktive Felder,
+ die auf die
+ []
+
+
+Underfull \hbox (badness 1314) in paragraph at lines 30--44
+\TU/NotoSerif(0)/m/n/12 Annäherung von Körperteilen reagieren. Physische Sensor
+en sind
+ []
+
+
+Underfull \hbox (badness 1661) in paragraph at lines 30--44
+\TU/NotoSerif(0)/m/n/12 kostengünstig und zeichnen sich durch eine einfache Pro
+blembe-
+ []
+
+
+Underfull \hbox (badness 1442) in paragraph at lines 30--44
+\TU/NotoSerif(0)/m/n/12 Als Nachteil erweist sich die anspruchsvolle Kalibrieru
+ng, da die
+ []
+
+
+Underfull \hbox (badness 1308) in paragraph at lines 30--44
+\TU/NotoSerif(0)/m/n/12 Sensorik sensibel auf elektromagnetische Umweltstörunge
+n (EMV)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--44
+\TU/NotoSerif(0)/m/n/12 reagiert und oft spezialisierte Auswerteelektronik benö
+tigt. Da
+ []
+
+
+Underfull \hbox (badness 2980) in paragraph at lines 30--44
+\TU/NotoSerif(0)/m/n/12 physische Sensoren zudem keine Tiefen- oder Richtungsin
+forma-
+ []
+
+
+Underfull \hbox (badness 2376) in paragraph at lines 30--44
+\TU/NotoSerif(0)/m/n/12 noch die genaue Position im Raum bestimmen. Ein zusätzl
+icher
+ []
+
+
+Underfull \hbox (badness 2310) in paragraph at lines 30--44
+\TU/NotoSerif(0)/m/n/12 Faktor ist der mechanische Verschleiß sowie der hohe Mo
+ntage-
+ []
+
+
+Underfull \hbox (badness 2772) in paragraph at lines 30--44
+\TU/NotoSerif(0)/m/n/12 und Verkabelungsaufwand im rauen Industriealltag. Die v
+isuelle
+ []
+
+
+Underfull \hbox (badness 2181) in paragraph at lines 30--44
+\TU/NotoSerif(0)/m/n/12 Sensorik nutzt Kamerasysteme (2D-Systeme mit Kantenextr
+aktion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--44
+\TU/NotoSerif(0)/m/n/12 Raumüberwachung. Visuelle Systeme bieten den Vorteil ei
+ner
+ []
+
+
+Underfull \hbox (badness 2173) in paragraph at lines 30--44
+\TU/NotoSerif(0)/m/n/12 zuverlässigen Klassifizierung spezieller Geometrien und
+ erlauben
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--44
+\TU/NotoSerif(0)/m/n/12 Systeme empfindlich auf wechselnde Beleuchtungsverhältn
+isse,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--44
+\TU/NotoSerif(0)/m/n/12 Schattenwurf oder Verschmutzungen der Linse. Normativ i
+st
+ []
+
+
+Underfull \hbox (badness 2277) in paragraph at lines 30--44
+\TU/NotoSerif(0)/m/n/12 hierbei die Zertifizierung nach IEC 61496 zu beachten: 
+Optische
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--44
+
+ []
+
+
+Underfull \hbox (badness 2608) in paragraph at lines 30--44
+\TU/NotoSerif(0)/m/n/12 kontrollierte oder unkontrollierte Energietrennung (Kat
+egorie 0/1
+ []
+
+
+Underfull \hbox (badness 1325) in paragraph at lines 30--44
+\TU/NotoSerif(0)/m/n/12 wird diese Reaktion gemäß ISO 10218-1 präzise als siche
+rheitsge-
+ []
+
+
+Underfull \hbox (badness 1424) in paragraph at lines 30--44
+\TU/NotoSerif(0)/m/n/12 führt. Die abrupten Momentenmaxima verursachen zudem ei
+nen
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--44
+\TU/NotoSerif(0)/m/n/12 Darüber hinaus reduziert die erhebliche Wiederanlaufzei
+t des
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--44
+\TU/NotoSerif(0)/m/n/12 Geschwindigkeitszonen. Diese Funktion der sicheren Gesc
+hwin-
+ []
+
+
+Underfull \hbox (badness 3568) in paragraph at lines 30--44
+\TU/NotoSerif(0)/m/n/12 digkeitsreduzierung (Safely-Limited Speed, SLS) sichert
+ fließende
+ []
+
+
+Underfull \hbox (badness 1902) in paragraph at lines 30--44
+\TU/NotoSerif(0)/m/n/12 für die Bildverarbeitung und verlangt bei Fehlfunktione
+n in der
+ []
+
+
+Underfull \hbox (badness 1297) in paragraph at lines 30--44
+\TU/NotoSerif(0)/m/n/12 dass ein Quetschen von Körperteilen zwischen dem Robote
+r und
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--44
+\TU/NotoSerif(0)/m/n/12 starren Umgebungsstrukturen physikalisch oder algorithm
+isch
+ []
+
 File: figures/dhbwlogo.png Graphic file (type bmp)
 <figures/dhbwlogo.png>
- [10
+[9
 
-] (sec6.tex
+]
+File: figures/dhbwlogo.png Graphic file (type bmp)
+<figures/dhbwlogo.png>
+ [10]
+File: figures/dhbwlogo.png Graphic file (type bmp)
+<figures/dhbwlogo.png>
+ [11]
+File: figures/dhbwlogo.png Graphic file (type bmp)
+<figures/dhbwlogo.png>
+ [12])
+File: figures/dhbwlogo.png Graphic file (type bmp)
+<figures/dhbwlogo.png>
+ [13] (sec6.tex
 Kapitel 6.
 )
 File: figures/dhbwlogo.png Graphic file (type bmp)
 <figures/dhbwlogo.png>
- [11
+ [14
 
 ] (sec7.tex
 Kapitel 7.
 )
 File: figures/dhbwlogo.png Graphic file (type bmp)
 <figures/dhbwlogo.png>
- [12
+ [15
 
 ] (T3200.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 25--29
@@ -2271,56 +2617,7 @@ File: figures/dhbwlogo.png Graphic file (type bmp)
 ]
 File: figures/dhbwlogo.png Graphic file (type bmp)
 <figures/dhbwlogo.png>
- [9] (T3200.lof
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.11 \addvspace {10\p@ }
-                        
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.12 \addvspace {10\p@ }
-                        
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.13 \addvspace {10\p@ }
-                        
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.14 \addvspace {10\p@ }
-                        
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-)
+ [9] (T3200.lof)
 \tf@lof=\write6
 \openout6 = `T3200.lof'.
 
@@ -2589,25 +2886,16 @@ L3 programming layer <2024-01-04>
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
-
-Package rerunfilecheck Warning: File `T3200.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `T3200.out':
-(rerunfilecheck)             Before: 2FBAC6E6394048B78AA427B02D965426;9731
-(rerunfilecheck)             After:  467F342E17EDD5D065CCE247ABB848E3;5383.
+Package rerunfilecheck Info: File `T3200.out' has not changed.
+(rerunfilecheck)             Checksum: C6ED3D16F8EED12550DFC76806FB5262;6437.
  ) 
 Here is how much of TeX's memory you used:
- 33955 strings out of 409617
- 703184 string characters out of 5774013
- 1933191 words of memory out of 5000000
- 55468 multiletter control sequences out of 15000+600000
+ 33958 strings out of 409617
+ 703229 string characters out of 5774013
+ 1979191 words of memory out of 5000000
+ 55471 multiletter control sequences out of 15000+600000
  566754 words of font info for 102 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 123i,23n,131p,1004b,949s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 123i,22n,131p,1640b,972s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on T3200.pdf (28 pages).
+Output written on T3200.pdf (30 pages).
