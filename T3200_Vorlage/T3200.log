@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 24.1) (preloaded format=xelatex 2026.2.20)  13 JUN 2026 22:50
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 24.1) (preloaded format=xelatex 2026.2.20)  15 JUN 2026 14:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2229,343 +2229,105 @@ Overfull \hbox (23.10947pt too wide) in paragraph at lines 17--28
  [][] 
  []
 
+File: figures/Frauenhofer_Arbeitsraumueberwachung.jpg Graphic file (type bmp)
+<figures/Frauenhofer_Arbeitsraumueberwachung.jpg>
 
-Underfull \hbox (badness 7925) in paragraph at lines 30--44
+Underfull \hbox (badness 1275) in paragraph at lines 40--40
+[]\TU/NotoSerif(0)/b/n/10.95 Abbildung 5.1: |\TU/NotoSerif(0)/m/n/10.95 Projekt
+ions- und kameraba-
+ []
+
+
+Underfull \hbox (badness 2635) in paragraph at lines 40--40
+\TU/NotoSerif(0)/m/n/10.95 sierte Technologie zur Arbeitsraumüberwa-
+ []
+
+
+Underfull \hbox (badness 7925) in paragraph at lines 30--42
 \TU/NotoSerif(0)/m/n/12 realisiert werden. Eine Kaskadierung des Raumes in mehr
 ere
  []
 
 
-Underfull \hbox (badness 1102) in paragraph at lines 30--44
+Underfull \hbox (badness 1102) in paragraph at lines 30--42
 \TU/NotoSerif(0)/m/n/12 ebene. Erkennt der Algorithmus innerhalb dieses Sichtfe
 ldes eine
  []
 
 
-Underfull \hbox (badness 2237) in paragraph at lines 30--44
+Underfull \hbox (badness 2237) in paragraph at lines 30--42
 \TU/NotoSerif(0)/m/n/12 Verletzung der definierten Grenzen durch eine Bedrohung
 , wird
  []
 
 
-Underfull \hbox (badness 1048) in paragraph at lines 30--44
+Underfull \hbox (badness 1048) in paragraph at lines 30--42
 \TU/NotoSerif(0)/m/n/12 die Sicherheitsreaktion des Roboters initiiert. Da der 
 Sichtbereich
  []
 
 
-Underfull \hbox (badness 1383) in paragraph at lines 30--44
+Underfull \hbox (badness 1383) in paragraph at lines 30--42
 \TU/NotoSerif(0)/m/n/12 geometrische Ausrichtung auf den zu betrachtenden Arbei
 tsraum
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--44
+Underfull \hbox (badness 10000) in paragraph at lines 30--42
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--44
+Underfull \hbox (badness 10000) in paragraph at lines 30--42
 \TU/NotoSerif(0)/m/n/12 Demgegenüber passt sich ein dynamischer Sicherheitsbere
 ich
  []
 
 
-Underfull \hbox (badness 1789) in paragraph at lines 30--44
+Underfull \hbox (badness 1789) in paragraph at lines 30--42
 \TU/NotoSerif(0)/m/n/12 Komplexität dieser Implementierung ist bedeutend höher 
 als bei
  []
 
 
-Underfull \hbox (badness 1881) in paragraph at lines 30--44
+Underfull \hbox (badness 1881) in paragraph at lines 30--42
 \TU/NotoSerif(0)/m/n/12 werden müssen. Dies bedingt eine sehr geringe Datenbus-
 Latenz
  []
 
 
-Underfull \hbox (badness 3019) in paragraph at lines 30--44
+Underfull \hbox (badness 3019) in paragraph at lines 30--42
 \TU/NotoSerif(0)/m/n/12 des Gesamtsystems und erfordert für den Werker eine dyn
 ami-
  []
 
 
-Underfull \hbox (badness 3364) in paragraph at lines 30--44
+Underfull \hbox (badness 3364) in paragraph at lines 30--42
 \TU/NotoSerif(0)/m/n/12 sche, visuelle Anzeige des aktiven Bereichs, beispielsw
 eise über
  []
 
 
-Underfull \hbox (badness 5771) in paragraph at lines 30--44
+Underfull \hbox (badness 5771) in paragraph at lines 30--42
 \TU/NotoSerif(0)/m/n/12 Lichtprojektionen oder innerhalb eines Digitalen Zwilli
 ngs. Der
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--44
-
+Underfull \hbox (badness 4072) in paragraph at lines 30--42
+\TU/NotoSerif(0)/m/n/12 Das Frauenhofer-Institut für Fabrikbetrieb und -automat
+isierung
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--44
-\TU/NotoSerif(0)/m/n/12 Bei der algorithmischen Ereignissteuerung wird zwischen
- uni-
+Underfull \hbox (badness 1748) in paragraph at lines 30--42
+\TU/NotoSerif(0)/m/n/12 lichtprojizierten Sicherheitsrahmen welcher von der Bil
+dverarbei-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--44
-\TU/NotoSerif(0)/m/n/12 verseller Objekterkennung und spezifischer Handerkennun
-g
- []
+Underfull \hbox (badness 10000) in paragraph at lines 30--42
 
-
-Underfull \hbox (badness 1527) in paragraph at lines 30--44
-\TU/NotoSerif(0)/m/n/12 Ereignis für einen Sicherheitsstopp oder eine Geschwind
-igkeitsre-
- []
-
-
-Underfull \hbox (badness 1097) in paragraph at lines 30--44
-\TU/NotoSerif(0)/m/n/12 und permanent aus dem Bild herauskalkuliert (maskiert) 
-werden
- []
-
-
-Underfull \hbox (badness 5832) in paragraph at lines 30--44
-\TU/NotoSerif(0)/m/n/12 erkannt werden. Diese hohe Rate an Falsch-Positiv-Detek
-tionen
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 30--44
-\TU/NotoSerif(0)/m/n/12 VDI-Richtlinie 3634 die wirtschaftliche Gesamtanlagenef
-fizienz
- []
-
-
-Overfull \hbox (3.90825pt too wide) in paragraph at lines 30--44
-\TU/NotoSerif(0)/m/n/12 Hände trainiertes KI-Modell $\OT1/cmr/m/n/12 (\OML/cmm/
-m/it/12 z:B:einConvolutionalNeuralNetwork; CNN\OT1/cmr/m/n/12 )$
- []
-
-
-Underfull \hbox (badness 2600) in paragraph at lines 30--44
-\TU/NotoSerif(0)/m/n/12 zuverlässiger und minimiert die Erkennung von Pseudoobj
-ekten.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 30--44
-\TU/NotoSerif(0)/m/n/12 Klassifikation (Falsch-Negativ-Rate). Zudem muss die Au
-slegung
- []
-
-
-Underfull \hbox (badness 1005) in paragraph at lines 30--44
-\TU/NotoSerif(0)/m/n/12 chen Handgeschwindigkeit von $\OT1/cmr/m/n/12 1600 []$ 
-\TU/NotoSerif(0)/m/n/12 bis $\OT1/cmr/m/n/12 2000 []$ \TU/NotoSerif(0)/m/n/12 a
-usgehen.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 30--44
-\TU/NotoSerif(0)/m/n/12 abzugreifen. Ein ungelöstes Problem bleibt die mathemat
-ische
- []
-
-
-Underfull \hbox (badness 7613) in paragraph at lines 30--44
-\TU/NotoSerif(0)/m/n/12 ”Black-Box-Problematik”von Deep-Learning-Algorithmen, d
-a diese
- []
-
-
-Underfull \hbox (badness 3872) in paragraph at lines 30--44
-\TU/NotoSerif(0)/m/n/12 schwer deterministisch zu verifizieren sind. Für sicher
-heitskriti-
- []
-
-
-Underfull \hbox (badness 1509) in paragraph at lines 30--44
-\TU/NotoSerif(0)/m/n/12 fehlerfreien Entscheidung eine der größten aktuellen Fo
-rschungs-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 30--44
-
- []
-
-
-Underfull \hbox (badness 3439) in paragraph at lines 30--44
-\TU/NotoSerif(0)/m/n/12 Auf der sensorischen Ebene stehen sich physische und vi
-suelle
- []
-
-
-Underfull \hbox (badness 4181) in paragraph at lines 30--44
-\TU/NotoSerif(0)/m/n/12 Systeme gegenüber. Die physische Sensorik realisiert di
-e Raum-
- []
-
-
-Underfull \hbox (badness 6445) in paragraph at lines 30--44
-\TU/NotoSerif(0)/m/n/12 und Kontaktherausforderung über klassische Komponenten 
-wie
- []
-
-
-Underfull \hbox (badness 1137) in paragraph at lines 30--44
-\TU/NotoSerif(0)/m/n/12 (z.B. als sensitive Roboterhaut) oder induktive Felder,
- die auf die
- []
-
-
-Underfull \hbox (badness 1314) in paragraph at lines 30--44
-\TU/NotoSerif(0)/m/n/12 Annäherung von Körperteilen reagieren. Physische Sensor
-en sind
- []
-
-
-Underfull \hbox (badness 1661) in paragraph at lines 30--44
-\TU/NotoSerif(0)/m/n/12 kostengünstig und zeichnen sich durch eine einfache Pro
-blembe-
- []
-
-
-Underfull \hbox (badness 1442) in paragraph at lines 30--44
-\TU/NotoSerif(0)/m/n/12 Als Nachteil erweist sich die anspruchsvolle Kalibrieru
-ng, da die
- []
-
-
-Underfull \hbox (badness 1308) in paragraph at lines 30--44
-\TU/NotoSerif(0)/m/n/12 Sensorik sensibel auf elektromagnetische Umweltstörunge
-n (EMV)
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 30--44
-\TU/NotoSerif(0)/m/n/12 reagiert und oft spezialisierte Auswerteelektronik benö
-tigt. Da
- []
-
-
-Underfull \hbox (badness 2980) in paragraph at lines 30--44
-\TU/NotoSerif(0)/m/n/12 physische Sensoren zudem keine Tiefen- oder Richtungsin
-forma-
- []
-
-
-Underfull \hbox (badness 2376) in paragraph at lines 30--44
-\TU/NotoSerif(0)/m/n/12 noch die genaue Position im Raum bestimmen. Ein zusätzl
-icher
- []
-
-
-Underfull \hbox (badness 2310) in paragraph at lines 30--44
-\TU/NotoSerif(0)/m/n/12 Faktor ist der mechanische Verschleiß sowie der hohe Mo
-ntage-
- []
-
-
-Underfull \hbox (badness 2772) in paragraph at lines 30--44
-\TU/NotoSerif(0)/m/n/12 und Verkabelungsaufwand im rauen Industriealltag. Die v
-isuelle
- []
-
-
-Underfull \hbox (badness 2181) in paragraph at lines 30--44
-\TU/NotoSerif(0)/m/n/12 Sensorik nutzt Kamerasysteme (2D-Systeme mit Kantenextr
-aktion
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 30--44
-\TU/NotoSerif(0)/m/n/12 Raumüberwachung. Visuelle Systeme bieten den Vorteil ei
-ner
- []
-
-
-Underfull \hbox (badness 2173) in paragraph at lines 30--44
-\TU/NotoSerif(0)/m/n/12 zuverlässigen Klassifizierung spezieller Geometrien und
- erlauben
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 30--44
-\TU/NotoSerif(0)/m/n/12 Systeme empfindlich auf wechselnde Beleuchtungsverhältn
-isse,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 30--44
-\TU/NotoSerif(0)/m/n/12 Schattenwurf oder Verschmutzungen der Linse. Normativ i
-st
- []
-
-
-Underfull \hbox (badness 2277) in paragraph at lines 30--44
-\TU/NotoSerif(0)/m/n/12 hierbei die Zertifizierung nach IEC 61496 zu beachten: 
-Optische
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 30--44
-
- []
-
-
-Underfull \hbox (badness 2608) in paragraph at lines 30--44
-\TU/NotoSerif(0)/m/n/12 kontrollierte oder unkontrollierte Energietrennung (Kat
-egorie 0/1
- []
-
-
-Underfull \hbox (badness 1325) in paragraph at lines 30--44
-\TU/NotoSerif(0)/m/n/12 wird diese Reaktion gemäß ISO 10218-1 präzise als siche
-rheitsge-
- []
-
-
-Underfull \hbox (badness 1424) in paragraph at lines 30--44
-\TU/NotoSerif(0)/m/n/12 führt. Die abrupten Momentenmaxima verursachen zudem ei
-nen
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 30--44
-\TU/NotoSerif(0)/m/n/12 Darüber hinaus reduziert die erhebliche Wiederanlaufzei
-t des
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 30--44
-\TU/NotoSerif(0)/m/n/12 Geschwindigkeitszonen. Diese Funktion der sicheren Gesc
-hwin-
- []
-
-
-Underfull \hbox (badness 3568) in paragraph at lines 30--44
-\TU/NotoSerif(0)/m/n/12 digkeitsreduzierung (Safely-Limited Speed, SLS) sichert
- fließende
- []
-
-
-Underfull \hbox (badness 1902) in paragraph at lines 30--44
-\TU/NotoSerif(0)/m/n/12 für die Bildverarbeitung und verlangt bei Fehlfunktione
-n in der
- []
-
-
-Underfull \hbox (badness 1297) in paragraph at lines 30--44
-\TU/NotoSerif(0)/m/n/12 dass ein Quetschen von Körperteilen zwischen dem Robote
-r und
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 30--44
-\TU/NotoSerif(0)/m/n/12 starren Umgebungsstrukturen physikalisch oder algorithm
-isch
  []
 
 File: figures/dhbwlogo.png Graphic file (type bmp)
@@ -2576,27 +2338,353 @@ File: figures/dhbwlogo.png Graphic file (type bmp)
 File: figures/dhbwlogo.png Graphic file (type bmp)
 <figures/dhbwlogo.png>
  [10]
+Underfull \hbox (badness 5787) in paragraph at lines 42--52
+[]\TU/NotoSerif(0)/m/n/12 Bei der algorithmischen
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 Ereignissteuerung wird
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 zwischen universeller
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 Objekterkennung und
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 spezifischer Hander-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 kennung unterschieden.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 Dient eine generelle
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 Objekterkennung als
+ []
+
+
+Underfull \hbox (badness 2941) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 auslösendes Ereignis für
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 einen Sicherheitsstopp
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 oder eine Geschwindig-
+ []
+
+
+Underfull \hbox (badness 5504) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 keitsreduzierung, basiert
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 Kantenextraktion oder
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 Hintergrundsubtraktion.
+ []
+
+
+Underfull \hbox (badness 7238) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 Sobald ein Fremdobjekt
+ []
+
+
+Underfull \hbox (badness 4779) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 Implementation. Als kritischer Nachteil erweist sich je
+doch die
+ []
+
+
+Underfull \hbox (badness 3098) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 fälschlicherweise als Pseudoobjekte erkannt werden. Die
+se hohe
+ []
+
+
+Underfull \hbox (badness 2486) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 industriellen Umfeld wesentlich zuverlässiger und minim
+iert die
+ []
+
+
+Underfull \hbox (badness 2970) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 fehlerhaften oder verzögerten Klassifikation (Falsch-Ne
+gativ-Rate).
+ []
+
+
+Underfull \hbox (badness 1721) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 Zudem muss die Auslegung gemäß DIN EN ISO 13855 zwingen
+d
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 von der maximalen menschlichen Handgeschwindigkeit von
+ []
+
+
+Underfull \hbox (badness 1107) in paragraph at lines 42--52
+\OT1/cmr/m/n/12 1600 []$ \TU/NotoSerif(0)/m/n/12 bis $\OT1/cmr/m/n/12 2000 []$ 
+\TU/NotoSerif(0)/m/n/12 ausgehen. KI-Modelle müssen daher eine
+ []
+
+
+Underfull \hbox (badness 6893) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 entsprechend hohe Bildwiederholrate (Frames per Second,
+ fps)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 Problem bleibt die mathematische ”Black-Box-Problematik
+”von
+ []
+
+
+Underfull \hbox (badness 6236) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 Deep-Learning-Algorithmen, da diese schwer deterministi
+sch zu
+ []
+
+
+Underfull \hbox (badness 1406) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 ist der lückenlose Nachweis einer fehlerfreien Entschei
+dung eine
+ []
+
+
+Underfull \hbox (badness 1132) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 der größten aktuellen Forschungsherausforderungen. Zude
+m zeigt
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--52
+
+ []
+
+
+Underfull \hbox (badness 3439) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 Auf der sensorischen Ebene stehen sich physische und vi
+suelle
+ []
+
+
+Underfull \hbox (badness 4181) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 Systeme gegenüber. Die physische Sensorik realisiert di
+e Raum-
+ []
+
+
+Underfull \hbox (badness 6445) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 und Kontaktherausforderung über klassische Komponenten 
+wie
+ []
+
+
+Underfull \hbox (badness 1137) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 (z.B. als sensitive Roboterhaut) oder induktive Felder,
+ die auf die
+ []
+
+
+Underfull \hbox (badness 1314) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 Annäherung von Körperteilen reagieren. Physische Sensor
+en sind
+ []
+
+
+Underfull \hbox (badness 1661) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 kostengünstig und zeichnen sich durch eine einfache Pro
+blembe-
+ []
+
+
+Underfull \hbox (badness 1442) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 Als Nachteil erweist sich die anspruchsvolle Kalibrieru
+ng, da die
+ []
+
+
+Underfull \hbox (badness 1308) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 Sensorik sensibel auf elektromagnetische Umweltstörunge
+n (EMV)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 reagiert und oft spezialisierte Auswerteelektronik benö
+tigt. Da
+ []
+
+
+Underfull \hbox (badness 2980) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 physische Sensoren zudem keine Tiefen- oder Richtungsin
+forma-
+ []
+
+
+Underfull \hbox (badness 2376) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 noch die genaue Position im Raum bestimmen. Ein zusätzl
+icher
+ []
+
+
+Underfull \hbox (badness 2310) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 Faktor ist der mechanische Verschleiß sowie der hohe Mo
+ntage-
+ []
+
+
+Underfull \hbox (badness 2772) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 und Verkabelungsaufwand im rauen Industriealltag. Die v
+isuelle
+ []
+
+
+Underfull \hbox (badness 2181) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 Sensorik nutzt Kamerasysteme (2D-Systeme mit Kantenextr
+aktion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 Raumüberwachung. Visuelle Systeme bieten den Vorteil ei
+ner
+ []
+
+
+Underfull \hbox (badness 2173) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 zuverlässigen Klassifizierung spezieller Geometrien und
+ erlauben
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 Systeme empfindlich auf wechselnde Beleuchtungsverhältn
+isse,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 Schattenwurf oder Verschmutzungen der Linse. Normativ i
+st
+ []
+
+
+Underfull \hbox (badness 2277) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 hierbei die Zertifizierung nach IEC 61496 zu beachten: 
+Optische
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--52
+
+ []
+
+
+Underfull \hbox (badness 2608) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 kontrollierte oder unkontrollierte Energietrennung (Kat
+egorie 0/1
+ []
+
+
+Underfull \hbox (badness 1325) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 wird diese Reaktion gemäß ISO 10218-1 präzise als siche
+rheitsge-
+ []
+
+
+Underfull \hbox (badness 1424) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 führt. Die abrupten Momentenmaxima verursachen zudem ei
+nen
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 Darüber hinaus reduziert die erhebliche Wiederanlaufzei
+t des
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 Geschwindigkeitszonen. Diese Funktion der sicheren Gesc
+hwin-
+ []
+
+
+Underfull \hbox (badness 3568) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 digkeitsreduzierung (Safely-Limited Speed, SLS) sichert
+ fließende
+ []
+
+
+Underfull \hbox (badness 1902) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 für die Bildverarbeitung und verlangt bei Fehlfunktione
+n in der
+ []
+
+
+Underfull \hbox (badness 1297) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 dass ein Quetschen von Körperteilen zwischen dem Robote
+r und
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 starren Umgebungsstrukturen physikalisch oder algorithm
+isch
+ []
+
 File: figures/dhbwlogo.png Graphic file (type bmp)
 <figures/dhbwlogo.png>
- [11]
+[11]
 File: figures/dhbwlogo.png Graphic file (type bmp)
 <figures/dhbwlogo.png>
- [12])
+ [12]
 File: figures/dhbwlogo.png Graphic file (type bmp)
 <figures/dhbwlogo.png>
- [13] (sec6.tex
+ [13])
+File: figures/dhbwlogo.png Graphic file (type bmp)
+<figures/dhbwlogo.png>
+ [14] (sec6.tex
 Kapitel 6.
 )
 File: figures/dhbwlogo.png Graphic file (type bmp)
 <figures/dhbwlogo.png>
- [14
+ [15
 
 ] (sec7.tex
 Kapitel 7.
 )
 File: figures/dhbwlogo.png Graphic file (type bmp)
 <figures/dhbwlogo.png>
- [15
+ [16
 
 ] (T3200.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 25--29
@@ -2617,7 +2705,13 @@ File: figures/dhbwlogo.png Graphic file (type bmp)
 ]
 File: figures/dhbwlogo.png Graphic file (type bmp)
 <figures/dhbwlogo.png>
- [9] (T3200.lof)
+ [9] (T3200.lof
+Underfull \hbox (badness 10000) in paragraph at lines 9--9
+ [][] [][]\TU/NotoSerif(0)/m/n/12 Projektions- und kamerabasierte Technologie z
+ur 
+ []
+
+)
 \tf@lof=\write6
 \openout6 = `T3200.lof'.
 
@@ -2887,15 +2981,15 @@ L3 programming layer <2024-01-04>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `T3200.out' has not changed.
-(rerunfilecheck)             Checksum: C6ED3D16F8EED12550DFC76806FB5262;6437.
+(rerunfilecheck)             Checksum: 45AFD23F87A4B41E12200259F24DED1F;6438.
  ) 
 Here is how much of TeX's memory you used:
- 33958 strings out of 409617
- 703229 string characters out of 5774013
- 1979191 words of memory out of 5000000
- 55471 multiletter control sequences out of 15000+600000
+ 33973 strings out of 409617
+ 703822 string characters out of 5774013
+ 1968191 words of memory out of 5000000
+ 55484 multiletter control sequences out of 15000+600000
  566754 words of font info for 102 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 123i,22n,131p,1640b,972s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 123i,22n,131p,1593b,972s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on T3200.pdf (30 pages).
+Output written on T3200.pdf (31 pages).
