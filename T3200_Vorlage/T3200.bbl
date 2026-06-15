@@ -32,4 +32,15 @@ M.~Bdiwi, M.~Pfeifer, and A.~Sterzing, ``A new strategy for ensuring human
   safety during various levels of interaction with industrial robots,''
   \emph{CIRP Annals}, vol.~66, no.~1, pp. 453--456, 2017.
 
+\bibitem{TPL}
+\BIBentryALTinterwordspacing
+{Microsoft Developers}. Task parallel library tpl. [Online; Zugegriffen am 10.
+  Juni 2026]. [Online]. Available:
+  \url{https://learn.microsoft.com/de-de/dotnet/standard/parallel-programming/task-parallel-library-tpl}
+\BIBentrySTDinterwordspacing
+
+\bibitem{ConcurrencyinCSharp}
+S.~Cleary, \emph{Concurrency in CSharp Cookbook}, 2nd~ed.\hskip 1em plus 0.5em
+  minus 0.4em\relax O'Reilly Media, Inc., 2019.
+
 \end{thebibliography}
