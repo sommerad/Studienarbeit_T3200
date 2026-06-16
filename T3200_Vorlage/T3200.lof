@@ -2,9 +2,11 @@
 \babel@toc {ngerman}{}\relax 
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Problematik von blockierenden Abläufen}}{4}{figure.caption.4}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Sequenzielle Abfolge an Befehlen (Eigene Darstellung)}}{5}{figure.caption.7}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Sequenzielle Abfolge an Befehlen (Eigene Darstellung)}}{7}{figure.caption.5}%
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Gegenüberstellung von blockierenden synchronen Abläufen und dem ressourceneffizienten, asynchronen Task-basierten Muster (TAP) bei E/A-Operationen.}}{10}{figure.caption.7}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

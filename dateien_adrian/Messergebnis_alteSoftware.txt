@@ -1,0 +1,806 @@
+Objekt_ID;Zeit_ms
+Der Thread '.NET TP Worker' (24240) hat mit Code 0 (0x0) geendet.
+Der Thread '.NET Tiered Compilation Worker' (36576) hat mit Code 0 (0x0) geendet.
+Der Thread '.NET TP Worker' (18136) hat mit Code 0 (0x0) geendet.
+Der Thread 28956 hat mit Code 0 (0x0) geendet.
+Der Thread '.NET Tiered Compilation Worker' (27024) hat mit Code 0 (0x0) geendet.
+1;24974
+1;24974;-35;295;6
+Der Thread 27496 hat mit Code 0 (0x0) geendet.
+Der Thread '.NET Tiered Compilation Worker' (28072) hat mit Code 0 (0x0) geendet.
+Der Thread '.NET Tiered Compilation Worker' (26468) hat mit Code 0 (0x0) geendet.
+2;24907
+2;24907;-31;372;6
+Der Thread '.NET Tiered Compilation Worker' (31204) hat mit Code 0 (0x0) geendet.
+Der Thread '.NET Tiered Compilation Worker' (34848) hat mit Code 0 (0x0) geendet.
+Der Thread '.NET Tiered Compilation Worker' (32032) hat mit Code 0 (0x0) geendet.
+3;24945
+3;24945;36;299;6
+Der Thread '.NET Tiered Compilation Worker' (36132) hat mit Code 0 (0x0) geendet.
+Der Thread '.NET Tiered Compilation Worker' (20688) hat mit Code 0 (0x0) geendet.
+4;24889
+4;24889;57;348;6
+[GESAMT] Dauer: 103734 MS
+
+
+MESSERGEBNIS NEUE PIPELINE: siehe screenshots auf Handy
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\Objekterkennung_RoboETHCore.exe" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Windows\System32\ntdll.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Windows\System32\kernel32.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Windows\System32\KernelBase.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Windows\System32\user32.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Windows\System32\win32u.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Windows\System32\gdi32.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Windows\System32\gdi32full.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Windows\System32\msvcp_win.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Windows\System32\ucrtbase.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Windows\System32\shell32.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Windows\System32\advapi32.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Windows\System32\msvcrt.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Windows\System32\sechost.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Windows\System32\rpcrt4.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Windows\System32\imm32.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Program Files\dotnet\host\fxr\9.0.15\hostfxr.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.26\hostpolicy.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.26\coreclr.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Windows\System32\ole32.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Windows\System32\combase.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Windows\System32\oleaut32.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Windows\System32\bcryptprimitives.dll" geladen. 
+Der Thread 17132 hat mit Code 0 (0x0) geendet.
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.26\System.Private.CoreLib.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.26\clrjit.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (CoreCLR: DefaultDomain): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.26\System.Private.CoreLib.dll" geladen. Das Laden von Symbolen wurde übersprungen. Das Modul ist optimiert, und die Debugoption "Nur eigenen Code" ist aktiviert.
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Windows\System32\kernel.appcore.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\Objekterkennung_RoboETHCore.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\Objekterkennung_RoboETHCore.dll" wurde entladen.
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\Objekterkennung_RoboETHCore.dll" geladen. 
+Der Thread 34752 hat mit Code 0 (0x0) geendet.
+"Objekterkennung_RoboETHCore.exe" (CoreCLR: clrhost): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\Objekterkennung_RoboETHCore.dll" geladen. Symbole wurden geladen.
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.26\System.Runtime.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.26\System.Runtime.dll" geladen. Das Laden von Symbolen wurde übersprungen. Das Modul ist optimiert, und die Debugoption "Nur eigenen Code" ist aktiviert.
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Windows\System32\uxtheme.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Windows\System32\icu.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\HotReload\Microsoft.Extensions.DotNetDeltaApplier.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (CoreCLR: clrhost): "c:\program files\microsoft visual studio\2022\community\common7\ide\commonextensions\microsoft\hotreload\Microsoft.Extensions.DotNetDeltaApplier.dll" geladen. Das Laden von Symbolen wurde übersprungen. Das Modul ist optimiert, und die Debugoption "Nur eigenen Code" ist aktiviert.
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.26\System.IO.Pipes.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.26\System.IO.Pipes.dll" geladen. Das Laden von Symbolen wurde übersprungen. Das Modul ist optimiert, und die Debugoption "Nur eigenen Code" ist aktiviert.
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.26\System.Linq.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.26\System.Linq.dll" geladen. Das Laden von Symbolen wurde übersprungen. Das Modul ist optimiert, und die Debugoption "Nur eigenen Code" ist aktiviert.
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.26\System.Collections.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.26\System.Collections.dll" geladen. Das Laden von Symbolen wurde übersprungen. Das Modul ist optimiert, und die Debugoption "Nur eigenen Code" ist aktiviert.
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.26\System.Console.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.26\System.Console.dll" geladen. Das Laden von Symbolen wurde übersprungen. Das Modul ist optimiert, und die Debugoption "Nur eigenen Code" ist aktiviert.
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Windows\System32\bcrypt.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.26\System.Threading.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.26\System.Threading.dll" geladen. Das Laden von Symbolen wurde übersprungen. Das Modul ist optimiert, und die Debugoption "Nur eigenen Code" ist aktiviert.
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.26\System.Runtime.InteropServices.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.26\System.Runtime.InteropServices.dll" geladen. Das Laden von Symbolen wurde übersprungen. Das Modul ist optimiert, und die Debugoption "Nur eigenen Code" ist aktiviert.
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.26\System.Threading.Overlapped.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.26\System.Threading.Overlapped.dll" geladen. Das Laden von Symbolen wurde übersprungen. Das Modul ist optimiert, und die Debugoption "Nur eigenen Code" ist aktiviert.
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.26\System.Security.AccessControl.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.26\System.Security.AccessControl.dll" geladen. Das Laden von Symbolen wurde übersprungen. Das Modul ist optimiert, und die Debugoption "Nur eigenen Code" ist aktiviert.
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.26\System.Security.Principal.Windows.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.26\System.Security.Principal.Windows.dll" geladen. Das Laden von Symbolen wurde übersprungen. Das Modul ist optimiert, und die Debugoption "Nur eigenen Code" ist aktiviert.
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Windows\System32\ntmarta.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.26\System.Security.Claims.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.26\System.Security.Claims.dll" geladen. Das Laden von Symbolen wurde übersprungen. Das Modul ist optimiert, und die Debugoption "Nur eigenen Code" ist aktiviert.
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.26\System.Runtime.Loader.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.26\System.Runtime.Loader.dll" geladen. Das Laden von Symbolen wurde übersprungen. Das Modul ist optimiert, und die Debugoption "Nur eigenen Code" ist aktiviert.
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.26\System.Windows.Forms.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.26\System.Collections.Concurrent.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.26\System.Collections.Concurrent.dll" geladen. Das Laden von Symbolen wurde übersprungen. Das Modul ist optimiert, und die Debugoption "Nur eigenen Code" ist aktiviert.
+"Objekterkennung_RoboETHCore.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.26\System.Windows.Forms.dll" geladen. Das Laden von Symbolen wurde übersprungen. Das Modul ist optimiert, und die Debugoption "Nur eigenen Code" ist aktiviert.
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.26\System.Windows.Forms.Primitives.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.26\System.Windows.Forms.Primitives.dll" geladen. Das Laden von Symbolen wurde übersprungen. Das Modul ist optimiert, und die Debugoption "Nur eigenen Code" ist aktiviert.
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.26\System.ComponentModel.Primitives.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.26\System.ComponentModel.Primitives.dll" geladen. Das Laden von Symbolen wurde übersprungen. Das Modul ist optimiert, und die Debugoption "Nur eigenen Code" ist aktiviert.
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.26\System.Drawing.Primitives.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.26\System.Drawing.Primitives.dll" geladen. Das Laden von Symbolen wurde übersprungen. Das Modul ist optimiert, und die Debugoption "Nur eigenen Code" ist aktiviert.
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.26\System.Collections.Specialized.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.26\System.Collections.Specialized.dll" geladen. Das Laden von Symbolen wurde übersprungen. Das Modul ist optimiert, und die Debugoption "Nur eigenen Code" ist aktiviert.
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\System.Drawing.Common.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (CoreCLR: clrhost): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\System.Drawing.Common.dll" geladen. Das Laden von Symbolen wurde übersprungen. Das Modul ist optimiert, und die Debugoption "Nur eigenen Code" ist aktiviert.
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Windows\System32\SHCore.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.26\System.Diagnostics.TraceSource.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.26\System.Diagnostics.TraceSource.dll" geladen. Das Laden von Symbolen wurde übersprungen. Das Modul ist optimiert, und die Debugoption "Nur eigenen Code" ist aktiviert.
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.26\Microsoft.Win32.Primitives.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.26\Microsoft.Win32.Primitives.dll" geladen. Das Laden von Symbolen wurde übersprungen. Das Modul ist optimiert, und die Debugoption "Nur eigenen Code" ist aktiviert.
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_5.82.26100.8328_none_87eede957a2ccddd\comctl32.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.26\System.ComponentModel.EventBasedAsync.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.26\System.ComponentModel.EventBasedAsync.dll" geladen. Das Laden von Symbolen wurde übersprungen. Das Modul ist optimiert, und die Debugoption "Nur eigenen Code" ist aktiviert.
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.26\System.Threading.Thread.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.26\System.Threading.Thread.dll" geladen. Das Laden von Symbolen wurde übersprungen. Das Modul ist optimiert, und die Debugoption "Nur eigenen Code" ist aktiviert.
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\System.Private.Windows.Core.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (CoreCLR: clrhost): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\System.Private.Windows.Core.dll" geladen. Das Laden von Symbolen wurde übersprungen. Das Modul ist optimiert, und die Debugoption "Nur eigenen Code" ist aktiviert.
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.26\Accessibility.dll" geladen. Das Modul wurde ohne Symbole erstellt.
+"Objekterkennung_RoboETHCore.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.26\Accessibility.dll" geladen. Das Modul wurde ohne Symbole erstellt.
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\runtimes\win\lib\net8.0\Microsoft.Win32.SystemEvents.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (CoreCLR: clrhost): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\runtimes\win\lib\net8.0\Microsoft.Win32.SystemEvents.dll" geladen. Das Laden von Symbolen wurde übersprungen. Das Modul ist optimiert, und die Debugoption "Nur eigenen Code" ist aktiviert.
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Windows\System32\msctf.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.26\System.ComponentModel.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.26\System.ComponentModel.dll" geladen. Das Laden von Symbolen wurde übersprungen. Das Modul ist optimiert, und die Debugoption "Nur eigenen Code" ist aktiviert.
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Windows\WinSxS\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.26100.8328_none_6ef30b123dc73046\GdiPlus.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Windows\System32\DWrite.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.26\System.Numerics.Vectors.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.26\System.Numerics.Vectors.dll" geladen. Das Laden von Symbolen wurde übersprungen. Das Modul ist optimiert, und die Debugoption "Nur eigenen Code" ist aktiviert.
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.26\System.ComponentModel.TypeConverter.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.26\System.ComponentModel.TypeConverter.dll" geladen. Das Laden von Symbolen wurde übersprungen. Das Modul ist optimiert, und die Debugoption "Nur eigenen Code" ist aktiviert.
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.26\System.Memory.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.26\System.Memory.dll" geladen. Das Laden von Symbolen wurde übersprungen. Das Modul ist optimiert, und die Debugoption "Nur eigenen Code" ist aktiviert.
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Windows\System32\TextShaping.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.26\de\System.Windows.Forms.resources.dll" geladen. Das Modul wurde ohne Symbole erstellt.
+"Objekterkennung_RoboETHCore.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.26\de\System.Windows.Forms.resources.dll" geladen. Das Modul wurde ohne Symbole erstellt.
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\Emgu.CV.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (CoreCLR: clrhost): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\Emgu.CV.dll" geladen. Das Laden von Symbolen wurde übersprungen. Das Modul ist optimiert, und die Debugoption "Nur eigenen Code" ist aktiviert.
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.26\netstandard.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.26\netstandard.dll" geladen. Das Laden von Symbolen wurde übersprungen. Das Modul ist optimiert, und die Debugoption "Nur eigenen Code" ist aktiviert.
+Loading Open CV binary from default locations. Current directory: C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0; Additional load folder: C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\runtimes\win-x64\native
+Found full path C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\runtimes\win-x64\native\cvextern.dll for cvextern.dll. Trying to load it.
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\runtimes\win-x64\native\cvextern.dll" geladen. Das Modul wurde ohne Symbole erstellt.
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Windows\System32\ws2_32.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Windows\System32\setupapi.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\runtimes\win-x64\native\libusb-1.0.dll" geladen. Das Modul wurde ohne Symbole erstellt.
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Windows\System32\dbghelp.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Windows\System32\comdlg32.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Windows\System32\wsock32.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Windows\System32\shlwapi.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Windows\System32\windows.storage.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\runtimes\win-x64\native\vcruntime140.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\runtimes\win-x64\native\msvcp140.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\runtimes\win-x64\native\concrt140.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Windows\System32\mf.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Windows\System32\mfplat.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Windows\System32\mfreadwrite.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Windows\System32\IPHLPAPI.DLL" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Windows\System32\dxgi.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Windows\System32\d3d11.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\runtimes\win-x64\native\vcruntime140_1.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\runtimes\win-x64\native\vcruntime140_1.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\runtimes\win-x64\native\vcruntime140_1.dll" wurde entladen.
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\runtimes\win-x64\native\vcruntime140_1.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\runtimes\win-x64\native\vcruntime140_1.dll" wurde entladen.
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Windows\System32\cfgmgr32.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Windows\System32\powrprof.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Windows\System32\mfcore.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Windows\System32\RTWorkQ.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Windows\System32\umpdc.dll" geladen. 
+LoadLibraryEx("C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\runtimes\win-x64\native\cvextern.dll", 0, 4352) successfully loaded library.
+cvextern.dll loaded.
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\Newtonsoft.Json.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (CoreCLR: clrhost): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\Newtonsoft.Json.dll" geladen. Das Laden von Symbolen wurde übersprungen. Das Modul ist optimiert, und die Debugoption "Nur eigenen Code" ist aktiviert.
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.26\System.Linq.Expressions.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.26\System.Linq.Expressions.dll" geladen. Das Laden von Symbolen wurde übersprungen. Das Modul ist optimiert, und die Debugoption "Nur eigenen Code" ist aktiviert.
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.26\System.ObjectModel.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.26\System.ObjectModel.dll" geladen. Das Laden von Symbolen wurde übersprungen. Das Modul ist optimiert, und die Debugoption "Nur eigenen Code" ist aktiviert.
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.26\Microsoft.CSharp.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.26\Microsoft.CSharp.dll" geladen. Das Laden von Symbolen wurde übersprungen. Das Modul ist optimiert, und die Debugoption "Nur eigenen Code" ist aktiviert.
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.26\System.Runtime.Serialization.Formatters.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.26\System.Runtime.Serialization.Formatters.dll" geladen. Das Laden von Symbolen wurde übersprungen. Das Modul ist optimiert, und die Debugoption "Nur eigenen Code" ist aktiviert.
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.26\System.Runtime.Numerics.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.26\System.Runtime.Numerics.dll" geladen. Das Laden von Symbolen wurde übersprungen. Das Modul ist optimiert, und die Debugoption "Nur eigenen Code" ist aktiviert.
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.26\System.Private.Uri.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.26\System.Private.Uri.dll" geladen. Das Laden von Symbolen wurde übersprungen. Das Modul ist optimiert, und die Debugoption "Nur eigenen Code" ist aktiviert.
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.26\System.Runtime.Serialization.Primitives.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.26\System.Runtime.Serialization.Primitives.dll" geladen. Das Laden von Symbolen wurde übersprungen. Das Modul ist optimiert, und die Debugoption "Nur eigenen Code" ist aktiviert.
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.26\System.Data.Common.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.26\System.Data.Common.dll" geladen. Das Laden von Symbolen wurde übersprungen. Das Modul ist optimiert, und die Debugoption "Nur eigenen Code" ist aktiviert.
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.26\System.Xml.ReaderWriter.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.26\System.Xml.ReaderWriter.dll" geladen. Das Laden von Symbolen wurde übersprungen. Das Modul ist optimiert, und die Debugoption "Nur eigenen Code" ist aktiviert.
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.26\System.Private.Xml.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.26\System.Private.Xml.dll" geladen. Das Laden von Symbolen wurde übersprungen. Das Modul ist optimiert, und die Debugoption "Nur eigenen Code" ist aktiviert.
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.26\System.Reflection.Emit.ILGeneration.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.26\System.Reflection.Emit.ILGeneration.dll" geladen. Das Laden von Symbolen wurde übersprungen. Das Modul ist optimiert, und die Debugoption "Nur eigenen Code" ist aktiviert.
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.26\System.Reflection.Emit.Lightweight.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.26\System.Reflection.Emit.Lightweight.dll" geladen. Das Laden von Symbolen wurde übersprungen. Das Modul ist optimiert, und die Debugoption "Nur eigenen Code" ist aktiviert.
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.26\System.Reflection.Primitives.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.26\System.Reflection.Primitives.dll" geladen. Das Laden von Symbolen wurde übersprungen. Das Modul ist optimiert, und die Debugoption "Nur eigenen Code" ist aktiviert.
+"Objekterkennung_RoboETHCore.exe" (CoreCLR: clrhost): "Anonymously Hosted DynamicMethods Assembly" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.26\System.Collections.NonGeneric.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.26\System.Collections.NonGeneric.dll" geladen. Das Laden von Symbolen wurde übersprungen. Das Modul ist optimiert, und die Debugoption "Nur eigenen Code" ist aktiviert.
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Windows\System32\TextInputFramework.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Windows\System32\CoreMessaging.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Windows\System32\CoreUIComponents.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Windows\System32\WinTypes.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Windows\System32\cryptbase.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\uEyeDotNet.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (CoreCLR: clrhost): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\uEyeDotNet.dll" geladen. Das Laden von Symbolen wurde übersprungen. Das Modul ist optimiert, und die Debugoption "Nur eigenen Code" ist aktiviert.
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Windows\System32\ueye_api_64.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Windows\System32\opengl32.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Windows\System32\version.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Windows\System32\glu32.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Windows\System32\DXCore.dll" geladen. 
+Ausnahme ausgelöst bei 0x00007FF958B2FE0A in Objekterkennung_RoboETHCore.exe: Microsoft C++-Ausnahme: std::runtime_error bei Speicherort 0x000000791017C318.
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Windows\System32\vcomp140.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Windows\System32\ddraw.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Windows\System32\dciman32.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.26\Microsoft.VisualBasic.Core.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.26\Microsoft.VisualBasic.Core.dll" geladen. Das Laden von Symbolen wurde übersprungen. Das Modul ist optimiert, und die Debugoption "Nur eigenen Code" ist aktiviert.
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.26\Microsoft.VisualBasic.Forms.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.26\Microsoft.VisualBasic.Forms.dll" geladen. Das Laden von Symbolen wurde übersprungen. Das Modul ist optimiert, und die Debugoption "Nur eigenen Code" ist aktiviert.
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.26\System.Resources.Extensions.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.26\System.Resources.Extensions.dll" geladen. Das Laden von Symbolen wurde übersprungen. Das Modul ist optimiert, und die Debugoption "Nur eigenen Code" ist aktiviert.
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.26\System.Drawing.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.26\System.Drawing.dll" geladen. Das Laden von Symbolen wurde übersprungen. Das Modul ist optimiert, und die Debugoption "Nur eigenen Code" ist aktiviert.
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.26\de\Microsoft.VisualBasic.Forms.resources.dll" geladen. Das Modul wurde ohne Symbole erstellt.
+"Objekterkennung_RoboETHCore.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.26\de\Microsoft.VisualBasic.Forms.resources.dll" geladen. Das Modul wurde ohne Symbole erstellt.
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Windows\System32\UIAutomationCore.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Windows\System32\clbcatq.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Windows\System32\sxs.dll" geladen. 
+mincore\com\oleaut32\dispatch\ups.cpp(2126)\OLEAUT32.dll!00007FF95ADEE80D: (caller: 00007FF95ADEEE92) ReturnHr(1) tid(34fc) 8002801D Bibliothek nicht registriert.
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Sick_Kamera\visionary_welcome\cpp\Projekt\Debug\Sick_TofKamera_Projekt.dll" geladen. Symbole wurden geladen.
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Windows\System32\vcruntime140d.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Windows\System32\vcruntime140_1d.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Windows\System32\ucrtbased.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Windows\System32\msvcp140d.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Windows\System32\mswsock.dll" geladen. 
+Der Thread '.NET Tiered Compilation Worker' (11024) hat mit Code 0 (0x0) geendet.
+Der Thread '.NET TP Worker' (6172) hat mit Code 0 (0x0) geendet.
+Der Thread '.NET TP Worker' (34128) hat mit Code 0 (0x0) geendet.
+Der Thread '.NET TP Worker' (10284) hat mit Code 0 (0x0) geendet.
+Der Thread '.NET TP Worker' (34444) hat mit Code 0 (0x0) geendet.
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\cloud_viewer.dll" geladen. Symbole wurden geladen.
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\pcl_segmentationd.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\pcl_commond.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\pcl_filtersd.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\pcl_iod.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\pcl_visualizationd.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\vtkCommonExecutionModel-9.3-gd.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\vtkCommonDataModel-9.3-gd.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\vtkCommonCore-9.3-gd.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\vtkCommonMath-9.3-gd.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\vtkRenderingCore-9.3-gd.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\vtkRenderingFreeType-9.3-gd.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\vtksys-9.3-gd.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Windows\System32\vcomp140d.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Windows\System32\psapi.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\pcl_mld.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\pcl_featuresd.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\pcl_searchd.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\pcl_sample_consensusd.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\pcl_sample_consensusd.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\pcl_sample_consensusd.dll" wurde entladen.
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\pcl_kdtreed.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\pcl_octreed.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\vtkIOGeometry-9.3-gd.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\pcl_io_plyd.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\vtkIOPLY-9.3-gd.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\vtkIOLegacy-9.3-gd.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\vtkIOImage-9.3-gd.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\vtkImagingCore-9.3-gd.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\vtkIOCore-9.3-gd.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Program Files\OpenNI2\Tools\OpenNI2.dll" geladen. Symbole wurden geladen.
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\vtkChartsCore-9.3-gd.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\vtkCommonMisc-9.3-gd.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\vtkCommonSystem-9.3-gd.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\vtkRenderingLOD-9.3-gd.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\vtkViewsContext2D-9.3-gd.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\vtkRenderingContextOpenGL2-9.3-gd.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\vtkInteractionWidgets-9.3-gd.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\vtkFiltersModeling-9.3-gd.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\vtkInteractionStyle-9.3-gd.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\vtkFiltersExtraction-9.3-gd.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\vtkRenderingContext2D-9.3-gd.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\vtkRenderingAnnotation-9.3-gd.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\vtkCommonTransforms-9.3-gd.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\vtkpugixml-9.3-gd.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\vtkRenderingOpenGL2-9.3-gd.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\vtkImagingSources-9.3-gd.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\vtkCommonColor-9.3-gd.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\vtkloguru-9.3-gd.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\vtkFiltersSources-9.3-gd.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\vtkFiltersGeneral-9.3-gd.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\vtkCommonComputationalGeometry-9.3-gd.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\vtkkissfft-9.3-gd.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\vtkFiltersCore-9.3-gd.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\vtkFiltersCore-9.3-gd.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\vtkFiltersGeometry-9.3-gd.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\vtkFiltersCore-9.3-gd.dll" wurde entladen.
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\vtkfreetype-9.3-gd.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\vtkFiltersHybrid-9.3-gd.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\vtkFiltersVerdict-9.3-gd.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\vtkzlib-9.3-gd.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\vtkDICOMParser-9.3-gd.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\vtkpng-9.3-gd.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\vtktiff-9.3-gd.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\vtkmetaio-9.3-gd.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\vtkjpeg-9.3-gd.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\vtklzma-9.3-gd.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\vtkdoubleconversion-9.3-gd.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\vtklz4-9.3-gd.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Windows\System32\msvcr100.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\vtkInfovisCore-9.3-gd.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\vtkViewsCore-9.3-gd.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\vtkglew-9.3-gd.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\vtkFiltersTexture-9.3-gd.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\vtkImagingGeneral-9.3-gd.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\vtkImagingHybrid-9.3-gd.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\vtkFiltersHyperTree-9.3-gd.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\vtkFiltersStatistics-9.3-gd.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\vtkParallelCore-9.3-gd.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\vtkParallelDIY-9.3-gd.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\vtkImagingColor-9.3-gd.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\vtkRenderingHyperTreeGrid-9.3-gd.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\vtkRenderingUI-9.3-gd.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\vtkfmt-9.3-gd.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\vtkverdict-9.3-gd.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\vtkIOXML-9.3-gd.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\vtkIOXMLParser-9.3-gd.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\vtkexpat-9.3-gd.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Windows\System32\directxdatabasehelper.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Windows\System32\Windows.StateRepositoryCore.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_95fe435b2caddb3e\ig9icd64.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Windows\System32\dwmapi.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_95fe435b2caddb3e\igdml64.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Windows\System32\ResourcePolicyClient.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Windows\System32\ResourcePolicyClient.dll" wurde entladen.
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_95fe435b2caddb3e\igdgmm64.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_95fe435b2caddb3e\igc64.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Windows\System32\ninput.dll" geladen. 
+Der Thread 16808 hat mit Code 0 (0x0) geendet.
+Der Thread '.NET Tiered Compilation Worker' (36728) hat mit Code 0 (0x0) geendet.
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\Emgu.CV.Bitmap.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (CoreCLR: clrhost): "C:\Users\sommerad\Desktop\TOF_TEST - Kopie\Objekterkennung_RoboETHCore\bin\Debug\net8.0-windows7.0\Emgu.CV.Bitmap.dll" geladen. Das Laden von Symbolen wurde übersprungen. Das Modul ist optimiert, und die Debugoption "Nur eigenen Code" ist aktiviert.
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.26\System.Threading.ThreadPool.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.26\System.Threading.ThreadPool.dll" geladen. Das Laden von Symbolen wurde übersprungen. Das Modul ist optimiert, und die Debugoption "Nur eigenen Code" ist aktiviert.
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.26\System.Net.NameResolution.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.26\System.Net.NameResolution.dll" geladen. Das Laden von Symbolen wurde übersprungen. Das Modul ist optimiert, und die Debugoption "Nur eigenen Code" ist aktiviert.
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.26\System.Net.Primitives.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.26\System.Net.Primitives.dll" geladen. Das Laden von Symbolen wurde übersprungen. Das Modul ist optimiert, und die Debugoption "Nur eigenen Code" ist aktiviert.
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.26\System.Net.Sockets.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.26\System.Net.Sockets.dll" geladen. Das Laden von Symbolen wurde übersprungen. Das Modul ist optimiert, und die Debugoption "Nur eigenen Code" ist aktiviert.
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.26\System.Diagnostics.Tracing.dll" geladen. 
+"Objekterkennung_RoboETHCore.exe" (CoreCLR: clrhost): "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.26\System.Diagnostics.Tracing.dll" geladen. Das Laden von Symbolen wurde übersprungen. Das Modul ist optimiert, und die Debugoption "Nur eigenen Code" ist aktiviert.
+[SOCKET SENDE VERSUCH]: RS
+[INFO] Roboter ist im Homing (Busy)... ignoriere Code 2.
+[SOCKET SENDE VERSUCH]: SP 5, H
+[INFO] Roboter ist im Homing (Busy)... ignoriere Code 2.
+[SOCKET SENDE VERSUCH]: OG
+[INFO] Roboter ist im Homing (Busy)... ignoriere Code 2.
+Der Thread '.NET Tiered Compilation Worker' (36084) hat mit Code 0 (0x0) geendet.
+Der Thread 18012 hat mit Code 0 (0x0) geendet.
+[PIPELINE] System zurückgesetzt.
+[SOCKET SENDE VERSUCH]: MP +553.1,+202.1,+300.0,.0,.0
+[INFO] Roboter ist im Homing (Busy)... ignoriere Code 2.
+[SOCKET SENDE VERSUCH]: GO
+[INFO] Roboter ist im Homing (Busy)... ignoriere Code 2.
+[SOCKET SENDE VERSUCH]: OG
+[INFO] Roboter ist im Homing (Busy)... ignoriere Code 2.
+[SOCKET SENDE VERSUCH]: MP +553.1,+202.1,+300.0,.0,.0
+[INFO] Roboter ist im Homing (Busy)... ignoriere Code 2.
+Der Thread '.NET Tiered Compilation Worker' (27652) hat mit Code 0 (0x0) geendet.
+[SOCKET SENDE VERSUCH]: GO
+[INFO] Roboter ist im Homing (Busy)... ignoriere Code 2.
+[SOCKET SENDE VERSUCH]: MP -42, 291, 70, -90, -8
+[SOCKET SENDE VERSUCH]: MP -42, 291, 6, -90, -8
+[INFO] Roboter ist im Homing (Busy)... ignoriere Code 2.
+[INFO] Roboter ist im Homing (Busy)... ignoriere Code 2.
+[SOCKET SENDE VERSUCH]: GC
+[INFO] Roboter ist im Homing (Busy)... ignoriere Code 2.
+Der Thread '.NET TP Worker' (35172) hat mit Code 0 (0x0) geendet.
+[SOCKET SENDE VERSUCH]: MP -42, 291, 70, -90, 0
+[INFO] Roboter ist im Homing (Busy)... ignoriere Code 2.
+[SOCKET SENDE VERSUCH]: MP 175, 225, 70, -90, 0
+[INFO] Roboter ist im Homing (Busy)... ignoriere Code 2.
+[SOCKET SENDE VERSUCH]: MP 175, 225, 6, -90, 0
+[INFO] Roboter ist im Homing (Busy)... ignoriere Code 2.
+[SOCKET SENDE VERSUCH]: GO
+[SOCKET SENDE VERSUCH]: MP 175, 225, 70, -90, 0
+[INFO] Roboter ist im Homing (Busy)... ignoriere Code 2.
+[INFO] Roboter ist im Homing (Busy)... ignoriere Code 2.
+[SOCKET SENDE VERSUCH]: MP 175, 225, 70, -90, 0
+[SOCKET SENDE VERSUCH]: MP -37, 374, 70, -90, -5
+[INFO] Roboter ist im Homing (Busy)... ignoriere Code 2.
+[INFO] Roboter ist im Homing (Busy)... ignoriere Code 2.
+[SOCKET SENDE VERSUCH]: MP -37, 374, 6, -90, -5
+[INFO] Roboter ist im Homing (Busy)... ignoriere Code 2.
+Der Thread 19596 hat mit Code 0 (0x0) geendet.
+[SOCKET SENDE VERSUCH]: GC
+[SOCKET SENDE VERSUCH]: MP -37, 374, 70, -90, 0
+[INFO] Roboter ist im Homing (Busy)... ignoriere Code 2.
+[INFO] Roboter ist im Homing (Busy)... ignoriere Code 2.
+[SOCKET SENDE VERSUCH]: MP 220, 250, 70, -90, 0
+[SOCKET SENDE VERSUCH]: MP 220, 250, 6, -90, 0
+[INFO] Roboter ist im Homing (Busy)... ignoriere Code 2.
+[INFO] Roboter ist im Homing (Busy)... ignoriere Code 2.
+[SOCKET SENDE VERSUCH]: GO
+[INFO] Roboter ist im Homing (Busy)... ignoriere Code 2.
+[SOCKET SENDE VERSUCH]: MP 220, 250, 70, -90, 0
+[SOCKET SENDE VERSUCH]: MP 220, 250, 70, -90, 0
+[INFO] Roboter ist im Homing (Busy)... ignoriere Code 2.
+[INFO] Roboter ist im Homing (Busy)... ignoriere Code 2.
+[SOCKET SENDE VERSUCH]: MP 36, 295, 70, -90, 6
+[SOCKET SENDE VERSUCH]: MP 36, 295, 6, -90, 6
+[INFO] Roboter ist im Homing (Busy)... ignoriere Code 2.
+[INFO] Roboter ist im Homing (Busy)... ignoriere Code 2.
+[SOCKET SENDE VERSUCH]: GC
+[INFO] Roboter ist im Homing (Busy)... ignoriere Code 2.
+[SOCKET SENDE VERSUCH]: MP 36, 295, 70, -90, 0
+[INFO] Roboter ist im Homing (Busy)... ignoriere Code 2.
+[SOCKET SENDE VERSUCH]: MP 180, 275, 70, -90, 0
+[INFO] Roboter ist im Homing (Busy)... ignoriere Code 2.
+[SOCKET SENDE VERSUCH]: MP 180, 275, 6, -90, 0
+[INFO] Roboter ist im Homing (Busy)... ignoriere Code 2.
+[SOCKET SENDE VERSUCH]: GO
+[SOCKET SENDE VERSUCH]: MP 180, 275, 70, -90, 0
+[INFO] Roboter ist im Homing (Busy)... ignoriere Code 2.
+[INFO] Roboter ist im Homing (Busy)... ignoriere Code 2.
+[SOCKET SENDE VERSUCH]: MP 180, 275, 70, -90, 0
+[INFO] Roboter ist im Homing (Busy)... ignoriere Code 2.
+[SOCKET SENDE VERSUCH]: MP 55, 346, 70, -90, 9
+Der Thread '.NET Tiered Compilation Worker' (34040) hat mit Code 0 (0x0) geendet.
+[INFO] Roboter ist im Homing (Busy)... ignoriere Code 2.
+[SOCKET SENDE VERSUCH]: MP 55, 346, 6, -90, 9
+[INFO] Roboter ist im Homing (Busy)... ignoriere Code 2.
+[SOCKET SENDE VERSUCH]: GC
+[INFO] Roboter ist im Homing (Busy)... ignoriere Code 2.
+[SOCKET SENDE VERSUCH]: MP 55, 346, 70, -90, 0
+[INFO] Roboter ist im Homing (Busy)... ignoriere Code 2.
+[SOCKET SENDE VERSUCH]: MP 220, 300, 70, -90, 0
+[INFO] Roboter ist im Homing (Busy)... ignoriere Code 2.
+[SOCKET SENDE VERSUCH]: MP 220, 300, 6, -90, 0
+Der Thread '.NET Tiered Compilation Worker' (7444) hat mit Code 0 (0x0) geendet.
+[INFO] Roboter ist im Homing (Busy)... ignoriere Code 2.
+[SOCKET SENDE VERSUCH]: GO
+[SOCKET SENDE VERSUCH]: MP 220, 300, 70, -90, 0
+[INFO] Roboter ist im Homing (Busy)... ignoriere Code 2.
+[INFO] Roboter ist im Homing (Busy)... ignoriere Code 2.
+[SOCKET SENDE VERSUCH]: MP 220, 300, 70, -90, 0
+[INFO] Roboter ist im Homing (Busy)... ignoriere Code 2.
+[SOCKET SENDE VERSUCH]: MP +553.1,+202.1,+300.0,.0,.0
+Der Thread '.NET Tiered Compilation Worker' (19020) hat mit Code 0 (0x0) geendet.
+[SOCKET SENDE VERSUCH]: GO
+[INFO] Roboter ist im Homing (Busy)... ignoriere Code 2.
+[INFO] Roboter ist im Homing (Busy)... ignoriere Code 2.
+Der Thread '.NET Tiered Compilation Worker' (13120) hat mit Code 0 (0x0) geendet.
+"Objekterkennung_RoboETHCore.exe" (Win32): "C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.26100.8457_none_3e0b2faee331e92d\comctl32.dll" geladen. 
+Generic Warning: In vtkOpenGLState.cxx, line 1162
+Error glGetBoolean1 OpenGL errors detected
+  0 : (1286) Invalid framebuffer operation
+
+ with stack trace of
+ at vtksys::Encoding::CommandLineArguments::CommandLineArguments
+ at vtksys::Encoding::CommandLineArguments::CommandLineArguments
+ at vtkRenderPassCollection::~vtkRenderPassCollection
+ at vtkRenderPassCollection::~vtkRenderPassCollection
+ at vtkRenderPassCollection::~vtkRenderPassCollection
+ at vtkRenderPassCollection::~vtkRenderPassCollection
+ at vtkRenderPassCollection::~vtkRenderPassCollection
+ at vtkRenderPassCollection::~vtkRenderPassCollection
+ at vtkRenderPassCollection::~vtkRenderPassCollection
+ at vtkRenderPassCollection::~vtkRenderPassCollection
+ at vtkImageSliceMapper::SetCroppingRegion
+ at vtkImageSliceMapper::SetCroppingRegion
+ at pcl::visualization::PCLVisualizer::addModelFromPLYFile
+ at vtkImageSliceMapper::SetCroppingRegion
+ at vtkArrayIteratorTemplate<unsigned char>::PrintSelf
+ at vtkArrayIteratorTemplate<unsigned char>::PrintSelf
+ at vtkArrayIteratorTemplate<unsigned char>::PrintSelf
+ at vtkGenericRenderWindowInteractor::TimerEventResetsTimerOn
+ at vtkGenericRenderWindowInteractor::TimerEventResetsTimerOn
+ at vtkGenericRenderWindowInteractor::TimerEventResetsTimerOn
+ at CallWindowProcW
+ at IsWindowUnicode
+ at vtkGenericRenderWindowInteractor::TimerEventResetsTimerOn
+ at pcl::visualization::PCLVisualizer::addModelFromPLYFile
+ at CloudViewer::StartVisualizerThread in C:\Users\sommerad\Desktop\TOF_TEST\PointCloudDll\cloud_viewer.cpp line 355
+ at StartVisualizerThread in C:\Users\sommerad\Desktop\TOF_TEST\PointCloudDll\dll_interface.cpp line 17
+ at StartVisualizerThread
+
+
+Generic Warning: In vtkOpenGLState.cxx, line 516
+Error glBindFramebuffer1 OpenGL errors detected
+  0 : (1286) Invalid framebuffer operation
+
+ with stack trace of
+ at vtksys::Encoding::CommandLineArguments::CommandLineArguments
+ at vtksys::Encoding::CommandLineArguments::CommandLineArguments
+ at vtkRenderPassCollection::~vtkRenderPassCollection
+ at vtkRenderPassCollection::~vtkRenderPassCollection
+ at vtkRenderPassCollection::~vtkRenderPassCollection
+ at vtkRenderPassCollection::~vtkRenderPassCollection
+ at vtkRenderPassCollection::~vtkRenderPassCollection
+ at vtkRenderPassCollection::~vtkRenderPassCollection
+ at vtkRenderPassCollection::~vtkRenderPassCollection
+ at vtkRenderPassCollection::~vtkRenderPassCollection
+ at vtkRenderPassCollection::~vtkRenderPassCollection
+ at vtkImageSliceMapper::SetCroppingRegion
+ at vtkImageSliceMapper::SetCroppingRegion
+ at pcl::visualization::PCLVisualizer::addModelFromPLYFile
+ at vtkImageSliceMapper::SetCroppingRegion
+ at vtkArrayIteratorTemplate<unsigned char>::PrintSelf
+ at vtkArrayIteratorTemplate<unsigned char>::PrintSelf
+ at vtkArrayIteratorTemplate<unsigned char>::PrintSelf
+ at vtkGenericRenderWindowInteractor::TimerEventResetsTimerOn
+ at vtkGenericRenderWindowInteractor::TimerEventResetsTimerOn
+ at vtkGenericRenderWindowInteractor::TimerEventResetsTimerOn
+ at CallWindowProcW
+ at IsWindowUnicode
+ at vtkGenericRenderWindowInteractor::TimerEventResetsTimerOn
+ at pcl::visualization::PCLVisualizer::addModelFromPLYFile
+ at CloudViewer::StartVisualizerThread in C:\Users\sommerad\Desktop\TOF_TEST\PointCloudDll\cloud_viewer.cpp line 355
+ at StartVisualizerThread in C:\Users\sommerad\Desktop\TOF_TEST\PointCloudDll\dll_interface.cpp line 17
+ at StartVisualizerThread
+
+
+Generic Warning: In vtkOpenGLState.cxx, line 700
+Error glDepthMask1 OpenGL errors detected
+  0 : (1286) Invalid framebuffer operation
+
+ with stack trace of
+ at vtksys::Encoding::CommandLineArguments::CommandLineArguments
+ at vtksys::Encoding::CommandLineArguments::CommandLineArguments
+ at vtkRenderPassCollection::~vtkRenderPassCollection
+ at vtkRenderPassCollection::~vtkRenderPassCollection
+ at vtkRenderPassCollection::~vtkRenderPassCollection
+ at vtkQuadricLODActor::SetDataConfiguration
+ at vtkImageSliceMapper::SetCroppingRegion
+ at vtkImageSliceMapper::SetCroppingRegion
+ at vtkRenderPassCollection::~vtkRenderPassCollection
+ at vtkRenderPassCollection::~vtkRenderPassCollection
+ at vtkRenderPassCollection::~vtkRenderPassCollection
+ at vtkRenderPassCollection::~vtkRenderPassCollection
+ at vtkRenderPassCollection::~vtkRenderPassCollection
+ at vtkRenderPassCollection::~vtkRenderPassCollection
+ at vtkImageSliceMapper::SetCroppingRegion
+ at vtkImageSliceMapper::SetCroppingRegion
+ at pcl::visualization::PCLVisualizer::addModelFromPLYFile
+ at vtkImageSliceMapper::SetCroppingRegion
+ at vtkArrayIteratorTemplate<unsigned char>::PrintSelf
+ at vtkArrayIteratorTemplate<unsigned char>::PrintSelf
+ at vtkArrayIteratorTemplate<unsigned char>::PrintSelf
+ at vtkGenericRenderWindowInteractor::TimerEventResetsTimerOn
+ at vtkGenericRenderWindowInteractor::TimerEventResetsTimerOn
+ at vtkGenericRenderWindowInteractor::TimerEventResetsTimerOn
+ at CallWindowProcW
+ at IsWindowUnicode
+ at vtkGenericRenderWindowInteractor::TimerEventResetsTimerOn
+ at pcl::visualization::PCLVisualizer::addModelFromPLYFile
+ at CloudViewer::StartVisualizerThread in C:\Users\sommerad\Desktop\TOF_TEST\PointCloudDll\cloud_viewer.cpp line 355
+ at StartVisualizerThread in C:\Users\sommerad\Desktop\TOF_TEST\PointCloudDll\dll_interface.cpp line 17
+ at StartVisualizerThread
+
+
+Generic Warning: In vtkOpenGLState.cxx, line 700
+Error glDepthMask1 OpenGL errors detected
+  0 : (1286) Invalid framebuffer operation
+
+ with stack trace of
+ at vtksys::Encoding::CommandLineArguments::CommandLineArguments
+ at vtksys::Encoding::CommandLineArguments::CommandLineArguments
+ at vtkRenderPassCollection::~vtkRenderPassCollection
+ at vtkRenderPassCollection::~vtkRenderPassCollection
+ at vtkRenderPassCollection::~vtkRenderPassCollection
+ at vtkQuadricLODActor::SetDataConfiguration
+ at vtkImageSliceMapper::SetCroppingRegion
+ at vtkImageSliceMapper::SetCroppingRegion
+ at vtkRenderPassCollection::~vtkRenderPassCollection
+ at vtkRenderPassCollection::~vtkRenderPassCollection
+ at vtkRenderPassCollection::~vtkRenderPassCollection
+ at vtkRenderPassCollection::~vtkRenderPassCollection
+ at vtkRenderPassCollection::~vtkRenderPassCollection
+ at vtkRenderPassCollection::~vtkRenderPassCollection
+ at vtkImageSliceMapper::SetCroppingRegion
+ at vtkImageSliceMapper::SetCroppingRegion
+ at pcl::visualization::PCLVisualizer::addModelFromPLYFile
+ at vtkImageSliceMapper::SetCroppingRegion
+ at vtkArrayIteratorTemplate<unsigned char>::PrintSelf
+ at vtkArrayIteratorTemplate<unsigned char>::PrintSelf
+ at vtkArrayIteratorTemplate<unsigned char>::PrintSelf
+ at vtkGenericRenderWindowInteractor::TimerEventResetsTimerOn
+ at vtkGenericRenderWindowInteractor::TimerEventResetsTimerOn
+ at vtkGenericRenderWindowInteractor::TimerEventResetsTimerOn
+ at CallWindowProcW
+ at IsWindowUnicode
+ at vtkGenericRenderWindowInteractor::TimerEventResetsTimerOn
+ at pcl::visualization::PCLVisualizer::addModelFromPLYFile
+ at CloudViewer::StartVisualizerThread in C:\Users\sommerad\Desktop\TOF_TEST\PointCloudDll\cloud_viewer.cpp line 355
+ at StartVisualizerThread in C:\Users\sommerad\Desktop\TOF_TEST\PointCloudDll\dll_interface.cpp line 17
+ at StartVisualizerThread
+
+
+Generic Warning: In vtkOpenGLState.cxx, line 700
+Error glDepthMask1 OpenGL errors detected
+  0 : (1286) Invalid framebuffer operation
+
+ with stack trace of
+ at vtksys::Encoding::CommandLineArguments::CommandLineArguments
+ at vtksys::Encoding::CommandLineArguments::CommandLineArguments
+ at vtkRenderPassCollection::~vtkRenderPassCollection
+ at vtkRenderPassCollection::~vtkRenderPassCollection
+ at vtkRenderPassCollection::~vtkRenderPassCollection
+ at vtkQuadricLODActor::SetDataConfiguration
+ at vtkImageSliceMapper::SetCroppingRegion
+ at vtkImageSliceMapper::SetCroppingRegion
+ at vtkRenderPassCollection::~vtkRenderPassCollection
+ at vtkRenderPassCollection::~vtkRenderPassCollection
+ at vtkRenderPassCollection::~vtkRenderPassCollection
+ at vtkRenderPassCollection::~vtkRenderPassCollection
+ at vtkRenderPassCollection::~vtkRenderPassCollection
+ at vtkRenderPassCollection::~vtkRenderPassCollection
+ at vtkImageSliceMapper::SetCroppingRegion
+ at vtkImageSliceMapper::SetCroppingRegion
+ at pcl::visualization::PCLVisualizer::addModelFromPLYFile
+ at vtkImageSliceMapper::SetCroppingRegion
+ at vtkArrayIteratorTemplate<unsigned char>::PrintSelf
+ at vtkArrayIteratorTemplate<unsigned char>::PrintSelf
+ at vtkArrayIteratorTemplate<unsigned char>::PrintSelf
+ at vtkGenericRenderWindowInteractor::TimerEventResetsTimerOn
+ at vtkGenericRenderWindowInteractor::TimerEventResetsTimerOn
+ at vtkGenericRenderWindowInteractor::TimerEventResetsTimerOn
+ at CallWindowProcW
+ at IsWindowUnicode
+ at vtkGenericRenderWindowInteractor::TimerEventResetsTimerOn
+ at pcl::visualization::PCLVisualizer::addModelFromPLYFile
+ at CloudViewer::StartVisualizerThread in C:\Users\sommerad\Desktop\TOF_TEST\PointCloudDll\cloud_viewer.cpp line 355
+ at StartVisualizerThread in C:\Users\sommerad\Desktop\TOF_TEST\PointCloudDll\dll_interface.cpp line 17
+ at StartVisualizerThread
+
+
+Generic Warning: In vtkOpenGLState.cxx, line 700
+Error glDepthMask1 OpenGL errors detected
+  0 : (1286) Invalid framebuffer operation
+Der Thread '.NET TP Worker' (32128) hat mit Code 0 (0x0) geendet.
+
+ with stack trace of
+ at vtksys::Encoding::CommandLineArguments::CommandLineArguments
+ at vtksys::Encoding::CommandLineArguments::CommandLineArguments
+ at vtkRenderPassCollection::~vtkRenderPassCollection
+ at vtkRenderPassCollection::~vtkRenderPassCollection
+ at vtkRenderPassCollection::~vtkRenderPassCollection
+ at vtkQuadricLODActor::SetDataConfiguration
+ at vtkImageSliceMapper::SetCroppingRegion
+ at vtkImageSliceMapper::SetCroppingRegion
+ at vtkRenderPassCollection::~vtkRenderPassCollection
+ at vtkRenderPassCollection::~vtkRenderPassCollection
+ at vtkRenderPassCollection::~vtkRenderPassCollection
+ at vtkRenderPassCollection::~vtkRenderPassCollection
+ at vtkRenderPassCollection::~vtkRenderPassCollection
+ at vtkRenderPassCollection::~vtkRenderPassCollection
+ at vtkImageSliceMapper::SetCroppingRegion
+ at vtkImageSliceMapper::SetCroppingRegion
+ at pcl::visualization::PCLVisualizer::addModelFromPLYFile
+ at vtkImageSliceMapper::SetCroppingRegion
+ at vtkArrayIteratorTemplate<unsigned char>::PrintSelf
+ at vtkArrayIteratorTemplate<unsigned char>::PrintSelf
+ at vtkArrayIteratorTemplate<unsigned char>::PrintSelf
+ at vtkGenericRenderWindowInteractor::TimerEventResetsTimerOn
+ at vtkGenericRenderWindowInteractor::TimerEventResetsTimerOn
+ at vtkGenericRenderWindowInteractor::TimerEventResetsTimerOn
+ at CallWindowProcW
+ at IsWindowUnicode
+ at vtkGenericRenderWindowInteractor::TimerEventResetsTimerOn
+ at pcl::visualization::PCLVisualizer::addModelFromPLYFile
+ at CloudViewer::StartVisualizerThread in C:\Users\sommerad\Desktop\TOF_TEST\PointCloudDll\cloud_viewer.cpp line 355
+ at StartVisualizerThread in C:\Users\sommerad\Desktop\TOF_TEST\PointCloudDll\dll_interface.cpp line 17
+ at StartVisualizerThread
+
+
+Generic Warning: In vtkOpenGLState.cxx, line 1162
+Error glGetBoolean1 OpenGL errors detected
+  0 : (1286) Invalid framebuffer operation
+
+ with stack trace of
+ at vtksys::Encoding::CommandLineArguments::CommandLineArguments
+ at vtksys::Encoding::CommandLineArguments::CommandLineArguments
+ at vtkRenderPassCollection::~vtkRenderPassCollection
+ at vtkRenderPassCollection::~vtkRenderPassCollection
+ at vtkRenderPassCollection::~vtkRenderPassCollection
+ at vtkRenderPassCollection::~vtkRenderPassCollection
+ at vtkRenderPassCollection::~vtkRenderPassCollection
+ at vtkRenderPassCollection::~vtkRenderPassCollection
+ at vtkRenderPassCollection::~vtkRenderPassCollection
+ at vtkRenderPassCollection::~vtkRenderPassCollection
+ at vtkImageSliceMapper::SetCroppingRegion
+ at vtkImageSliceMapper::SetCroppingRegion
+ at vtkImageSliceMapper::SetCroppingRegion
+ at vtkImageSliceMapper::SetCroppingRegion
+ at vtkRenderPassCollection::~vtkRenderPassCollection
+ at vtkImageSliceMapper::SetCroppingRegion
+ at pcl::visualization::PCLVisualizer::addModelFromPLYFile
+ at vtkImageSliceMapper::SetCroppingRegion
+ at vtkArrayIteratorTemplate<unsigned char>::PrintSelf
+ at vtkArrayIteratorTemplate<unsigned char>::PrintSelf
+ at vtkArrayIteratorTemplate<unsigned char>::PrintSelf
+ at vtkGenericRenderWindowInteractor::TimerEventResetsTimerOn
+ at vtkGenericRenderWindowInteractor::TimerEventResetsTimerOn
+ at vtkGenericRenderWindowInteractor::TimerEventResetsTimerOn
+ at CallWindowProcW
+ at IsWindowUnicode
+ at vtkGenericRenderWindowInteractor::TimerEventResetsTimerOn
+ at pcl::visualization::PCLVisualizer::addModelFromPLYFile
+ at CloudViewer::StartVisualizerThread in C:\Users\sommerad\Desktop\TOF_TEST\PointCloudDll\cloud_viewer.cpp line 355
+ at StartVisualizerThread in C:\Users\sommerad\Desktop\TOF_TEST\PointCloudDll\dll_interface.cpp line 17
+ at StartVisualizerThread
+
+
+Generic Warning: In vtkOpenGLState.cxx, line 516
+Error glBindFramebuffer1 OpenGL errors detected
+  0 : (1286) Invalid framebuffer operation
+
+ with stack trace of
+ at vtksys::Encoding::CommandLineArguments::CommandLineArguments
+ at vtksys::Encoding::CommandLineArguments::CommandLineArguments
+ at vtkRenderPassCollection::~vtkRenderPassCollection
+ at vtkRenderPassCollection::~vtkRenderPassCollection
+ at vtkRenderPassCollection::~vtkRenderPassCollection
+ at vtkRenderPassCollection::~vtkRenderPassCollection
+ at vtkRenderPassCollection::~vtkRenderPassCollection
+ at vtkRenderPassCollection::~vtkRenderPassCollection
+ at vtkRenderPassCollection::~vtkRenderPassCollection
+ at vtkRenderPassCollection::~vtkRenderPassCollection
+ at vtkRenderPassCollection::~vtkRenderPassCollection
+ at vtkImageSliceMapper::SetCroppingRegion
+ at vtkImageSliceMapper::SetCroppingRegion
+ at vtkImageSliceMapper::SetCroppingRegion
+ at vtkImageSliceMapper::SetCroppingRegion
+ at vtkRenderPassCollection::~vtkRenderPassCollection
+ at vtkImageSliceMapper::SetCroppingRegion
+ at pcl::visualization::PCLVisualizer::addModelFromPLYFile
+ at vtkImageSliceMapper::SetCroppingRegion
+ at vtkArrayIteratorTemplate<unsigned char>::PrintSelf
+ at vtkArrayIteratorTemplate<unsigned char>::PrintSelf
+ at vtkArrayIteratorTemplate<unsigned char>::PrintSelf
+ at vtkGenericRenderWindowInteractor::TimerEventResetsTimerOn
+ at vtkGenericRenderWindowInteractor::TimerEventResetsTimerOn
+ at vtkGenericRenderWindowInteractor::TimerEventResetsTimerOn
+ at CallWindowProcW
+Der Thread '.NET System Events' (23192) hat mit Code 0 (0x0) geendet.
+Der Thread 34368 hat mit Code 0 (0x0) geendet.
+Der Thread '.NET EventPipe' (17784) hat mit Code 0 (0x0) geendet.
+Der Thread 12664 hat mit Code 0 (0x0) geendet.
+Der Thread 26108 hat mit Code 0 (0x0) geendet.
+Der Thread 35988 hat mit Code 0 (0x0) geendet.
+Der Thread 28296 hat mit Code 0 (0x0) geendet.
+Der Thread 25048 hat mit Code 0 (0x0) geendet.
+Der Thread '.NET Finalizer' (12956) hat mit Code 0 (0x0) geendet.
+Der Thread '.NET TP Gate' (5376) hat mit Code 0 (0x0) geendet.
+Der Thread '.NET ThreadPool IO' (31448) hat mit Code 0 (0x0) geendet.
+Der Thread 27952 hat mit Code 0 (0x0) geendet.
+Der Thread 18508 hat mit Code 0 (0x0) geendet.
+Der Thread 22184 hat mit Code 0 (0x0) geendet.
+Der Thread 28108 hat mit Code 0 (0x0) geendet.
+Der Thread '.NET Counter Poller' (21068) hat mit Code 0 (0x0) geendet.
+Der Thread 32932 hat mit Code 0 (0x0) geendet.
+Der Thread 13984 hat mit Code 0 (0x0) geendet.
+Der Thread '.NET TP Worker' (19764) hat mit Code 0 (0x0) geendet.
+Der Thread 31444 hat mit Code 0 (0x0) geendet.
+Der Thread 25588 hat mit Code 0 (0x0) geendet.
+Der Thread 31916 hat mit Code 0 (0x0) geendet.
+Der Thread 36496 hat mit Code 0 (0x0) geendet.
+Der Thread 18344 hat mit Code 0 (0x0) geendet.
+Der Thread 14092 hat mit Code 0 (0x0) geendet.
+Der Thread 6980 hat mit Code 0 (0x0) geendet.
+Der Thread 32520 hat mit Code 0 (0x0) geendet.
+Der Thread 5620 hat mit Code 0 (0x0) geendet.
+Der Thread 31140 hat mit Code 0 (0x0) geendet.
+Der Thread 32176 hat mit Code 0 (0x0) geendet.
+Der Thread '.NET TP Worker' (6388) hat mit Code 0 (0x0) geendet.
+Der Thread 35444 hat mit Code 0 (0x0) geendet.
+Der Thread 20424 hat mit Code 0 (0x0) geendet.
+Der Thread '.NET Timer' (27180) hat mit Code 0 (0x0) geendet.
+Der Thread 9916 hat mit Code 0 (0x0) geendet.
+Der Thread '.NET TP Worker' (14072) hat mit Code 0 (0x0) geendet.
+Der Thread 2308 hat mit Code 0 (0x0) geendet.
+Der Thread 29548 hat mit Code 0 (0x0) geendet.
+Der Thread 16292 hat mit Code 0 (0x0) geendet.
+Der Thread '.NET Tiered Compilation Worker' (26180) hat mit Code 0 (0x0) geendet.
+Der Thread 18684 hat mit Code 0 (0x0) geendet.
+Der Thread 26644 hat mit Code 0 (0x0) geendet.
+Der Thread 19712 hat mit Code 0 (0x0) geendet.
+Der Thread 6780 hat mit Code 0 (0x0) geendet.
+Der Thread 17596 hat mit Code 0 (0x0) geendet.
+Der Thread 24184 hat mit Code 0 (0x0) geendet.
+Der Thread '.NET TP Worker' (3128) hat mit Code 0 (0x0) geendet.
+ERROR: In vtkWin32OpenGLRenderWindow.cxx, line 256
+vtkWin32OpenGLRenderWindow (0000024286E0EF50): wglMakeCurrent failed in MakeCurrent(), error: ê‡ ã¶´Êƒ
+
+ERROR: In vtkWin32OpenGLRenderWindow.cxx, line 256
+vtkWin32OpenGLRenderWindow (0000024286E0EF50): wglMakeCurrent failed in MakeCurrent(), error: ê¾ ã¶´Êƒ
+
+ERROR: In vtkWin32OpenGLRenderWindow.cxx, line 256
+vtkWin32OpenGLRenderWindow (0000024286E0EF50): wglMakeCurrent failed in MakeCurrent(), error: ê¸ ã¶´Êƒ
+
+Ausnahme ausgelöst bei 0x00007FFFE99C5D8D (ig9icd64.dll) in Objekterkennung_RoboETHCore.exe: 0xC0000005: Zugriffsverletzung beim Lesen an Position 0x0000000000000C28.
+
+Das Programm "[19048] Objekterkennung_RoboETHCore.exe" wurde mit Code 0 (0x0) beendet.

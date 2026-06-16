@@ -1,0 +1,80 @@
+  private async Task ProcessQueueAsync(CancellationToken token)
+  {
+      const int Polling_Intervall_ms = 50; // Abfrageintervall für die WH-Befehle
+      const int Safety_Buffer_ms = 500;   // Sicherheitspuffer für Operationen wie GO/GC die keine Fahrtbewegung ausführen
+      const int Position_tolerance_mm = 2; // Toleranz für die Endposition in mm
+
+      var roboter_instance = _sendToRobotAction.Target as Objekterkennung_RoboETH._3_Model.Roboter;
+
+      try
+      {
+          foreach (var command in _queue.GetConsumingEnumerable(token))
+          {
+              if (token.IsCancellationRequested) break;
+
+              Debug.WriteLine($"[PIPELINE START]: {command.Description} ({command.RawData})");
+
+              // Befehl an den Roboter absenden
+              _sendToRobotAction.Invoke(command.RawData);
+
+              // FALL A: Es ist ein Fahrbefehl mit bekannten Soll-Koordinaten
+              if (command.TargetPos != null && roboter_instance != null)
+              {
+                  var stopwatch = Stopwatch.StartNew();
+                  bool zielErreicht = false;
+
+                  while (!zielErreicht && stopwatch.ElapsedMilliseconds < command.TimeoutMs)
+                  {
+                      token.ThrowIfCancellationRequested();
+
+                      // 1. Aktuelle Position vom Roboter holen
+                      whPoint3D istPos = await roboter_instance.GetCurrentPositionAsync(token);
+
+                      if (istPos != null)
+                      {
+                          // 2. Abweichung berechnen
+                          float deltaX = Math.Abs(command.TargetPos.X - istPos.X);
+                          float deltaY = Math.Abs(command.TargetPos.Y - istPos.Y);
+                          float deltaZ = Math.Abs(command.TargetPos.Z - istPos.Z);
+
+                          // 3. Prüfen, ob wir innerhalb der Toleranz sind
+                          if (deltaX <= Position_tolerance_mm && deltaY <= Position_tolerance_mm && deltaZ <= Position_tolerance_mm)
+                          {
+                              Debug.WriteLine($"[PIPELINE] Ziel erreicht nach {stopwatch.ElapsedMilliseconds}ms! (Soll: {command.TargetPos.X}/{command.TargetPos.Y} | Ist: {istPos.X}/{istPos.Y})");
+                              zielErreicht = true;
+                              break;
+                          }
+                      }
+
+                      // Wartezeit bis zur nächsten WH-Abfrage
+                      await Task.Delay(Polling_Intervall_ms, token);
+                  }
+
+                  if (!zielErreicht)
+                  {
+                      Debug.WriteLine($"[!!! WARNUNG] Timeout von {command.TimeoutMs}ms erreicht, bevor Zielposition exakt angefahren wurde!");
+                  }
+                  else
+                  {
+                      // Dynamischer Sicherheitspuffer zum Ausschwingen des Arms
+                      await Task.Delay(Safety_Buffer_ms, token);
+                  }
+              }
+              // FALL B: Greiferbefehle oder Befehle ohne Koordinaten (z.B. GO, GC, RS, OG)
+              else
+              {
+                  // Hier reicht ein kurzes, festes Delay, da z.B. der Greifer nach 600ms offen ist
+                  int fixedDelay = command.RawData.Contains("G") ? 600 : 1500;
+                  await Task.Delay(fixedDelay, token);
+              }
+          }
+      }
+      catch (OperationCanceledException)
+      {
+          Debug.WriteLine("[PIPELINE] Worker-Task durch Not-Aus oder Abbruch gestoppt.");
+      }
+      catch (Exception ex)
+      {
+          Debug.WriteLine($"[PIPELINE FEHLER]: {ex.Message}");
+      }
+  }

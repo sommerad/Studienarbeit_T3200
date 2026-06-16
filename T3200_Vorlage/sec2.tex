@@ -65,15 +65,45 @@ Filter, Algorithmen, Linien-/Kantendetektion mit OpenCV
 \end{figure}
 
 \subsection{Task Parallel Library (TPL)}
-Die \textit{Task Parallel Library (TPL)} ist eine .NET-Bibliothek, die es dem Programmierer vereinfacht, Parallelität und Nebenläufigkeit in \csharp-Programmen umzusetzen \cite{TPL}. Für diese Arbeit ist vor allem das Konzept der Nebenläufigkeit (\textit{engl.: concurrency}) relevant. Darunter versteht man allgemein, dass "mehr als nur eine Sache zur gleichen Zeit gemacht wird" \cite[Kapitel 1]{ConcurrencyinCSharp}. In der praktischen Anwendung ermöglicht das eine Entkopplung von Rechenoperationen oder Ein-/Ausgabeoperationen vom primären Arbeitsstrang einer Anwendung. 
-
-
-
-\subsection{Task-based Asynchronous Pattern (TAP)}
+Die \textit{Task Parallel Library (TPL)} ist eine .NET-Bibliothek, die es dem Programmierer vereinfacht, Parallelität und Nebenläufigkeit in \csharp-Programmen umzusetzen \cite{TPL}. Für diese Arbeit ist vor allem das Konzept der Nebenläufigkeit (\textit{engl.: concurrency}) relevant. Darunter versteht man allgemein, dass "mehr als nur eine Sache zur gleichen Zeit gemacht wird" \cite[Kapitel 1]{ConcurrencyinCSharp}. In der praktischen Anwendung ermöglicht das eine Entkopplung von Rechenoperationen oder Ein-/Ausgabeoperationen vom primären Arbeitsstrang einer Anwendung.
+\begin{figure}[h!]
+	\centering
+	\begin{tikzpicture}[
+	task/.style={rectangle, draw=blue!60, fill=blue!10, minimum height=0.7cm, font=\sffamily\scriptsize},
+	wait/.style={rectangle, draw=red!60, fill=red!5, minimum height=0.7cm, font=\sffamily\scriptsize, dashed},
+	axis/.style={-{Stealth}, thick}
+	]
+	
+	% --- Synchroner Ablauf (Blockierend) ---
+	\node[anchor=east, font=\sffamily] at (0, 1.5) {Synchron (Blockierend):};
+	
+	\draw[axis] (0, 1.5) -- (8, 1.5);
+	\node[task, minimum width=2cm] at (1, 1.5) {Aufgabe 1};
+	\node[wait, minimum width=2cm] at (3, 1.5) {Warten (E/A)};
+	\node[task, minimum width=2cm] at (5, 1.5) {Aufgabe 2};
+	
+	% --- Nebenläufiger Ablauf (Asynchron) ---
+	\node[anchor=east, font=\sffamily] at (0, 0) {Nebenläufig (Asynchron):};
+	
+	\draw[axis] (0, 0) -- (8, 0);
+	\node[task, minimum width=2cm] at (1, 0) {Aufgabe 1};
+	\node[task, minimum width=2cm] at (3, 0) {Aufgabe 2};
+	\node[task, minimum width=2cm] at (5, 0) {Aufgabe 3};
+\end{tikzpicture}
+\caption{Problematik von blockierenden Abläufen}
+\label{Problematik von blockierenden Abläufen}
+\end{figure}
+In Abbildung \ref{Problematik von blockierenden Abläufen} werden synchrone und asynchrone Abläufe gegenübergestellt. Es lässt sich erkennen, das bei einem synchronen Ablauf eine Wartezeit den aufrufenden Thread blockiert - TPL löst diese Problematik durch die Einführung von asynchronen \textit{Tasks}.
+\subsubsection*{Nebenläufigkeit vs. Parallelität}
+Um die Rolle der TPL im Kontext dieser Arbeit zu präzisieren, muss zwischen Nebenläufigkeit und Parallelität unterschieden werden. Während Parallelität die gleichzeitige Ausführung mehrerer Aufgaben auf verschiedenen Prozessorkernen beschreibt, definiert Nebenläufigkeit die organisatorische Strukturierung eines Programms. Ein nebenläufiges System ist darauf ausgelegt, Aufgaben durch verschachtelten Fortschritt \textit{(engl.: Interleaving)} so zu bearbeiten, dass eine Anwendung reaktionsfähig bleibt, während sie im Hintergrund andere Prozesse abarbeitet.\\
+\\Dabei ist Multithreading – also die Verwendung mehrerer Ausführungsstränge – lediglich eine Form der nebenläufigen Programmierung. Moderne Frameworks wie die TPL bieten hierfür übergeordnete Abstraktionen, die den direkten, fehleranfälligen Umgang mit Threads durch effizientere Konzepte ersetzen.
+\subsubsection*{Task-Modell}
+Die TPL löst die starre Bindung an Betriebssystem-Threads durch das Konzept des Tasks (.NET-Bibliothek System.Threading.Tasks) auf. Ein Task repräsentiert eine asynchrone Operation und verkörpert das Entwurfsmuster eines Futures oder Promises – ein logisches Versprechen auf ein in der Zukunft liegendes Ergebnis. Anstatt Aufgaben fest an schwerfällige Betriebssystem-Threads zu binden, entkoppelt die TPL die logische Aufgabe von der physikalischen Ausführung. Ein interner Thread-Pool verwaltet eine minimale Anzahl von Arbeiter-Threads und verteilt die anfallenden Tasks dynamisch. Wartet ein Task beispielsweise auf eine Netzwerkanfrage, gibt er den physischen Thread sofort für andere nebenläufige Aufgaben frei.
+\subsubsection{Task-based Asynchronous Pattern (TAP)}
+Das Task-based Asynchronous Pattern (TAP) setzt das zuvor beschriebene Task-Modell ab .NET-Framework 4 als Standard für die asynchrone Programmierung in \csharp\ durch \cite{asynchroneMuster}. Hierzu kommen die Schlüsselwörter \textbf{async} und \textbf{await} zum Einsatz.
+\subsubsection{Task Cancellation/kooperativer Abbruch}
 
 \subsection{Vergleich: Polling \& reaktives System}
-
-\subsection{Task Cancellation/kooperativer Abbruch}
 
 \subsection{TCP-Socket \& Protokoll-Parsing}
 

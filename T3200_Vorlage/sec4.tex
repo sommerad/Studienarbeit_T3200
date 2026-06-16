@@ -2,3 +2,70 @@
 
 \section{Befehlswarteschlange für dynamischere Robotersteuerung}
 \label{Befehlswarteschlange für dynamischere Robotersteuerung}
+\begin{figure}[h!]
+	\centering
+	\begin{tikzpicture}[
+		task/.style={rectangle, draw=blue!70!black, fill=blue!10, minimum height=0.75cm, font=\sffamily\small, align=center, rounded corners=1pt},
+		wait/.style={rectangle, draw=red!70!black, fill=red!10, minimum height=0.75cm, font=\sffamily\small, align=center, dashed, rounded corners=1pt},
+		io/.style={rectangle, draw=green!60!black, fill=green!10, minimum height=0.75cm, font=\sffamily\small, align=center, rounded corners=1pt},
+		axis/.style={-{Stealth[scale=1.2]}, thick, draw=gray!80!black},
+		labelstyle/.style={font=\sffamily\bfseries\small},
+		sublabel/.style={font=\sffamily\scriptsize\itshape, color=gray!90!black}
+		]
+		
+		% =========================================================================
+		% 1. SYNCHRONER ABLAUF (Blockierend)
+		% =========================================================================
+		\node[anchor=west, labelstyle] at (-0.5, 4.0) {Synchroner Ablauf (Blockierend):};
+		\node[anchor=west, sublabel] at (-0.5, 3.6) {Hauptthread ist während der E/A-Operation blockiert};
+		
+		% Zeitachse
+		\draw[axis] (0, 2.5) -- (11.5, 2.5) node[right, font=\sffamily\small] {Zeit};
+		
+		% Tasks auf der Hauptachse
+		\node[task, minimum width=2.5cm, anchor=west] (synct1) at (0, 2.5) {Aufgabe 1\\(CPU-Berechnung)};
+		\node[wait, minimum width=3.5cm, anchor=west] (syncwait) at (2.5, 2.5) {Warten auf Legacy-System\\(E/A-Blockade / Idle)};
+		\node[task, minimum width=2.5cm, anchor=west] (synct2) at (6.0, 2.5) {Aufgabe 2\\(Verarbeitung)};
+		
+		% Externe E/A-Schnittstelle (Roboter)
+		\node[io, minimum width=3.5cm, anchor=west] (syncio) at (2.5, 1.0) {TCP-Kommunikation\\(Roboter arbeitet Befehl ab)};
+		
+		% Verbindungs-/Ablauflinien
+		\draw[thick, dashed, ->, >=stealth, draw=red!70!black] (2.5, 2.5) -- (2.5, 1.4);
+		\draw[thick, dashed, ->, >=stealth, draw=green!60!black] (6.0, 1.0) -- (6.0, 2.1);
+		
+		
+		% =========================================================================
+		% 2. ASYNCHRONER ABLAUF (Nebenläufig via TPL / TAP)
+		% =========================================================================
+		\begin{scope}[yshift=-4.0cm]
+			\node[anchor=west, labelstyle] at (-0.5, 4.0) {Asynchroner Ablauf (Nebenläufig via TPL / TAP):};
+			\node[anchor=west, sublabel] at (-0.5, 3.6) {Thread-Freigabe bei E/A-Operationen dank async/await};
+			
+			% Hauptthread-Achse
+			\draw[axis] (0, 2.5) -- (11.5, 2.5) node[right, font=\sffamily\small] {Hauptthread};
+			
+			% Tasks auf Hauptthread
+			\node[task, minimum width=2.5cm, anchor=west] (asynct1) at (0, 2.5) {Aufgabe 1\\(CPU)};
+			\node[task, fill=orange!15, draw=orange!80!black, minimum width=1.2cm, anchor=west] (asyncb) at (2.5, 2.5) {Befehl\\senden};
+			\node[task, fill=purple!10, draw=purple!70!black, minimum width=2.5cm, anchor=west] (asynct2) at (3.7, 2.5) {Andere UI-Task /\\Berechnung};
+			\node[task, fill=purple!10, draw=purple!70!black, minimum width=2.0cm, anchor=west] (asynct3) at (6.2, 2.5) {Hintergrund-\\prozess};
+			\node[task, minimum width=2.5cm, anchor=west] (asyncend) at (8.5, 2.5) {Aufgabe 2\\(Ergebnis-Verarb.)};
+			
+			% Hintergrund-/E/A-Ebene (Roboter / Netzwerk)
+			\node[io, minimum width=4.5cm, anchor=west] (asyncio) at (3.0, 0.8) {Asynchrone TCP-Operation (E/A-Task)\\Roboter führt Bewegung aus};
+			
+			% Signalfluss-Pfeile
+			% 1. Aufruf & Freigabe des Threads
+			\draw[-{Stealth[scale=1.0]}, thick, draw=orange!90!black] (3.1, 2.1) -- (3.1, 1.2);
+			\node[right, font=\sffamily\tiny, text width=2cm, color=orange!90!black!80] at (1.6, 1.7) {\textbf{await} gibt\\Thread frei};
+			
+			% 2. Callback / Fortsetzung (Continuation)
+			\draw[-{Stealth[scale=1.0]}, thick, draw=green!70!black] (7.5, 1.2) -- (8.5, 2.1);
+			\node[right, font=\sffamily\tiny, text width=2.2cm, color=green!70!black] at (7.8, 1.6) {E/A fertig \\Fortsetzung (\textbf{Task})};
+		\end{scope}
+		
+	\end{tikzpicture}
+	\caption{Gegenüberstellung von blockierenden synchronen Abläufen und dem ressourceneffizienten, asynchronen Task-basierten Muster (TAP) bei E/A-Operationen.}
+	\label{fig:vergleich_sync_async}
+\end{figure}

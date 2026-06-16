@@ -43,4 +43,11 @@ M.~Bdiwi, M.~Pfeifer, and A.~Sterzing, ``A new strategy for ensuring human
 S.~Cleary, \emph{Concurrency in CSharp Cookbook}, 2nd~ed.\hskip 1em plus 0.5em
   minus 0.4em\relax O'Reilly Media, Inc., 2019.
 
+\bibitem{asynchroneMuster}
+\BIBentryALTinterwordspacing
+{Microsoft Developers}. asynchrone programmiermuster. [Online; Zugegriffen am
+  10. Juni 2026]. [Online]. Available:
+  \url{https://learn.microsoft.com/de-de/dotnet/standard/asynchronous-programming-patterns/}
+\BIBentrySTDinterwordspacing
+
 \end{thebibliography}
