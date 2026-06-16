@@ -50,4 +50,11 @@ S.~Cleary, \emph{Concurrency in CSharp Cookbook}, 2nd~ed.\hskip 1em plus 0.5em
   \url{https://learn.microsoft.com/de-de/dotnet/standard/asynchronous-programming-patterns/}
 \BIBentrySTDinterwordspacing
 
+\bibitem{din13849_1_2023}
+{DIN Deutsches Institut für Normung e. V.}, ``Sicherheit von maschinen --
+  sicherheitsbezogene teile von steuerungen -- teil 1: Allgemeine
+  gestaltungsleitsätze (iso 13849-1:2023); deutsche fassung en iso
+  13849-1:2023,'' Beuth Verlag GmbH, Berlin, Norm DIN EN ISO 13849-1, Dec.
+  2023.
+
 \end{thebibliography}

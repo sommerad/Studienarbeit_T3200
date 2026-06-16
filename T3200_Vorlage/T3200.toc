@@ -17,15 +17,15 @@
 \contentsline {subsubsection}{\numberline {3.1.1.1}Theoretische Limitation}{8}{subsubsection.3.1.1.1}%
 \contentsline {subsubsection}{\numberline {3.1.1.2}Messexperiment}{9}{subsubsection.3.1.1.2}%
 \contentsline {subsubsection}{\numberline {3.1.1.3}Praktische Limitation - Laufzeitmessung mit Simulationsexperiment}{9}{subsubsection.3.1.1.3}%
-\contentsline {chapter}{\numberline {4}Architekturoptimierung und -erweiterung}{10}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Befehlswarteschlange für dynamischere Robotersteuerung}{10}{section.4.1}%
-\contentsline {chapter}{\numberline {5}Implementation der Erweiterungen}{11}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Safetyimplementation}{11}{section.5.1}%
-\contentsline {subsection}{\numberline {5.1.1}Kriterienbasierte Evaluierung der Sicherheitsüberwachungssysteme}{11}{subsection.5.1.1}%
-\contentsline {subsection}{\numberline {5.1.2}Gegenüberstellung spezialisiertes KI-Modell und einfacher Objekterkennungsalgorithmus}{15}{subsection.5.1.2}%
-\contentsline {chapter}{\numberline {6}Fazit \& Ausblick}{16}{chapter.6}%
-\contentsline {chapter}{\numberline {7}Anhang}{17}{chapter.7}%
+\contentsline {chapter}{\numberline {4}Architekturoptimierung und -erweiterung}{11}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Befehlswarteschlange für dynamischere Robotersteuerung}{11}{section.4.1}%
+\contentsline {chapter}{\numberline {5}Implementation der Erweiterungen}{12}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Safetyimplementation}{12}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Kriterienbasierte Evaluierung der Sicherheitsüberwachungssysteme}{12}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Gegenüberstellung spezialisiertes KI-Modell und einfacher Objekterkennungsalgorithmus}{17}{subsection.5.1.2}%
+\contentsline {chapter}{\numberline {6}Fazit \& Ausblick}{18}{chapter.6}%
+\contentsline {chapter}{\numberline {7}Anhang}{19}{chapter.7}%
 \contentsline {chapter}{Literaturverzeichnis}{vii}{chapter.7}%
-\contentsline {chapter}{Abk"urzungsverzeichnis}{vii}{chapter*.9}%
-\contentsline {chapter}{Abbildungsverzeichnis}{x}{chapter*.10}%
-\contentsline {chapter}{Erklärungen zur Arbeit und Hilfsmitteln}{xi}{chapter*.11}%
+\contentsline {chapter}{Abk"urzungsverzeichnis}{vii}{chapter*.11}%
+\contentsline {chapter}{Abbildungsverzeichnis}{x}{chapter*.12}%
+\contentsline {chapter}{Erklärungen zur Arbeit und Hilfsmitteln}{xi}{chapter*.13}%
