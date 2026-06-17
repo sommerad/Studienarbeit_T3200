@@ -51,3 +51,32 @@ Bei der algorithmischen Ereignissteuerung wird zwischen universeller Objekterken
 \\Der Ansatz erfordert jedoch einen hohen softwareseitigen Aufwand für die Bildverarbeitung und verlangt bei Fehlfunktionen in der Regelung eine konsequente zweikanalige Überwachung. Zu beachten bleibt das regelungstechnische Restrisiko durch Trägheit: Aufgrund der Eigenmasse des Manipulators besitzt dieser auch während des Verzögerungsvorgangs eine hohe kinetische Energie. Das Sicherheitskonzept muss mathematisch garantieren, dass die Drosselung schnell genug erfolgt, bevor der Mensch die nächste kritische Distanzschwelle erreicht. Da der Roboter auch bei geringen Geschwindigkeiten hohe statische Kräfte aufbauen kann, muss das System so ausgelegt sein, dass ein Quetschen von Körperteilen zwischen dem Roboter und starren Umgebungsstrukturen physikalisch oder algorithmisch vollständig ausgeschlossen ist.
 
 \subsection{Gegenüberstellung spezialisiertes KI-Modell und einfacher Objekterkennungsalgorithmus}
+\section{Befehlspipeline}
+\subsection{Vergleich von theoretischer und realer Performance}
+
+
+	\begin{tikzpicture}[
+		node distance=0.2cm,
+		% Box-Stile
+		fahrzeit/.style={rectangle, draw=blue!60, fill=blue!10, minimum height=1cm, minimum width=0.8cm, align=center, font=\tiny},
+		greifer/.style={rectangle, draw=orange!80, fill=yellow!30, minimum height=1cm, minimum width=0.8cm, align=center, font=\tiny}
+		]
+		
+		% Definition der Pipeline-Sequenz (Beispiel für ein Objekt: 5 Befehle)
+		% Du kannst die Sequenz für 21 Befehle einfach durch Kopieren erweitern
+		\node[fahrzeit] (B1) {Anf.};
+		\node[greifer, right=of B1] (B2) {Greifen};
+		\node[fahrzeit, right=of B2] (B3) {Absenken};
+		\node[fahrzeit, right=of B3] (B4) {Mag.};
+		\node[greifer, right=of B4] (B5) {Losl.};
+		
+		% Klammer für ein Objekt
+		
+		(B1.south west) -- (B5.south east) node[midway, below=6pt, font=\scriptsize] {Zyklus Objekt 1};
+		
+		% Fortführung der Pipeline (Skizze für weitere Befehle)
+		\node[fahrzeit, right=1cm of B5] (B6) {Anf.};
+		\node[greifer, right=of B6] (B7) {Greifen};
+		% ... hier würdest du die Befehle bis B21 fortsetzen
+		
+	\end{tikzpicture}
