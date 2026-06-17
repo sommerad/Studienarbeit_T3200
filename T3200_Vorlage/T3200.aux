@@ -1,14 +1,12 @@
 \relax 
-\providecommand\babel@aux[2]{}
+\providecommand \babel@aux [2]{\global \let \babel@toc \@gobbletwo }
 \@nameuse{bbl@beforestart}
 \catcode `"\active 
 \providecommand\hyper@newdestlabel[2]{}
-\providecommand*\HyPL@Entry[1]{}
-\HyPL@Entry{0<</S/D>>}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
 \babel@aux{ngerman}{}
 \babel@aux{ngerman}{}
-\HyPL@Entry{1<</S/r>>}
-\HyPL@Entry{6<</S/D>>}
 \@writefile{toc}{\contentsline {chapter}{\numberline {1}Einleitung}{1}{chapter.1}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
@@ -29,64 +27,71 @@
 \@writefile{toc}{\contentsline {section}{\numberline {2.3}Grundlagen der Informatik}{4}{section.2.3}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.3.1}Producer-Consumer-Pattern}{4}{subsection.2.3.1}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.3.2}Task Parallel Library (TPL)}{4}{subsection.2.3.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.3}Task-based Asynchronous Pattern (TAP)}{5}{subsection.2.3.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.4}Vergleich: Polling \& reaktives System}{5}{subsection.2.3.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.5}Task Cancellation/kooperativer Abbruch}{5}{subsection.2.3.5}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.6}TCP-Socket \& Protokoll-Parsing}{5}{subsection.2.3.6}\protected@file@percent }
-\@writefile{toc}{\contentsline {chapter}{\numberline {3}Ausgangssituation/IST-Analyse}{6}{chapter.3}\protected@file@percent }
-\@writefile{lof}{\addvspace {10\p@ }}
-\@writefile{lot}{\addvspace {10\p@ }}
-\newlabel{Ausgangssituation/IST-Analyse}{{3}{6}{Ausgangssituation/IST-Analyse}{chapter.3}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {3.1}Architekturlimitationen des bisherigen Systems}{6}{section.3.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.1}Sequenzielle Befehlsstruktur}{6}{subsection.3.1.1}\protected@file@percent }
-\newlabel{Sequenzielle Befehelsstruktur}{{3.1.1}{6}{Sequenzielle Befehlsstruktur}{subsection.3.1.1}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces Sequenzielle Abfolge an Befehlen (Eigene Darstellung)}}{6}{figure.caption.4}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2.1}{\ignorespaces Problematik von blockierenden Abläufen}}{4}{figure.caption.4}\protected@file@percent }
 \providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
-\newlabel{sequenzielle Abfolge an Befehlen}{{3.1}{6}{Sequenzielle Abfolge an Befehlen (Eigene Darstellung)}{figure.caption.4}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.1.1}Theoretische Limitation}{7}{subsubsection.3.1.1.1}\protected@file@percent }
-\newlabel{Theoretische Limitation}{{3.1.1.1}{7}{Theoretische Limitation}{subsubsection.3.1.1.1}{}}
-\newlabel{Summation Befehlsausführungszeiten}{{3.1}{7}{Theoretische Limitation}{equation.3.1.1}{}}
-\newlabel{Summation Befehlsausführungszeiten mit eingesetzten Zeiten}{{3.2}{7}{Theoretische Limitation}{equation.3.1.2}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.1.2}Messexperiment}{8}{subsubsection.3.1.1.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.1.3}Praktische Limitation - Laufzeitmessung mit Simulationsexperiment}{8}{subsubsection.3.1.1.3}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {3.1}{\ignorespaces Vergleich der theoretischen Laufzeit $T_S$ mit den gemessenen Werten $T_{mess}$}}{8}{table.caption.5}\protected@file@percent }
-\newlabel{tab:laufzeitanalyse_ist}{{3.1}{8}{Vergleich der theoretischen Laufzeit $T_S$ mit den gemessenen Werten $T_{mess}$}{table.caption.5}{}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {4}Architekturoptimierung und -erweiterung}{9}{chapter.4}\protected@file@percent }
+\newlabel{Problematik von blockierenden Abläufen}{{2.1}{4}{Problematik von blockierenden Abläufen}{figure.caption.4}{}}
+\citation{asynchroneMuster}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.3.2.1}Task-based Asynchronous Pattern (TAP)}{5}{subsubsection.2.3.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.3.2.2}Task Cancellation/kooperativer Abbruch}{6}{subsubsection.2.3.2.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.3}Vergleich: Polling \& reaktives System}{6}{subsection.2.3.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.4}TCP-Socket \& Protokoll-Parsing}{6}{subsection.2.3.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\numberline {3}Ausgangssituation/IST-Analyse}{7}{chapter.3}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {4.1}Befehlswarteschlange für dynamischere Robotersteuerung}{9}{section.4.1}\protected@file@percent }
-\newlabel{Befehlswarteschlange für dynamischere Robotersteuerung}{{4.1}{9}{Befehlswarteschlange für dynamischere Robotersteuerung}{section.4.1}{}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {5}Implementation der Erweiterungen}{10}{chapter.5}\protected@file@percent }
+\newlabel{Ausgangssituation/IST-Analyse}{{3}{7}{Ausgangssituation/IST-Analyse}{chapter.3}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.1}Architekturlimitationen des bisherigen Systems}{7}{section.3.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.1}Sequenzielle Befehlsstruktur}{7}{subsection.3.1.1}\protected@file@percent }
+\newlabel{Sequenzielle Befehelsstruktur}{{3.1.1}{7}{Sequenzielle Befehlsstruktur}{subsection.3.1.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces Sequenzielle Abfolge an Befehlen (Eigene Darstellung)}}{7}{figure.caption.5}\protected@file@percent }
+\newlabel{sequenzielle Abfolge an Befehlen}{{3.1}{7}{Sequenzielle Abfolge an Befehlen (Eigene Darstellung)}{figure.caption.5}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.1.1}Theoretische Limitation}{8}{subsubsection.3.1.1.1}\protected@file@percent }
+\newlabel{Theoretische Limitation}{{3.1.1.1}{8}{Theoretische Limitation}{subsubsection.3.1.1.1}{}}
+\newlabel{Summation Befehlsausführungszeiten}{{3.1}{8}{Theoretische Limitation}{equation.3.1}{}}
+\newlabel{Summation Befehlsausführungszeiten mit eingesetzten Zeiten}{{3.2}{8}{Theoretische Limitation}{equation.3.2}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.1.2}Messexperiment}{9}{subsubsection.3.1.1.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.1.3}Praktische Limitation - Laufzeitmessung mit Simulationsexperiment}{9}{subsubsection.3.1.1.3}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces Orientierung der Objekte im Messexperiment und dazugehörige Koordinaten}}{10}{figure.caption.6}\protected@file@percent }
+\newlabel{fig:messexperiment}{{3.2}{10}{Orientierung der Objekte im Messexperiment und dazugehörige Koordinaten}{figure.caption.6}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {3.1}{\ignorespaces Vergleich der theoretischen Laufzeit $T_S$ mit den gemessenen Werten $T_{mess}$}}{10}{table.caption.7}\protected@file@percent }
+\newlabel{tab:laufzeitanalyse_ist}{{3.1}{10}{Vergleich der theoretischen Laufzeit $T_S$ mit den gemessenen Werten $T_{mess}$}{table.caption.7}{}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {4}Architekturoptimierung und -erweiterung}{11}{chapter.4}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {5.1}Safetyimplementation}{10}{section.5.1}\protected@file@percent }
-\newlabel{Sichere Mensch-Roboter-Kolaboration}{{5.1}{10}{Safetyimplementation}{section.5.1}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.1}Kriterienbasierte Evaluierung der Sicherheitsüberwachungssysteme}{10}{subsection.5.1.1}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {5.1}{\ignorespaces Entscheidungsmatrix zur Auswahl der MRK-Sicherheitsüberwachung}}{11}{table.caption.6}\protected@file@percent }
-\newlabel{tab:Entscheidungsmatrix}{{5.1}{11}{Entscheidungsmatrix zur Auswahl der MRK-Sicherheitsüberwachung}{table.caption.6}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.1}Befehlswarteschlange für dynamischere Robotersteuerung}{11}{section.4.1}\protected@file@percent }
+\newlabel{Befehlswarteschlange für dynamischere Robotersteuerung}{{4.1}{11}{Befehlswarteschlange für dynamischere Robotersteuerung}{section.4.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.1}{\ignorespaces Gegenüberstellung von blockierenden synchronen Abläufen und dem ressourceneffizienten, asynchronen Task-basierten Muster (TAP) bei E/A-Operationen.}}{11}{figure.caption.8}\protected@file@percent }
+\newlabel{fig:vergleich_sync_async}{{4.1}{11}{Gegenüberstellung von blockierenden synchronen Abläufen und dem ressourceneffizienten, asynchronen Task-basierten Muster (TAP) bei E/A-Operationen}{figure.caption.8}{}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {5}Implementation der Erweiterungen}{12}{chapter.5}\protected@file@percent }
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\@writefile{toc}{\contentsline {section}{\numberline {5.1}Safetyimplementation}{12}{section.5.1}\protected@file@percent }
+\newlabel{Sichere Mensch-Roboter-Kolaboration}{{5.1}{12}{Safetyimplementation}{section.5.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.1}Kriterienbasierte Evaluierung der Sicherheitsüberwachungssysteme}{12}{subsection.5.1.1}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {5.1}{\ignorespaces Entscheidungsmatrix zur Auswahl der MRK-Sicherheitsüberwachung}}{13}{table.caption.9}\protected@file@percent }
+\newlabel{tab:Entscheidungsmatrix}{{5.1}{13}{Entscheidungsmatrix zur Auswahl der MRK-Sicherheitsüberwachung}{table.caption.9}{}}
 \citation{din13849_1_2023}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.1}{\ignorespaces Projektions- und kamerabasierte Technologie zur Arbeitsraumüberwachung}}{12}{figure.caption.7}\protected@file@percent }
-\newlabel{IFF Projektionslösung}{{5.1}{12}{Projektions- und kamerabasierte Technologie zur Arbeitsraumüberwachung}{figure.caption.7}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.2}Gegenüberstellung spezialisiertes KI-Modell und einfacher Objekterkennungsalgorithmus}{15}{subsection.5.1.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {chapter}{\numberline {6}Fazit \& Ausblick}{16}{chapter.6}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {5.1}{\ignorespaces Projektions- und kamerabasierte Technologie zur Arbeitsraumüberwachung}}{14}{figure.caption.10}\protected@file@percent }
+\newlabel{IFF Projektionslösung}{{5.1}{14}{Projektions- und kamerabasierte Technologie zur Arbeitsraumüberwachung}{figure.caption.10}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.2}Gegenüberstellung spezialisiertes KI-Modell und einfacher Objekterkennungsalgorithmus}{17}{subsection.5.1.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\numberline {6}Fazit \& Ausblick}{18}{chapter.6}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {chapter}{\numberline {7}Anhang}{17}{chapter.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\numberline {7}Anhang}{19}{chapter.7}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\newlabel{Anhang}{{7}{17}{Anhang}{chapter.7}{}}
+\newlabel{Anhang}{{7}{19}{Anhang}{chapter.7}{}}
 \bibstyle{IEEEtran}
 \bibdata{mylit}
 \bibcite{fraunhoferiff2026proj}{1}
 \bibcite{bdiwi2017strategy}{2}
 \bibcite{TPL}{3}
 \bibcite{ConcurrencyinCSharp}{4}
-\bibcite{din13849_1_2023}{5}
-\HyPL@Entry{23<</S/r /St 7>>}
+\bibcite{asynchroneMuster}{5}
+\bibcite{din13849_1_2023}{6}
 \@writefile{toc}{\contentsline {chapter}{Literaturverzeichnis}{vii}{chapter.7}\protected@file@percent }
-\@writefile{toc}{\contentsline {chapter}{Abk"urzungsverzeichnis}{vii}{chapter*.8}\protected@file@percent }
-\@writefile{toc}{\contentsline {chapter}{Abbildungsverzeichnis}{x}{chapter*.9}\protected@file@percent }
-\@writefile{toc}{\contentsline {chapter}{Erklärungen zur Arbeit und Hilfsmitteln}{xi}{chapter*.10}\protected@file@percent }
-\newlabel{KI-Tools und relevanter Einsatzbereich}{{7}{xi}{}{chapter*.11}{}}
-\newlabel{Inhalt des digitalen Anhangs}{{7}{xv}{}{chapter*.13}{}}
-\gdef \@abspage@last{32}
+\@writefile{toc}{\contentsline {chapter}{Abk"urzungsverzeichnis}{vii}{chapter*.11}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{Abbildungsverzeichnis}{x}{chapter*.12}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{Erklärungen zur Arbeit und Hilfsmitteln}{xi}{chapter*.13}\protected@file@percent }
+\newlabel{KI-Tools und relevanter Einsatzbereich}{{7}{xi}{}{chapter*.14}{}}
+\newlabel{Inhalt des digitalen Anhangs}{{7}{xiv}{}{chapter*.16}{}}
+\gdef \@abspage@last{33}

@@ -64,19 +64,38 @@ Hierbei repräsentiert der Index $i$ das jeweilige Objekt innerhalb der Bearbeit
 \subsubsection{Messexperiment}
 Um die theoretisch hergeleiteten Ineffizienzen und die zeitlichen Auswirkungen der sequenziellen Befehlserteilung quantitativ nachzuweisen, wurde ein deterministisches Messexperiment aufgesetzt. Selbiges muss für Vergleichbarkeit und Bewertbarkeit auch bei nachfolgenden Erweiterungen des Systems zu Grunde gelegt werden.  
 \subsubsection{Praktische Limitation - Laufzeitmessung mit Simulationsexperiment}
+SP5 H verwendet, Koordinaten der Objekte sind: 
+\begin{enumerate}
+	\item Startposition MP +553.1,+202.1,+300.0,.0,.0
+	\item Magazin 1 MP 175, 225, 6, -90, 0
+	\item Magazin 2 MP 220, 250, 6, -90, 0
+	\item Magazin 3 MP 180, 275, 6, -90, 0
+	\item Magazin 4 MP 220, 300, 6, -90, 0
+	\item MP -42, 291, 6, -90, -8
+	\item MP -37, 374, 70, -90, -5
+	\item MP 36, 295, 6, -90, 6
+	\item MP 55, 346, 6, -90, 9
+	\item Abschlussposition MP +553.1,+202.1,+300.0,.0,.0
+\end{enumerate}
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=60mm]{figures/Messexperiment}
+	\caption{Orientierung der Objekte im Messexperiment und dazugehörige Koordinaten}
+	\label{fig:messexperiment}
+\end{figure}
 \begin{table}[h!]
 	\
 	\renewcommand{\arraystretch}{1.2} % Etwas mehr Zeilenabstand
 	\begin{tabular}{|l|c|c|}
 		\hline
 		\textbf{Objekt-ID} & \textbf{Theoretische Zeit $T_S$ [s]} & \textbf{Gemessene Zeit $T_{mess}$ [s]} \\ \hline
-		Objekt 1 & 17,5 &  \\ \hline
-		Objekt 2 & 17,5 &  \\ \hline
-		Objekt 3 & 17,5 &  \\ \hline
-		Objekt 4 & 17,5 &  \\ \hline
-		Objekt 5 & 17,5 &  \\ \hline \hline
-		\textbf{Mittelwert} & \textbf{17,5} & \textbf{} \\ \hline
-		\textbf{Gesamtzeit} & \textbf{} & \textbf{} \\ \hline
+		Objekt 1 & 17,5 & 24,97 \\ \hline
+		Objekt 2 & 17,5 & 24,91 \\ \hline
+		Objekt 3 & 17,5 & 24,95 \\ \hline
+		Objekt 4 & 17,5 & 24,89 \\ \hline
+		\textbf{Mittelwert} & \textbf{17,5} & \textbf{24,93} \\ \hline
+		\textbf{Gesamtzeit} & \textbf{70} & \textbf{103,73} \\ \hline
 	\end{tabular}
 	\caption{Vergleich der theoretischen Laufzeit $T_S$ mit den gemessenen Werten $T_{mess}$}
 	\label{tab:laufzeitanalyse_ist}
