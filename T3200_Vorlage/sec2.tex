@@ -2,6 +2,7 @@
 \label{Grundlagen}
 
 \section{Stand der Technik: Safety-Implementation \& Retrofitting}
+\subsection{kollaborative Robotik}
 Für die Modernisierung älterer Industrie- und Robotersysteme (Retrofitting) im Hinblick auf aktuelle Sicherheitsstandards und moderne Sensortechnik existieren vielfältige technologische Ansätze. Diese lassen sich anhand verschiedener Systemparameter kategorisieren. Ein grundlegendes Unterscheidungsmerkmal ist die Dimensionierung der Bilderfassung, bei der entweder kostengünstige 2D-Kameras oder tiefenauflösende 3D-Kamerasysteme eingesetzt werden. Zudem variiert die Systemarchitektur hinsichtlich der Kameraanzahl: Während Monokamerasysteme eine einfache Raumüberwachung ermöglichen, bieten Multikamerasysteme durch hardwareseitige Redundanz eine deutlich verlässlichere Objekterkennung sowie Schutz vor Verdeckungen im sensornahen Bereich.
 \\
 \\Die algorithmische Auswertung lässt sich wiederum in zwei Philosophieansätze unterteilen: die gezielte Klassifizierung spezifischer Objekte wie menschlicher Gliedmaßen oder die universelle Erfassung jeglicher Fremdobjekte innerhalb eines definierten Raumbereichs. Ergänzend oder alternativ zu visuellen Kamerasystemen kommen in der Praxis berührungslose Sensoren auf kapazitiver, induktiver oder laserbasierter Basis (z.B. Laserscanner) zum Einsatz.
@@ -40,9 +41,40 @@ Für die Modernisierung älterer Industrie- und Robotersysteme (Retrofitting) im
 	\item \textbf{3. Bauteilübergabe (*Handing-over*):} Dieses Level beschreibt den direkten Transfer von Werkzeugen oder Werkstücken zwischen Mensch und Roboter. Eine hybride Steuerung sorgt in dieser Phase dafür, dass der Manipulator dynamisch und feinfühlig auf die Handbewegungen des Menschen im freien Raum reagiert.
 	\item \textbf{4. Gemeinsame Aufgabe mit physischer Interaktion:} Auf der höchsten Kooperationsstufe ist ein direkter Körperkontakt zwingend erforderlich. Ein Praxisbeispiel hierfür ist die manuelle Führung eines Schwerlastroboters durch menschliche Handkräfte, um schwere Bauteile präzise zu positionieren. 
 \end{itemize}
-Die technische Umsetzung der Überwachung innerhalb dieser Interaktionsstufen stützt sich im Wesentlichen auf drei Säulen: die permanente Überwachung der internen Roboterparameter (wie Position, Achsgeschwindigkeiten und Kräfte), eine automatisierte Ereigniserkennung zur Identifikation kritischer Zustände (z. B. die visuelle Verdeckung eines Menschen im Sensorschatten) sowie eine kamerabasierte Nahfelderkennung. Letztere dient dazu, im direkten Umfeld des Endeffektors sowohl die sensorische Bereitschaft des Bedieners (z. B. via Gesichtserkennung) als auch die exakte Lage von Körperteilen zu erfassen, um Verletzungen oder Quetschungen effektiv zu verhindern.
+Die technische Umsetzung der Überwachung innerhalb dieser Interaktionsstufen stützt sich im Wesentlichen auf drei Säulen: die permanente Überwachung der internen Roboterparameter (wie Position, Achsgeschwindigkeiten und Kräfte), eine automatisierte Ereigniserkennung zur Identifikation kritischer Zustände (z.B. die visuelle Verdeckung eines Menschen im Sensorschatten) sowie eine kamerabasierte Nahfelderkennung. Letztere dient dazu, im direkten Umfeld des Endeffektors sowohl die sensorische Bereitschaft des Bedieners (z.B. via Gesichtserkennung) als auch die exakte Lage von Körperteilen zu erfassen, um Verletzungen oder Quetschungen effektiv zu verhindern.
 
+\subsection{visuelle Handerkennung}
 
+\subsection{KI-Handerkennungsmodell}
+
+\subsection{Normen und Richtlinien}
+Die Auslegung von Systemen der Mensch-Roboter-Kollaboration (MRK) sowie der Einsatz optischer Schutzsysteme unterliegen einem strikten regulatorischen Rahmen. Da bei kollaborativen Arbeitsplätzen die klassischen physisch-trennenden Schutzeinrichtungen (wie Schutzzäune) entfallen, muss die Sicherheit über sensorisch aufgenommene und durch spezielle Logik- verarbeitete Daten gewährleistet werden.  
+
+\subsubsection{Rechtliche Grundlagen und funktionale Sicherheit}
+Die primäre rechtliche Basis für das Inverkehrbringen sowie wesentliche Veränderungen (Retrofitting) von Maschinenanlagen im europäischen Raum bildet die \textbf{Maschinenrichtlinie 2006/42/EG}\cite{maschinenrichtlinie_2006} (bzw. die EU-Maschinenverordnung 2023/1230)\cite{maschinenverordnung_2023}. Sie verpflichtet den Systemintegrator zu einer umfassenden Risikobeurteilung. Die steuerungstechnische Umsetzung des Sicherheitsnachweises wird durch die \textbf{DIN EN ISO 13849-1} \cite{din13849_1_2023} definiert. Diese Norm klassifiziert die Zuverlässigkeit sicherheitsbezogener Teile von Steuerungen anhand von fünf Performance Levels ($PL_a$ bis $PL_e$). Für industrielle Roboterzellen im kooperativen Betrieb wird im Regelfall ein Mindest-Sicherheitsintegritätslevel von \textbf{PL d (Kategorie 3)} gefordert. Dies bedingt eine zweikanalige Struktur (Hardware-Redundanz), um die geforderte Ein-Fehler-Sicherheit zu gewährleisten.
+
+\subsubsection{Sicherheitsanforderungen an kollaborative Robotersysteme}
+Während allgemeine Sicherheitsanforderungen für Industrieroboter in der Normenreihe \textbf{DIN EN ISO 10218-1/-2} \cite{din10218_1_2012} \cite{din10218_2_2012} verankert sind, spezifiziert die technische Spezifikation \textbf{ISO/TS 15066} die konkreten Schutzmechanismen für den kollaborativen Betrieb. Normativ werden vier Schutzprinzipien für die Mensch-Roboter-Interaktion definiert:
+\begin{enumerate}
+	\item Sicherheitsgerichteter überwachter Halt (\textit{Safety-rated monitored stop})
+	\item Handführung (\textit{Hand guiding})
+	\item Geschwindigkeits- und Abstandsüberwachung (\textit{Speed and Separation Monitoring}, SSM)
+	\item Kraft- und Leistungsbegrenzung (\textit{Power and Force Limiting}, PFL)
+\end{enumerate}
+
+Beim Einsatz berührungsloser Raumüberwachungssysteme ist das Prinzip des \textbf{Speed and Separation Monitoring (SSM)} von zentraler Bedeutung. Die ISO/TS 15066 liefert hierzu die mathematische Grundlage zur Berechnung des Mindestsicherheitsabstands $S_p$ zwischen Mensch und Roboter:
+
+$$S_p = v_H \cdot (T_R + T_B) + v_R \cdot T_R + s_R + C$$
+
+In diese Berechnung fließen die menschliche Annäherungsgeschwindigkeit $v_H$, die Systemlatenzzeiten (Reaktionszeit der Sensorik $T_R$ und Bremszeit des Roboters $T_B$) sowie gerätespezifische Nachlaufwege $s_R$ und sensorische Zuschläge $C$ ein.
+
+\subsubsection{Sicherheitsgerichtete Anforderungen an optische Schutzsysteme}
+
+Wird der Schutzraum volumetrisch überwacht, greift die Normenreihe \textbf{DIN EN IEC 61496-1}, welche die Anforderungen an berührungslos wirkende Schutzeinrichtungen (ESPE) regelt. Für den Einsatz in sicherheitsgerichteten Applikationen müssen optische Systeme als ESPE des Typs 3 oder Typs 4 klassifiziert sein. Dies setzt voraus, dass das Sensorsystem über eine permanente, hardwarenahe Selbstüberwachung (z. B. zur Erkennung von Linsenverschmutzungen, Signalverlusten oder internen Rechenfehlern) verfügt. Standardmäßige, einkanalige Industriekameras ohne inhärente Redundanz sind für die Einleitung sicherheitsgerichteter Reaktionen normativ unzulässig.
+
+Ergänzend definiert die \textbf{DIN EN ISO 13855} die Anordnung von Schutzeinrichtungen im Hinblick auf die Annäherungsgeschwindigkeit des menschlichen Körpers. Sobald ein System auf die Detektion von Teilbereichen des Körpers, wie Hände oder Finger, ausgelegt wird, fordert die Norm den Ansatz standardisierter, maximaler Handgeschwindigkeiten ($1600\,\text{mm/s}$ bis $2000\,\text{mm/s}$). Für optische Systeme, die auf Mustererkennung basieren, ergibt sich daraus theoretisch die Anforderung, dass die Verarbeitungsfrequenz (\textit{Frames per Second}) und die Pipeline-Latenz so dimensioniert sein müssen, dass eine Handbewegung innerhalb dieser Dynamikgrenzen deterministisch und ohne unzulässige Zeitverzögerung erfasst werden kann.
+
+Zusammenfassend ergibt sich in der mathematisch-deterministischen Validierung nach ISO 13849-1 und IEC 61496 eine theoretische Diskrepanz beim Einsatz stochastischer Auswertealgorithmen (wie maschinellen Lernverfahren). Da diese systembedingt keine klassischen deterministischen Zustandstabellen aufweisen, fordert die normative Praxis bei sicherheitskritischen Anwendungen stets eine Absicherung der mathematischen Ergebnisse durch diversitäre Sensorik oder fest programmierte Hardware-Gateways.
 \section{Bildverarbeitung}
 Filter, Algorithmen, Linien-/Kantendetektion mit OpenCV
 
@@ -65,45 +97,15 @@ Filter, Algorithmen, Linien-/Kantendetektion mit OpenCV
 \end{figure}
 
 \subsection{Task Parallel Library (TPL)}
-Die \textit{Task Parallel Library (TPL)} ist eine .NET-Bibliothek, die es dem Programmierer vereinfacht, Parallelität und Nebenläufigkeit in \csharp-Programmen umzusetzen \cite{TPL}. Für diese Arbeit ist vor allem das Konzept der Nebenläufigkeit (\textit{engl.: concurrency}) relevant. Darunter versteht man allgemein, dass "mehr als nur eine Sache zur gleichen Zeit gemacht wird" \cite[Kapitel 1]{ConcurrencyinCSharp}. In der praktischen Anwendung ermöglicht das eine Entkopplung von Rechenoperationen oder Ein-/Ausgabeoperationen vom primären Arbeitsstrang einer Anwendung.
-\begin{figure}[h!]
-	\centering
-	\begin{tikzpicture}[
-	task/.style={rectangle, draw=blue!60, fill=blue!10, minimum height=0.7cm, font=\sffamily\scriptsize},
-	wait/.style={rectangle, draw=red!60, fill=red!5, minimum height=0.7cm, font=\sffamily\scriptsize, dashed},
-	axis/.style={-{Stealth}, thick}
-	]
-	
-	% --- Synchroner Ablauf (Blockierend) ---
-	\node[anchor=east, font=\sffamily] at (0, 1.5) {Synchron (Blockierend):};
-	
-	\draw[axis] (0, 1.5) -- (8, 1.5);
-	\node[task, minimum width=2cm] at (1, 1.5) {Aufgabe 1};
-	\node[wait, minimum width=2cm] at (3, 1.5) {Warten (E/A)};
-	\node[task, minimum width=2cm] at (5, 1.5) {Aufgabe 2};
-	
-	% --- Nebenläufiger Ablauf (Asynchron) ---
-	\node[anchor=east, font=\sffamily] at (0, 0) {Nebenläufig (Asynchron):};
-	
-	\draw[axis] (0, 0) -- (8, 0);
-	\node[task, minimum width=2cm] at (1, 0) {Aufgabe 1};
-	\node[task, minimum width=2cm] at (3, 0) {Aufgabe 2};
-	\node[task, minimum width=2cm] at (5, 0) {Aufgabe 3};
-\end{tikzpicture}
-\caption{Problematik von blockierenden Abläufen}
-\label{Problematik von blockierenden Abläufen}
-\end{figure}
-In Abbildung \ref{Problematik von blockierenden Abläufen} werden synchrone und asynchrone Abläufe gegenübergestellt. Es lässt sich erkennen, das bei einem synchronen Ablauf eine Wartezeit den aufrufenden Thread blockiert - TPL löst diese Problematik durch die Einführung von asynchronen \textit{Tasks}.
-\subsubsection*{Nebenläufigkeit vs. Parallelität}
-Um die Rolle der TPL im Kontext dieser Arbeit zu präzisieren, muss zwischen Nebenläufigkeit und Parallelität unterschieden werden. Während Parallelität die gleichzeitige Ausführung mehrerer Aufgaben auf verschiedenen Prozessorkernen beschreibt, definiert Nebenläufigkeit die organisatorische Strukturierung eines Programms. Ein nebenläufiges System ist darauf ausgelegt, Aufgaben durch verschachtelten Fortschritt \textit{(engl.: Interleaving)} so zu bearbeiten, dass eine Anwendung reaktionsfähig bleibt, während sie im Hintergrund andere Prozesse abarbeitet.\\
-\\Dabei ist Multithreading – also die Verwendung mehrerer Ausführungsstränge – lediglich eine Form der nebenläufigen Programmierung. Moderne Frameworks wie die TPL bieten hierfür übergeordnete Abstraktionen, die den direkten, fehleranfälligen Umgang mit Threads durch effizientere Konzepte ersetzen.
-\subsubsection*{Task-Modell}
-Die TPL löst die starre Bindung an Betriebssystem-Threads durch das Konzept des Tasks (.NET-Bibliothek System.Threading.Tasks) auf. Ein Task repräsentiert eine asynchrone Operation und verkörpert das Entwurfsmuster eines Futures oder Promises – ein logisches Versprechen auf ein in der Zukunft liegendes Ergebnis. Anstatt Aufgaben fest an schwerfällige Betriebssystem-Threads zu binden, entkoppelt die TPL die logische Aufgabe von der physikalischen Ausführung. Ein interner Thread-Pool verwaltet eine minimale Anzahl von Arbeiter-Threads und verteilt die anfallenden Tasks dynamisch. Wartet ein Task beispielsweise auf eine Netzwerkanfrage, gibt er den physischen Thread sofort für andere nebenläufige Aufgaben frei.
-\subsubsection{Task-based Asynchronous Pattern (TAP)}
-Das Task-based Asynchronous Pattern (TAP) setzt das zuvor beschriebene Task-Modell ab .NET-Framework 4 als Standard für die asynchrone Programmierung in \csharp\ durch \cite{asynchroneMuster}. Hierzu kommen die Schlüsselwörter \textbf{async} und \textbf{await} zum Einsatz.
-\subsubsection{Task Cancellation/kooperativer Abbruch}
+Die \textit{Task Parallel Library (TPL)} ist eine .NET-Bibliothek, die es dem Programmierer vereinfacht, Parallelität und Nebenläufigkeit in \csharp-Programmen umzusetzen \cite{TPL}. Für diese Arbeit ist vor allem das Konzept der Nebenläufigkeit (\textit{engl.: concurrency}) relevant. Darunter versteht man allgemein, dass "mehr als nur eine Sache zur gleichen Zeit gemacht wird" \cite[Kapitel 1]{ConcurrencyinCSharp}. In der praktischen Anwendung ermöglicht das eine Entkopplung von Rechenoperationen oder Ein-/Ausgabeoperationen vom primären Arbeitsstrang einer Anwendung. 
+
+
+
+\subsection{Task-based Asynchronous Pattern (TAP)}
 
 \subsection{Vergleich: Polling \& reaktives System}
+
+\subsection{Task Cancellation/kooperativer Abbruch}
 
 \subsection{TCP-Socket \& Protokoll-Parsing}
 
