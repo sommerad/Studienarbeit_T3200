@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 24.1) (preloaded format=xelatex 2026.2.20)  17 JUN 2026 08:46
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 24.1) (preloaded format=xelatex 2026.2.20)  17 JUN 2026 15:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1401,42 +1401,42 @@ Package csquotes Info: Redefining alias 'default' -> 'ngerman'.
  (T3200.aux)
 \openout1 = `T3200.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 170.
-LaTeX Font Info:    ... okay on input line 170.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 170.
-LaTeX Font Info:    ... okay on input line 170.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 170.
-LaTeX Font Info:    ... okay on input line 170.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 170.
-LaTeX Font Info:    ... okay on input line 170.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 170.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 169.
+LaTeX Font Info:    ... okay on input line 169.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 169.
+LaTeX Font Info:    ... okay on input line 169.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 169.
+LaTeX Font Info:    ... okay on input line 169.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 169.
+LaTeX Font Info:    ... okay on input line 169.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 169.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
-70.
+69.
 
 (C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmr.fd
 File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 170.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 170.
-LaTeX Font Info:    ... okay on input line 170.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 170.
-LaTeX Font Info:    ... okay on input line 170.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 170.
-LaTeX Font Info:    ... okay on input line 170.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 170.
-LaTeX Font Info:    ... okay on input line 170.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 170.
-LaTeX Font Info:    ... okay on input line 170.
-LaTeX Info: Redefining \microtypecontext on input line 170.
-Package microtype Info: Applying patch `item' on input line 170.
-Package microtype Info: Applying patch `toc' on input line 170.
-Package microtype Info: Applying patch `eqnum' on input line 170.
+LaTeX Font Info:    ... okay on input line 169.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 169.
+LaTeX Font Info:    ... okay on input line 169.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 169.
+LaTeX Font Info:    ... okay on input line 169.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 169.
+LaTeX Font Info:    ... okay on input line 169.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 169.
+LaTeX Font Info:    ... okay on input line 169.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 169.
+LaTeX Font Info:    ... okay on input line 169.
+LaTeX Info: Redefining \microtypecontext on input line 169.
+Package microtype Info: Applying patch `item' on input line 169.
+Package microtype Info: Applying patch `toc' on input line 169.
+Package microtype Info: Applying patch `eqnum' on input line 169.
 
 
-Package microtype Warning: Unable to apply patch `footnote' on input line 170.
+Package microtype Warning: Unable to apply patch `footnote' on input line 169.
 
-Package microtype Info: Applying patch `verbatim' on input line 170.
-LaTeX Info: Redefining \microtypesetup on input line 170.
+Package microtype Info: Applying patch `verbatim' on input line 169.
+LaTeX Info: Redefining \microtypesetup on input line 169.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: No adjustment of tracking.
@@ -1452,66 +1452,66 @@ Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 
 \symlegacymaths=\mathgroup5
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 170.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 170.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 170.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 170.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 170.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 170.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 170.
-LaTeX Font Info:    Redeclaring math accent \check on input line 170.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 170.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 170.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 170.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 170.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 170.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 170.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 170.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 170.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 170.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 170.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 170.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 170.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 170.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 170.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 170.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 170.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 169.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 169.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 169.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 169.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 169.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 169.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 169.
+LaTeX Font Info:    Redeclaring math accent \check on input line 169.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 169.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 169.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 169.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 169.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 169.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 169.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 169.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 169.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 169.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 169.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 169.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 169.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 169.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 169.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 169.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 169.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 170.
+(Font)              `operators' in the math version `normal' on input line 169.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/NotoSerif(0)/m/n on input line 170.
+(Font)                  OT1/cmr/m/n --> TU/NotoSerif(0)/m/n on input line 169.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 170.
+(Font)              `operators' in the math version `bold' on input line 169.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/NotoSerif(0)/m/n on input line 170.
+(Font)                  OT1/cmr/bx/n --> TU/NotoSerif(0)/m/n on input line 169.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  TU/NotoSerif(0)/m/n --> TU/NotoSerif(0)/m/n on input li
-ne 170.
+ne 169.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/NotoSerif(0)/m/it on input line 170
+(Font)                  OT1/cmr/m/it --> TU/NotoSerif(0)/m/it on input line 169
 .
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/NotoSerif(0)/b/n on input line 170.
+(Font)                  OT1/cmr/bx/n --> TU/NotoSerif(0)/b/n on input line 169.
 
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/NotoSans(0)/m/n on input line 170.
+(Font)                  OT1/cmss/m/n --> TU/NotoSans(0)/m/n on input line 169.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
 (Font)                  OT1/cmtt/m/n --> TU/NotoSansMono(0)/m/n on input line 1
-70.
+69.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  TU/NotoSerif(0)/m/n --> TU/NotoSerif(0)/b/n on input li
-ne 170.
+ne 169.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/NotoSerif(0)/b/it on input line 17
-0.
+(Font)                  OT1/cmr/bx/it --> TU/NotoSerif(0)/b/it on input line 16
+9.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/NotoSans(0)/b/n on input line 170.
+(Font)                  OT1/cmss/bx/n --> TU/NotoSans(0)/b/n on input line 169.
 
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> TU/NotoSansMono(0)/b/n on input line 1
-70.
+69.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
@@ -1520,8 +1520,8 @@ Package caption Info: End \AtBeginDocument code.
 
 bibgerm.sty: babel.sty detected
 
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 17
-0.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 16
+9.
 (C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/base\ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
@@ -1530,26 +1530,26 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 (RS)
 )
 LaTeX Font Info:    Font shape `TU/NotoSans(0)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 170.
+(Font)              scaled to size 12.0pt on input line 169.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `NotoSans' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `TU/NotoSans(0)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 170.
+(Font)              scaled to size 8.0pt on input line 169.
 LaTeX Font Info:    Font shape `TU/NotoSans(0)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 170.
+(Font)              scaled to size 6.0pt on input line 169.
 LaTeX Font Info:    Font shape `TU/NotoSansMono(0)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 170.
+(Font)              scaled to size 12.0pt on input line 169.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `NotoSansMono' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `TU/NotoSansMono(0)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 170.
+(Font)              scaled to size 8.0pt on input line 169.
 LaTeX Font Info:    Font shape `TU/NotoSansMono(0)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 170.
-Package hyperref Info: Link coloring OFF on input line 170.
+(Font)              scaled to size 6.0pt on input line 169.
+Package hyperref Info: Link coloring OFF on input line 169.
 
 (T3200.out) (T3200.out)
 \@outlinefile=\write4
@@ -1594,74 +1594,74 @@ Package hyperref Info: Link coloring OFF on input line 170.
 Package todonotes Warning: The length marginparwidth is less than 2cm and will 
 most likely cause issues with the appearance of inserted todonotes. The issue c
 an be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to 
-loading the todonotes package. on input line 170.
+loading the todonotes package. on input line 169.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 228--228
+Underfull \hbox (badness 10000) in paragraph at lines 227--227
 []|\TU/NotoSerif(0)/m/n/12 Hugo-Bertsch-Straße
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 228--228
+Underfull \hbox (badness 10000) in paragraph at lines 227--227
 []|\TU/NotoSerif(0)/m/n/12 ASSA ABLOY Sicher-
  []
 
 LaTeX Font Info:    Font shape `TU/NotoSerif(0)/m/sl' in size <12> not availabl
 e
 (Font)              Font shape `TU/NotoSerif(0)/m/it' tried instead on input li
-ne 232.
+ne 231.
 File: figures/dhbwlogo.png Graphic file (type bmp)
 <figures/dhbwlogo.png>
 [1
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 244--247
+Underfull \hbox (badness 10000) in paragraph at lines 243--246
 \TU/NotoSerif(0)/m/n/12 Movemaster EX RV-M1, einer 3D-ToF-Kamera sowie einer 2D
 -
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 244--247
+Underfull \hbox (badness 10000) in paragraph at lines 243--246
 
  []
 
 
-Underfull \hbox (badness 2277) in paragraph at lines 244--247
+Underfull \hbox (badness 2277) in paragraph at lines 243--246
 \TU/NotoSerif(0)/m/n/12 auf das Bildgewinnungssystem in einer Messreihe erforsc
 ht und
  []
 
 
-Underfull \hbox (badness 2042) in paragraph at lines 244--247
+Underfull \hbox (badness 2042) in paragraph at lines 243--246
 \TU/NotoSerif(0)/m/n/12 C++/C#-Softwarearchitektur Aufschluss über vorhandene S
 chwach-
  []
 
 
-Underfull \hbox (badness 1496) in paragraph at lines 244--247
+Underfull \hbox (badness 1496) in paragraph at lines 243--246
 \TU/NotoSerif(0)/m/n/12 und der Implementierung einer statischen Robotersteueru
 ng. Für
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 244--247
+Underfull \hbox (badness 10000) in paragraph at lines 243--246
 
  []
 
 
-Underfull \hbox (badness 6268) in paragraph at lines 244--247
+Underfull \hbox (badness 6268) in paragraph at lines 243--246
 \TU/NotoSerif(0)/m/n/12 Aufbauend auf den Erkenntnissen der Analyse und Konzept
 io-
  []
 
 
-Underfull \hbox (badness 2261) in paragraph at lines 244--247
+Underfull \hbox (badness 2261) in paragraph at lines 243--246
 \TU/NotoSerif(0)/m/it/12 (SSM) \TU/NotoSerif(0)/m/n/12 erstellt. Dieses Konzept
  nutzt die Fusion der 2D- und 3D-
  []
 
 
-Underfull \hbox (badness 4739) in paragraph at lines 244--247
+Underfull \hbox (badness 4739) in paragraph at lines 243--246
 \TU/NotoSerif(0)/m/n/12 zu realisieren. Die Arbeit bildet somit das Fundament f
 ür die
  []
@@ -1671,49 +1671,49 @@ File: figures/dhbwlogo.png Graphic file (type bmp)
 LaTeX Font Info:    Font shape `TU/NotoSerif(0)/m/sl' in size <8> not available
 
 (Font)              Font shape `TU/NotoSerif(0)/m/it' tried instead on input li
-ne 247.
+ne 246.
 [1]
-Underfull \hbox (badness 5787) in paragraph at lines 250--255
+Underfull \hbox (badness 5787) in paragraph at lines 249--254
 \TU/NotoSerif(0)/m/n/12 This student research project deals with the optimisati
 on and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 250--255
+Underfull \hbox (badness 10000) in paragraph at lines 249--254
 
  []
 
 
-Underfull \hbox (badness 1694) in paragraph at lines 250--255
+Underfull \hbox (badness 1694) in paragraph at lines 249--254
 \TU/NotoSerif(0)/m/n/12 First, the influence of different lighting conditions o
 n the image
  []
 
 
-Underfull \hbox (badness 3514) in paragraph at lines 250--255
+Underfull \hbox (badness 3514) in paragraph at lines 249--254
 \TU/NotoSerif(0)/m/n/12 possible optimisations are developed. Subsequently, the
  analysis
  []
 
 
-Underfull \hbox (badness 3942) in paragraph at lines 250--255
+Underfull \hbox (badness 3942) in paragraph at lines 249--254
 \TU/NotoSerif(0)/m/n/12 such as problems occurring in thread synchronisation an
 d the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 250--255
+Underfull \hbox (badness 10000) in paragraph at lines 249--254
 
  []
 
 
-Underfull \hbox (badness 3375) in paragraph at lines 250--255
+Underfull \hbox (badness 3375) in paragraph at lines 249--254
 \TU/NotoSerif(0)/m/n/12 Based on the findings of the analysis and design of the
  dyna-
  []
 
 
-Underfull \hbox (badness 3000) in paragraph at lines 250--255
+Underfull \hbox (badness 3000) in paragraph at lines 249--254
 \TU/NotoSerif(0)/m/n/12 for the safety-related and control-related implementati
 on in the
  []
@@ -1726,7 +1726,7 @@ File: figures/L_Signature.png Graphic file (type bmp)
 File: figures/A_Signature.png Graphic file (type bmp)
 <figures/A_Signature.png>
  [3] (T3200.toc
-Underfull \hbox (badness 10000) in paragraph at lines 27--27
+Underfull \hbox (badness 10000) in paragraph at lines 31--31
  [][] [][]\TU/NotoSerif(0)/m/n/12 Kriterienbasierte Evaluierung der Sicherheits
 - 
  []
@@ -1978,36 +1978,171 @@ ie
 File: figures/dhbwlogo.png Graphic file (type bmp)
 <figures/dhbwlogo.png>
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 72--73
+Underfull \hbox (badness 7397) in paragraph at lines 51--52
+\TU/NotoSerif(0)/m/n/12 Die Auslegung von Systemen der Mensch-Roboter-Kollabora
+tion
+ []
+
+
+Underfull \hbox (badness 4819) in paragraph at lines 51--52
+\TU/NotoSerif(0)/m/n/12 strikten regulatorischen Rahmen. Da bei kollaborativen 
+Arbeits-
+ []
+
+
+Underfull \hbox (badness 3525) in paragraph at lines 51--52
+\TU/NotoSerif(0)/m/n/12 plätzen die klassischen physisch-trennenden Schutzeinri
+chtungen
+ []
+
+
+Underfull \hbox (badness 1728) in paragraph at lines 51--52
+\TU/NotoSerif(0)/m/n/12 (wie Schutzzäune) entfallen, muss die Sicherheit über s
+ensorisch
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
+\TU/NotoSerif(0)/m/n/12 aufgenommene und durch spezielle Logik- verarbeitete Da
+ten
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--55
+\TU/NotoSerif(0)/m/n/12 Die primäre rechtliche Basis für das Inverkehrbringen s
+owie
+ []
+
+
+Underfull \hbox (badness 4416) in paragraph at lines 54--55
+\TU/NotoSerif(0)/m/n/12 steuerungstechnische Umsetzung des Sicherheitsnachweise
+s wird
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--55
+\TU/NotoSerif(0)/m/n/12 die Zuverlässigkeit sicherheitsbezogener Teile von Steu
+erungen
+ []
+
+
+Underfull \hbox (badness 1297) in paragraph at lines 54--55
+\TU/NotoSerif(0)/m/n/12 Sicherheitsintegritätslevel von \TU/NotoSerif(0)/b/n/12
+ PL d (Kategorie 3) \TU/NotoSerif(0)/m/n/12 gefordert. Dies
+ []
+
+File: figures/dhbwlogo.png Graphic file (type bmp)
+<figures/dhbwlogo.png>
+[4]
+Underfull \hbox (badness 6775) in paragraph at lines 65--66
+\TU/NotoSerif(0)/m/n/12 Bedeutung. Die ISO/TS 15066 liefert hierzu die mathemat
+ische
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--66
+\TU/NotoSerif(0)/m/n/12 Grundlage zur Berechnung des Mindestsicherheitsabstands
+ $\OML/cmm/m/it/12 S[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--70
+[]\TU/NotoSerif(0)/m/n/12 In diese Berechnung fließen die menschliche Annäherun
+gs-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--70
+\TU/NotoSerif(0)/m/n/12 geschwindigkeit $\OML/cmm/m/it/12 v[]$\TU/NotoSerif(0)/
+m/n/12 , die Systemlatenzzeiten (Reaktionszeit der
+ []
+
+File: figures/dhbwlogo.png Graphic file (type bmp)
+<figures/dhbwlogo.png>
+[5]
+Underfull \hbox (badness 1292) in paragraph at lines 75--76
+\TU/NotoSerif(0)/m/n/12 von Teilbereichen des Körpers, wie Hände oder Finger, a
+usgelegt
+ []
+
+
+Underfull \hbox (badness 1062) in paragraph at lines 75--76
+\TU/NotoSerif(0)/m/n/12 Anforderung, dass die Verarbeitungsfrequenz (\TU/NotoSe
+rif(0)/m/it/12 Frames per Second\TU/NotoSerif(0)/m/n/12 )
+ []
+
+
+Underfull \hbox (badness 1546) in paragraph at lines 75--76
+\TU/NotoSerif(0)/m/n/12 und die Pipeline-Latenz so dimensioniert sein müssen, d
+ass eine
+ []
+
+
+Underfull \hbox (badness 1655) in paragraph at lines 75--76
+\TU/NotoSerif(0)/m/n/12 Handbewegung innerhalb dieser Dynamikgrenzen determinis
+tisch
+ []
+
+
+Overfull \hbox (13.67744pt too wide) in paragraph at lines 77--78
+[]\TU/NotoSerif(0)/m/n/12 Zusammenfassend ergibt sich in der mathematisch-deter
+ministischen
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--78
+\TU/NotoSerif(0)/m/n/12 krepanz beim Einsatz stochastischer Auswertealgorithmen
+ (wie
+ []
+
+
+Underfull \hbox (badness 2384) in paragraph at lines 77--78
+\TU/NotoSerif(0)/m/n/12 maschinellen Lernverfahren). Da diese systembedingt kei
+ne klas-
+ []
+
+
+Underfull \hbox (badness 1371) in paragraph at lines 77--78
+\TU/NotoSerif(0)/m/n/12 sischen deterministischen Zustandstabellen aufweisen, f
+ordert die
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--78
+\TU/NotoSerif(0)/m/n/12 Absicherung der mathematischen Ergebnisse durch diversi
+täre
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--101
 \TU/NotoSerif(0)/m/n/12 Programmierer vereinfacht, Parallelität und Nebenläufig
 keit in
  []
 
 
-Underfull \hbox (badness 3838) in paragraph at lines 72--73
-\TU/NotoSerif(0)/m/n/12 C#-Programmen umzusetzen [[]3[]]. Für diese Arbeit ist 
+Underfull \hbox (badness 3838) in paragraph at lines 100--101
+\TU/NotoSerif(0)/m/n/12 C#-Programmen umzusetzen [[]8[]]. Für diese Arbeit ist 
 vor allem
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--73
+Underfull \hbox (badness 10000) in paragraph at lines 100--101
 \TU/NotoSerif(0)/m/n/12 das Konzept der Nebenläufigkeit (\TU/NotoSerif(0)/m/it/
 12 engl.: concurrency\TU/NotoSerif(0)/m/n/12 ) relevant.
  []
 
 
-Underfull \hbox (badness 3281) in paragraph at lines 72--73
+Underfull \hbox (badness 3281) in paragraph at lines 100--101
 \TU/NotoSerif(0)/m/n/12 oder Ein-/Ausgabeoperationen vom primären Arbeitsstrang
  einer
  []
 
-)
 File: figures/dhbwlogo.png Graphic file (type bmp)
 <figures/dhbwlogo.png>
- [4]
+[6])
 File: figures/dhbwlogo.png Graphic file (type bmp)
 <figures/dhbwlogo.png>
- [5] (sec3.tex
+ [7] (sec3.tex
 Kapitel 3.
 
 Overfull \hbox (27.01pt too wide) in paragraph at lines 1--1
@@ -2104,7 +2239,7 @@ bessern
 
 File: figures/dhbwlogo.png Graphic file (type bmp)
 <figures/dhbwlogo.png>
-[6
+[8
 
 ]
 Underfull \hbox (badness 5231) in paragraph at lines 50--52
@@ -2171,25 +2306,43 @@ iert oder
 
 File: figures/dhbwlogo.png Graphic file (type bmp)
 <figures/dhbwlogo.png>
-[7]
+[9]
+File: figures/Messexperiment.png Graphic file (type bmp)
+<figures/Messexperiment.png>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 LaTeX Font Info:    Font shape `TU/NotoSans(0)/m/n' will be
-(Font)              scaled to size 10.95pt on input line 81.
+(Font)              scaled to size 10.95pt on input line 100.
 LaTeX Font Info:    Font shape `TU/NotoSansMono(0)/m/n' will be
-(Font)              scaled to size 10.95pt on input line 81.
+(Font)              scaled to size 10.95pt on input line 100.
 )
 File: figures/dhbwlogo.png Graphic file (type bmp)
 <figures/dhbwlogo.png>
- [8] (sec4.tex
+ [10] (sec4.tex
+File: figures/dhbwlogo.png Graphic file (type bmp)
+<figures/dhbwlogo.png>
+ [11]
 Kapitel 4.
 
 Underfull \hbox (badness 10000) in paragraph at lines 1--1
 |[]\TU/NotoSerif(0)/b/n/24.88 Architekturoptimierung
  []
 
+LaTeX Font Info:    Font shape `TU/NotoSans(0)/m/it' will be
+(Font)              scaled to size 8.0pt on input line 20.
+LaTeX Font Info:    Font shape `TU/NotoSans(0)/b/n' will be
+(Font)              scaled to size 6.0pt on input line 61.
+
+Overfull \hbox (17.08104pt too wide) in paragraph at lines 68--69
+ [][] 
+ []
+
 )
 File: figures/dhbwlogo.png Graphic file (type bmp)
 <figures/dhbwlogo.png>
- [9
+ [12
 
 ] (sec5.tex
 Kapitel 5.
@@ -2246,14 +2399,14 @@ chformen
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 14--14
-[]\TU/NotoSerif(0)/b/n/10.95 Tabelle 5.1: |\TU/NotoSerif(0)/m/n/10.95 Entscheid
-ungsmatrix zur Auswahl der MRK-
+Overfull \hbox (23.10947pt too wide) in paragraph at lines 15--26
+ [][] 
  []
 
 
-Overfull \hbox (23.10947pt too wide) in paragraph at lines 17--28
- [][] 
+Underfull \hbox (badness 10000) in paragraph at lines 26--26
+[]\TU/NotoSerif(0)/b/n/10.95 Tabelle 5.1: |\TU/NotoSerif(0)/m/n/10.95 Entscheid
+ungsmatrix zur Auswahl der MRK-
  []
 
 File: figures/Frauenhofer_Arbeitsraumueberwachung.jpg Graphic file (type bmp)
@@ -2359,12 +2512,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--42
 
 File: figures/dhbwlogo.png Graphic file (type bmp)
 <figures/dhbwlogo.png>
-[10
+[13
 
 ]
 File: figures/dhbwlogo.png Graphic file (type bmp)
 <figures/dhbwlogo.png>
- [11]
+ [14]
 Underfull \hbox (badness 5787) in paragraph at lines 42--52
 []\TU/NotoSerif(0)/m/n/12 Bei der algorithmischen
  []
@@ -2690,28 +2843,28 @@ isch
 
 File: figures/dhbwlogo.png Graphic file (type bmp)
 <figures/dhbwlogo.png>
-[12]
+[15]
 File: figures/dhbwlogo.png Graphic file (type bmp)
 <figures/dhbwlogo.png>
- [13]
+ [16]
 File: figures/dhbwlogo.png Graphic file (type bmp)
 <figures/dhbwlogo.png>
- [14])
+ [17])
 File: figures/dhbwlogo.png Graphic file (type bmp)
 <figures/dhbwlogo.png>
- [15] (sec6.tex
+ [18] (sec6.tex
 Kapitel 6.
 )
 File: figures/dhbwlogo.png Graphic file (type bmp)
 <figures/dhbwlogo.png>
- [16
+ [19
 
 ] (sec7.tex
 Kapitel 7.
 )
 File: figures/dhbwlogo.png Graphic file (type bmp)
 <figures/dhbwlogo.png>
- [17
+ [20
 
 ] (T3200.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 25--29
@@ -2720,36 +2873,44 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--29
  []
 
 
-Underfull \hbox (badness 4872) in paragraph at lines 37--41
+Underfull \hbox (badness 4872) in paragraph at lines 66--70
 []\TU/NotoSerif(0)/m/n/12 Microsoft Developers. Task parallel library tpl.
  []
 
 
-Underfull \hbox (badness 4266) in paragraph at lines 37--41
+Underfull \hbox (badness 4266) in paragraph at lines 66--70
 \TU/NotoSerif(0)/m/n/12 [Online; Zugegriffen am 10. Juni 2026]. [On-
  []
 
 
-Underfull \hbox (badness 7326) in paragraph at lines 37--41
+Underfull \hbox (badness 7326) in paragraph at lines 66--70
 \TU/NotoSerif(0)/m/n/12 line]. Available: []$[][][][][] [] [] [] [][][][][] [] 
 [][][][][][][][][] [] [][][] [] [][][][][][] [] [][][][][][] []
  []
 
-)
 File: figures/dhbwlogo.png Graphic file (type bmp)
 <figures/dhbwlogo.png>
- [7
+[7
+
+])
+File: figures/dhbwlogo.png Graphic file (type bmp)
+<figures/dhbwlogo.png>
+ [8]
+File: figures/dhbwlogo.png Graphic file (type bmp)
+<figures/dhbwlogo.png>
+ [9
 
 ]
 File: figures/dhbwlogo.png Graphic file (type bmp)
 <figures/dhbwlogo.png>
- [8
-
-]
-File: figures/dhbwlogo.png Graphic file (type bmp)
-<figures/dhbwlogo.png>
- [9] (T3200.lof
+ [10] (T3200.lof
 Underfull \hbox (badness 10000) in paragraph at lines 9--9
+ [][] [][]\TU/NotoSerif(0)/m/n/12 Gegenüberstellung von blockierenden synchrone
+n 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--11
  [][] [][]\TU/NotoSerif(0)/m/n/12 Projektions- und kamerabasierte Technologie z
 ur 
  []
@@ -2760,246 +2921,246 @@ ur
 
 File: figures/dhbwlogo.png Graphic file (type bmp)
 <figures/dhbwlogo.png>
- [10
+ [11
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 465--465
+Underfull \hbox (badness 10000) in paragraph at lines 464--464
 |\TU/NotoSerif(0)/b/n/24.88 Erklärungen zur Arbeit und
  []
 
 
-Underfull \hbox (badness 5302) in paragraph at lines 472--473
+Underfull \hbox (badness 5302) in paragraph at lines 471--472
 []\TU/NotoSerif(0)/b/n/12 Software: \TU/NotoSerif(0)/m/n/12 OpenCV Bibliothek, 
 Visual Studio (C++ und C#),
  []
 
 
-Underfull \hbox (badness 1253) in paragraph at lines 472--473
+Underfull \hbox (badness 1253) in paragraph at lines 471--472
 \TU/NotoSerif(0)/m/n/12 RoboETH, drawIO (Erstellung von Grafiken), texStudio, u
 Eye-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 472--473
+Underfull \hbox (badness 10000) in paragraph at lines 471--472
 \TU/NotoSerif(0)/m/n/12 Cockpit und IDS Kameramanager, GitHub (Kollaboratives
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 482--482
+Underfull \hbox (badness 10000) in paragraph at lines 481--481
 []|\TU/NotoSerif(0)/m/n/12 Formatierung von LaTeX-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 482--482
+Underfull \hbox (badness 10000) in paragraph at lines 481--481
 \TU/NotoSerif(0)/m/n/12 vorlagen für Tabellen und
  []
 
 
-Underfull \hbox (badness 3312) in paragraph at lines 482--482
+Underfull \hbox (badness 3312) in paragraph at lines 481--481
 []|\TU/NotoSerif(0)/m/n/12 gesamte Ar-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 483--483
+Underfull \hbox (badness 10000) in paragraph at lines 482--482
 \TU/NotoSerif(0)/m/n/12 AI Student
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 483--483
+Underfull \hbox (badness 10000) in paragraph at lines 482--482
 \TU/NotoSerif(0)/m/n/12 Pro License:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 483--483
+Underfull \hbox (badness 10000) in paragraph at lines 482--482
 \TU/NotoSerif(0)/m/n/12 Deep Search-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 483--483
+Underfull \hbox (badness 10000) in paragraph at lines 482--482
 []|\TU/NotoSerif(0)/m/n/12 Tiefgreifende Analyse des
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 483--483
+Underfull \hbox (badness 10000) in paragraph at lines 482--482
 \TU/NotoSerif(0)/m/n/12 Datenblatts des Movemas-
  []
 
 
-Underfull \hbox (badness 5681) in paragraph at lines 483--483
+Underfull \hbox (badness 5681) in paragraph at lines 482--482
 \TU/NotoSerif(0)/m/n/12 ter EX RV-M1: Finden von
  []
 
 
-Underfull \hbox (badness 6157) in paragraph at lines 483--483
+Underfull \hbox (badness 6157) in paragraph at lines 482--482
 \TU/NotoSerif(0)/m/n/12 Abschlusszeichen im RS232-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 483--483
+Underfull \hbox (badness 10000) in paragraph at lines 482--482
 \TU/NotoSerif(0)/m/n/12 String, Pin-Belegung für
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 483--483
+Underfull \hbox (badness 10000) in paragraph at lines 482--482
 \TU/NotoSerif(0)/m/n/12 Hardwaregestütztes Ack-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 483--483
+Underfull \hbox (badness 10000) in paragraph at lines 482--482
 \TU/NotoSerif(0)/m/n/12 nowledgement über RS232,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 483--483
+Underfull \hbox (badness 10000) in paragraph at lines 482--482
 \TU/NotoSerif(0)/m/n/12 Physikalische Signalanalyse
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 483--483
+Underfull \hbox (badness 10000) in paragraph at lines 482--482
 \TU/NotoSerif(0)/m/n/12 für die Implementierung
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 483--483
+Underfull \hbox (badness 10000) in paragraph at lines 482--482
 \TU/NotoSerif(0)/m/n/12 einer Flow-Control; Ergeb-
  []
 
 
-Underfull \hbox (badness 4832) in paragraph at lines 483--483
+Underfull \hbox (badness 4832) in paragraph at lines 482--482
 \TU/NotoSerif(0)/m/n/12 nis der ”Deep Search”kann
  []
 
 
-Underfull \hbox (badness 5302) in paragraph at lines 483--483
+Underfull \hbox (badness 5302) in paragraph at lines 482--482
 \TU/NotoSerif(0)/m/n/12 jederzeit als PDF-Dokument
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 484--484
+Underfull \hbox (badness 10000) in paragraph at lines 483--483
 []|\TU/NotoSerif(0)/m/n/12 Formulierung des englisch-
  []
 
 File: figures/dhbwlogo.png Graphic file (type bmp)
 <figures/dhbwlogo.png>
-[11
+[12
 
 
 ]
 File: figures/dhbwlogo.png Graphic file (type bmp)
 <figures/dhbwlogo.png>
- [12]
-Underfull \hbox (badness 2326) in paragraph at lines 489--490
+ [13]
+Underfull \hbox (badness 2326) in paragraph at lines 488--489
 \TU/NotoSerif(0)/m/n/12 Autor die primäre Urheberschaft für die jeweiligen Kapi
 tel bzw.
  []
 
 
-LaTeX Warning: Reference `Robotik' on page xiii undefined on input line 511.
+LaTeX Warning: Reference `Robotik' on page xiv undefined on input line 510.
 
 
-LaTeX Warning: Reference `Bildverarbeitung' on page xiii undefined on input lin
-e 511.
+LaTeX Warning: Reference `Bildverarbeitung' on page xiv undefined on input line
+ 510.
 
 
-Underfull \hbox (badness 2088) in paragraph at lines 511--511
+Underfull \hbox (badness 2088) in paragraph at lines 510--510
 []|\TU/NotoSerif(0)/m/n/12 Grundlagen der In-
  []
 
 
-LaTeX Warning: Reference `Grundlagen der Informatik' on page xiii undefined on 
-input line 511.
+LaTeX Warning: Reference `Grundlagen der Informatik' on page xiv undefined on i
+nput line 510.
 
 
-LaTeX Warning: Reference `Ausgangslage: Hardware' on page xiii undefined on inp
-ut line 511.
+LaTeX Warning: Reference `Ausgangslage: Hardware' on page xiv undefined on inpu
+t line 510.
 
 
-LaTeX Warning: Reference `Ausgangslage: Software' on page xiii undefined on inp
-ut line 511.
+LaTeX Warning: Reference `Ausgangslage: Software' on page xiv undefined on inpu
+t line 510.
 
 
-LaTeX Warning: Reference `Messreihe' on page xiii undefined on input line 511.
+LaTeX Warning: Reference `Messreihe' on page xiv undefined on input line 510.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 511--511
+Underfull \hbox (badness 10000) in paragraph at lines 510--510
 []|\TU/NotoSerif(0)/m/n/12 Optimierung der
  []
 
 
-LaTeX Warning: Reference `Optimierung der Softwarestruktur' on page xiii undefi
-ned on input line 511.
+LaTeX Warning: Reference `Optimierung der Softwarestruktur' on page xiv undefin
+ed on input line 510.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 511--511
+Underfull \hbox (badness 10000) in paragraph at lines 510--510
 []|\TU/NotoSerif(0)/m/n/12 Optimierung der
  []
 
 
-LaTeX Warning: Reference `Optimierung der Bildgewinnung' on page xiii undefined
- on input line 511.
+LaTeX Warning: Reference `Optimierung der Bildgewinnung' on page xiv undefined 
+on input line 510.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 511--511
+Underfull \hbox (badness 10000) in paragraph at lines 510--510
 []|\TU/NotoSerif(0)/m/n/12 Optimierung und
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 511--511
+Underfull \hbox (badness 10000) in paragraph at lines 510--510
 \TU/NotoSerif(0)/m/n/12 Verbesserungsmög-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 511--511
+Underfull \hbox (badness 10000) in paragraph at lines 510--510
 \TU/NotoSerif(0)/m/n/12 lichkeiten an der
  []
 
 
 LaTeX Warning: Reference `Optimierung und Verbesserungsmöglichkeiten an der Sof
-tware' on page xiii undefined on input line 511.
+tware' on page xiv undefined on input line 510.
 
 
 LaTeX Warning: Reference `Normative Anforderungen und Grenzen des RV-M1' on pag
-e xiii undefined on input line 511.
+e xiv undefined on input line 510.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 511--511
+Underfull \hbox (badness 10000) in paragraph at lines 510--510
 []|\TU/NotoSerif(0)/m/n/12 Umsetzbare Sicher-
  []
 
 
-LaTeX Warning: Reference `Umsetzbare Sicherheitsmerkmale' on page xiii undefine
-d on input line 511.
+LaTeX Warning: Reference `Umsetzbare Sicherheitsmerkmale' on page xiv undefined
+ on input line 510.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 511--511
+Underfull \hbox (badness 10000) in paragraph at lines 510--510
 []|\TU/NotoSerif(0)/m/n/12 Ansatz
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 511--511
+Underfull \hbox (badness 10000) in paragraph at lines 510--510
 \TU/NotoSerif(0)/m/n/12 Geschwindigkeits-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 511--511
+Underfull \hbox (badness 10000) in paragraph at lines 510--510
 \TU/NotoSerif(0)/m/n/12 und Abstandsüber-
  []
 
 
 LaTeX Warning: Reference `Ansatz Geschwindigkeits- und Abstandsüberwachung' on 
-page xiii undefined on input line 511.
+page xiv undefined on input line 510.
 
 
-LaTeX Warning: Reference `Fazit und Ausblick' on page xiii undefined on input l
-ine 511.
+LaTeX Warning: Reference `Fazit und Ausblick' on page xiv undefined on input li
+ne 510.
 
 File: figures/dhbwlogo.png Graphic file (type bmp)
 <figures/dhbwlogo.png>
-[13]
+[14]
 File: figures/L_Signature.png Graphic file (type bmp)
 <figures/L_Signature.png>
 
-Underfull \hbox (badness 7722) in paragraph at lines 513--531
+Underfull \hbox (badness 7722) in paragraph at lines 512--530
 \TU/NotoSerif(0)/m/n/12 dass die oben gemachten Angaben der Wahrheit entspreche
 n.
  []
@@ -3008,10 +3169,10 @@ File: figures/A_Signature.png Graphic file (type bmp)
 <figures/A_Signature.png>
 File: figures/dhbwlogo.png Graphic file (type bmp)
 <figures/dhbwlogo.png>
-[14]
+[15]
 File: figures/dhbwlogo.png Graphic file (type bmp)
 <figures/dhbwlogo.png>
- [15
+ [16
 
 
 ] (T3200.aux)
@@ -3024,15 +3185,15 @@ L3 programming layer <2024-01-04>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `T3200.out' has not changed.
-(rerunfilecheck)             Checksum: 10EBB6D159EE1A752150E1DD55002FC8;6960.
+(rerunfilecheck)             Checksum: 4E2813400C671041F7A3D1C48CCF1369;8214.
  ) 
 Here is how much of TeX's memory you used:
- 33978 strings out of 409617
- 703895 string characters out of 5774013
+ 34151 strings out of 409617
+ 707604 string characters out of 5774013
  1968191 words of memory out of 5000000
- 55489 multiletter control sequences out of 15000+600000
- 566754 words of font info for 102 fonts, out of 8000000 for 9000
+ 55659 multiletter control sequences out of 15000+600000
+ 566770 words of font info for 104 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 123i,22n,131p,1593b,972s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 123i,23n,131p,1593b,968s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on T3200.pdf (32 pages).
+Output written on T3200.pdf (36 pages).

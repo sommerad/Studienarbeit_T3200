@@ -32,6 +32,35 @@ M.~Bdiwi, M.~Pfeifer, and A.~Sterzing, ``A new strategy for ensuring human
   safety during various levels of interaction with industrial robots,''
   \emph{CIRP Annals}, vol.~66, no.~1, pp. 453--456, 2017.
 
+\bibitem{maschinenrichtlinie_2006}
+{Europäisches Parlament und Rat der Europäischen Union}, ``Richtlinie
+  2006/42/eg vom 17. mai 2006 über maschinen und zur Änderung der richtlinie
+  95/16/eg (neufassung),'' Amtsblatt der Europäischen Union, L 157/24, 2006,
+  gültig bis zum 19. Januar 2027.
+
+\bibitem{maschinenverordnung_2023}
+------, ``Verordnung (eu) 2023/1230 vom 10. mai 2023 über maschinen sowie zur
+  aufhebung der richtlinie 2006/42/eg des europäischen parlaments und des
+  rates und der richtlinie 73/361/ewg des rates,'' Amtsblatt der Europäischen
+  Union, L 165/1, 2023, verbindlich ab dem 20. Januar 2027.
+
+\bibitem{din13849_1_2023}
+{DIN Deutsches Institut für Normung e. V.}, ``Sicherheit von maschinen --
+  sicherheitsbezogene teile von steuerungen -- teil 1: Allgemeine
+  gestaltungsleitsätze (iso 13849-1:2023); deutsche fassung en iso
+  13849-1:2023,'' Beuth Verlag GmbH, Berlin, Norm DIN EN ISO 13849-1, Dec.
+  2023.
+
+\bibitem{din10218_1_2012}
+------, ``Industrieroboter -- sicherheitsanforderungen -- teil 1: Roboter (iso
+  10218-1:2011); deutsche fassung en iso 10218-1:2011,'' DIN Media GmbH,
+  Berlin, Norm DIN EN ISO 10218-1, Jan. 2012.
+
+\bibitem{din10218_2_2012}
+------, ``Industrieroboter -- sicherheitsanforderungen -- teil 2:
+  Robotersysteme und integration (iso 10218-2:2011); deutsche fassung en iso
+  10218-2:2011,'' DIN Media GmbH, Berlin, Norm DIN EN ISO 10218-2, Jun. 2012.
+
 \bibitem{TPL}
 \BIBentryALTinterwordspacing
 {Microsoft Developers}. Task parallel library tpl. [Online; Zugegriffen am 10.
@@ -42,19 +71,5 @@ M.~Bdiwi, M.~Pfeifer, and A.~Sterzing, ``A new strategy for ensuring human
 \bibitem{ConcurrencyinCSharp}
 S.~Cleary, \emph{Concurrency in CSharp Cookbook}, 2nd~ed.\hskip 1em plus 0.5em
   minus 0.4em\relax O'Reilly Media, Inc., 2019.
-
-\bibitem{asynchroneMuster}
-\BIBentryALTinterwordspacing
-{Microsoft Developers}. asynchrone programmiermuster. [Online; Zugegriffen am
-  10. Juni 2026]. [Online]. Available:
-  \url{https://learn.microsoft.com/de-de/dotnet/standard/asynchronous-programming-patterns/}
-\BIBentrySTDinterwordspacing
-
-\bibitem{din13849_1_2023}
-{DIN Deutsches Institut für Normung e. V.}, ``Sicherheit von maschinen --
-  sicherheitsbezogene teile von steuerungen -- teil 1: Allgemeine
-  gestaltungsleitsätze (iso 13849-1:2023); deutsche fassung en iso
-  13849-1:2023,'' Beuth Verlag GmbH, Berlin, Norm DIN EN ISO 13849-1, Dec.
-  2023.
 
 \end{thebibliography}
