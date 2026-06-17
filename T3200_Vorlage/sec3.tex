@@ -62,7 +62,60 @@ Hierbei repräsentiert der Index $i$ das jeweilige Objekt innerhalb der Bearbeit
 \\In den Gleichungen \ref{Summation Befehlsausführungszeiten} und \ref{Summation Befehlsausführungszeiten mit eingesetzten Zeiten} lässt sich die direkte Korrelation zwischen dem Parameter $n$ und der durch die Bildverarbeitungsklasse erkannten Objekte erkennen. Des weiteren wird verdeutlicht, dass die Gesamtausführungszeit einer Befehlssequenz (bestehend aus $1,...,k$ Befehlen pro Objekt) linear von der Objektanzahl $n$ und der aufsummierten Wartezeiten durch \textit{Thread.Sleep()}-Befehlen abhängt.\\
 \\Bei dieser theoretischen Betrachtung wird bewusst eine Worst-Case-Abschätzung mittels der fest definierten Wartezeiten getroffen, da der vorliegende Roboter und die zugehörige Software keine Bestätigung für eine abgeschlossene Bewegung liefern. Das wird in der Software durch statische Wartezeiten (erfahrungsbasiert oder alternativ grob berechnet) kompensiert, was in der Praxis allerdings zu Einbußen der Systemeffizienz führen kann.
 \subsubsection{Messexperiment}
-Um die theoretisch hergeleiteten Ineffizienzen und die zeitlichen Auswirkungen der sequenziellen Befehlserteilung quantitativ nachzuweisen, wurde ein deterministisches Messexperiment aufgesetzt. Selbiges muss für Vergleichbarkeit und Bewertbarkeit auch bei nachfolgenden Erweiterungen des Systems zu Grunde gelegt werden.  
+Um die theoretisch hergeleiteten Ineffizienzen und die zeitlichen Auswirkungen der sequenziellen Befehlserteilung quantitativ nachzuweisen, wurde ein deterministisches Messexperiment aufgesetzt. Selbiges muss für Vergleichbarkeit und Bewertbarkeit auch bei nachfolgenden Erweiterungen des Systems (siehe \ref{Befehlswarteschlange für dynamischere Robotersteuerung}) zu Grunde gelegt werden.\\
+\\Das Messexperiment wird mit vier Zylinderobjekten durchgeführt - die Positionen sind jeweils auf der Arbeitsunterlage markiert. Abbildung \ref{fig:messexperiment} zeigt die Anordnung der Objekte sowie die zugehörigen Objektkoordinaten.
+\begin{figure}[htbp]
+	\centering
+	% Erstes Bild (PNG)
+	\begin{subfigure}[b]{0.45\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{figures/Messexperiment}
+		\caption{Objektanordnung}
+		\label{fig:objektanordung}
+	\end{subfigure}
+	\hfill % Sorgt für gleichmäßigen Abstand zwischen den Bildern
+	% Zweites Bild (TikZ)
+	\begin{subfigure}[b]{0.45\textwidth}
+		\centering
+		\begin{tikzpicture}[
+			box/.style={draw, minimum width=2.5cm, minimum height=0.8cm, align=center},
+			greenbox/.style={box, fill=green!20},
+			yellowbox/.style={box, fill=yellow!30},
+			graybox/.style={box, fill=gray!30},
+			node distance=0.45cm % Abstand zwischen den Boxen
+			]
+			
+			% 5 grüne Boxen untereinander
+			\node[graybox] (G0) {Objekt-ID: X-, Y-, Z-, Roll, Pitch};
+			\node[greenbox, below=of G0] (G1) {Objekt 1: -42, 291, 6, -90, -8};
+			\node[greenbox, below=of G1] (G2) {Objekt 2: -37, 374, 6, -90, -5};
+			\node[greenbox, below=of G2] (G3) {Objekt 3: 36, 295, 6, -90, 6};
+			\node[greenbox, below=of G3] (G4) {Objekt 4: 55, 346, 6, -90, 9};	
+		\end{tikzpicture}
+		\caption{Koordinaten im Messexperiment}
+		\label{fig:koordinaten}
+	\end{subfigure}
+	\caption{Messexperiment zur Evaluation der Sortierperformance}
+	\label{fig:messexperiment}
+\end{figure}
+\newline Die Geschwindigkeit des Roboters wird per Befehl fest auf Stufe 5 (0-9 Stufen vorhanden) gesetzt. 
+
+\begin{table}[h!]
+	\renewcommand{\arraystretch}{1.2} % Etwas mehr Zeilenabstand
+	\begin{tabular}{|c|c|c|}
+		\hline
+		\textbf{Achse} & \textbf{maximale Geschwindigkeit} & \textbf{SP5-Geschwindigkeit} \\ \hline
+		Joint1 & 120 °/sec & 29,64 °/sec \\ \hline
+		Joint2 & 72 °/sec & 17,78 °/sec\\ \hline
+		Joint3 & 109 °/sec & 26,92 °/sec \\ \hline
+		Joint4 & 100 °/sec & 24,7 °/sec\\ \hline
+		Joint5 & 163 °/sec & 40,26 °/sec\\ \hline
+	\end{tabular}
+	\caption{maximale bzw. SF5-Gelenkgeschwindigkeiten}
+	\label{tab:geschwindikeiten_movemaster}	
+\end{table}
+\newpage
+
 \subsubsection{Praktische Limitation - Laufzeitmessung mit Simulationsexperiment}
 SP5 H verwendet, Koordinaten der Objekte sind: 
 \begin{enumerate}
@@ -72,20 +125,14 @@ SP5 H verwendet, Koordinaten der Objekte sind:
 	\item Magazin 3 MP 180, 275, 6, -90, 0
 	\item Magazin 4 MP 220, 300, 6, -90, 0
 	\item MP -42, 291, 6, -90, -8
-	\item MP -37, 374, 70, -90, -5
+	\item MP -37, 374, 6, -90, -5
 	\item MP 36, 295, 6, -90, 6
 	\item MP 55, 346, 6, -90, 9
 	\item Abschlussposition MP +553.1,+202.1,+300.0,.0,.0
 \end{enumerate}
 
-\begin{figure}[h!]
-	\centering
-	\includegraphics[width=60mm]{figures/Messexperiment}
-	\caption{Orientierung der Objekte im Messexperiment und dazugehörige Koordinaten}
-	\label{fig:messexperiment}
-\end{figure}
+
 \begin{table}[h!]
-	\
 	\renewcommand{\arraystretch}{1.2} % Etwas mehr Zeilenabstand
 	\begin{tabular}{|l|c|c|}
 		\hline
