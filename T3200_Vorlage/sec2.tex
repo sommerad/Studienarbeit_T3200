@@ -2,6 +2,7 @@
 \label{Grundlagen}
 
 \section{Stand der Technik: Safety-Implementation \& Retrofitting}
+\subsection{kollaborative Robotik}
 Für die Modernisierung älterer Industrie- und Robotersysteme (Retrofitting) im Hinblick auf aktuelle Sicherheitsstandards und moderne Sensortechnik existieren vielfältige technologische Ansätze. Diese lassen sich anhand verschiedener Systemparameter kategorisieren. Ein grundlegendes Unterscheidungsmerkmal ist die Dimensionierung der Bilderfassung, bei der entweder kostengünstige 2D-Kameras oder tiefenauflösende 3D-Kamerasysteme eingesetzt werden. Zudem variiert die Systemarchitektur hinsichtlich der Kameraanzahl: Während Monokamerasysteme eine einfache Raumüberwachung ermöglichen, bieten Multikamerasysteme durch hardwareseitige Redundanz eine deutlich verlässlichere Objekterkennung sowie Schutz vor Verdeckungen im sensornahen Bereich.
 \\
 \\Die algorithmische Auswertung lässt sich wiederum in zwei Philosophieansätze unterteilen: die gezielte Klassifizierung spezifischer Objekte wie menschlicher Gliedmaßen oder die universelle Erfassung jeglicher Fremdobjekte innerhalb eines definierten Raumbereichs. Ergänzend oder alternativ zu visuellen Kamerasystemen kommen in der Praxis berührungslose Sensoren auf kapazitiver, induktiver oder laserbasierter Basis (z.B. Laserscanner) zum Einsatz.
@@ -41,6 +42,9 @@ Für die Modernisierung älterer Industrie- und Robotersysteme (Retrofitting) im
 	\item \textbf{4. Gemeinsame Aufgabe mit physischer Interaktion:} Auf der höchsten Kooperationsstufe ist ein direkter Körperkontakt zwingend erforderlich. Ein Praxisbeispiel hierfür ist die manuelle Führung eines Schwerlastroboters durch menschliche Handkräfte, um schwere Bauteile präzise zu positionieren. 
 \end{itemize}
 Die technische Umsetzung der Überwachung innerhalb dieser Interaktionsstufen stützt sich im Wesentlichen auf drei Säulen: die permanente Überwachung der internen Roboterparameter (wie Position, Achsgeschwindigkeiten und Kräfte), eine automatisierte Ereigniserkennung zur Identifikation kritischer Zustände (z. B. die visuelle Verdeckung eines Menschen im Sensorschatten) sowie eine kamerabasierte Nahfelderkennung. Letztere dient dazu, im direkten Umfeld des Endeffektors sowohl die sensorische Bereitschaft des Bedieners (z. B. via Gesichtserkennung) als auch die exakte Lage von Körperteilen zu erfassen, um Verletzungen oder Quetschungen effektiv zu verhindern.
+
+\subsection{visuelle Handerkennung}
+\subsection{KI-Handerkennungsmodell}
 
 
 \section{Bildverarbeitung}
