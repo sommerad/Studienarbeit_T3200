@@ -98,7 +98,7 @@ Um die theoretisch hergeleiteten Ineffizienzen und die zeitlichen Auswirkungen d
 	\caption{Messexperiment zur Evaluation der Sortierperformance}
 	\label{fig:messexperiment}
 \end{figure}
-Die Geschwindigkeit des Roboters wird per Befehl fest auf Stufe 5 (0-9 Stufen vorhanden) gesetzt. Die konkreten Geschwindigkeiten lassen sich aus Tabelle \ref{tab:geschwindikeiten_movemaster} entnehmen und sind für die spätere Betrachtung der indirekten Kinematik des Movemaster EX RV-M1 relevant.
+Die Geschwindigkeit des Roboters wird per Befehl \textbf{SP} fest auf Stufe 5 (0-9 Stufen) gesetzt. Sowohl die maximalen als auch die eingestellten Geschwindigkeiten der einzelnen Achsen lassen sich aus Tabelle \ref{tab:geschwindikeiten_movemaster} entnehmen und sind für die spätere Betrachtung der inversen Kinematik des Movemaster EX RV-M1 relevant.
 
 \begin{table}[h!]
 	\renewcommand{\arraystretch}{1.2} % Etwas mehr Zeilenabstand
@@ -114,35 +114,92 @@ Die Geschwindigkeit des Roboters wird per Befehl fest auf Stufe 5 (0-9 Stufen vo
 	\caption{maximale bzw. SF5-Gelenkgeschwindigkeiten nach \cite[APP-52, 1-7]{rvm1manual}}
 	\label{tab:geschwindikeiten_movemaster}	
 \end{table}
+\newpage Das Ziel, alle Objekte jeweils in einen leeren Magazinplatz zu sortieren, kann in vier Objektsortierungssequenzen und zwei Sequenzen für die Start-/Endposition eingeteilt werden. Dabei enthält jede Objektsortierungssequenz Fahr- und Greifbefehle - ersichtlich in Abbildung \ref{fig: objektsequenz}.
+\begin{figure}[h!]
+	\centering
+	\begin{tikzpicture}[
+		% Definition der Stile
+		fahr/.style={rectangle, draw=blue!70, fill=blue!10, minimum height=0.8cm, minimum width=1.5cm, align=center, font=\tiny\sffamily},
+		greif/.style={rectangle, draw=orange!80, fill=yellow!30, minimum height=0.8cm, minimum width=1.0cm, align=center, font=\tiny\sffamily},
+		arrow/.style={-{Stealth[scale=1.2]}}
+		]
+		
+		% --- Sequenz der Boxen ---
+		\node[fahr] (B0) {Z-Offset\\Objekt\\anfahren};
+		\node[fahr, right=0.2cm of B0] (B1) {Objekt\\anfahren};
+		\node[greif, right=0.2cm of B1] (B2) {Greifer\\schließen};
+		\node[fahr, right=0.2cm of B2] (B3) {Z-Offset\\Objekt\\anfahren};
+		\node[fahr, right=0.2cm of B3] (B4) {Z-Offset\\Magazin\\anfahren};
+		\node[fahr, right=0.2cm of B4] (B5) {Magazin-\\platz\\anfahren};
+		\node[greif, right=0.2cm of B5] (B6) {Greifer\\öffnen};
+		\node[fahr, right=0.2cm of B6] (B7) {Z-Offset\\Magazin\\anfahren};
+		
+		% --- Zeitstrahl ---
+		\draw[arrow, thick] ($(B0.south west)-(0,0.5)$) -- ($(B7.south east)+(0,-0.5)$) node[right, font=\tiny] {Zeit $T_{objekt}$};
+		
+		% Verbindungsline zur Verdeutlichung der Sequenz
+		\draw[dashed, gray] (B1.south) -- ++(0,-0.3);
+		\draw[dashed, gray] (B7.south) -- ++(0,-0.3);
+		
+	\end{tikzpicture}
+	\caption{Befehle innerhalb einer Objektsortierungssequenz}
+	\label{fig: objektsequenz}
+\end{figure}
+\newline Die theoretische Gesamtverfahrzeit die der Roboter für die Sortierung aller vier Objekte benötigt, setzt sich somit zusammen aus: 
+\begin{itemize}
+	\item Zeit zum Erreichen der Startposition
+	\item $4*T_{Objekt}$ aus \ref{fig: objektsequenz}
+	\item Zeit zum Erreichen der Endposition
+\end{itemize}
+
 \newpage
 
 \subsubsection{Praktische Limitation - Laufzeitmessung mit Simulationsexperiment}
-SP5 H verwendet, Koordinaten der Objekte sind: 
-\begin{enumerate}
-	\item Startposition MP +553.1,+202.1,+300.0,.0,.0
-	\item Magazin 1 MP 175, 225, 6, -90, 0
-	\item Magazin 2 MP 220, 250, 6, -90, 0
-	\item Magazin 3 MP 180, 275, 6, -90, 0
-	\item Magazin 4 MP 220, 300, 6, -90, 0
-	\item MP -42, 291, 6, -90, -8
-	\item MP -37, 374, 6, -90, -5
-	\item MP 36, 295, 6, -90, 6
-	\item MP 55, 346, 6, -90, 9
-	\item Abschlussposition MP +553.1,+202.1,+300.0,.0,.0
-\end{enumerate}
+Um die praktische Limitation der bisherigen Architektur sinnvoll beurteilen zu können, wird zunächst die theoretisch benötigte Laufzeit mit Gleichung \ref{Summation Befehlsausführungszeiten mit eingesetzten Zeiten} ermittelt.
+\begin{equation*}
+	T_{s} = \sum_{i=1}^{n} \sum_{j=1}^{k} (T_{senden, i, j} + T_{schlafen, i, j})
+\end{equation*}
+Betrachtet man den Programmcode der Klasse \textit{Roboter.cs}, so fällt auf, dass jeder Sendevorgang ($T_{senden,i,j}$) mit einem Thread.Sleep() von 800ms beaufschlagt wird. Dies geschieht, um sicherzugehen, dass der interne
+\begin{table}[h!]
+	\centering
+	\renewcommand{\arraystretch}{1.2}
+	\begin{tabular}{|c|c|c|}
+		\hline
+		 \textbf{Beschreibung} & \textbf{Thread.Sleep() [ms]} & $T_{schlafen,i,j}$ \\ \hline
+		Fahrt auf Objekt Z-Offset  & 3000 & $T_{schlafen,i,1}$ \\ \hline
+		Absenken auf Objektposition & 3000 & $T_{schlafen,i,2}$ \\ \hline
+		Objekt greifen & 500 & $T_{schlafen,i,3}$ \\ \hline
+		Anheben auf Objekt Z-Offset & 2000 & $T_{schlafen,i,4}$ \\ \hline
+		Fahren auf Magazin Z-Offset & 5000 & $T_{schlafen,i,5}$ \\ \hline
+		Absenken auf Magazinposition & 1000 & $T_{schlafen,i,6}$\\ \hline
+		Loslassen des Objekts & 1000 & $T_{schlafen,i,7}$ \\ \hline
+		Anheben auf Magazin Z-Offset & 1000 & $T_{schlafen,i,8}$ \\ \hline
+		\textit{Anheben auf Magazin Z-Offset} & 1000 & $T_{schlafen,i,9}$ \\ \hline
+	\end{tabular}
+	\caption{Tabellarische Übersicht der Thread.Sleep()-Verzögerung pro Objektsequenz}
+	\label{tab:thread.sleep()-zeiten}
+\end{table} 
+\newline Setzt man nun die ermittelten statischen Werte aus Tabelle \ref{tab:thread.sleep()-zeiten}, die Wartezeiten bei jedem Senden sowie die Zeit für Start- und Endposition in die Gleichung für die Gesamtdauer $T_{S}$ ein:
+\begin{equation}
+	T_{S} = 	T_{s} = 2*(1800ms) \sum_{i=1}^{4} \sum_{j=1}^{9} (T_{senden, i, j} + T_{schlafen, i, j})
+\end{equation}
+so erhält man eine berechnete Gesamtdauer von 
+
 
 
 \begin{table}[h!]
 	\renewcommand{\arraystretch}{1.2} % Etwas mehr Zeilenabstand
-	\begin{tabular}{|l|c|c|}
+	\begin{tabular}{|c|c|c|}
 		\hline
 		\textbf{Objekt-ID} & \textbf{Theoretische Zeit $T_S$ [s]} & \textbf{Gemessene Zeit $T_{mess}$ [s]} \\ \hline
+		Startposition & 1,8 & 24,97 \\ \hline
 		Objekt 1 & 17,5 & 24,97 \\ \hline
 		Objekt 2 & 17,5 & 24,91 \\ \hline
 		Objekt 3 & 17,5 & 24,95 \\ \hline
 		Objekt 4 & 17,5 & 24,89 \\ \hline
+		Endposition & 1,8 & 24,97 \\ \hline
 		\textbf{Mittelwert} & \textbf{17,5} & \textbf{24,93} \\ \hline
-		\textbf{Gesamtzeit} & \textbf{70} & \textbf{103,73} \\ \hline
+		\textbf{$T_{S}$} & \textbf{70} & \textbf{103,73} \\ \hline
 	\end{tabular}
 	\caption{Vergleich der theoretischen Laufzeit $T_S$ mit den gemessenen Werten $T_{mess}$}
 	\label{tab:laufzeitanalyse_ist}
