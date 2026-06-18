@@ -4,35 +4,39 @@
 \contentsline {chapter}{\numberline {2}Grundlagen}{2}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Stand der Technik: Safety-Implementation \& Retrofitting}{2}{section.2.1}%
 \contentsline {subsection}{\numberline {2.1.1}kollaborative Robotik}{2}{subsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}visuelle Handerkennung}{4}{subsection.2.1.2}%
-\contentsline {subsection}{\numberline {2.1.3}KI-Handerkennungsmodell}{4}{subsection.2.1.3}%
-\contentsline {subsection}{\numberline {2.1.4}Normen und Richtlinien}{4}{subsection.2.1.4}%
-\contentsline {subsubsection}{\numberline {2.1.4.1}Rechtliche Grundlagen und funktionale Sicherheit}{4}{subsubsection.2.1.4.1}%
-\contentsline {subsubsection}{\numberline {2.1.4.2}Sicherheitsanforderungen an kollaborative Robotersysteme}{5}{subsubsection.2.1.4.2}%
-\contentsline {subsubsection}{\numberline {2.1.4.3}Sicherheitsgerichtete Anforderungen an optische Schutzsysteme}{5}{subsubsection.2.1.4.3}%
-\contentsline {section}{\numberline {2.2}Bildverarbeitung}{6}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Grundlagen der Informatik}{6}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Producer-Consumer-Pattern}{6}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Task Parallel Library (TPL)}{6}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}Task-based Asynchronous Pattern (TAP)}{7}{subsection.2.3.3}%
-\contentsline {subsection}{\numberline {2.3.4}Vergleich: Polling \& reaktives System}{7}{subsection.2.3.4}%
-\contentsline {subsection}{\numberline {2.3.5}Task Cancellation/kooperativer Abbruch}{7}{subsection.2.3.5}%
-\contentsline {subsection}{\numberline {2.3.6}TCP-Socket \& Protokoll-Parsing}{7}{subsection.2.3.6}%
-\contentsline {chapter}{\numberline {3}Ausgangssituation/IST-Analyse}{8}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Architekturlimitationen des bisherigen Systems}{8}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Sequenzielle Befehlsstruktur}{8}{subsection.3.1.1}%
-\contentsline {subsubsection}{\numberline {3.1.1.1}Theoretische Limitation}{9}{subsubsection.3.1.1.1}%
-\contentsline {subsubsection}{\numberline {3.1.1.2}Messexperiment}{10}{subsubsection.3.1.1.2}%
-\contentsline {subsubsection}{\numberline {3.1.1.3}Praktische Limitation - Laufzeitmessung mit Simulationsexperiment}{11}{subsubsection.3.1.1.3}%
-\contentsline {chapter}{\numberline {4}Architekturoptimierung und -erweiterung}{12}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Befehlswarteschlange für dynamischere Robotersteuerung}{12}{section.4.1}%
-\contentsline {chapter}{\numberline {5}Implementation der Erweiterungen}{13}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Safetyimplementation}{13}{section.5.1}%
-\contentsline {subsection}{\numberline {5.1.1}Kriterienbasierte Evaluierung der Sicherheitsüberwachungssysteme}{13}{subsection.5.1.1}%
-\contentsline {subsection}{\numberline {5.1.2}Gegenüberstellung spezialisiertes KI-Modell und einfacher Objekterkennungsalgorithmus}{18}{subsection.5.1.2}%
-\contentsline {chapter}{\numberline {6}Fazit \& Ausblick}{19}{chapter.6}%
-\contentsline {chapter}{\numberline {7}Anhang}{20}{chapter.7}%
-\contentsline {chapter}{Literaturverzeichnis}{vii}{chapter.7}%
-\contentsline {chapter}{Abk"urzungsverzeichnis}{viii}{chapter*.11}%
-\contentsline {chapter}{Abbildungsverzeichnis}{xi}{chapter*.12}%
-\contentsline {chapter}{Erklärungen zur Arbeit und Hilfsmitteln}{xii}{chapter*.13}%
+\contentsline {subsection}{\numberline {2.1.2}Visuelle Handerkennung}{4}{subsection.2.1.2}%
+\contentsline {subsubsection}{\numberline {2.1.2.1}Infrarot- und Wärmebildsensorik}{4}{subsubsection.2.1.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.2.2}2D- und 3D-Time-of-Flight-Scanner}{5}{subsubsection.2.1.2.2}%
+\contentsline {subsubsection}{\numberline {2.1.2.3}Hautfarbenerkennung}{6}{subsubsection.2.1.2.3}%
+\contentsline {subsection}{\numberline {2.1.3}KI-Handerkennungsmodell}{7}{subsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.1.4}Normen und Richtlinien}{7}{subsection.2.1.4}%
+\contentsline {subsubsection}{\numberline {2.1.4.1}Rechtliche Grundlagen und funktionale Sicherheit}{7}{subsubsection.2.1.4.1}%
+\contentsline {subsubsection}{\numberline {2.1.4.2}Sicherheitsanforderungen an kollaborative Robotersysteme}{7}{subsubsection.2.1.4.2}%
+\contentsline {subsubsection}{\numberline {2.1.4.3}Sicherheitsgerichtete Anforderungen an optische Schutzsysteme}{8}{subsubsection.2.1.4.3}%
+\contentsline {section}{\numberline {2.2}Bildverarbeitung}{9}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Grundlagen der Informatik}{9}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Producer-Consumer-Pattern}{9}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Task Parallel Library (TPL)}{9}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Task-based Asynchronous Pattern (TAP)}{9}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}Vergleich: Polling \& reaktives System}{9}{subsection.2.3.4}%
+\contentsline {subsection}{\numberline {2.3.5}Task Cancellation/kooperativer Abbruch}{9}{subsection.2.3.5}%
+\contentsline {subsection}{\numberline {2.3.6}TCP-Socket \& Protokoll-Parsing}{9}{subsection.2.3.6}%
+\contentsline {chapter}{\numberline {3}Ausgangssituation/IST-Analyse}{10}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Architekturlimitationen des bisherigen Systems}{10}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Sequenzielle Befehlsstruktur}{10}{subsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.1.1}Theoretische Limitation}{11}{subsubsection.3.1.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.1.2}Messexperiment}{12}{subsubsection.3.1.1.2}%
+\contentsline {subsubsection}{\numberline {3.1.1.3}Praktische Limitation - Laufzeitmessung mit Simulationsexperiment}{13}{subsubsection.3.1.1.3}%
+\contentsline {chapter}{\numberline {4}Architekturoptimierung und -erweiterung}{15}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Befehlswarteschlange für dynamischere Robotersteuerung}{15}{section.4.1}%
+\contentsline {chapter}{\numberline {5}Implementation der Erweiterungen}{16}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Safetyimplementation}{16}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Kriterienbasierte Evaluierung der Sicherheitsüberwachungssysteme}{16}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Gegenüberstellung spezialisiertes KI-Modell und einfacher Objekterkennungsalgorithmus}{21}{subsection.5.1.2}%
+\contentsline {section}{\numberline {5.2}Befehlspipeline}{21}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Vergleich von theoretischer und realer Performance}{21}{subsection.5.2.1}%
+\contentsline {chapter}{\numberline {6}Fazit \& Ausblick}{22}{chapter.6}%
+\contentsline {chapter}{Literaturverzeichnis}{vii}{chapter.6}%
+\contentsline {chapter}{Abk"urzungsverzeichnis}{ix}{chapter*.12}%
+\contentsline {chapter}{Abbildungsverzeichnis}{xii}{chapter*.13}%
+\contentsline {chapter}{Erklärungen zur Arbeit und Hilfsmitteln}{xiii}{chapter*.14}%

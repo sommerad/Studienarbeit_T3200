@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 24.1) (preloaded format=xelatex 2026.2.20)  17 JUN 2026 22:26
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 24.1) (preloaded format=xelatex 2026.2.20)  18 JUN 2026 11:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1398,7 +1398,11 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'ngerman'.
- (T3200.aux)
+ (T3200.aux
+
+LaTeX Warning: Label `IFF Projektionslösung' multiply defined.
+
+)
 \openout1 = `T3200.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 169.
@@ -1412,8 +1416,7 @@ LaTeX Font Info:    ... okay on input line 169.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 169.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
 69.
-
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmr.fd
+ (C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmr.fd
 File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 169.
@@ -1726,16 +1729,17 @@ File: figures/L_Signature.png Graphic file (type bmp)
 File: figures/A_Signature.png Graphic file (type bmp)
 <figures/A_Signature.png>
  [3] (T3200.toc
-Underfull \hbox (badness 10000) in paragraph at lines 31--31
+File: figures/dhbwlogo.png Graphic file (type bmp)
+<figures/dhbwlogo.png>
+ [4
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 34--34
  [][] [][]\TU/NotoSerif(0)/m/n/12 Kriterienbasierte Evaluierung der Sicherheits
 - 
  []
 
-File: figures/dhbwlogo.png Graphic file (type bmp)
-<figures/dhbwlogo.png>
-[4
-
-])
+)
 \tf@toc=\write5
 \openout5 = `T3200.toc'.
 
@@ -1978,165 +1982,363 @@ ie
 File: figures/dhbwlogo.png Graphic file (type bmp)
 <figures/dhbwlogo.png>
 [3]
-Underfull \hbox (badness 7397) in paragraph at lines 51--52
+File: figures/InfRot-HE-Luis.png Graphic file (type bmp)
+<figures/InfRot-HE-Luis.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--60
+\TU/NotoSerif(0)/m/n/12 Detektion des mensch-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--60
+\TU/NotoSerif(0)/m/n/12 lichen Körpers basiert
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--60
+\TU/NotoSerif(0)/m/n/12 auf der Nutzung von
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--60
+\TU/NotoSerif(0)/m/n/12 Passiv-Infrarot-Sensoren
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--60
+\TU/NotoSerif(0)/m/n/12 (PIR), welche im infra-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--60
+\TU/NotoSerif(0)/m/n/12 roten Spektralbereich
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--60
+\TU/NotoSerif(0)/m/n/12 messen die emittierte
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--60
+\TU/NotoSerif(0)/m/n/12 Wärmestrahlung von
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--60
+\TU/NotoSerif(0)/m/n/12 Objekten, die sich in-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--60
+\TU/NotoSerif(0)/m/n/12 nerhalb des definierten
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--60
+\TU/NotoSerif(0)/m/n/12 Erfassungsbereichs be-
+ []
+
+
+Underfull \hbox (badness 2343) in paragraph at lines 57--60
+\TU/NotoSerif(0)/m/n/12 finden. Mittels spezieller
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--60
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--60
+\TU/NotoSerif(0)/m/n/12 Als wesentlicher Vorteil dieses sensorischen Prinzips e
+rweist
+ []
+
+
+Underfull \hbox (badness 6910) in paragraph at lines 57--60
+\TU/NotoSerif(0)/m/n/12 sich die robuste Einsetzbarkeit in rauen, industriell g
+eprägten
+ []
+
+
+Underfull \hbox (badness 7081) in paragraph at lines 57--60
+\TU/NotoSerif(0)/m/n/12 Produktionsumgebungen, da das Messprinzip weitgehend un
+ab-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--60
+\TU/NotoSerif(0)/m/n/12 hängig von sichtbaren transienten Lichtverhältnissen ar
+beitet.
+ []
+
+
+Underfull \hbox (badness 5563) in paragraph at lines 57--60
+\TU/NotoSerif(0)/m/n/12 Demgegenüber stehen jedoch signifikante Nachteile: Nebe
+n der
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--60
+\TU/NotoSerif(0)/m/n/12 Hautoberflächentemperatur ähnelt. Darüber hinaus erford
+ert
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--60
+\TU/NotoSerif(0)/m/n/12 die thermografische Signalverarbeitung und die nachgela
+gerte
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--60
+\TU/NotoSerif(0)/m/n/12 algorithmische Merkmalsberechnung eine vergleichsweise 
+hohe
+ []
+
+File: figures/dhbwlogo.png Graphic file (type bmp)
+<figures/dhbwlogo.png>
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 63--64
+\TU/NotoSerif(0)/m/n/12 Andere wissenschaftliche Arbeiten, wie die Forschungen 
+von
+ []
+
+
+Underfull \hbox (badness 1430) in paragraph at lines 63--64
+\TU/NotoSerif(0)/m/n/12 Wolfgang Schulz [[]4[]], behandeln die Detektion von Ha
+ndkonturen
+ []
+
+
+Underfull \hbox (badness 8000) in paragraph at lines 63--64
+\TU/NotoSerif(0)/m/n/12 primär auf Basis von Abstandsaufnahmen. Technologisch l
+ässt
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--64
+\TU/NotoSerif(0)/m/n/12 planar messenden 2D-Time-of-Flight-Kamera (ToF) [[]4[]]
+ oder als
+ []
+
+
+Underfull \hbox (badness 3965) in paragraph at lines 65--66
+[]\TU/NotoSerif(0)/m/n/12 Mithilfe der ToF-Struktur wird kontinuierlich die euk
+lidische
+ []
+
+
+Underfull \hbox (badness 2790) in paragraph at lines 65--66
+\TU/NotoSerif(0)/m/n/12 lichen Objekten ermittelt. Unterschreitet der gemessene
+ Abstand
+ []
+
+
+Underfull \hbox (badness 2080) in paragraph at lines 65--66
+\TU/NotoSerif(0)/m/n/12 Schwellenwerte, greift ein algorithmisches Geschwindigk
+eits- und
+ []
+
+
+Underfull \hbox (badness 1694) in paragraph at lines 65--66
+\TU/NotoSerif(0)/m/n/12 Abstandsmodell (\TU/NotoSerif(0)/m/it/12 Speed and Sepa
+ration Monitoring\TU/NotoSerif(0)/m/n/12 , SSM), um den
+ []
+
+
+Underfull \hbox (badness 4832) in paragraph at lines 67--68
+\TU/NotoSerif(0)/m/n/12 inhärente Kombination aus Intensitätsbildern und dreidi
+mensio-
+ []
+
+File: figures/dhbwlogo.png Graphic file (type bmp)
+<figures/dhbwlogo.png>
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 73--74
+\TU/NotoSerif(0)/m/n/12 dar. Entsprechende Algorithmen nutzen Schwellwertverfah
+ren,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--74
+\TU/NotoSerif(0)/m/n/12 Histogrammanalysen oder vordefinierte Look-up-Tables (L
+UT),
+ []
+
+
+Underfull \hbox (badness 4940) in paragraph at lines 73--74
+\TU/NotoSerif(0)/m/n/12 um bestimmte Farbwerte im Bild zu isolieren. Diese Anal
+ysen
+ []
+
+
+Underfull \hbox (badness 4060) in paragraph at lines 73--74
+\TU/NotoSerif(0)/m/n/12 Vorteile der Farbräume RGB, HSV und YCbCr kombiniert, w
+ird
+ []
+
+
+Underfull \hbox (badness 7397) in paragraph at lines 82--83
 \TU/NotoSerif(0)/m/n/12 Die Auslegung von Systemen der Mensch-Roboter-Kollabora
 tion
  []
 
 
-Underfull \hbox (badness 4819) in paragraph at lines 51--52
+Underfull \hbox (badness 4819) in paragraph at lines 82--83
 \TU/NotoSerif(0)/m/n/12 strikten regulatorischen Rahmen. Da bei kollaborativen 
 Arbeits-
  []
 
 
-Underfull \hbox (badness 3525) in paragraph at lines 51--52
+Underfull \hbox (badness 3525) in paragraph at lines 82--83
 \TU/NotoSerif(0)/m/n/12 plätzen die klassischen physisch-trennenden Schutzeinri
 chtungen
  []
 
 
-Underfull \hbox (badness 1728) in paragraph at lines 51--52
+Underfull \hbox (badness 1728) in paragraph at lines 82--83
 \TU/NotoSerif(0)/m/n/12 (wie Schutzzäune) entfallen, muss die Sicherheit über s
 ensorisch
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 51--52
+Underfull \hbox (badness 10000) in paragraph at lines 82--83
 \TU/NotoSerif(0)/m/n/12 aufgenommene und durch spezielle Logik- verarbeitete Da
 ten
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 54--55
+File: figures/dhbwlogo.png Graphic file (type bmp)
+<figures/dhbwlogo.png>
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 85--86
 \TU/NotoSerif(0)/m/n/12 Die primäre rechtliche Basis für das Inverkehrbringen s
 owie
  []
 
 
-Underfull \hbox (badness 4416) in paragraph at lines 54--55
+Underfull \hbox (badness 4416) in paragraph at lines 85--86
 \TU/NotoSerif(0)/m/n/12 steuerungstechnische Umsetzung des Sicherheitsnachweise
 s wird
  []
 
 
-Underfull \hbox (badness 6445) in paragraph at lines 54--55
+Underfull \hbox (badness 6445) in paragraph at lines 85--86
 \TU/NotoSerif(0)/m/n/12 die Zuverlässigkeit sicherheits-bezogener Teile von Ste
 uerungen
  []
 
 
-Underfull \hbox (badness 1521) in paragraph at lines 54--55
+Underfull \hbox (badness 1521) in paragraph at lines 85--86
 \TU/NotoSerif(0)/m/n/12 elle Roboterzellen im kooperativen Betrieb wird im Rege
 lfall ein
  []
 
 File: figures/dhbwlogo.png Graphic file (type bmp)
 <figures/dhbwlogo.png>
-[4]
-Underfull \hbox (badness 1331) in paragraph at lines 64--65
+[7]
+Underfull \hbox (badness 1331) in paragraph at lines 95--96
 \TU/NotoSerif(0)/m/n/12 Beim Einsatz berührungsloser Raumüberwachungssysteme is
 t das
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 64--65
+Underfull \hbox (badness 10000) in paragraph at lines 95--96
 \TU/NotoSerif(0)/m/n/12 Grundlage zur Berechnung des Mindestsicherheitsabstands
  $\OML/cmm/m/it/12 S[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--69
+Underfull \hbox (badness 10000) in paragraph at lines 99--100
 []\TU/NotoSerif(0)/m/n/12 In diese Berechnung fließen die menschliche Annäherun
 gs-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--69
+Underfull \hbox (badness 10000) in paragraph at lines 99--100
 \TU/NotoSerif(0)/m/n/12 geschwindigkeit $\OML/cmm/m/it/12 v[]$\TU/NotoSerif(0)/
 m/n/12 , die Systemlatenzzeiten (Reaktionszeit der
  []
 
-File: figures/dhbwlogo.png Graphic file (type bmp)
-<figures/dhbwlogo.png>
-[5]
-Underfull \hbox (badness 1292) in paragraph at lines 74--75
+
+Underfull \hbox (badness 1292) in paragraph at lines 105--106
 \TU/NotoSerif(0)/m/n/12 von Teilbereichen des Körpers, wie Hände oder Finger, a
 usgelegt
  []
 
 
-Underfull \hbox (badness 1062) in paragraph at lines 74--75
+Underfull \hbox (badness 1062) in paragraph at lines 105--106
 \TU/NotoSerif(0)/m/n/12 Anforderung, dass die Verarbeitungsfrequenz (\TU/NotoSe
 rif(0)/m/it/12 Frames per Second\TU/NotoSerif(0)/m/n/12 )
  []
 
 
-Underfull \hbox (badness 1546) in paragraph at lines 74--75
+Underfull \hbox (badness 1546) in paragraph at lines 105--106
 \TU/NotoSerif(0)/m/n/12 und die Pipeline-Latenz so dimensioniert sein müssen, d
 ass eine
  []
 
 
-Underfull \hbox (badness 1655) in paragraph at lines 74--75
+Underfull \hbox (badness 1655) in paragraph at lines 105--106
 \TU/NotoSerif(0)/m/n/12 Handbewegung innerhalb dieser Dynamikgrenzen determinis
 tisch
  []
 
 
-Overfull \hbox (13.67744pt too wide) in paragraph at lines 76--77
+Overfull \hbox (13.67744pt too wide) in paragraph at lines 107--108
 []\TU/NotoSerif(0)/m/n/12 Zusammenfassend ergibt sich in der mathematisch-deter
 ministischen
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--77
+Underfull \hbox (badness 10000) in paragraph at lines 107--108
 \TU/NotoSerif(0)/m/n/12 Diskrepanz beim Einsatz stochastischer Auswertealgorith
 men
  []
 
 
-Underfull \hbox (badness 2503) in paragraph at lines 76--77
+Underfull \hbox (badness 2503) in paragraph at lines 107--108
 \TU/NotoSerif(0)/m/n/12 (wie maschinellen Lernverfahren). Da diese systembeding
 t keine
  []
 
 
-Underfull \hbox (badness 1852) in paragraph at lines 76--77
+Underfull \hbox (badness 1852) in paragraph at lines 107--108
 \TU/NotoSerif(0)/m/n/12 klassischen deterministischen Zustandstabellen aufweise
 n, fordert
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 99--100
+File: figures/dhbwlogo.png Graphic file (type bmp)
+<figures/dhbwlogo.png>
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 130--131
 \TU/NotoSerif(0)/m/n/12 Programmierer vereinfacht, Parallelität und Nebenläufig
 keit in
  []
 
 
-Underfull \hbox (badness 2277) in paragraph at lines 99--100
-\TU/NotoSerif(0)/m/n/12 C#-Programmen umzusetzen [[]11[]]. Für diese Arbeit ist
+Underfull \hbox (badness 2277) in paragraph at lines 130--131
+\TU/NotoSerif(0)/m/n/12 C#-Programmen umzusetzen [[]15[]]. Für diese Arbeit ist
  vor allem
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 99--100
+Underfull \hbox (badness 10000) in paragraph at lines 130--131
 \TU/NotoSerif(0)/m/n/12 das Konzept der Nebenläufigkeit (\TU/NotoSerif(0)/m/it/
 12 engl.: concurrency\TU/NotoSerif(0)/m/n/12 ) relevant.
  []
 
 
-Underfull \hbox (badness 3281) in paragraph at lines 99--100
+Underfull \hbox (badness 3281) in paragraph at lines 130--131
 \TU/NotoSerif(0)/m/n/12 oder Ein-/Ausgabeoperationen vom primären Arbeitsstrang
  einer
  []
 
+)
 File: figures/dhbwlogo.png Graphic file (type bmp)
 <figures/dhbwlogo.png>
-[6])
-File: figures/dhbwlogo.png Graphic file (type bmp)
-<figures/dhbwlogo.png>
- [7] (sec3.tex
+ [9] (sec3.tex
 Kapitel 3.
 
 Overfull \hbox (27.01pt too wide) in paragraph at lines 1--1
@@ -2233,7 +2435,7 @@ bessern
 
 File: figures/dhbwlogo.png Graphic file (type bmp)
 <figures/dhbwlogo.png>
-[8
+[10
 
 ]
 Underfull \hbox (badness 5231) in paragraph at lines 50--52
@@ -2329,20 +2531,36 @@ Underfull \hbox (badness 10000) in paragraph at lines 65--102
 ge-
  []
 
+
+Underfull \hbox (badness 6978) in paragraph at lines 65--102
+\TU/NotoSerif(0)/m/n/12 Objektkoordinaten. Die Geschwindigkeit des Roboters wir
+d per
+ []
+
 File: figures/dhbwlogo.png Graphic file (type bmp)
 <figures/dhbwlogo.png>
-[9]
+[11]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 File: figures/dhbwlogo.png Graphic file (type bmp)
 <figures/dhbwlogo.png>
- [10]
+[12]
 LaTeX Font Info:    Font shape `TU/NotoSans(0)/m/n' will be
 (Font)              scaled to size 10.95pt on input line 147.
 LaTeX Font Info:    Font shape `TU/NotoSansMono(0)/m/n' will be
 (Font)              scaled to size 10.95pt on input line 147.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 )
 File: figures/dhbwlogo.png Graphic file (type bmp)
 <figures/dhbwlogo.png>
- [11] (sec4.tex
+ [13] (sec4.tex
+File: figures/dhbwlogo.png Graphic file (type bmp)
+<figures/dhbwlogo.png>
+ [14]
 Kapitel 4.
 
 Underfull \hbox (badness 10000) in paragraph at lines 1--1
@@ -2361,7 +2579,7 @@ Overfull \hbox (17.08104pt too wide) in paragraph at lines 68--69
 )
 File: figures/dhbwlogo.png Graphic file (type bmp)
 <figures/dhbwlogo.png>
- [12
+ [15
 
 ] (sec5.tex
 Kapitel 5.
@@ -2531,12 +2749,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--42
 
 File: figures/dhbwlogo.png Graphic file (type bmp)
 <figures/dhbwlogo.png>
-[13
+[16
 
 ]
 File: figures/dhbwlogo.png Graphic file (type bmp)
 <figures/dhbwlogo.png>
- [14]
+ [17]
 Underfull \hbox (badness 5787) in paragraph at lines 42--52
 []\TU/NotoSerif(0)/m/n/12 Bei der algorithmischen
  []
@@ -2862,30 +3080,96 @@ isch
 
 File: figures/dhbwlogo.png Graphic file (type bmp)
 <figures/dhbwlogo.png>
-[15]
+[18]
 File: figures/dhbwlogo.png Graphic file (type bmp)
 <figures/dhbwlogo.png>
- [16]
+ [19]
 File: figures/dhbwlogo.png Graphic file (type bmp)
 <figures/dhbwlogo.png>
- [17])
+ [20]
+Missing character: There is no ( in font nullfont!
+Missing character: There is no B in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no B in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no [ in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no Z in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no O in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no j in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no ; in font nullfont!
+)
 File: figures/dhbwlogo.png Graphic file (type bmp)
 <figures/dhbwlogo.png>
- [18] (sec6.tex
+ [21] (sec6.tex
 Kapitel 6.
 )
 File: figures/dhbwlogo.png Graphic file (type bmp)
 <figures/dhbwlogo.png>
- [19
+ [22
 
-] (sec7.tex
-Kapitel 7.
-)
-File: figures/dhbwlogo.png Graphic file (type bmp)
-<figures/dhbwlogo.png>
- [20
-
-] (T3200.bbl
+] (sec7.tex) (T3200.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 25--29
 [] [] [][][] [] [][][] [] [][][][][][][][][][] [] [][] [] [][] [] [][][][][][][
 ][][][][][][][][][][][] [] [][][][][][][][][][][][][][] []
@@ -2898,9 +3182,14 @@ Underfull \hbox (badness 1655) in paragraph at lines 25--29
  []
 
 
-Underfull \hbox (badness 1259) in paragraph at lines 65--68
-\TU/NotoSerif(0)/m/n/12 15066:2016),” DIN Media GmbH, Berlin, Vornorm DIN ISO/T
-S
+Underfull \hbox (badness 10000) in paragraph at lines 43--45
+[]\TU/NotoSerif(0)/m/n/12 W. Schulz, “Anwendung und vergleich von algorithmen
+ []
+
+
+Underfull \hbox (badness 4927) in paragraph at lines 43--45
+\TU/NotoSerif(0)/m/n/12 zur sicherheitsgerichteten auswertung von 2d laserscann
+er-
  []
 
 File: figures/dhbwlogo.png Graphic file (type bmp)
@@ -2908,35 +3197,43 @@ File: figures/dhbwlogo.png Graphic file (type bmp)
 [7
 
 ]
-Underfull \hbox (badness 3291) in paragraph at lines 85--89
+Underfull \hbox (badness 1259) in paragraph at lines 89--92
+\TU/NotoSerif(0)/m/n/12 15066:2016),” DIN Media GmbH, Berlin, Vornorm DIN ISO/T
+S
+ []
+
+
+Underfull \hbox (badness 3291) in paragraph at lines 109--113
 \TU/NotoSerif(0)/m/n/12 line; Zugegriffen am 10. Juni 2026]. [Online].
  []
 
 
-Underfull \hbox (badness 5274) in paragraph at lines 85--89
+Underfull \hbox (badness 5274) in paragraph at lines 109--113
 \TU/NotoSerif(0)/m/n/12 Available: []$[][][][][] [] [] [] [][][][][] [] [][][][
 ][][][][][] [] [][][] [] [][][][][][] [] [][][][][][] [] [][][][][][][][] []
  []
 
-)
 File: figures/dhbwlogo.png Graphic file (type bmp)
 <figures/dhbwlogo.png>
- [8]
+[8])
 File: figures/dhbwlogo.png Graphic file (type bmp)
 <figures/dhbwlogo.png>
- [9
+ [9]
+File: figures/dhbwlogo.png Graphic file (type bmp)
+<figures/dhbwlogo.png>
+ [10
 
 ]
 File: figures/dhbwlogo.png Graphic file (type bmp)
 <figures/dhbwlogo.png>
- [10] (T3200.lof
-Underfull \hbox (badness 10000) in paragraph at lines 9--9
+ [11] (T3200.lof
+Underfull \hbox (badness 10000) in paragraph at lines 10--10
  [][] [][]\TU/NotoSerif(0)/m/n/12 Gegenüberstellung von blockierenden synchrone
 n 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 11--11
+Underfull \hbox (badness 10000) in paragraph at lines 12--12
  [][] [][]\TU/NotoSerif(0)/m/n/12 Projektions- und kamerabasierte Technologie z
 ur 
  []
@@ -2947,7 +3244,7 @@ ur
 
 File: figures/dhbwlogo.png Graphic file (type bmp)
 <figures/dhbwlogo.png>
- [11
+ [12
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 464--464
@@ -3068,24 +3365,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 483--483
 
 File: figures/dhbwlogo.png Graphic file (type bmp)
 <figures/dhbwlogo.png>
-[12
+[13
 
 
 ]
 File: figures/dhbwlogo.png Graphic file (type bmp)
 <figures/dhbwlogo.png>
- [13]
+ [14]
 Underfull \hbox (badness 2326) in paragraph at lines 488--489
 \TU/NotoSerif(0)/m/n/12 Autor die primäre Urheberschaft für die jeweiligen Kapi
 tel bzw.
  []
 
 
-LaTeX Warning: Reference `Robotik' on page xiv undefined on input line 510.
+LaTeX Warning: Reference `Robotik' on page xv undefined on input line 510.
 
 
-LaTeX Warning: Reference `Bildverarbeitung' on page xiv undefined on input line
- 510.
+LaTeX Warning: Reference `Bildverarbeitung' on page xv undefined on input line 
+510.
 
 
 Underfull \hbox (badness 2088) in paragraph at lines 510--510
@@ -3093,28 +3390,19 @@ Underfull \hbox (badness 2088) in paragraph at lines 510--510
  []
 
 
-LaTeX Warning: Reference `Grundlagen der Informatik' on page xiv undefined on i
-nput line 510.
+LaTeX Warning: Reference `Grundlagen der Informatik' on page xv undefined on in
+put line 510.
 
 
-LaTeX Warning: Reference `Ausgangslage: Hardware' on page xiv undefined on inpu
-t line 510.
+LaTeX Warning: Reference `Ausgangslage: Hardware' on page xv undefined on input
+ line 510.
 
 
-LaTeX Warning: Reference `Ausgangslage: Software' on page xiv undefined on inpu
-t line 510.
+LaTeX Warning: Reference `Ausgangslage: Software' on page xv undefined on input
+ line 510.
 
 
-LaTeX Warning: Reference `Messreihe' on page xiv undefined on input line 510.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 510--510
-[]|\TU/NotoSerif(0)/m/n/12 Optimierung der
- []
-
-
-LaTeX Warning: Reference `Optimierung der Softwarestruktur' on page xiv undefin
-ed on input line 510.
+LaTeX Warning: Reference `Messreihe' on page xv undefined on input line 510.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 510--510
@@ -3122,8 +3410,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 510--510
  []
 
 
-LaTeX Warning: Reference `Optimierung der Bildgewinnung' on page xiv undefined 
-on input line 510.
+LaTeX Warning: Reference `Optimierung der Softwarestruktur' on page xv undefine
+d on input line 510.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 510--510
+[]|\TU/NotoSerif(0)/m/n/12 Optimierung der
+ []
+
+
+LaTeX Warning: Reference `Optimierung der Bildgewinnung' on page xv undefined o
+n input line 510.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 510--510
@@ -3142,11 +3439,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 510--510
 
 
 LaTeX Warning: Reference `Optimierung und Verbesserungsmöglichkeiten an der Sof
-tware' on page xiv undefined on input line 510.
+tware' on page xv undefined on input line 510.
 
 
 LaTeX Warning: Reference `Normative Anforderungen und Grenzen des RV-M1' on pag
-e xiv undefined on input line 510.
+e xv undefined on input line 510.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 510--510
@@ -3154,8 +3451,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 510--510
  []
 
 
-LaTeX Warning: Reference `Umsetzbare Sicherheitsmerkmale' on page xiv undefined
- on input line 510.
+LaTeX Warning: Reference `Umsetzbare Sicherheitsmerkmale' on page xv undefined 
+on input line 510.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 510--510
@@ -3174,15 +3471,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 510--510
 
 
 LaTeX Warning: Reference `Ansatz Geschwindigkeits- und Abstandsüberwachung' on 
-page xiv undefined on input line 510.
+page xv undefined on input line 510.
 
 
-LaTeX Warning: Reference `Fazit und Ausblick' on page xiv undefined on input li
-ne 510.
+LaTeX Warning: Reference `Fazit und Ausblick' on page xv undefined on input lin
+e 510.
 
 File: figures/dhbwlogo.png Graphic file (type bmp)
 <figures/dhbwlogo.png>
-[14]
+[15]
 File: figures/L_Signature.png Graphic file (type bmp)
 <figures/L_Signature.png>
 
@@ -3195,13 +3492,19 @@ File: figures/A_Signature.png Graphic file (type bmp)
 <figures/A_Signature.png>
 File: figures/dhbwlogo.png Graphic file (type bmp)
 <figures/dhbwlogo.png>
-[15]
+[16]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 File: figures/dhbwlogo.png Graphic file (type bmp)
 <figures/dhbwlogo.png>
- [16
+[17
 
 
-] (T3200.aux)
+]
+File: figures/dhbwlogo.png Graphic file (type bmp)
+<figures/dhbwlogo.png>
+ [18] (T3200.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
@@ -3210,16 +3513,19 @@ L3 programming layer <2024-01-04>
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `T3200.out' has not changed.
-(rerunfilecheck)             Checksum: 3DDE02D7FBFE375C986C6383BFD11DDC;8214.
+(rerunfilecheck)             Checksum: CED96FFC684024890B81D4C22EC581F8;9243.
  ) 
 Here is how much of TeX's memory you used:
- 34218 strings out of 409617
- 708807 string characters out of 5774013
+ 34291 strings out of 409617
+ 709968 string characters out of 5774013
  1968191 words of memory out of 5000000
- 55725 multiletter control sequences out of 15000+600000
+ 55797 multiletter control sequences out of 15000+600000
  566778 words of font info for 105 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  123i,23n,131p,1593b,986s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on T3200.pdf (36 pages).
+Output written on T3200.pdf (40 pages).

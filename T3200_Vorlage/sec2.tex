@@ -43,7 +43,38 @@ Für die Modernisierung älterer Industrie- und Robotersysteme (Retrofitting) im
 \end{itemize}
 Die technische Umsetzung der Überwachung innerhalb dieser Interaktionsstufen stützt sich im Wesentlichen auf drei Säulen: die permanente Überwachung der internen Roboterparameter (wie Position, Achsgeschwindigkeiten und Kräfte), eine automatisierte Ereigniserkennung zur Identifikation kritischer Zustände (z.B. die visuelle Verdeckung eines Menschen im Sensorschatten) sowie eine kamerabasierte Nahfelderkennung. Letztere dient dazu, im direkten Umfeld des Endeffektors sowohl die sensorische Bereitschaft des Bedieners (z.B. via Gesichtserkennung) als auch die exakte Lage von Körperteilen zu erfassen, um Verletzungen oder Quetschungen effektiv zu verhindern.
 
-\subsection{visuelle Handerkennung}
+\subsection{Visuelle Handerkennung}
+
+In diesem Kapitel werden verschiedene informationstechnische Ansätze, Methoden und Praktiken zur visuellen beziehungsweise optischen Handerkennung detailliert beleuchtet. Die theoretische Auseinandersetzung mit diesen technologischen Konzepten ist im Rahmen dieser Studienarbeit von zentraler Bedeutung, um die dedizierte Auswahl des in dieser Arbeit implementierten Verfahrens wissenschaftlich und methodisch zu begründen. Zu diesem Zweck werden im Folgenden die Vor- und Nachteile der jeweiligen Herangehensweisen systematisch evaluiert.
+
+\subsubsection{Infrarot- und Wärmebildsensorik}
+\begin{wrapfigure}{r}{0.6\textwidth}
+	\centering
+	\includegraphics[width=80mm]{figures/InfRot-HE-Luis.png}
+	\caption{Testbild Passiv-Infrarot Schutzeinrichtung an einer Kreissäge aus \cite{GRA03}}
+	\label{Infrarot Schutzeinrichtung}}
+\end{wrapfigure} 
+Ein etablierter Ansatz zur Detektion des menschlichen Körpers basiert auf der Nutzung von Passiv-Infrarot-Sensoren (PIR), welche im infraroten Spektralbereich operieren. Diese Systeme messen die emittierte Wärmestrahlung von Objekten, die sich innerhalb des definierten Erfassungsbereichs befinden. Mittels spezieller Lernalgorithmen, die auf verschiedenen empirischen Fallstudien basieren, gelingt auf dieser Grundlage die selektive Erkennung menschlicher, warmer Haut~\cite{GRA03}. 
+\\
+\\Als wesentlicher Vorteil dieses sensorischen Prinzips erweist sich die robuste Einsetzbarkeit in rauen, industriell geprägten Produktionsumgebungen, da das Messprinzip weitgehend unabhängig von sichtbaren transienten Lichtverhältnissen arbeitet. Demgegenüber stehen jedoch signifikante Nachteile: Neben der Notwendigkeit kostenintensiver Infrarotsensoren neigt das System zu Fehl- und Pseudoerkennungen, sobald die Temperatur umliegender Maschinenteile, Werkstücke oder Betriebsmedien der menschlichen Hautoberflächentemperatur ähnelt. Darüber hinaus erfordert die thermografische Signalverarbeitung und die nachgelagerte algorithmische Merkmalsberechnung eine vergleichsweise hohe Rechenleistung.
+
+\subsubsection{2D- und 3D-Time-of-Flight-Scanner}
+
+Andere wissenschaftliche Arbeiten, wie die Forschungen von Wolfgang Schulz~\cite{SCH05}, behandeln die Detektion von Handkonturen primär auf Basis von Abstandsaufnahmen. Technologisch lässt sich dieses Prinzip entweder als „virtueller Vorhang“ mittels einer planar messenden 2D-Time-of-Flight-Kamera (ToF)~\cite{SCH05} oder als volumetrischer Scan des kompletten Arbeitsbereichs mithilfe einer 3D-ToF-Kamera realisieren, wie es unter anderem von Mandischer et al.~\cite{mandischer2022noncontact} demonstriert wurde. Ein solches volumetrisches System ist in der Lage, einen großflächigen Arbeitsbereich von etwa $2 \times 2\,\text{m}$ lückenlos abzudecken. 
+
+Mithilfe der ToF-Struktur wird kontinuierlich die euklidische Distanz zwischen der Roboterkinematik und den im Raum befindlichen Objekten ermittelt. Unterschreitet der gemessene Abstand zwischen dem Manipulator und einem externen Objekt normative Schwellenwerte, greift ein algorithmisches Geschwindigkeits- und Abstandsmodell (\textit{Speed and Separation Monitoring}, SSM), um den Roboter kontrolliert zu verlangsamen oder vollständig stillzusetzen. 
+
+Die Vorteile dieser Technologie liegen in der Option, eine mitbewegte Sensorik zu implementieren; das Kamerasystem kann hierbei direkt an der mechanischen Struktur des Roboters fixiert werden und wandert mit dem Gefahrenbereich mit. Zudem ermöglicht die inhärente Kombination aus Intensitätsbildern und dreidimensionalen Tiefendaten eine zuverlässige Positionsermittlung sowie die Differenzierung zwischen einem maschinellen Werkstück und einem menschlichen Körperteil. 
+
+Als kritischer Nachteil erweist sich jedoch die normative Zertifizierung im Kontext der funktionalen Sicherheit. Damit eine ToF-Kamera als berührungslos wirkende Schutzeinrichtung (ESPE) zugelassen werden kann, erfordert die Systemarchitektur eine hardwarenahe Zweikanaligkeit (Redundanz) sowie eine permanente, fehlersichere Selbstüberwachung. Zudem bedingt die hochfrequente Verarbeitung großer 3D-Punktwolken einen erheblichen Rechenaufwand, was zu systemischen Latenzzeiten in der Sicherheitskette führen kann.
+
+\subsubsection{Hautfarbenerkennung}
+
+Eine alternative Methode stellt die Extraktion und Erkennung menschlicher Körperteile auf Basis von rein farbmetrischen Informationen dar. Entsprechende Algorithmen nutzen Schwellwertverfahren, Histogrammanalysen oder vordefinierte Look-up-Tables (LUT), um bestimmte Farbwerte im Bild zu isolieren. Diese Analysen werden in unterschiedlichen Farbräumen wie RGB, HSV oder YCbCr durchgeführt. Ein kombinierter Ansatz, welcher die mathematischen Vorteile der Farbräume RGB, HSV und YCbCr kombiniert, wird in~\cite{Sea03} beschrieben. Durch den sequentiellen Einsatz verschiedener Spektralfilter und komplexer Segmentierungsalgorithmen kann auf diese Weise eine robuste Extraktion der Handgeometrie oder anderer freiliegender Extremitäten erreicht werden.
+
+Der fundamentale Vorteil dieser Methode liegt in der Hardware-Ökonomie, da für die Umsetzung eine klassische, kostengünstige 2D-Industriekamera ausreichend ist. Zudem arbeitet die farbbasierte Segmentierung weitgehend unabhängig von der konkreten Bewegung, Rotation oder temporären geometrischen Verformung der menschlichen Hand. 
+
+Dem stehen im industriellen Einsatz gravierende Nachteile gegenüber. Das System versagt inhärent, sobald der Werker vorgeschriebene Arbeitshandschuhe trägt, da die Farbinformation der Haut maskiert wird. Zudem verursachen die mathematischen Transformationen zwischen den Farbräumen und die nachgelagerte Segmentierung einen hohen theoretischen sowie rechentechnischen Aufwand. Das Verfahren setzt qualitativ hochwertige Kamerasysteme voraus und erfordert eine präzise Kalibrierung auf das jeweilige optische System. Zuletzt begründet die strikte Abhängigkeit von den visuellen Hintergrundverhältnissen sowie wechselnden Beleuchtungsszenarien ein hohes Risiko für Falschdetektionen im praktischen Betrieb.
 
 \subsection{KI-Handerkennungsmodell}
 
