@@ -1,650 +1,964 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.6.15)  18 JUN 2026 13:33
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 24.1) (preloaded format=xelatex 2026.2.20)  18 JUN 2026 13:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **./T3200.tex
 (T3200.tex
-LaTeX2e <2026-06-01>
-L3 programming layer <2026-05-26>
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
-Document Class: report 2025/01/22 v1.4n Standard LaTeX document class
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
-File: size12.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-04>
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
+Document Class: report 2023/05/17 v1.4n Standard LaTeX document class
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
+File: size12.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count276
-\c@chapter=\count277
-\c@section=\count278
-\c@subsection=\count279
-\c@subsubsection=\count280
-\c@paragraph=\count281
-\c@subparagraph=\count282
-\c@figure=\count283
-\c@table=\count284
-\abovecaptionskip=\skip49
-\belowcaptionskip=\skip50
-\bibindent=\dimen150
+\c@part=\count183
+\c@chapter=\count184
+\c@section=\count185
+\c@subsection=\count186
+\c@subsubsection=\count187
+\c@paragraph=\count188
+\c@subparagraph=\count189
+\c@figure=\count190
+\c@table=\count191
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
 )
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
-Package: amsmath 2026/05/19 v2.18d AMS math features
-\@mathmargin=\skip51
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2023/05/13 v2.17o AMS math features
+\@mathmargin=\skip50
 
 For additional information on amsmath, use the `?' option.
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
-Package: amstext 2024/11/17 v2.01 AMS text
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
 
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks17
-\ex@=\dimen151
-)) (C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.st
-y
+\ex@=\dimen141
+))
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen152
-) (C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+\pmbraise@=\dimen142
+)
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count285
-LaTeX Info: Redefining \frac on input line 233.
-\uproot@=\count286
-\leftroot@=\count287
-LaTeX Info: Redefining \overline on input line 398.
-LaTeX Info: Redefining \colon on input line 409.
-\classnum@=\count288
-\DOTSCASE@=\count289
-LaTeX Info: Redefining \ldots on input line 495.
-LaTeX Info: Redefining \dots on input line 498.
-LaTeX Info: Redefining \cdots on input line 619.
-\Mathstrutbox@=\box53
-\strutbox@=\box54
-LaTeX Info: Redefining \big on input line 721.
-LaTeX Info: Redefining \Big on input line 722.
-LaTeX Info: Redefining \bigg on input line 723.
-LaTeX Info: Redefining \Bigg on input line 724.
-\big@size=\dimen153
-LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
-\macc@depth=\count290
-LaTeX Info: Redefining \bmod on input line 904.
-LaTeX Info: Redefining \pmod on input line 909.
-LaTeX Info: Redefining \smash on input line 939.
-LaTeX Info: Redefining \relbar on input line 969.
-LaTeX Info: Redefining \Relbar on input line 970.
-\c@MaxMatrixCols=\count291
-\dotsspace@=\muskip17
-\c@parentequation=\count292
-\dspbrk@lvl=\count293
+\inf@bad=\count192
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count193
+\leftroot@=\count194
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count195
+\DOTSCASE@=\count196
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box51
+\strutbox@=\box52
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen143
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count197
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count198
+\dotsspace@=\muskip16
+\c@parentequation=\count199
+\dspbrk@lvl=\count266
 \tag@help=\toks18
-\row@=\count294
-\column@=\count295
-\maxfields@=\count296
+\row@=\count267
+\column@=\count268
+\maxfields@=\count269
 \andhelp@=\toks19
-\eqnshift@=\dimen154
-\alignsep@=\dimen155
-\tagshift@=\dimen156
-\tagwidth@=\dimen157
-\totwidth@=\dimen158
-\lineht@=\dimen159
+\eqnshift@=\dimen144
+\alignsep@=\dimen145
+\tagshift@=\dimen146
+\tagwidth@=\dimen147
+\totwidth@=\dimen148
+\lineht@=\dimen149
 \@envbody=\toks20
-\multlinegap=\skip52
-\multlinetaggap=\skip53
+\multlinegap=\skip51
+\multlinetaggap=\skip52
 \mathdisplay@stack=\toks21
-LaTeX Info: Redefining \[ on input line 2965.
-LaTeX Info: Redefining \] on input line 2966.
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
 )
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\ti
-kz.sty
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.s
-ty
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs
-.sty
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfu
-til-common.tex
-\pgfutil@everybye=\toks22
-\pgfutil@tempdima=\dimen160
-\pgfutil@tempdimb=\dimen161
-)
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfu
-til-latex.def
-\pgfutil@abb=\box55
-)
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfr
-cs.code.tex
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.t
-ex)
-Package: pgfrcs 2025-08-29 v3.1.11a (3.1.11a)
-))
-Package: pgf 2025-08-29 v3.1.11a (3.1.11a)
-
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfco
-re.sty
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.st
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.
+sty
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.st
 y
-Package: graphicx 2026-05-17 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
+-common.tex
+\pgfutil@everybye=\toks22
+\pgfutil@tempdima=\dimen150
+\pgfutil@tempdimb=\dimen151
+)
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
+-latex.def
+\pgfutil@abb=\box53
+)
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.
+code.tex
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+))
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
 
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
-Package: keyval 2026-05-17 v1.15 key=value parser (DPC)
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.
+sty
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks23
 )
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.st
-y
-Package: graphics 2026-05-17 v1.4h Standard LaTeX Graphics (DPC,SPQR)
- (C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
-Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
 )
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphic
-s.cfg
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
+fg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 106.
+Package graphics Info: Driver file: xetex.def on input line 107.
 
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.
-def
-File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\xetex.def
+File: xetex.def 2022/09/22 v5.0n Graphics/color driver for xetex
 ))
-\Gin@req@height=\dimen162
-\Gin@req@width=\dimen163
+\Gin@req@height=\dimen152
+\Gin@req@width=\dimen153
 )
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfs
-ys.sty
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pg
-fsys.code.tex
-Package: pgfsys 2025-08-29 v3.1.11a (3.1.11a)
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.
+sty
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s.code.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
 
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfk
-eys.code.tex
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+.code.tex
 \pgfkeys@pathtoks=\toks24
 \pgfkeys@temptoks=\toks25
 
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfk
-eyslibraryfiltered.code.tex
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+libraryfiltered.code.tex
 \pgfkeys@tmptoks=\toks26
 ))
-\pgf@x=\dimen164
-\pgf@y=\dimen165
-\pgf@xa=\dimen166
-\pgf@ya=\dimen167
-\pgf@xb=\dimen168
-\pgf@yb=\dimen169
-\pgf@xc=\dimen170
-\pgf@yc=\dimen171
-\pgf@xd=\dimen172
-\pgf@yd=\dimen173
+\pgf@x=\dimen154
+\pgf@y=\dimen155
+\pgf@xa=\dimen156
+\pgf@ya=\dimen157
+\pgf@xb=\dimen158
+\pgf@yb=\dimen159
+\pgf@xc=\dimen160
+\pgf@yc=\dimen161
+\pgf@xd=\dimen162
+\pgf@yd=\dimen163
 \w@pgf@writea=\write3
 \r@pgf@reada=\read2
-\c@pgf@counta=\count297
-\c@pgf@countb=\count298
-\c@pgf@countc=\count299
-\c@pgf@countd=\count300
+\c@pgf@counta=\count270
+\c@pgf@countb=\count271
+\c@pgf@countc=\count272
+\c@pgf@countd=\count273
 \t@pgf@toka=\toks27
 \t@pgf@tokb=\toks28
 \t@pgf@tokc=\toks29
-\pgf@sys@id@count=\count301
+\pgf@sys@id@count=\count274
 
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pg
-f.cfg
-File: pgf.cfg 2025-08-29 v3.1.11a (3.1.11a)
-)
-Driver file for pgf: pgfsys-pdftex.def
-
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pg
-fsys-pdftex.def
-File: pgfsys-pdftex.def 2025-08-29 v3.1.11a (3.1.11a)
-
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pg
-fsys-common-pdf.def
-File: pgfsys-common-pdf.def 2025-08-29 v3.1.11a (3.1.11a)
-)))
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pg
-fsyssoftpath.code.tex
-File: pgfsyssoftpath.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfsyssoftpath@smallbuffer@items=\count302
-\pgfsyssoftpath@bigbuffer@items=\count303
-)
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pg
-fsysprotocol.code.tex
-File: pgfsysprotocol.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-))
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
-Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
-
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.c
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.c
 fg
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+)
+Driver file for pgf: pgfsys-xetex.def
+
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s-xetex.def
+File: pgfsys-xetex.def 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s-dvipdfmx.def
+File: pgfsys-dvipdfmx.def 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s-common-pdf.def
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+)
+\pgfsys@objnum=\count275
+)))
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+ssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count276
+\pgfsyssoftpath@bigbuffer@items=\count277
+)
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+sprotocol.code.tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
+
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package xcolor Info: Driver file: pdftex.def on input line 274.
-
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.l
-tx)
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
-Package xcolor Info: Model `RGB' extended on input line 1365.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+Package xcolor Info: Driver file: xetex.def on input line 274.
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
+Package xcolor Info: Model `RGB' extended on input line 1366.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
 )
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
-core.code.tex
-Package: pgfcore 2025-08-29 v3.1.11a (3.1.11a)
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+e.code.tex
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
 
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.c
-ode.tex
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathut
-il.code.tex)
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathpa
-rser.code.tex
-\pgfmath@dimen=\dimen174
-\pgfmath@count=\count304
-\pgfmath@box=\box56
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
+.tex
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.
+code.tex)
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparse
+r.code.tex
+\pgfmath@dimen=\dimen164
+\pgfmath@count=\count278
+\pgfmath@box=\box54
 \pgfmath@toks=\toks30
 \pgfmath@stack@operand=\toks31
 \pgfmath@stack@operation=\toks32
 )
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfu
-nctions.code.tex)
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfu
-nctions.basic.code.tex)
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfu
-nctions.trigonometric.code.tex)
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfu
-nctions.random.code.tex)
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfu
-nctions.comparison.code.tex)
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfu
-nctions.base.code.tex)
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfu
-nctions.round.code.tex)
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfu
-nctions.misc.code.tex)
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfu
-nctions.integerarithmetics.code.tex)
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathca
-lc.code.tex)
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfl
-oat.code.tex
-\c@pgfmathroundto@lastzeros=\count305
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.code.tex)
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.basic.code.tex)
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.trigonometric.code.tex)
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.random.code.tex)
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.comparison.code.tex)
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.base.code.tex)
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.round.code.tex)
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.misc.code.tex)
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.integerarithmetics.code.tex)
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.
+code.tex)
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat
+.code.tex
+\c@pgfmathroundto@lastzeros=\count279
 ))
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.co
-de.tex)
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
-corepoints.code.tex
-File: pgfcorepoints.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@picminx=\dimen175
-\pgf@picmaxx=\dimen176
-\pgf@picminy=\dimen177
-\pgf@picmaxy=\dimen178
-\pgf@pathminx=\dimen179
-\pgf@pathmaxx=\dimen180
-\pgf@pathminy=\dimen181
-\pgf@pathmaxy=\dimen182
-\pgf@xx=\dimen183
-\pgf@xy=\dimen184
-\pgf@yx=\dimen185
-\pgf@yy=\dimen186
-\pgf@zx=\dimen187
-\pgf@zy=\dimen188
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.
+tex)
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epoints.code.tex
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@picminx=\dimen165
+\pgf@picmaxx=\dimen166
+\pgf@picminy=\dimen167
+\pgf@picmaxy=\dimen168
+\pgf@pathminx=\dimen169
+\pgf@pathmaxx=\dimen170
+\pgf@pathminy=\dimen171
+\pgf@pathmaxy=\dimen172
+\pgf@xx=\dimen173
+\pgf@xy=\dimen174
+\pgf@yx=\dimen175
+\pgf@yy=\dimen176
+\pgf@zx=\dimen177
+\pgf@zy=\dimen178
 )
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
-corepathconstruct.code.tex
-File: pgfcorepathconstruct.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@path@lastx=\dimen189
-\pgf@path@lasty=\dimen190
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@path@lastx=\dimen179
+\pgf@path@lasty=\dimen180
 )
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
-corepathusage.code.tex
-File: pgfcorepathusage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@shorten@end@additional=\dimen191
-\pgf@shorten@start@additional=\dimen192
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epathusage.code.tex
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@shorten@end@additional=\dimen181
+\pgf@shorten@start@additional=\dimen182
 )
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
-corescopes.code.tex
-File: pgfcorescopes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfpic=\box57
-\pgf@hbox=\box58
-\pgf@layerbox@main=\box59
-\pgf@picture@serial@count=\count306
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+escopes.code.tex
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfpic=\box55
+\pgf@hbox=\box56
+\pgf@layerbox@main=\box57
+\pgf@picture@serial@count=\count280
 )
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
-coregraphicstate.code.tex
-File: pgfcoregraphicstate.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgflinewidth=\dimen193
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+egraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgflinewidth=\dimen183
 )
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
-coretransformations.code.tex
-File: pgfcoretransformations.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@pt@x=\dimen194
-\pgf@pt@y=\dimen195
-\pgf@pt@temp=\dimen196
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+etransformations.code.tex
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@pt@x=\dimen184
+\pgf@pt@y=\dimen185
+\pgf@pt@temp=\dimen186
 )
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
-corequick.code.tex
-File: pgfcorequick.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+equick.code.tex
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
-coreobjects.code.tex
-File: pgfcoreobjects.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eobjects.code.tex
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
-corepathprocessing.code.tex
-File: pgfcorepathprocessing.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
-corearrows.code.tex
-File: pgfcorearrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfarrowsep=\dimen197
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+earrows.code.tex
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowsep=\dimen187
 )
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
-coreshade.code.tex
-File: pgfcoreshade.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@max=\dimen198
-\pgf@sys@shading@range@num=\count307
-\pgf@shadingcount=\count308
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eshade.code.tex
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@max=\dimen188
+\pgf@sys@shading@range@num=\count281
+\pgf@shadingcount=\count282
 )
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
-coreimage.code.tex
-File: pgfcoreimage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eimage.code.tex
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
-coreexternal.code.tex
-File: pgfcoreexternal.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfexternal@startupbox=\box60
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eexternal.code.tex
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfexternal@startupbox=\box58
 )
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
-corelayers.code.tex
-File: pgfcorelayers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+elayers.code.tex
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
-coretransparency.code.tex
-File: pgfcoretransparency.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+etransparency.code.tex
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
-corepatterns.code.tex
-File: pgfcorepatterns.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epatterns.code.tex
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
-corerdf.code.tex
-File: pgfcorerdf.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+erdf.code.tex
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )))
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmod
-uleshapes.code.tex
-File: pgfmoduleshapes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfnodeparttextbox=\box61
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+shapes.code.tex
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodeparttextbox=\box59
 )
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmod
-uleplot.code.tex
-File: pgfmoduleplot.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+plot.code.tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pg
-fcomp-version-0-65.sty
-Package: pgfcomp-version-0-65 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@nodesepstart=\dimen199
-\pgf@nodesepend=\dimen256
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
+mp-version-0-65.sty
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen189
+\pgf@nodesepend=\dimen190
 )
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pg
-fcomp-version-1-18.sty
-Package: pgfcomp-version-1-18 2025-08-29 v3.1.11a (3.1.11a)
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
+mp-version-1-18.sty
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
 ))
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor
-.sty
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkey
-s.sty
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfk
-eys.code.tex))
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty
-
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.c
-ode.tex))
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgff
-or.code.tex
-Package: pgffor 2025-08-29 v3.1.11a (3.1.11a)
-\pgffor@iter=\dimen257
-\pgffor@skip=\dimen258
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.st
+y
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.s
+ty
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+.code.tex))
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
+.tex))
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.
+code.tex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen191
+\pgffor@skip=\dimen192
 \pgffor@stack=\toks33
 \pgffor@toks=\toks34
 ))
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/
-tikz\tikz.code.tex
-Package: tikz 2025-08-29 v3.1.11a (3.1.11a)
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z\tikz.code.tex
+Package: tikz 2023-01-15 v3.1.10 (3.1.10)
 
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgfl
-ibraryplothandlers.code.tex
-File: pgflibraryplothandlers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@plot@mark@count=\count309
-\pgfplotmarksize=\dimen259
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
+aryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@plot@mark@count=\count283
+\pgfplotmarksize=\dimen193
 )
-\tikz@lastx=\dimen260
-\tikz@lasty=\dimen261
-\tikz@lastxsaved=\dimen262
-\tikz@lastysaved=\dimen263
-\tikz@lastmovetox=\dimen264
-\tikz@lastmovetoy=\dimen265
-\tikzleveldistance=\dimen266
-\tikzsiblingdistance=\dimen267
-\tikz@figbox=\box62
-\tikz@figbox@bg=\box63
-\tikz@tempbox=\box64
-\tikz@tempbox@bg=\box65
-\tikztreelevel=\count310
-\tikznumberofchildren=\count311
-\tikznumberofcurrentchild=\count312
-\tikz@fig@count=\count313
+\tikz@lastx=\dimen194
+\tikz@lasty=\dimen195
+\tikz@lastxsaved=\dimen196
+\tikz@lastysaved=\dimen197
+\tikz@lastmovetox=\dimen198
+\tikz@lastmovetoy=\dimen199
+\tikzleveldistance=\dimen256
+\tikzsiblingdistance=\dimen257
+\tikz@figbox=\box60
+\tikz@figbox@bg=\box61
+\tikz@tempbox=\box62
+\tikz@tempbox@bg=\box63
+\tikztreelevel=\count284
+\tikznumberofchildren=\count285
+\tikznumberofcurrentchild=\count286
+\tikz@fig@count=\count287
 
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmod
-ulematrix.code.tex
-File: pgfmodulematrix.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfmatrixcurrentrow=\count314
-\pgfmatrixcurrentcolumn=\count315
-\pgf@matrix@numberofcolumns=\count316
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+matrix.code.tex
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfmatrixcurrentrow=\count288
+\pgfmatrixcurrentcolumn=\count289
+\pgf@matrix@numberofcolumns=\count290
 )
-\tikz@expandcount=\count317
+\tikz@expandcount=\count291
 
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/
-tikz/libraries\tikzlibrarytopaths.code.tex
-File: tikzlibrarytopaths.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )))
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/
-tikz/libraries\tikzlibraryshapes.geometric.code.tex
-File: tikzlibraryshapes.geometric.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
 
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shap
-es\pgflibraryshapes.geometric.code.tex
-File: pgflibraryshapes.geometric.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\
+pgflibraryshapes.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/
-tikz/libraries\tikzlibraryarrows.code.tex
-File: tikzlibraryarrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibraryarrows.code.tex
+File: tikzlibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgfl
-ibraryarrows.code.tex
-File: pgflibraryarrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\arrowsize=\dimen268
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
+aryarrows.code.tex
+File: pgflibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\arrowsize=\dimen258
 ))
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/
-tikz/libraries\tikzlibrarycalc.code.tex
-File: tikzlibrarycalc.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/
-tikz/libraries\tikzlibrarypositioning.code.tex
-File: tikzlibrarypositioning.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/
-tikz/libraries\tikzlibraryshadows.code.tex
-File: tikzlibraryshadows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibraryshadows.code.tex
+File: tikzlibraryshadows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/
-tikz/libraries\tikzlibraryfadings.code.tex
-File: tikzlibraryfadings.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibraryfadings.code.tex
+File: tikzlibraryfadings.code.tex 2023-01-15 v3.1.10 (3.1.10)
 
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgfl
-ibraryfadings.code.tex
-File: pgflibraryfadings.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
+aryfadings.code.tex
+File: pgflibraryfadings.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))) (nimbusmononarrow.sty
 Package: nimbusmononarrow 2016/01/04 Style file for NimbusMonoNarrow (msharpe).
 
 
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
-Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 11
+2.
+
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
+File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+))
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
 )
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
-Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
-)
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
 Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
 
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.te
-x
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.t
-ex
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
 \XKV@toks=\toks35
 \XKV@tempa@toks=\toks36
 )
-\XKV@depth=\count318
+\XKV@depth=\count292
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 )))
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.
-sty
-Package: microtype 2026/03/01 v3.2d Micro-typographical refinements (RS)
-
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.st
-y
-Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count319
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.sty
+Package: microtype 2025/07/09 v3.2b Micro-typographical refinements (RS)
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count293
 )
 \MT@toks=\toks37
-\MT@tempbox=\box66
-\MT@count=\count320
-LaTeX Info: Redefining \noprotrusionifhmode on input line 1084.
-LaTeX Info: Redefining \leftprotrusion on input line 1085.
+\MT@tempbox=\box64
+\MT@count=\count294
+LaTeX Info: Redefining \noprotrusionifhmode on input line 1087.
+LaTeX Info: Redefining \leftprotrusion on input line 1088.
 \MT@prot@toks=\toks38
-LaTeX Info: Redefining \rightprotrusion on input line 1104.
+LaTeX Info: Redefining \rightprotrusion on input line 1107.
 LaTeX Info: Redefining \textls on input line 1449.
-\MT@outer@kern=\dimen269
+\MT@outer@kern=\dimen259
 LaTeX Info: Redefining \microtypecontext on input line 2053.
 LaTeX Info: Redefining \textmicrotypecontext on input line 2070.
-\MT@listname@count=\count321
+\MT@listname@count=\count295
 
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype-
-pdftex.def
-File: microtype-pdftex.def 2026/03/01 v3.2d Definitions specific to pdftex (RS)
-
-LaTeX Info: Redefining \lsstyle on input line 944.
-LaTeX Info: Redefining \lslig on input line 944.
-\MT@outer@space=\skip54
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype-xet
+ex.def
+File: microtype-xetex.def 2025/07/09 v3.2b Definitions specific to xetex (RS)
+LaTeX Info: Redefining \lsstyle on input line 443.
+LaTeX Info: Redefining \lslig on input line 451.
+\MT@outer@space=\skip53
 )
 Package microtype Info: Loading configuration file microtype.cfg.
 
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.
-cfg
-File: microtype.cfg 2026/03/01 v3.2d microtype main configuration file (RS)
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.cfg
+File: microtype.cfg 2025/07/09 v3.2b microtype main configuration file (RS)
 )
 LaTeX Info: Redefining \microtypesetup on input line 3065.
-) (C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/noto\noto.sty
+) (C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/noto\noto.sty
 Package: noto 2022/09/11 (Bob Tennent) Supports Noto fonts for all LaTeX engine
 s.
 
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifxetex.sty
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifxetex.sty
 Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
 
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
-Package: iftex 2024/12/12 v1.0g TeX engine tests
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
 ))
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifluatex.sty
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifluatex.sty
 Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
-) (C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
-Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
 )
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/fontaxes\fontaxes.st
-y
-Package: fontaxes 2026-01-02 v2.0.2 Font selection axes (deprecated)
-Applying: [2024-11-01] Use figureversions if present on input line 74.
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/fontspec\fontspec.sty
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xpars
+e.sty
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2024-01-04 L3 programming layer (loader) 
 
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/figureversions\figur
-eversions.sty
-Package: figureversions 2025-04-29 v1.0.1 Figure versions
-)
-Already applied: [0000-00-00] Fall back to v1 on input line 76.
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-xet
+ex.def
+File: l3backend-xetex.def 2024-01-04 L3 backend support: XeTeX
+\g__graphics_track_int=\count296
+\l__pdf_internal_box=\box65
+\g__pdf_backend_object_int=\count297
+\g__pdf_backend_annotation_int=\count298
+\g__pdf_backend_link_int=\count299
 ))
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.s
-ty
+Package: xparse 2023-10-10 L3 Experimental document command parser
+)
+Package: fontspec 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
+
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/fontspec\fontspec-xetex
+.sty
+Package: fontspec-xetex 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTe
+X
+\l__fontspec_script_int=\count300
+\l__fontspec_language_int=\count301
+\l__fontspec_strnum_int=\count302
+\l__fontspec_tmp_int=\count303
+\l__fontspec_tmpa_int=\count304
+\l__fontspec_tmpb_int=\count305
+\l__fontspec_tmpc_int=\count306
+\l__fontspec_em_int=\count307
+\l__fontspec_emdef_int=\count308
+\l__fontspec_strong_int=\count309
+\l__fontspec_strongdef_int=\count310
+\l__fontspec_tmpa_dim=\dimen260
+\l__fontspec_tmpb_dim=\dimen261
+\l__fontspec_tmpc_dim=\dimen262
+ (C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+)
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/fontspec\fontspec.cfg))
+)
+
+Package fontspec Info: Font family 'NotoSans(0)' created for font 'NotoSans'
+(fontspec)             with options [Ligatures = TeX,Extension =
+(fontspec)             .ttf,Ligatures=TeX,Scale = 1,Numbers = {Monospaced,
+(fontspec)             Lining},SmallCapsFeatures={Letters=SmallCaps},UprightFon
+t
+(fontspec)             = *-Regular,ItalicFont = *-Italic,BoldFont =
+(fontspec)             *-Bold,BoldItalicFont = *-BoldItalic].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[NotoSans-Regular.ttf]/OT:script=latn;language=
+dflt;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[NotoSans-Regular.ttf]/OT:script=latn;language=
+dflt;+tnum;+lnum;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[NotoSans-Bold.ttf]/OT:script=latn;language=dfl
+t;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[NotoSans-Bold.ttf]/OT:script=latn;language=dfl
+t;+tnum;+lnum;+smcp;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[NotoSans-Italic.ttf]/OT:script=latn;language=d
+flt;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"[NotoSans-Italic.ttf]/OT:script=latn;language=d
+flt;+tnum;+lnum;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[NotoSans-BoldItalic.ttf]/OT:script=latn;langua
+ge=dflt;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"[NotoSans-BoldItalic.ttf]/OT:script=latn;langua
+ge=dflt;+tnum;+lnum;+smcp;mapping=tex-text;"
+
+
+Package fontspec Info: Font family 'NotoSerif(0)' created for font 'NotoSerif'
+(fontspec)             with options [Ligatures = TeX,Extension =
+(fontspec)             .ttf,Ligatures=TeX,Numbers = {Monospaced,
+(fontspec)             Lining},SmallCapsFeatures={Letters=SmallCaps},UprightFon
+t
+(fontspec)             = *-Regular,ItalicFont = *-Italic,BoldFont =
+(fontspec)             *-Bold,BoldItalicFont = *-BoldItalic].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[NotoSerif-Regular.ttf]/OT:script=latn;language=dflt
+;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->"[NotoSerif-Regular.ttf]/OT:script=latn;language=dflt
+;+tnum;+lnum;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"[NotoSerif-Bold.ttf]/OT:script=latn;language=dflt;+t
+num;+lnum;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->"[NotoSerif-Bold.ttf]/OT:script=latn;language=dflt;+t
+num;+lnum;+smcp;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"[NotoSerif-Italic.ttf]/OT:script=latn;language=dflt;
++tnum;+lnum;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->"[NotoSerif-Italic.ttf]/OT:script=latn;language=dflt;
++tnum;+lnum;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"[NotoSerif-BoldItalic.ttf]/OT:script=latn;language=d
+flt;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->"[NotoSerif-BoldItalic.ttf]/OT:script=latn;language=d
+flt;+tnum;+lnum;+smcp;mapping=tex-text;"
+
+
+
+Package fontspec Warning: OpenType feature 'Numbers=Monospaced, Lining' (tnum)
+(fontspec)                not available for font 'NotoSansMono-Regular' with
+(fontspec)                script 'CustomDefault' and language 'Default'.
+
+
+Package fontspec Warning: OpenType feature 'Numbers=Uppercase' (lnum) not
+(fontspec)                available for font 'NotoSansMono-Regular' with
+(fontspec)                script 'CustomDefault' and language 'Default'.
+
+
+Package fontspec Warning: OpenType feature 'Numbers=Monospaced, Lining' (tnum)
+(fontspec)                not available for font 'NotoSansMono-Regular' with
+(fontspec)                script 'CustomDefault' and language 'Default'.
+
+
+Package fontspec Warning: OpenType feature 'Numbers=Uppercase' (lnum) not
+(fontspec)                available for font 'NotoSansMono-Regular' with
+(fontspec)                script 'CustomDefault' and language 'Default'.
+
+
+Package fontspec Warning: OpenType feature 'Numbers=Monospaced, Lining' (tnum)
+(fontspec)                not available for font 'NotoSansMono-Regular' with
+(fontspec)                script 'CustomDefault' and language 'Default'.
+
+
+Package fontspec Warning: OpenType feature 'Numbers=Uppercase' (lnum) not
+(fontspec)                available for font 'NotoSansMono-Regular' with
+(fontspec)                script 'CustomDefault' and language 'Default'.
+
+
+Package fontspec Warning: OpenType feature 'Numbers=Monospaced, Lining' (tnum)
+(fontspec)                not available for font 'NotoSansMono-Bold' with
+(fontspec)                script 'CustomDefault' and language 'Default'.
+
+
+Package fontspec Warning: OpenType feature 'Numbers=Uppercase' (lnum) not
+(fontspec)                available for font 'NotoSansMono-Bold' with script
+(fontspec)                'CustomDefault' and language 'Default'.
+
+
+Package fontspec Warning: OpenType feature 'Numbers=Monospaced, Lining' (tnum)
+(fontspec)                not available for font 'NotoSansMono-Bold' with
+(fontspec)                script 'CustomDefault' and language 'Default'.
+
+
+Package fontspec Warning: OpenType feature 'Numbers=Uppercase' (lnum) not
+(fontspec)                available for font 'NotoSansMono-Bold' with script
+(fontspec)                'CustomDefault' and language 'Default'.
+
+
+Package fontspec Info: Font family 'NotoSansMono(0)' created for font
+(fontspec)             'NotoSansMono' with options [Ligatures = TeX,Extension
+(fontspec)             =
+(fontspec)             .ttf,WordSpace={1,0,0},HyphenChar=None,PunctuationSpace=
+WordSpace,Numbers
+(fontspec)             = {Monospaced, Lining},Scale =
+(fontspec)             1,HyphenChar=None,UprightFont = *-Regular,BoldFont =
+(fontspec)             *-Bold].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[NotoSansMono-Regular.ttf]/OT:script=latn;langu
+age=dflt;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[NotoSansMono-Regular.ttf]/OT:script=latn;langu
+age=dflt;+smcp;mapping=tex-text;"
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
+(fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
+(fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
+(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop:
+(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[NotoSansMono-Bold.ttf]/OT:script=latn;language
+=dflt;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[NotoSansMono-Bold.ttf]/OT:script=latn;language
+=dflt;+smcp;mapping=tex-text;"
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
+(fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
+(fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
+(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop:
+(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
+
+
+Package fontspec Info: Font family 'NotoSans(1)' created for font 'NotoSans'
+(fontspec)             with options [Ligatures = TeX,Extension = .ttf,Scale =
+(fontspec)             1,Numbers = {Monospaced,
+(fontspec)             Lining},SmallCapsFeatures={Letters=SmallCaps},UprightFon
+t
+(fontspec)             = *-Regular,ItalicFont = *-Italic,BoldFont =
+(fontspec)             *-Bold,BoldItalicFont = *-BoldItalic].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[NotoSans-Regular.ttf]/OT:script=latn;language=
+dflt;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[NotoSans-Regular.ttf]/OT:script=latn;language=
+dflt;+tnum;+lnum;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[NotoSans-Bold.ttf]/OT:script=latn;language=dfl
+t;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[NotoSans-Bold.ttf]/OT:script=latn;language=dfl
+t;+tnum;+lnum;+smcp;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[NotoSans-Italic.ttf]/OT:script=latn;language=d
+flt;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"[NotoSans-Italic.ttf]/OT:script=latn;language=d
+flt;+tnum;+lnum;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[NotoSans-BoldItalic.ttf]/OT:script=latn;langua
+ge=dflt;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"[NotoSans-BoldItalic.ttf]/OT:script=latn;langua
+ge=dflt;+tnum;+lnum;+smcp;mapping=tex-text;"
+
+
+Package fontspec Info: Font family 'NotoSerif(1)' created for font 'NotoSerif'
+(fontspec)             with options [Ligatures = TeX,Extension = .ttf,Numbers
+(fontspec)             = {Monospaced,
+(fontspec)             Lining},SmallCapsFeatures={Letters=SmallCaps},UprightFon
+t
+(fontspec)             = *-Regular,ItalicFont = *-Italic,BoldFont =
+(fontspec)             *-Bold,BoldItalicFont = *-BoldItalic].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[NotoSerif-Regular.ttf]/OT:script=latn;language=dflt
+;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->"[NotoSerif-Regular.ttf]/OT:script=latn;language=dflt
+;+tnum;+lnum;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"[NotoSerif-Bold.ttf]/OT:script=latn;language=dflt;+t
+num;+lnum;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->"[NotoSerif-Bold.ttf]/OT:script=latn;language=dflt;+t
+num;+lnum;+smcp;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"[NotoSerif-Italic.ttf]/OT:script=latn;language=dflt;
++tnum;+lnum;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->"[NotoSerif-Italic.ttf]/OT:script=latn;language=dflt;
++tnum;+lnum;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"[NotoSerif-BoldItalic.ttf]/OT:script=latn;language=d
+flt;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->"[NotoSerif-BoldItalic.ttf]/OT:script=latn;language=d
+flt;+tnum;+lnum;+smcp;mapping=tex-text;"
+
+
+Package fontspec Warning: OpenType feature 'Numbers=Monospaced, Lining' (tnum)
+(fontspec)                not available for font 'NotoSansMono-Regular' with
+(fontspec)                script 'CustomDefault' and language 'Default'.
+
+
+Package fontspec Warning: OpenType feature 'Numbers=Uppercase' (lnum) not
+(fontspec)                available for font 'NotoSansMono-Regular' with
+(fontspec)                script 'CustomDefault' and language 'Default'.
+
+
+Package fontspec Warning: OpenType feature 'Numbers=Monospaced, Lining' (tnum)
+(fontspec)                not available for font 'NotoSansMono-Regular' with
+(fontspec)                script 'CustomDefault' and language 'Default'.
+
+
+Package fontspec Warning: OpenType feature 'Numbers=Uppercase' (lnum) not
+(fontspec)                available for font 'NotoSansMono-Regular' with
+(fontspec)                script 'CustomDefault' and language 'Default'.
+
+
+Package fontspec Warning: OpenType feature 'Numbers=Monospaced, Lining' (tnum)
+(fontspec)                not available for font 'NotoSansMono-Regular' with
+(fontspec)                script 'CustomDefault' and language 'Default'.
+
+
+Package fontspec Warning: OpenType feature 'Numbers=Uppercase' (lnum) not
+(fontspec)                available for font 'NotoSansMono-Regular' with
+(fontspec)                script 'CustomDefault' and language 'Default'.
+
+
+Package fontspec Warning: OpenType feature 'Numbers=Monospaced, Lining' (tnum)
+(fontspec)                not available for font 'NotoSansMono-Bold' with
+(fontspec)                script 'CustomDefault' and language 'Default'.
+
+
+Package fontspec Warning: OpenType feature 'Numbers=Uppercase' (lnum) not
+(fontspec)                available for font 'NotoSansMono-Bold' with script
+(fontspec)                'CustomDefault' and language 'Default'.
+
+
+Package fontspec Warning: OpenType feature 'Numbers=Monospaced, Lining' (tnum)
+(fontspec)                not available for font 'NotoSansMono-Bold' with
+(fontspec)                script 'CustomDefault' and language 'Default'.
+
+
+Package fontspec Warning: OpenType feature 'Numbers=Uppercase' (lnum) not
+(fontspec)                available for font 'NotoSansMono-Bold' with script
+(fontspec)                'CustomDefault' and language 'Default'.
+
+
+Package fontspec Info: Font family 'NotoSansMono(1)' created for font
+(fontspec)             'NotoSansMono' with options
+(fontspec)             [Extension=.ttf,HyphenChar=None,Numbers = {Monospaced,
+(fontspec)             Lining},Scale = 1,UprightFont = *-Regular,BoldFont =
+(fontspec)             *-Bold].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[NotoSansMono-Regular.ttf]/OT:script=latn;langu
+age=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[NotoSansMono-Regular.ttf]/OT:script=latn;langu
+age=dflt;+smcp;"
+(fontspec)             and font adjustment code:
+(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[NotoSansMono-Bold.ttf]/OT:script=latn;language
+=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[NotoSansMono-Bold.ttf]/OT:script=latn;language
+=dflt;+smcp;"
+(fontspec)             and font adjustment code:
+(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
+
+)
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty
 Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
 
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
 
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
-\caption@tempdima=\dimen270
-\captionmargin=\dimen271
-\caption@leftmargin=\dimen272
-\caption@rightmargin=\dimen273
-\caption@width=\dimen274
-\caption@indent=\dimen275
-\caption@parindent=\dimen276
-\caption@hangindent=\dimen277
+\caption@tempdima=\dimen263
+\captionmargin=\dimen264
+\caption@leftmargin=\dimen265
+\caption@rightmargin=\dimen266
+\caption@width=\dimen267
+\caption@indent=\dimen268
+\caption@parindent=\dimen269
+\caption@hangindent=\dimen270
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count322
-\c@continuedfloat=\count323
+\c@caption@flags=\count311
+\c@continuedfloat=\count312
 )
 Package caption Info: New subtype `subfigure' on input line 238.
-\c@subfigure=\count324
+\c@subfigure=\count313
 Package caption Info: New subtype `subtable' on input line 238.
-\c@subtable=\count325
-) (C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/cite\cite.sty
+\c@subtable=\count314
+) (C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/cite\cite.sty
 LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 332.
 Package: cite 2015/02/27  v 5.5
 )
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/eurosym\eurosym.sty
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/eurosym\eurosym.sty
 Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
-\@eurobox=\box67
-) (C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
-Package: babel 2026/05/20 v26.8 The multilingual framework for LuaLaTeX, pdfLaT
-eX and XeLaTeX
-\babel@savecnt=\count326
-LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input li
-ne 2084.
-LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input li
-ne 2086.
-LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input lin
-e 2088.
-LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input lin
-e 2089.
-LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) 
-on input line 2090.
-LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) 
-on input line 2092.
-LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) 
-on input line 2117.
-\U@D=\dimen278
+\@eurobox=\box66
+)
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2024/01/07 v24.1 The Babel package
+\babel@savecnt=\count315
+\U@D=\dimen271
 \l@unhyphenated=\language79
 
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def
-)
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/babel\xebabel.def)
 \bbl@readstream=\read3
-\bbl@dirlevel=\count327
-Package babel Info: Configuration files are deprecated, as
-(babel)             they can break document portability.
-(babel)             Reported on input line 4228.
+\bbl@dirlevel=\count316
 
 *************************************
 * Local config file bblopts.cfg used
 *
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/en\ba
-bel-english.tex)
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/inval
-id\babel-ngerman.tex)
-Package babel Info: Importing font and identification data for english
-(babel)             from babel-en.ini. Reported on input line 4356.
-
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/babel-english\englis
-h.ldf
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/babel-english\english.l
+df
 Language: english 2017/06/06 v3.3r English support from the babel system
 Package babel Info: Hyphen rules for 'canadian' set to \l@english
 (babel)             (\language0). Reported on input line 102.
@@ -653,402 +967,409 @@ Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
 Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
 (babel)             (\language73). Reported on input line 108.
 )
-Package babel Info: Importing font and identification data for ngerman
-(babel)             from babel-de.ini. Reported on input line 4356.
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/babel-german\ngerman.ld
+f
+Language: ngerman 2024/01/19 v2.14 German support for babel (post-1996 orthogra
+phy)
 
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/babel-german\ngerman
-.ldf
-Language: ngerman 
-
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/babel-german\babel-g
-erman.def
-Package babel Info: Making " an active character on input line 500.
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/babel-german\ngermanb.l
+df
+Language: ngermanb 2024/01/19 v2.14 German support for babel (post-1996 orthogr
+aphy)
+Package babel Info: Making " an active character on input line 122.
 )))
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/germbib\bibgerm.sty
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/de\babel
+-ngerman.tex
+Package babel Info: Importing font and identification data for ngerman
+(babel)             from babel-de.ini. Reported on input line 11.
+)
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/en\babel
+-english.tex
+Package babel Info: Importing font and identification data for english
+(babel)             from babel-en.ini. Reported on input line 11.
+)
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/germbib\bibgerm.sty
 Package: bibgerm 2000/08/18 v0.1 Support for mixed language bibliographies
 
 ** Macros for german `BibTeX'ing added to Style Option `german' 20 Apr 1993 **
 ** idea and languages `german' and `USenglish' implemented by M. Wallmeier **
 ** Modified for LaTeX 2e and german.sty 2.5b by A. Scherer 1 Nov 1995 **
 ** Modified for ngerman.sty and babel.sty by H. Harders 21 August 2000 **)
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/wrapfig\wrapfig.sty
-\wrapoverhang=\dimen279
-\WF@size=\dimen280
-\c@WF@wrappedlines=\count328
-\WF@box=\box68
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/wrapfig\wrapfig.sty
+\wrapoverhang=\dimen272
+\WF@size=\dimen273
+\c@WF@wrappedlines=\count317
+\WF@box=\box67
 \WF@everypar=\toks39
 Package: wrapfig 2003/01/31  v 3.6
-) (sistyle.sty
+)
+(sistyle.sty
 Package: sistyle 2008/07/16 v2.3a SI units and numbers (DNJ Els)
 \ttoks@A=\toks40
 \ttoks@B=\toks41
 )
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/base\latexsym.sty
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/base\latexsym.sty
 Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
 \symlasy=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
 (Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
 )
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.st
-y
-Package: hyperref 2026-04-24 v7.01q Hypertext links for LaTeX
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2023-11-26 v7.01g Hypertext links for LaTeX
 
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.
-sty
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.s
+ty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 )
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdef
-inekeys.sty
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefine
+keys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 )
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescap
-e.sty
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.s
+ty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
 
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.st
-y
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
 Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
 )
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexc
-mds.sty
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
+.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
-)
-
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarer
-r.sty
-Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
+Package pdftexcmds Info: \pdfdraftmode not found.
 ))
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 )
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
-Package: nameref 2026-01-29 v2.58 Cross-referencing by name of section
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letltxmacro
+.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
 
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.st
-y
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 )
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\get
-titlestring.sty
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettit
+lestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.
-sty
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-\c@section@level=\count329
+\c@section@level=\count318
 )
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringen
-c.sty
-Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
-)
-)
-\@linkdim=\dimen281
-\Hy@linkcounter=\count330
-\Hy@pagecounter=\count331
-
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
-File: pd1enc.def 2026-04-24 v7.01q Hyperref: PDFDocEncoding definition (HO)
-Now handling font encoding PD1 ...
-... no UTF-8 mapping file for font encoding PD1
-)
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.st
-y
+\@linkdim=\dimen274
+\Hy@linkcounter=\count319
+\Hy@pagecounter=\count320
+ (C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2023-11-26 v7.01g Hyperref: PDFDocEncoding definition (HO)
+) (C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count332
-
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
-File: puenc.def 2026-04-24 v7.01q Hyperref: PDF Unicode definition (HO)
-Now handling font encoding PU ...
-... no UTF-8 mapping file for font encoding PU
+\Hy@SavedSpaceFactor=\count321
+ (C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+File: puenc.def 2023-11-26 v7.01g Hyperref: PDF Unicode definition (HO)
 )
-Package hyperref Info: Hyper figures OFF on input line 4199.
-Package hyperref Info: Link nesting OFF on input line 4204.
-Package hyperref Info: Hyper index ON on input line 4207.
-Package hyperref Info: Plain pages OFF on input line 4214.
-Package hyperref Info: Backreferencing OFF on input line 4219.
+Package hyperref Info: Hyper figures OFF on input line 4181.
+Package hyperref Info: Link nesting OFF on input line 4186.
+Package hyperref Info: Hyper index ON on input line 4189.
+Package hyperref Info: Plain pages OFF on input line 4196.
+Package hyperref Info: Backreferencing OFF on input line 4201.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4466.
-\c@Hy@tempcnt=\count333
+Package hyperref Info: Bookmarks ON on input line 4448.
+\c@Hy@tempcnt=\count322
 
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
-\Urlmuskip=\muskip18
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 4805.
-\XeTeXLinkMargin=\dimen282
+LaTeX Info: Redefining \url on input line 4786.
+\XeTeXLinkMargin=\dimen275
 
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintc
-alc.sty
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc
+.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count334
-\Field@Width=\dimen283
-\Fld@charsize=\dimen284
-Package hyperref Info: Hyper figures OFF on input line 6091.
-Package hyperref Info: Link nesting OFF on input line 6096.
-Package hyperref Info: Hyper index ON on input line 6099.
-Package hyperref Info: backreferencing OFF on input line 6106.
-Package hyperref Info: Link coloring OFF on input line 6111.
-Package hyperref Info: Link coloring with OCG OFF on input line 6116.
-Package hyperref Info: PDF/A mode OFF on input line 6121.
-\Hy@abspage=\count335
-\c@Item=\count336
-\c@Hfootnote=\count337
+\Fld@menulength=\count323
+\Field@Width=\dimen276
+\Fld@charsize=\dimen277
+Package hyperref Info: Hyper figures OFF on input line 6065.
+Package hyperref Info: Link nesting OFF on input line 6070.
+Package hyperref Info: Hyper index ON on input line 6073.
+Package hyperref Info: backreferencing OFF on input line 6080.
+Package hyperref Info: Link coloring OFF on input line 6085.
+Package hyperref Info: Link coloring with OCG OFF on input line 6090.
+Package hyperref Info: PDF/A mode OFF on input line 6095.
+
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
 )
-Package hyperref Info: Driver (autodetected): hpdftex.
+\Hy@abspage=\count324
+\c@Item=\count325
+\c@Hfootnote=\count326
+)
+Package hyperref Info: Driver (autodetected): hxetex.
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hxetex.def
+File: hxetex.def 2023-11-26 v7.01g Hyperref driver for XeTeX
 
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
-File: hpdftex.def 2026-04-24 v7.01q Hyperref driver for pdfTeX
-\Fld@listcount=\count338
-\c@bookmark@seq@number=\count339
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.s
+ty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+\pdfm@box=\box68
+\c@Hy@AnnotLevel=\count327
+\HyField@AnnotCount=\count328
+\Fld@listcount=\count329
+\c@bookmark@seq@number=\count330
 
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerun
-filecheck.sty
-Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfil
+echeck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
 
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniq
-uecounter.sty
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquec
+ounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
-84.
+85.
 )
-\Hy@SectionHShift=\skip55
+\Hy@SectionHShift=\skip54
 )
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.st
-y
-Package: csquotes 2026-05-19 v5.2p context-sensitive quotations (JAW)
-\csq@reset=\count340
-\csq@gtype=\count341
-\csq@glevel=\count342
-\csq@qlevel=\count343
-\csq@maxlvl=\count344
-\csq@tshold=\count345
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.sty
+Package: csquotes 2024-04-04 v5.2o context-sensitive quotations (JAW)
+\csq@reset=\count331
+\csq@gtype=\count332
+\csq@glevel=\count333
+\csq@qlevel=\count334
+\csq@maxlvl=\count335
+\csq@tshold=\count336
 \csq@ltx@everypar=\toks42
 
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.de
-f
-File: csquotes.def 2026-05-19 v5.2p csquotes generic definitions (JAW)
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.def
+File: csquotes.def 2024-04-04 v5.2o csquotes generic definitions (JAW)
 )
 Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
 Package csquotes Info: ... configuration file loaded successfully.
 
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.cf
-g
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.cfg
 File: csquotes.cfg 
-))
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.st
+)) (C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.st
 y
-Package: geometry 2026/03/07 v6.0 Page Geometry
- (C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count346
-\Gm@cntv=\count347
-\c@Gm@tempcnt=\count348
-\Gm@bindingoffset=\dimen285
-\Gm@wd@mp=\dimen286
-\Gm@odd@mp=\dimen287
-\Gm@even@mp=\dimen288
-\Gm@layoutwidth=\dimen289
-\Gm@layoutheight=\dimen290
-\Gm@layouthoffset=\dimen291
-\Gm@layoutvoffset=\dimen292
+\Gm@cnth=\count337
+\Gm@cntv=\count338
+\c@Gm@tempcnt=\count339
+\Gm@bindingoffset=\dimen278
+\Gm@wd@mp=\dimen279
+\Gm@odd@mp=\dimen280
+\Gm@even@mp=\dimen281
+\Gm@layoutwidth=\dimen282
+\Gm@layoutheight=\dimen283
+\Gm@layouthoffset=\dimen284
+\Gm@layoutvoffset=\dimen285
 \Gm@dimlist=\toks43
 
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cf
-g)) (C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count349
+\c@float@type=\count340
 \float@exts=\toks44
 \float@box=\box69
 \@float@everytoks=\toks45
 \@floatcapt=\box70
-) (C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
-Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
+)
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
+Package: tabularx 2023/07/08 v2.11c `tabularx' package (DPC)
 
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
-Package: array 2026/02/24 v2.7b Tabular extension package (FMi)
-\col@sep=\dimen293
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen286
 \ar@mcellbox=\box71
-\extrarowheight=\dimen294
+\extrarowheight=\dimen287
 \NC@list=\toks46
-\extratabsurround=\skip56
-\backup@length=\skip57
+\extratabsurround=\skip55
+\backup@length=\skip56
 \ar@cellbox=\box72
 )
-\TX@col@width=\dimen295
-\TX@old@table=\dimen296
-\TX@old@col=\dimen297
-\TX@target=\dimen298
-\TX@delta=\dimen299
-\TX@cols=\count350
+\TX@col@width=\dimen288
+\TX@old@table=\dimen289
+\TX@old@col=\dimen290
+\TX@target=\dimen291
+\TX@delta=\dimen292
+\TX@cols=\count341
 \TX@ftn=\toks47
 )
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.st
-y
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen300
-\lightrulewidth=\dimen301
-\cmidrulewidth=\dimen302
-\belowrulesep=\dimen303
-\belowbottomsep=\dimen304
-\aboverulesep=\dimen305
-\abovetopsep=\dimen306
-\cmidrulesep=\dimen307
-\cmidrulekern=\dimen308
-\defaultaddspace=\dimen309
-\@cmidla=\count351
-\@cmidlb=\count352
-\@aboverulesep=\dimen310
-\@belowrulesep=\dimen311
-\@thisruleclass=\count353
-\@lastruleclass=\count354
-\@thisrulewidth=\dimen312
+\heavyrulewidth=\dimen293
+\lightrulewidth=\dimen294
+\cmidrulewidth=\dimen295
+\belowrulesep=\dimen296
+\belowbottomsep=\dimen297
+\aboverulesep=\dimen298
+\abovetopsep=\dimen299
+\cmidrulesep=\dimen300
+\cmidrulekern=\dimen301
+\defaultaddspace=\dimen302
+\@cmidla=\count342
+\@cmidlb=\count343
+\@aboverulesep=\dimen303
+\@belowrulesep=\dimen304
+\@thisruleclass=\count344
+\@lastruleclass=\count345
+\@thisrulewidth=\dimen305
 )
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pdfpages.st
-y
-Package: pdfpages 2026/03/30 v0.6h Insert pages of external PDF documents (AM)
- (C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
-Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
-)
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
-Package: calc 2025/03/01 v4.3b Infix arithmetic (KKT,FJ)
-\calc@Acount=\count355
-\calc@Bcount=\count356
-\calc@Adimen=\dimen313
-\calc@Bdimen=\dimen314
-\calc@Askip=\skip58
-\calc@Bskip=\skip59
-LaTeX Info: Redefining \setlength on input line 86.
-LaTeX Info: Redefining \addtolength on input line 87.
-\calc@Ccount=\count357
-\calc@Cskip=\skip60
-)
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
-Package: eso-pic 2026/05/31 v3.0e eso-pic (RN)
-\ESO@tempdima=\dimen315
-\ESO@tempdimb=\dimen316
-)
-\AM@pagewidth=\dimen317
-\AM@pageheight=\dimen318
-\AM@fboxrule=\dimen319
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pdfpages.sty
+Package: pdfpages 2025/07/23 v0.6g Insert pages of external PDF documents (AM)
 
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pppdftex.de
-f
-File: pppdftex.def 2026/03/30 v0.6h Pdfpages driver for pdfTeX (AM)
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 )
-\pdfpages@includegraphics@status=\count358
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
+Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count346
+\calc@Bcount=\count347
+\calc@Adimen=\dimen306
+\calc@Bdimen=\dimen307
+\calc@Askip=\skip57
+\calc@Bskip=\skip58
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count348
+\calc@Cskip=\skip59
+)
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
+Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
+\ESO@tempdima=\dimen308
+\ESO@tempdimb=\dimen309
+)
+\AM@pagewidth=\dimen310
+\AM@pageheight=\dimen311
+\AM@fboxrule=\dimen312
+
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\ppxetex.def
+File: ppxetex.def 2025/07/23 v0.6g Pdfpages driver for XeTeX (AM)
+)
+\pdfpages@includegraphics@status=\count349
 \AM@pagebox=\box73
 \AM@global@opts=\toks48
-\AM@pagecnt=\count359
+\AM@pagecnt=\count350
 \AM@toc@title=\toks49
 \AM@lof@heading=\toks50
-\c@AM@survey=\count360
+\c@AM@survey=\count351
 \AM@templatesizebox=\box74
 )
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.
-sty
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
 Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
 
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape-
-nometadata.sty
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape-nom
+etadata.sty
 Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PD
 F (HO)
 
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
 Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
-Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+Package pdflscape Info: Auto-detected driver: dvipdfm (xetex) on input line 98.
+
 ))
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/appendix\appendix.st
-y
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/appendix\appendix.sty
 Package: appendix 2020/02/08 v1.2c extra appendix facilities
-\c@@pps=\count361
-\c@@ppsavesec=\count362
-\c@@ppsaveapp=\count363
+\c@@pps=\count352
+\c@@ppsavesec=\count353
+\c@@ppsaveapp=\count354
 )
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.st
-y
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
 Package: titlesec 2025/01/04 v2.17 Sectioning titles
 \ttl@box=\box75
-\beforetitleunit=\skip61
-\aftertitleunit=\skip62
-\ttl@plus=\dimen320
-\ttl@minus=\dimen321
+\beforetitleunit=\skip60
+\aftertitleunit=\skip61
+\ttl@plus=\dimen313
+\ttl@minus=\dimen314
 \ttl@toksa=\toks51
-\titlewidth=\dimen322
-\titlewidthlast=\dimen323
-\titlewidthfirst=\dimen324
+\titlewidth=\dimen315
+\titlewidthlast=\dimen316
+\titlewidthfirst=\dimen317
 )
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.st
-y
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
 Package: setspace 2022/12/04 v6.7b set line spacing
 )
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/todonotes\todonotes.
-sty
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/todonotes\todonotes.sty
 Package: todonotes 2024/01/05 v1.1.7 Todonotes source and documentation.
 Package: todonotes 2024/01/05
-\c@@todonotes@numberoftodonotes=\count364
+\c@@todonotes@numberoftodonotes=\count355
 )
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgfl
-ibraryarrows.meta.code.tex
-File: pgflibraryarrows.meta.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfarrowinset=\dimen325
-\pgfarrowlength=\dimen326
-\pgfarrowwidth=\dimen327
-\pgfarrowlinewidth=\dimen328
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
+aryarrows.meta.code.tex
+File: pgflibraryarrows.meta.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowinset=\dimen318
+\pgfarrowlength=\dimen319
+\pgfarrowwidth=\dimen320
+\pgfarrowlinewidth=\dimen321
 )
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlayer
--scrpage.sty
-Package: scrlayer-scrpage 2026/02/02 v3.49.2 KOMA-Script package (end user inte
-rface for scrlayer)
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlayer-sc
+rpage.sty
+Package: scrlayer-scrpage 2023/07/07 v3.41 KOMA-Script package (end user interf
+ace for scrlayer)
 
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlayer
-.sty
-Package: scrlayer 2026/02/02 v3.49.2 KOMA-Script package (defining layers and p
-age styles)
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlayer.st
+y
+Package: scrlayer 2023/07/07 v3.41 KOMA-Script package (defining layers and pag
+e styles)
 
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrkbase
-.sty
-Package: scrkbase 2026/02/02 v3.49.2 KOMA-Script package (KOMA-Script-dependent
- basics and keyval usage)
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrkbase.st
+y
+Package: scrkbase 2023/07/07 v3.41 KOMA-Script package (KOMA-Script-dependent b
+asics and keyval usage)
 
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrbase.
-sty
-Package: scrbase 2026/02/02 v3.49.2 KOMA-Script package (KOMA-Script-independen
-t basics and keyval usage)
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrbase.sty
+Package: scrbase 2023/07/07 v3.41 KOMA-Script package (KOMA-Script-independent 
+basics and keyval usage)
 
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile
-.sty
-Package: scrlfile 2026/02/02 v3.49.2 KOMA-Script package (file load hooks)
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile.st
+y
+Package: scrlfile 2023/07/07 v3.41 KOMA-Script package (file load hooks)
 
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile
--hook.sty
-Package: scrlfile-hook 2026/02/02 v3.49.2 KOMA-Script package (using LaTeX hook
-s)
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile-ho
+ok.sty
+Package: scrlfile-hook 2023/07/07 v3.41 KOMA-Script package (using LaTeX hooks)
 
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlogo.
-sty
-Package: scrlogo 2026/02/02 v3.49.2 KOMA-Script package (logo)
+
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlogo.sty
+Package: scrlogo 2023/07/07 v3.41 KOMA-Script package (logo)
 )))
-Applying: [2021/05/01] Usage of raw or classic option list on input line 254.
+Applying: [2021/05/01] Usage of raw or classic option list on input line 252.
 Already applied: [0000/00/00] Usage of raw or classic option list on input line
- 370.
+ 368.
 ))
-\footheight=\skip63
-Package scrlayer Info: patching LaTeX kernel macro \pagestyle on input line 217
-9.
+\footheight=\skip62
+Package scrlayer Info: patching LaTeX kernel macro \pagestyle on input line 218
+3.
 )
 
 Package scrlayer-scrpage Warning: it seems that package `titlesec' is used
@@ -1077,22 +1398,7 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'ngerman'.
-LaTeX Font Info:    Trying to load font information for T1+NotoSerif-TLF on inp
-ut line 169.
-
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/noto\t1notoserif-tlf
-.fd
-File: T1NotoSerif-TLF.fd 2021/09/07 (autoinst) Font definitions for T1/NotoSeri
-f-TLF.
-)
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-
-pdftex.def
-File: l3backend-pdftex.def 2026-02-18 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count365
-) (T3200.aux
-Package babel Info: 'ngerman' activates 'german' shorthands.
-(babel)             Reported on input line 8.
-)
+ (T3200.aux)
 \openout1 = `T3200.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 169.
@@ -1104,6 +1410,14 @@ LaTeX Font Info:    ... okay on input line 169.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 169.
 LaTeX Font Info:    ... okay on input line 169.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 169.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
+69.
+
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmr.fd
+File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 169.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 169.
 LaTeX Font Info:    ... okay on input line 169.
 LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 169.
 LaTeX Font Info:    ... okay on input line 169.
@@ -1113,40 +1427,6 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 169.
 LaTeX Font Info:    ... okay on input line 169.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 169.
 LaTeX Font Info:    ... okay on input line 169.
-
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf
-.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count366
-\scratchdimen=\dimen329
-\scratchbox=\box76
-\nofMPsegments=\count367
-\nofMParguments=\count368
-\everyMPshowfont=\toks52
-\MPscratchCnt=\count369
-\MPscratchDim=\dimen330
-\MPnumerator=\count370
-\makeMPintoPDFobject=\count371
-\everyMPtoPDFconversion=\toks53
-)
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopd
-f-base.sty
-Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/grfext\grfext.sty
-Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
-)
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-85.
-Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 504.
-
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sy
-s.cfg
-File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
-))
 LaTeX Info: Redefining \microtypecontext on input line 169.
 Package microtype Info: Applying patch `item' on input line 169.
 Package microtype Info: Applying patch `toc' on input line 169.
@@ -1157,22 +1437,81 @@ Package microtype Warning: Unable to apply patch `footnote' on input line 169.
 
 Package microtype Info: Applying patch `verbatim' on input line 169.
 LaTeX Info: Redefining \microtypesetup on input line 169.
-Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
-Package microtype Info: Automatic font expansion enabled (level 2),
-(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
-Package microtype Info: Using default expansion set `alltext-nott'.
-Package microtype Info: Patching command `\showhyphens'.
 Package microtype Info: No adjustment of tracking.
-Package microtype Info: No adjustment of interword spacing.
-Package microtype Info: No adjustment of character kerning.
+Package microtype Info: No adjustment of spacing.
+Package microtype Info: No adjustment of kerning.
 Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `NotoSerif-TLF' (encoding: T1).
+(microtype)             `NotoSerif' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-\c@mv@tabular=\count372
-\c@mv@boldtabular=\count373
+
+Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
+(fontspec)             this).
+
+\symlegacymaths=\mathgroup5
+LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 169.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 169.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 169.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 169.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 169.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 169.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 169.
+LaTeX Font Info:    Redeclaring math accent \check on input line 169.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 169.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 169.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 169.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 169.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 169.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 169.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 169.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 169.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 169.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 169.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 169.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 169.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 169.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 169.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 169.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 169.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 169.
+
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> TU/NotoSerif(0)/m/n on input line 169.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 169.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> TU/NotoSerif(0)/m/n on input line 169.
+
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  TU/NotoSerif(0)/m/n --> TU/NotoSerif(0)/m/n on input li
+ne 169.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> TU/NotoSerif(0)/m/it on input line 169
+.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> TU/NotoSerif(0)/b/n on input line 169.
+
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> TU/NotoSans(0)/m/n on input line 169.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> TU/NotoSansMono(0)/m/n on input line 1
+69.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  TU/NotoSerif(0)/m/n --> TU/NotoSerif(0)/b/n on input li
+ne 169.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> TU/NotoSerif(0)/b/it on input line 16
+9.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> TU/NotoSans(0)/b/n on input line 169.
+
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> TU/NotoSansMono(0)/b/n on input line 1
+69.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
@@ -1181,24 +1520,35 @@ Package caption Info: End \AtBeginDocument code.
 
 bibgerm.sty: babel.sty detected
 
-
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-cmr.cfg
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 16
+9.
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/base\ulasy.fd
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
+(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 16
-9.
- (C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/base\ulasy.fd
-File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
-)
+LaTeX Font Info:    Font shape `TU/NotoSans(0)/m/n' will be
+(Font)              scaled to size 12.0pt on input line 169.
 Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `cmss' (encoding: OT1).
+(microtype)             `NotoSans' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
+LaTeX Font Info:    Font shape `TU/NotoSans(0)/m/n' will be
+(Font)              scaled to size 8.0pt on input line 169.
+LaTeX Font Info:    Font shape `TU/NotoSans(0)/m/n' will be
+(Font)              scaled to size 6.0pt on input line 169.
+LaTeX Font Info:    Font shape `TU/NotoSansMono(0)/m/n' will be
+(Font)              scaled to size 12.0pt on input line 169.
 Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `cmtt' (encoding: OT1).
+(microtype)             `NotoSansMono' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
+LaTeX Font Info:    Font shape `TU/NotoSansMono(0)/m/n' will be
+(Font)              scaled to size 8.0pt on input line 169.
+LaTeX Font Info:    Font shape `TU/NotoSansMono(0)/m/n' will be
+(Font)              scaled to size 6.0pt on input line 169.
 Package hyperref Info: Link coloring OFF on input line 169.
 
 (T3200.out) (T3200.out)
@@ -1207,9 +1557,9 @@ Package hyperref Info: Link coloring OFF on input line 169.
 
 
 *geometry* driver: auto-detecting
-*geometry* detected driver: pdftex
+*geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
-* driver: pdftex
+* driver: xetex
 * paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
@@ -1248,26 +1598,26 @@ loading the todonotes package. on input line 169.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 227--227
-[]|\T1/NotoSerif-TLF/m/n/12 (+20) ASSA AB-LOY Si-cher-
+[]|\TU/NotoSerif(0)/m/n/12 Hugo-Bertsch-Straße
  []
 
-LaTeX Font Info:    Font shape `T1/NotoSerif-TLF/m/sl' in size <12> not availab
-le
-(Font)              Font shape `T1/NotoSerif-TLF/m/it' tried instead on input l
-ine 231.
-<figures/dhbwlogo.png, id=169, 184.69pt x 77.28876pt>
-File: figures/dhbwlogo.png Graphic file (type png)
-<use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 231.
-(pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 227--227
+[]|\TU/NotoSerif(0)/m/n/12 ASSA ABLOY Sicher-
+ []
+
+LaTeX Font Info:    Font shape `TU/NotoSerif(0)/m/sl' in size <12> not availabl
+e
+(Font)              Font shape `TU/NotoSerif(0)/m/it' tried instead on input li
+ne 231.
+File: figures/dhbwlogo.png Graphic file (type bmp)
+<figures/dhbwlogo.png>
 [1
 
-{C:/Users/sommerad/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/s
-ommerad/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/noto/a_mz6bs5.enc} <./fig
-ures/dhbwlogo.png>]
-Underfull \hbox (badness 6428) in paragraph at lines 243--246
-\T1/NotoSerif-TLF/m/n/12 (+20) Mo-ve-mas-ter EX RV-M1, ei-ner 3D-ToF-Kamera so-
-wie ei-ner 2D-
+]
+Underfull \hbox (badness 10000) in paragraph at lines 243--246
+\TU/NotoSerif(0)/m/n/12 Movemaster EX RV-M1, einer 3D-ToF-Kamera sowie einer 2D
+-
  []
 
 
@@ -1276,9 +1626,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 243--246
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 243--246
-\T1/NotoSerif-TLF/m/n/12 (+20) Zun�chst wird der Ein-fluss ver-schie-de-ner Be-
-leuch-tungs-be-din-
+Underfull \hbox (badness 2277) in paragraph at lines 243--246
+\TU/NotoSerif(0)/m/n/12 auf das Bildgewinnungssystem in einer Messreihe erforsc
+ht und
+ []
+
+
+Underfull \hbox (badness 2042) in paragraph at lines 243--246
+\TU/NotoSerif(0)/m/n/12 C++/C#-Softwarearchitektur Aufschluss über vorhandene S
+chwach-
+ []
+
+
+Underfull \hbox (badness 1496) in paragraph at lines 243--246
+\TU/NotoSerif(0)/m/n/12 und der Implementierung einer statischen Robotersteueru
+ng. Für
  []
 
 
@@ -1287,29 +1649,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 243--246
  []
 
 
-Underfull \hbox (badness 3780) in paragraph at lines 243--246
-\T1/NotoSerif-TLF/m/n/12 (+20) Aufbauend auf den Er-kennt-nis-sen der Ana-ly-se
- und Kon-zep-tio-
+Underfull \hbox (badness 6268) in paragraph at lines 243--246
+\TU/NotoSerif(0)/m/n/12 Aufbauend auf den Erkenntnissen der Analyse und Konzept
+io-
  []
 
-File: figures/dhbwlogo.png Graphic file (type png)
-<use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 246.
-(pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
-LaTeX Font Info:    Font shape `T1/NotoSerif-TLF/m/sl' in size <8> not availabl
-e
-(Font)              Font shape `T1/NotoSerif-TLF/m/it' tried instead on input l
-ine 246.
+
+Underfull \hbox (badness 2261) in paragraph at lines 243--246
+\TU/NotoSerif(0)/m/it/12 (SSM) \TU/NotoSerif(0)/m/n/12 erstellt. Dieses Konzept
+ nutzt die Fusion der 2D- und 3D-
+ []
+
+
+Underfull \hbox (badness 4739) in paragraph at lines 243--246
+\TU/NotoSerif(0)/m/n/12 zu realisieren. Die Arbeit bildet somit das Fundament f
+ür die
+ []
+
+File: figures/dhbwlogo.png Graphic file (type bmp)
+<figures/dhbwlogo.png>
+LaTeX Font Info:    Font shape `TU/NotoSerif(0)/m/sl' in size <8> not available
+
+(Font)              Font shape `TU/NotoSerif(0)/m/it' tried instead on input li
+ne 246.
 [1]
-Underfull \hbox (badness 3758) in paragraph at lines 249--254
-\T1/NotoSerif-TLF/m/n/12 (+20) This stu-dent re-se-arch pro-ject deals with the
- op-ti-mi-sa-ti-on and
- []
-
-
-Underfull \hbox (badness 1264) in paragraph at lines 249--254
-\T1/NotoSerif-TLF/m/n/12 (+20) The over-ar-ching goal is to trans-form the exis
--ting se-tup in-to an
+Underfull \hbox (badness 5787) in paragraph at lines 249--254
+\TU/NotoSerif(0)/m/n/12 This student research project deals with the optimisati
+on and
  []
 
 
@@ -1318,83 +1684,75 @@ Underfull \hbox (badness 10000) in paragraph at lines 249--254
  []
 
 
+Underfull \hbox (badness 1694) in paragraph at lines 249--254
+\TU/NotoSerif(0)/m/n/12 First, the influence of different lighting conditions o
+n the image
+ []
+
+
+Underfull \hbox (badness 3514) in paragraph at lines 249--254
+\TU/NotoSerif(0)/m/n/12 possible optimisations are developed. Subsequently, the
+ analysis
+ []
+
+
+Underfull \hbox (badness 3942) in paragraph at lines 249--254
+\TU/NotoSerif(0)/m/n/12 such as problems occurring in thread synchronisation an
+d the
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 249--254
-\T1/NotoSerif-TLF/m/n/12 (+20) First, the in-flu-ence of dif-fe-rent ligh-ting 
-con-di-ti-ons on the
- []
-
-
-Underfull \hbox (badness 2376) in paragraph at lines 249--254
-\T1/NotoSerif-TLF/m/n/12 (+20) such as pro-blems oc-cur-ring in thread syn-chro
--ni-sa-ti-on and the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 249--254
 
  []
 
 
-Underfull \hbox (badness 2368) in paragraph at lines 249--254
-\T1/NotoSerif-TLF/m/n/12 (+20) Based on the fin-dings of the ana-ly-sis and de-
-sign of the dy-na-
+Underfull \hbox (badness 3375) in paragraph at lines 249--254
+\TU/NotoSerif(0)/m/n/12 Based on the findings of the analysis and design of the
+ dyna-
  []
 
-File: figures/dhbwlogo.png Graphic file (type png)
-<use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 254.
-(pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
+
+Underfull \hbox (badness 3000) in paragraph at lines 249--254
+\TU/NotoSerif(0)/m/n/12 for the safety-related and control-related implementati
+on in the
+ []
+
+File: figures/dhbwlogo.png Graphic file (type bmp)
+<figures/dhbwlogo.png>
 [2]
-<figures/L_Signature.png, id=189, 239.89626pt x 111.41624pt>
-File: figures/L_Signature.png Graphic file (type png)
-<use figures/L_Signature.png>
-Package pdftex.def Info: figures/L_Signature.png  used on input line 277.
-(pdftex.def)             Requested size: 91.89362pt x 42.67912pt.
-<figures/A_Signature.png, id=190, 155.83218pt x 51.19125pt>
-File: figures/A_Signature.png Graphic file (type png)
-<use figures/A_Signature.png>
-Package pdftex.def Info: figures/A_Signature.png  used on input line 294.
-(pdftex.def)             Requested size: 129.928pt x 42.67912pt.
- [3 <./figures/L_Signature.png> <./figures/A_Signature.png>] (T3200.toc
-File: figures/dhbwlogo.png Graphic file (type png)
-<use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 32.
-(pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
+File: figures/L_Signature.png Graphic file (type bmp)
+<figures/L_Signature.png>
+File: figures/A_Signature.png Graphic file (type bmp)
+<figures/A_Signature.png>
+ [3] (T3200.toc
+Underfull \hbox (badness 10000) in paragraph at lines 32--32
+ [][] [][]\TU/NotoSerif(0)/m/n/12 Kriterienbasierte Evaluierung der Sicherheits
+- 
+ []
 
+File: figures/dhbwlogo.png Graphic file (type bmp)
+<figures/dhbwlogo.png>
 [4
 
 ])
 \tf@toc=\write5
 \openout5 = `T3200.toc'.
 
-File: figures/dhbwlogo.png Graphic file (type png)
-<use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 313.
-(pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
+File: figures/dhbwlogo.png Graphic file (type bmp)
+<figures/dhbwlogo.png>
  [5] (sec1.tex
 Kapitel 1.
 
-Underfull \hbox (badness 1460) in paragraph at lines 10--15
-\T1/NotoSerif-TLF/m/n/12 (+20) Die vor-lie-gen-de Stu-di-en-ar-beit be-fasst si
-ch im ers-ten Schritt mit
+Underfull \hbox (badness 1783) in paragraph at lines 10--15
+\TU/NotoSerif(0)/m/n/12 fundierten Erarbeitung der verwendeten methodischen und
+ tech-
  []
 
 
-Underfull \hbox (badness 1701) in paragraph at lines 10--15
-\T1/NotoSerif-TLF/m/n/12 (+20) der fun-dier-ten Er-ar-bei-tung der ver-wen-de-t
-en me-tho-di-schen und
- []
-
-
-Underfull \hbox (badness 6542) in paragraph at lines 10--15
-\T1/NotoSerif-TLF/m/n/12 (+20) den Stand der vor-he-ri-gen Stu-di-en-ar-beit an
--kn�pft. Be-stand-teil
- []
-
-
-Underfull \hbox (badness 3000) in paragraph at lines 10--15
-\T1/NotoSerif-TLF/m/n/12 (+20) die-ser Eva-lua-ti-on sind ei-ne um-fas-sen-de I
-st- und Lauf-zeit-ana-ly-
+Underfull \hbox (badness 1210) in paragraph at lines 10--15
+\TU/NotoSerif(0)/m/n/12 Analyse der Ausgangslage, welche explizit an die Ergebn
+isse und
  []
 
 
@@ -1403,158 +1761,102 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--15
  []
 
 
-Underfull \hbox (badness 2418) in paragraph at lines 10--15
-\T1/NotoSerif-TLF/m/n/12 (+20) Auf Ba-sis die-ser Er-kennt-nis-se wid-met sich 
-die Ar-beit der Kon-
+Underfull \hbox (badness 3780) in paragraph at lines 10--15
+\TU/NotoSerif(0)/m/n/12 Auf Basis dieser Erkenntnisse widmet sich die Arbeit de
+r Kon-
  []
 
 
-Underfull \hbox (badness 5374) in paragraph at lines 10--15
-\T1/NotoSerif-TLF/m/n/12 (+20) zep-tio-nie-rung neu-er L�-sungs-an-s�t-ze. Ein 
-zen-tra-ler Fo-kus liegt
+Underfull \hbox (badness 1635) in paragraph at lines 10--15
+\TU/NotoSerif(0)/m/n/12 chitektur. Dies beinhaltet insbesondere die effiziente 
+Speicherung
  []
 
 
-Underfull \hbox (badness 2012) in paragraph at lines 10--15
-\T1/NotoSerif-TLF/m/n/12 (+20) hier-bei auf der Op-ti-mie-rung und Er-wei-te-ru
-ng der be-ste-hen-den
+Underfull \hbox (badness 4341) in paragraph at lines 10--15
+\TU/NotoSerif(0)/m/n/12 und Instanziierung von Punktwolken. Zur erweiterten vis
+uellen
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10--15
-\T1/NotoSerif-TLF/m/n/12 (+20) Sys-te-mar-chi-tek-tur. Dies bein-hal-tet ins-be
--son-de-re die ef-fi-zi-en-te
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--15
-
+Underfull \hbox (badness 2617) in paragraph at lines 10--15
+\TU/NotoSerif(0)/m/n/12 Auswertung wird eine Funktion zur wahlweisen einfachen 
+oder
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 10--15
-\T1/NotoSerif-TLF/m/n/12 (+20) Ein wei-te-rer in-halt-li-cher Schwer-punkt ist 
-die in-for-ma-ti-ons-
+
+ []
+
+
+Underfull \hbox (badness 1303) in paragraph at lines 10--15
+\TU/NotoSerif(0)/m/n/12 Umsetzung einer Befehlspipeline sowie relevanter Safety
+-Features.
+ []
+
+
+Underfull \hbox (badness 1558) in paragraph at lines 10--15
+\TU/NotoSerif(0)/m/n/12 kritischen Abwägung und Einordnung verschiedener Ansätz
+e zur
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 10--15
-\T1/NotoSerif-TLF/m/n/12 (+20) tech-ni-sche Um-set-zung ei-ner Be-fehl-spi-pe-l
-i-ne so-wie re-le-van-ter
- []
-
-
-Underfull \hbox (badness 2818) in paragraph at lines 10--15
-\T1/NotoSerif-TLF/m/n/12 (+20) Safety-Features. In die-sem Zu-ge wer-den die zu
--grun-de lie-gen-de
- []
-
-
-Underfull \hbox (badness 7981) in paragraph at lines 10--15
-\T1/NotoSerif-TLF/m/n/12 (+20) be-leuch-tet. Nach ei-ner kri-ti-schen Ab-w�-gun
-g und Ein-ord-nung
- []
-
-
-Underfull \hbox (badness 8151) in paragraph at lines 10--15
-\T1/NotoSerif-TLF/m/n/12 (+20) Er-wei-te-run-gen, ge-ziel-te Ver-bes-se-rungs-v
-or-schl�-ge und kon-kre-te
+\TU/NotoSerif(0)/m/n/12 Verbesserungsvorschläge und konkrete Anknüpfungspunkte 
+für
  []
 
 )
-File: figures/dhbwlogo.png Graphic file (type png)
-<use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 325.
-(pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.325 \newpage
-               [1
+File: figures/dhbwlogo.png Graphic file (type bmp)
+<figures/dhbwlogo.png>
+ [1
 
 ] (sec2.tex
 Kapitel 2.
 
-Overfull \hbox (2.40323pt too wide) in paragraph at lines 4--4
-|[]\T1/NotoSerif-TLF/b/n/17.28 (-20) Stand der Tech-nik: Safety-Implementation
+Overfull \hbox (9.56032pt too wide) in paragraph at lines 4--4
+|[]\TU/NotoSerif(0)/b/n/17.28 Stand der Technik: Safety-Implementation
  []
 
-LaTeX Font Info:    Trying to load font information for T1+NotoSans-TLF on inpu
-t line 29.
-
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/noto\t1notosans-tlf.
-fd
-File: T1NotoSans-TLF.fd 2021/09/07 (autoinst) Font definitions for T1/NotoSans-
-TLF.
-)
-LaTeX Font Info:    Font shape `T1/NotoSans-TLF/m/n' will be
+LaTeX Font Info:    Font shape `TU/NotoSans(0)/b/n' will be
 (Font)              scaled to size 12.0pt on input line 29.
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `NotoSans-TLF' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-LaTeX Font Info:    Font shape `T1/NotoSans-TLF/b/n' will be
-(Font)              scaled to size 12.0pt on input line 29.
-LaTeX Font Info:    Font shape `T1/NotoSans-TLF/b/n' will be
+LaTeX Font Info:    Font shape `TU/NotoSans(0)/b/n' will be
 (Font)              scaled to size 10.95pt on input line 29.
 
-Underfull \hbox (badness 1803) in paragraph at lines 6--38
-\T1/NotoSerif-TLF/m/n/12 (+20) der Bil-der-fas-sung, bei der ent-we-der kos-ten
--g�ns-ti-ge 2D-Kameras
+Underfull \hbox (badness 2726) in paragraph at lines 6--38
+\TU/NotoSerif(0)/m/n/12 Sensortechnik existieren vielfältige technologische Ans
+ätze. Diese
+ []
+
+
+Underfull \hbox (badness 3815) in paragraph at lines 6--38
+\TU/NotoSerif(0)/m/n/12 der Bilderfassung, bei der entweder kostengünstige 2D-K
+ameras
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 6--38
-\T1/NotoSerif-TLF/m/n/12 (+20) va-ri-iert die Sys-te-mar-chi-tek-tur hin-sicht-
-lich der Ka-me-raan-zahl:
+\TU/NotoSerif(0)/m/n/12 variiert die Systemarchitektur hinsichtlich der Kameraa
+nzahl:
  []
 
 
-Underfull \hbox (badness 1924) in paragraph at lines 6--38
-\T1/NotoSerif-TLF/m/n/12 (+20) W�h-rend Mo-no-ka-me-ra-sys-te-me ei-ne ein-fa-c
-he Raum-�ber-wa-chung
- []
-
-
-Underfull \hbox (badness 3240) in paragraph at lines 6--38
-\T1/NotoSerif-TLF/m/n/12 (+20) er-m�g-li-chen, bie-ten Mul-ti-ka-me-ra-sys-te-m
-e durch hard-wa-re-sei-ti-ge
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--38
+Underfull \hbox (badness 5681) in paragraph at lines 6--38
+\TU/NotoSerif(0)/m/n/12 Während Monokamerasysteme eine einfache Raumüberwachung
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--38
-\T1/NotoSerif-TLF/m/n/12 (+20) Die al-go-rith-mi-sche Aus-wer-tung l�sst sich w
-ie-der-um in zwei
+Underfull \hbox (badness 8170) in paragraph at lines 6--38
+\TU/NotoSerif(0)/m/n/12 ermöglichen, bieten Multikamerasysteme durch hardwarese
+itige
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--38
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--38
-\T1/NotoSerif-TLF/m/n/12 (+20) Die in-for-ma-ti-ons-tech-ni-sche Ab-si-che-rung
- des Ar-beits-rau-mes
- []
-
-
-Underfull \hbox (badness 2762) in paragraph at lines 6--38
-\T1/NotoSerif-TLF/m/n/12 (+20) Ge-schwin-dig-keits-re-ge-lung (Dy-na-mic Speed 
-Con-trol), bei der die
- []
-
-
-Underfull \hbox (badness 8132) in paragraph at lines 6--38
-\T1/NotoSerif-TLF/m/n/12 (+20) Sys-tem-ge-schwin-dig-keit ad-ap-tiv an die Po-s
-i-ti-on des Men-schen
+Underfull \hbox (badness 8019) in paragraph at lines 6--38
+\TU/NotoSerif(0)/m/n/12 Redundanz eine deutlich verlässlichere Objekterkennung 
+sowie
  []
 
 
@@ -1564,200 +1866,571 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--38
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 6--38
-\T1/NotoSerif-TLF/m/n/12 (+20) Ein zen-tra-les wis-sen-schaft-li-ches Fun-da-me
-nt f�r sol-che fle-
+\TU/NotoSerif(0)/m/n/12 Die algorithmische Auswertung lässt sich wiederum in zw
+ei
+ []
+
+
+Underfull \hbox (badness 1509) in paragraph at lines 6--38
+\TU/NotoSerif(0)/m/n/12 Philosophieansätze unterteilen: die gezielte Klassifizi
+erung spezifi-
+ []
+
+
+Underfull \hbox (badness 1270) in paragraph at lines 6--38
+\TU/NotoSerif(0)/m/n/12 scher Objekte wie menschlicher Gliedmaßen oder die univ
+erselle
+ []
+
+
+Underfull \hbox (badness 2689) in paragraph at lines 6--38
+\TU/NotoSerif(0)/m/n/12 kommen in der Praxis berührungslose Sensoren auf kapazi
+tiver,
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 6--38
-\T1/NotoSerif-TLF/m/n/12 (+20) xiblen Si-cher-heits-ar-chi-tek-tu-ren be-schrei
--ben Bdi-wi, M., Pfei-fer,
+
  []
 
 
-Underfull \hbox (badness 1902) in paragraph at lines 6--38
-\T1/NotoSerif-TLF/m/n/12 (+20) M. und Ster-zing, A. [[]2[]], die sich in-ten-si
-v mit un-ter-schied-li-chen
+Underfull \hbox (badness 10000) in paragraph at lines 6--38
+\TU/NotoSerif(0)/m/n/12 Die informationstechnische Absicherung des Arbeitsraume
+s er-
  []
 
 
-Underfull \hbox (badness 1097) in paragraph at lines 6--38
-\T1/NotoSerif-TLF/m/n/12 (+20) Die Au-to-ren schla-gen ei-ne sys-te-ma-ti-sche 
-Ta-xo-no-mie vor, wel-che
+Underfull \hbox (badness 10000) in paragraph at lines 6--38
+
  []
 
-File: figures/dhbwlogo.png Graphic file (type png)
-<use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 38.
-(pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--38
+\TU/NotoSerif(0)/m/n/12 Ein zentrales wissenschaftliches Fundament für solche f
+lexi-
+ []
+
+
+Underfull \hbox (badness 1038) in paragraph at lines 6--38
+\TU/NotoSerif(0)/m/n/12 Sterzing, A. [[]2[]], die sich intensiv mit unterschied
+lichen Aufgaben-
+ []
+
+
+Underfull \hbox (badness 2818) in paragraph at lines 6--38
+\TU/NotoSerif(0)/m/n/12 szenarien der Mensch-Roboter-Kollaboration (MRK) befass
+en. Die
+ []
+
+
+Underfull \hbox (badness 2753) in paragraph at lines 6--38
+\TU/NotoSerif(0)/m/n/12 Autoren schlagen eine systematische Taxonomie vor, welc
+he die
+ []
+
+
+Underfull \hbox (badness 2384) in paragraph at lines 6--38
+\TU/NotoSerif(0)/m/n/12 Interaktion zwischen Mensch und Maschine in vier aufein
+ander
+ []
+
+File: figures/dhbwlogo.png Graphic file (type bmp)
+<figures/dhbwlogo.png>
 [2
 
 ]
-LaTeX Font Info:    Trying to load font information for TS1+NotoSerif-TLF on in
-put line 40.
-
-(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/noto\ts1notoserif-tl
-f.fd
-File: TS1NotoSerif-TLF.fd 2021/09/07 (autoinst) Font definitions for TS1/NotoSe
-rif-TLF.
-)
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `NotoSerif-TLF' (encoding: TS1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-Package microtype Info: Character `textminus ' is missing
-(microtype)             in font `TS1/NotoSerif-TLF/m/n/12'.
-(microtype)             Ignoring protrusion settings for this character.
-File: figures/dhbwlogo.png Graphic file (type png)
-<use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 44.
-(pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
- [3{C:/Users/sommerad/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/noto/a_hono
-ps.enc}]
-File: figures/dhbwlogo.png Graphic file (type png)
-<use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 59.
-(pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
- [4]
-File: figures/dhbwlogo.png Graphic file (type png)
-<use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 76.
-(pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
- [5]
-Underfull \hbox (badness 10000) in paragraph at lines 77--78
-[]\T1/NotoSerif-TLF/m/n/12 (+20) Zusammenfassend er-gibt sich in der mathematis
-ch-
+Underfull \hbox (badness 5374) in paragraph at lines 41--42
+[]\TU/NotoSerif(0)/b/n/12 2. Gemeinsame Aufgabe ohne physischen Kontakt: \TU/No
+toSerif(0)/m/n/12 Hier
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--78
-\T1/NotoSerif-TLF/m/n/12 (+20) deterministischen Va-li-die-rung nach ISO 13849-
-1 [[]5[]] und IEC
+Underfull \hbox (badness 1163) in paragraph at lines 41--42
+\TU/NotoSerif(0)/m/n/12 agieren beide Akteure innerhalb einer vordefinierten Ko
+ope-
  []
 
 
-Underfull \hbox (badness 5954) in paragraph at lines 77--78
-\T1/NotoSerif-TLF/m/n/12 (+20) An-wen-dun-gen stets ei-ne Ab-si-che-rung der ma
--the-ma-ti-schen Er-
+Underfull \hbox (badness 3209) in paragraph at lines 41--42
+\TU/NotoSerif(0)/m/n/12 rationszone an einem gemeinsamen Prozess. Anstelle eine
+s
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--78
-\T1/NotoSerif-TLF/m/n/12 (+20) geb-nis-se durch di-ver-si-t�re Sen-so-rik oder 
-fest pro-gram-mier-te
+Underfull \hbox (badness 5893) in paragraph at lines 41--42
+\TU/NotoSerif(0)/m/n/12 abrupten Halts wird die Geschwindigkeit des Roboters in
+
  []
 
-LaTeX Font Info:    Font shape `T1/NotoSans-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 112.
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+Underfull \hbox (badness 3354) in paragraph at lines 43--44
+[]\TU/NotoSerif(0)/b/n/12 4. Gemeinsame Aufgabe mit physischer Interaktion: \TU
+/NotoSerif(0)/m/n/12 Auf
+ []
 
-File: figures/dhbwlogo.png Graphic file (type png)
-<use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 128.
-(pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--44
+\TU/NotoSerif(0)/m/n/12 zwingend erforderlich. Ein Praxisbeispiel hierfür ist d
+ie
+ []
+
+File: figures/dhbwlogo.png Graphic file (type bmp)
+<figures/dhbwlogo.png>
+[3]
+File: figures/InfRot-HE-Luis.png Graphic file (type bmp)
+<figures/InfRot-HE-Luis.png>
+
+Underfull \hbox (badness 4416) in paragraph at lines 58--61
+\TU/NotoSerif(0)/m/n/12 Ein etablierter Ansatz zur Detektion des menschlichen K
+örpers
+ []
+
+
+Underfull \hbox (badness 5091) in paragraph at lines 58--61
+\TU/NotoSerif(0)/m/n/12 im infraroten Spektralbereich operieren. Diese Systeme 
+messen
+ []
+
+
+Underfull \hbox (badness 2478) in paragraph at lines 58--61
+\TU/NotoSerif(0)/m/n/12 die emittierte Wärmestrahlung von Objekten, die sich in
+nerhalb
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--61
+\TU/NotoSerif(0)/m/n/12 des definierten Erfassungsbereichs befinden. Mittels sp
+ezieller
+ []
+
+
+Underfull \hbox (badness 3884) in paragraph at lines 58--61
+\TU/NotoSerif(0)/m/n/12 Lernalgorithmen, die auf verschiedenen empirischen Fall
+studien
+ []
+
+
+Underfull \hbox (badness 4595) in paragraph at lines 58--61
+\TU/NotoSerif(0)/m/n/12 basieren, gelingt auf dieser Grundlage die selektive Er
+kennung
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--61
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--61
+\TU/NotoSerif(0)/m/n/12 Als wesentlicher Vorteil dieses sensorischen Prinzips e
+rweist
+ []
+
+
+Underfull \hbox (badness 6910) in paragraph at lines 58--61
+\TU/NotoSerif(0)/m/n/12 sich die robuste Einsetzbarkeit in rauen, industriell g
+eprägten
+ []
+
+
+Underfull \hbox (badness 7081) in paragraph at lines 58--61
+\TU/NotoSerif(0)/m/n/12 Produktionsumgebungen, da das Messprinzip weitgehend un
+ab-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--61
+\TU/NotoSerif(0)/m/n/12 hängig von sichtbaren transienten Lichtverhältnissen ar
+beitet.
+ []
+
+
+Underfull \hbox (badness 5563) in paragraph at lines 58--61
+\TU/NotoSerif(0)/m/n/12 Demgegenüber stehen jedoch signifikante Nachteile: Nebe
+n der
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--61
+\TU/NotoSerif(0)/m/n/12 Hautoberflächentemperatur ähnelt. Darüber hinaus erford
+ert
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--61
+\TU/NotoSerif(0)/m/n/12 die thermografische Signalverarbeitung und die nachgela
+gerte
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--61
+\TU/NotoSerif(0)/m/n/12 algorithmische Merkmalsberechnung eine vergleichsweise 
+hohe
+ []
+
+File: figures/dhbwlogo.png Graphic file (type bmp)
+<figures/dhbwlogo.png>
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 64--65
+\TU/NotoSerif(0)/m/n/12 Andere wissenschaftliche Arbeiten, wie die Forschungen 
+von
+ []
+
+
+Underfull \hbox (badness 1430) in paragraph at lines 64--65
+\TU/NotoSerif(0)/m/n/12 Wolfgang Schulz [[]4[]], behandeln die Detektion von Ha
+ndkonturen
+ []
+
+
+Underfull \hbox (badness 8000) in paragraph at lines 64--65
+\TU/NotoSerif(0)/m/n/12 primär auf Basis von Abstandsaufnahmen. Technologisch l
+ässt
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--65
+\TU/NotoSerif(0)/m/n/12 planar messenden 2D-Time-of-Flight-Kamera (ToF) [[]4[]]
+ oder als
+ []
+
+
+Underfull \hbox (badness 3965) in paragraph at lines 66--67
+[]\TU/NotoSerif(0)/m/n/12 Mithilfe der ToF-Struktur wird kontinuierlich die euk
+lidische
+ []
+
+
+Underfull \hbox (badness 2790) in paragraph at lines 66--67
+\TU/NotoSerif(0)/m/n/12 lichen Objekten ermittelt. Unterschreitet der gemessene
+ Abstand
+ []
+
+
+Underfull \hbox (badness 2080) in paragraph at lines 66--67
+\TU/NotoSerif(0)/m/n/12 Schwellenwerte, greift ein algorithmisches Geschwindigk
+eits- und
+ []
+
+
+Underfull \hbox (badness 1694) in paragraph at lines 66--67
+\TU/NotoSerif(0)/m/n/12 Abstandsmodell (\TU/NotoSerif(0)/m/it/12 Speed and Sepa
+ration Monitoring\TU/NotoSerif(0)/m/n/12 , SSM), um den
+ []
+
+File: figures/dhbwlogo.png Graphic file (type bmp)
+<figures/dhbwlogo.png>
+[5]
+Underfull \hbox (badness 4832) in paragraph at lines 68--69
+\TU/NotoSerif(0)/m/n/12 inhärente Kombination aus Intensitätsbildern und dreidi
+mensio-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--75
+\TU/NotoSerif(0)/m/n/12 dar. Entsprechende Algorithmen nutzen Schwellwertverfah
+ren,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--75
+\TU/NotoSerif(0)/m/n/12 Histogrammanalysen oder vordefinierte Look-up-Tables (L
+UT),
+ []
+
+
+Underfull \hbox (badness 4940) in paragraph at lines 74--75
+\TU/NotoSerif(0)/m/n/12 um bestimmte Farbwerte im Bild zu isolieren. Diese Anal
+ysen
+ []
+
+
+Underfull \hbox (badness 4060) in paragraph at lines 74--75
+\TU/NotoSerif(0)/m/n/12 Vorteile der Farbräume RGB, HSV und YCbCr kombiniert, w
+ird
+ []
+
+File: figures/dhbwlogo.png Graphic file (type bmp)
+<figures/dhbwlogo.png>
 [6]
-Underfull \hbox (badness 1924) in paragraph at lines 129--131
-\T1/NotoSerif-TLF/m/n/12 (+20) Um die Rol-le der TPL im Kon-text die-ser Ar-bei
-t zu pr�-zi-sie-ren,
+Underfull \hbox (badness 7397) in paragraph at lines 83--84
+\TU/NotoSerif(0)/m/n/12 Die Auslegung von Systemen der Mensch-Roboter-Kollabora
+tion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 129--131
-\T1/NotoSerif-TLF/m/n/12 (+20) muss zwi-schen Ne-ben-l�u-fig-keit und Par-al-le
--li-t�t un-ter-schie-den
+Underfull \hbox (badness 4819) in paragraph at lines 83--84
+\TU/NotoSerif(0)/m/n/12 strikten regulatorischen Rahmen. Da bei kollaborativen 
+Arbeits-
  []
 
 
-Underfull \hbox (badness 2680) in paragraph at lines 129--131
-\T1/NotoSerif-TLF/m/n/12 (+20) Ein ne-ben-l�u-fi-ges Sys-tem ist dar-auf aus-ge
--legt, Auf-ga-ben durch
+Underfull \hbox (badness 3525) in paragraph at lines 83--84
+\TU/NotoSerif(0)/m/n/12 plätzen die klassischen physisch-trennenden Schutzeinri
+chtungen
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 129--131
+Underfull \hbox (badness 1728) in paragraph at lines 83--84
+\TU/NotoSerif(0)/m/n/12 (wie Schutzzäune) entfallen, muss die Sicherheit über s
+ensorisch
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--84
+\TU/NotoSerif(0)/m/n/12 aufgenommene und durch spezielle Logik- verarbeitete Da
+ten
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 86--87
+\TU/NotoSerif(0)/m/n/12 Die primäre rechtliche Basis für das Inverkehrbringen s
+owie
+ []
+
+
+Underfull \hbox (badness 4416) in paragraph at lines 86--87
+\TU/NotoSerif(0)/m/n/12 steuerungstechnische Umsetzung des Sicherheitsnachweise
+s wird
+ []
+
+
+Underfull \hbox (badness 6445) in paragraph at lines 86--87
+\TU/NotoSerif(0)/m/n/12 die Zuverlässigkeit sicherheits-bezogener Teile von Ste
+uerungen
+ []
+
+
+Underfull \hbox (badness 1521) in paragraph at lines 86--87
+\TU/NotoSerif(0)/m/n/12 elle Roboterzellen im kooperativen Betrieb wird im Rege
+lfall ein
+ []
+
+File: figures/dhbwlogo.png Graphic file (type bmp)
+<figures/dhbwlogo.png>
+[7]
+Underfull \hbox (badness 1331) in paragraph at lines 96--97
+\TU/NotoSerif(0)/m/n/12 Beim Einsatz berührungsloser Raumüberwachungssysteme is
+t das
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--97
+\TU/NotoSerif(0)/m/n/12 Grundlage zur Berechnung des Mindestsicherheitsabstands
+ $\OML/cmm/m/it/12 S[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--101
+[]\TU/NotoSerif(0)/m/n/12 In diese Berechnung fließen die menschliche Annäherun
+gs-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--101
+\TU/NotoSerif(0)/m/n/12 geschwindigkeit $\OML/cmm/m/it/12 v[]$\TU/NotoSerif(0)/
+m/n/12 , die Systemlatenzzeiten (Reaktionszeit der
+ []
+
+
+Underfull \hbox (badness 1292) in paragraph at lines 106--107
+\TU/NotoSerif(0)/m/n/12 von Teilbereichen des Körpers, wie Hände oder Finger, a
+usgelegt
+ []
+
+
+Underfull \hbox (badness 1062) in paragraph at lines 106--107
+\TU/NotoSerif(0)/m/n/12 Anforderung, dass die Verarbeitungsfrequenz (\TU/NotoSe
+rif(0)/m/it/12 Frames per Second\TU/NotoSerif(0)/m/n/12 )
+ []
+
+
+Underfull \hbox (badness 1546) in paragraph at lines 106--107
+\TU/NotoSerif(0)/m/n/12 und die Pipeline-Latenz so dimensioniert sein müssen, d
+ass eine
+ []
+
+
+Underfull \hbox (badness 1655) in paragraph at lines 106--107
+\TU/NotoSerif(0)/m/n/12 Handbewegung innerhalb dieser Dynamikgrenzen determinis
+tisch
+ []
+
+File: figures/dhbwlogo.png Graphic file (type bmp)
+<figures/dhbwlogo.png>
+[8]
+Overfull \hbox (13.67744pt too wide) in paragraph at lines 108--109
+[]\TU/NotoSerif(0)/m/n/12 Zusammenfassend ergibt sich in der mathematisch-deter
+ministischen
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--109
+\TU/NotoSerif(0)/m/n/12 Diskrepanz beim Einsatz stochastischer Auswertealgorith
+men
+ []
+
+
+Underfull \hbox (badness 2503) in paragraph at lines 108--109
+\TU/NotoSerif(0)/m/n/12 (wie maschinellen Lernverfahren). Da diese systembeding
+t keine
+ []
+
+
+Underfull \hbox (badness 1852) in paragraph at lines 108--109
+\TU/NotoSerif(0)/m/n/12 klassischen deterministischen Zustandstabellen aufweise
+n, fordert
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--159
+\TU/NotoSerif(0)/m/n/12 Programmierer vereinfacht, Parallelität und Nebenläufig
+keit in
+ []
+
+
+Underfull \hbox (badness 2277) in paragraph at lines 130--159
+\TU/NotoSerif(0)/m/n/12 C#-Programmen umzusetzen [[]15[]]. Für diese Arbeit ist
+ vor allem
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--159
+\TU/NotoSerif(0)/m/n/12 das Konzept der Nebenläufigkeit (\TU/NotoSerif(0)/m/it/
+12 engl.: concurrency\TU/NotoSerif(0)/m/n/12 ) relevant.
+ []
+
+
+Underfull \hbox (badness 3281) in paragraph at lines 130--159
+\TU/NotoSerif(0)/m/n/12 oder Ein-/Ausgabeoperationen vom primären Arbeitsstrang
+ einer
+ []
+
+
+Underfull \hbox (badness 1817) in paragraph at lines 130--159
+\TU/NotoSerif(0)/m/n/12 Abläufe gegenübergestellt. Es lässt sich erkennen, das 
+bei einem
+ []
+
+File: figures/dhbwlogo.png Graphic file (type bmp)
+<figures/dhbwlogo.png>
+[9]
+Underfull \hbox (badness 3568) in paragraph at lines 160--162
+\TU/NotoSerif(0)/m/n/12 zwischen Nebenläufigkeit und Parallelität unterschieden
+ werden.
+ []
+
+
+Underfull \hbox (badness 6691) in paragraph at lines 160--162
+\TU/NotoSerif(0)/m/n/12 auf verschiedenen Prozessorkernen beschreibt, definiert
+ Neben-
+ []
+
+
+Underfull \hbox (badness 7064) in paragraph at lines 160--162
+\TU/NotoSerif(0)/m/n/12 läufigkeit die organisatorische Strukturierung eines Pr
+ogramms.
+ []
+
+
+Underfull \hbox (badness 4713) in paragraph at lines 160--162
+\TU/NotoSerif(0)/m/n/12 Ein nebenläufiges System ist darauf ausgelegt, Aufgaben
+ durch
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 160--162
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 129--131
-\T1/NotoSerif-TLF/m/n/12 (+20) Dabei ist Mul-ti-threa-ding ^^U al-so die Ver-we
-n-dung meh-re-rer
+Underfull \hbox (badness 10000) in paragraph at lines 160--162
+\TU/NotoSerif(0)/m/n/12 Dabei ist Multithreading – also die Verwendung mehrerer
+
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 129--131
-\T1/NotoSerif-TLF/m/n/12 (+20) Aus-f�h-rungs-str�n-ge ^^U le-dig-lich ei-ne For
-m der ne-ben-l�u-fi-gen
+Underfull \hbox (badness 1577) in paragraph at lines 160--162
+\TU/NotoSerif(0)/m/n/12 Ausführungsstränge – lediglich eine Form der nebenläufi
+gen Pro-
  []
 
 
-Underfull \hbox (badness 2913) in paragraph at lines 129--131
-\T1/NotoSerif-TLF/m/n/12 (+20) �ber-ge-ord-ne-te Ab-strak-tio-nen, die den di-r
-ek-ten, feh-ler-an-f�l-li-gen
+Underfull \hbox (badness 2762) in paragraph at lines 160--162
+\TU/NotoSerif(0)/m/n/12 grammierung. Moderne Frameworks wie die TPL bieten hier
+für
  []
 
-File: figures/dhbwlogo.png Graphic file (type png)
-<use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 135.
-(pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
-[7])
-File: figures/dhbwlogo.png Graphic file (type png)
-<use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 329.
-(pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
- [8] (sec3.tex
+
+Underfull \hbox (badness 6300) in paragraph at lines 160--162
+\TU/NotoSerif(0)/m/n/12 übergeordnete Abstraktionen, die den direkten, fehleran
+fälligen
+ []
+
+
+Underfull \hbox (badness 1694) in paragraph at lines 163--164
+\TU/NotoSerif(0)/m/n/12 das Entwurfsmuster eines Futures oder Promises – ein lo
+gisches
+ []
+
+
+Underfull \hbox (badness 3281) in paragraph at lines 163--164
+\TU/NotoSerif(0)/m/n/12 Versprechen auf ein in der Zukunft liegendes Ergebnis. 
+Anstatt
+ []
+
+
+Underfull \hbox (badness 1057) in paragraph at lines 163--164
+\TU/NotoSerif(0)/m/n/12 Aufgaben fest an schwerfällige Betriebssystem-Threads z
+u binden,
+ []
+
+File: figures/dhbwlogo.png Graphic file (type bmp)
+<figures/dhbwlogo.png>
+[10])
+File: figures/dhbwlogo.png Graphic file (type bmp)
+<figures/dhbwlogo.png>
+ [11] (sec3.tex
 Kapitel 3.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1--1
-|[]\T1/NotoSerif-TLF/b/n/24.88 (+20) Ausgangssituation/IST-
+Overfull \hbox (27.01pt too wide) in paragraph at lines 1--1
+|[]\TU/NotoSerif(0)/b/n/24.88 Ausgangssituation/IST-Analyse| 
  []
 
 
-Underfull \hbox (badness 1515) in paragraph at lines 8--48
-[]\T1/NotoSerif-TLF/m/n/12 (+20) 3.1[] zeigt qua-li-ta-tiv auf, wie ei-ne sol-c
-he Ab-fol-ge aus-sieht. Es ist
+Underfull \hbox (badness 1648) in paragraph at lines 4--4
+|[]\TU/NotoSerif(0)/b/n/17.28 Architekturlimitationen des bisherigen
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8--48
-\T1/NotoSerif-TLF/m/n/12 (+20) den ge-sam-ten Haupt-thread f�r ei-ne nicht ver-
-nach-l�s-sig-ba-re
+Underfull \hbox (badness 2401) in paragraph at lines 8--48
+[]\TU/NotoSerif(0)/m/n/12 3.1[] zeigt qualitativ auf, wie eine solche Abfolge a
+ussieht. Es ist
  []
 
 
-Underfull \hbox (badness 2961) in paragraph at lines 8--48
-\T1/NotoSerif-TLF/m/n/12 (+20) wird, bis ein Be-fehl voll-st�n-dig an den Ro-bo
--ter ge-sen-det, von
+Underfull \hbox (badness 1270) in paragraph at lines 8--48
+\TU/NotoSerif(0)/m/n/12 erkennbar, dass nach jedem gesendeten Befehl ein \TU/No
+toSerif(0)/m/it/12 Thread.Sleep()-
  []
 
 
-Underfull \hbox (badness 1584) in paragraph at lines 8--48
-\T1/NotoSerif-TLF/m/n/12 (+20) ihm ver-ar-bei-tet und aus-ge-f�hrt wird, l�sst 
-sich ver-ein-facht mit
+Underfull \hbox (badness 1466) in paragraph at lines 8--48
+\TU/NotoSerif(0)/m/n/12 Zeitspanne $\OML/cmm/m/it/12 T[]$ \TU/NotoSerif(0)/m/n/
+12 blockiert. Die theoretische Zeit $\OML/cmm/m/it/12 T$ \TU/NotoSerif(0)/m/n/1
+2 die benötigt
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8--48
-
+Underfull \hbox (badness 4479) in paragraph at lines 8--48
+\TU/NotoSerif(0)/m/n/12 wird, bis ein Befehl vollständig an den Roboter gesende
+t, von
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8--48
-\T1/NotoSerif-TLF/m/n/12 (+20) W�hrend die-ser Zeit-span-ne friert die ge-sam-t
-e Be-nut-ze-ro-ber-
- []
-
-
-Underfull \hbox (badness 2689) in paragraph at lines 8--48
-\T1/NotoSerif-TLF/m/n/12 (+20) fl�-che so-wie die Hand-lungs-f�-hig-keit des Ha
-upt-threads ein. Um
- []
-
-
-Underfull \hbox (badness 1472) in paragraph at lines 8--48
-\T1/NotoSerif-TLF/m/n/12 (+20) er-for-der-lich. Hier-f�r wird ein re-pro-du-zie
-r-ba-res Mess-ex-pe-ri-ment
+Underfull \hbox (badness 2837) in paragraph at lines 8--48
+\TU/NotoSerif(0)/m/n/12 ihm verarbeitet und ausgeführt wird, lässt sich vereinf
+acht mit
  []
 
 
@@ -1766,21 +2439,60 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--48
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8--48
-\T1/NotoSerif-TLF/m/n/12 (+20) Das Ziel die-ser Ana-ly-se ist die Iden-ti-fi-ka
--ti-on der kri-ti-schen
+Underfull \hbox (badness 7203) in paragraph at lines 8--48
+\TU/NotoSerif(0)/m/n/12 Während dieser Zeitspanne friert die gesamte Benutzerob
+erflä-
  []
 
-File: figures/dhbwlogo.png Graphic file (type png)
-<use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 48.
-(pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
-[9
+
+Underfull \hbox (badness 1917) in paragraph at lines 8--48
+\TU/NotoSerif(0)/m/n/12 che sowie die Handlungsfähigkeit des Hauptthreads ein. 
+Um die
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--48
+\TU/NotoSerif(0)/m/n/12 Auswirkungen der sequenziellen Befehlsbereitstellung au
+f die
+ []
+
+
+Underfull \hbox (badness 3803) in paragraph at lines 8--48
+\TU/NotoSerif(0)/m/n/12 erforderlich. Hierfür wird ein reproduzierbares Messexp
+eriment
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--48
+
+ []
+
+
+Underfull \hbox (badness 2469) in paragraph at lines 8--48
+\TU/NotoSerif(0)/m/n/12 Das Ziel dieser Analyse ist die Identifikation der krit
+ischen Pfa-
+ []
+
+
+Underfull \hbox (badness 1127) in paragraph at lines 8--48
+\TU/NotoSerif(0)/m/n/12 die Befehlsverarbeitung, die Dauer der Hardware-Kommuni
+kation
+ []
+
+
+Underfull \hbox (badness 4096) in paragraph at lines 8--48
+\TU/NotoSerif(0)/m/n/12 Umstellung auf eine asynchrone Pipeline-Architektur ver
+bessern
+ []
+
+File: figures/dhbwlogo.png Graphic file (type bmp)
+<figures/dhbwlogo.png>
+[12
 
 ]
-Underfull \hbox (badness 1715) in paragraph at lines 50--52
-\T1/NotoSerif-TLF/m/n/12 (+20) Be-fehlss-truk-tur oder asyn-chro-ne Be-fehl-spi
--pe-li-ne) vor-aus-sicht-lich
+Underfull \hbox (badness 5231) in paragraph at lines 50--52
+\TU/NotoSerif(0)/m/n/12 Befehlsstruktur oder asynchrone Befehlspipeline) voraus
+sichtlich
  []
 
 
@@ -1790,14 +2502,31 @@ Underfull \hbox (badness 10000) in paragraph at lines 50--52
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 50--52
-\T1/NotoSerif-TLF/m/n/12 (+20) Die theo-re-ti-sche Ge-samt-lauf-zeit $\OML/cmm/
-m/it/12 T[]$ \T1/NotoSerif-TLF/m/n/12 (+20) ei-ner Be-fehls-se-quenz l�sst
+\TU/NotoSerif(0)/m/n/12 Die theoretische Gesamtlaufzeit $\OML/cmm/m/it/12 T[]$ 
+\TU/NotoSerif(0)/m/n/12 einer Befehlssequenz lässt
  []
 
 
-Underfull \hbox (badness 1418) in paragraph at lines 60--64
-\T1/NotoSerif-TLF/m/n/12 (+20) der Be-ar-bei-tungs-rei-hen-fol-ge (mit $\OML/cm
-m/m/it/12 n$ \T1/NotoSerif-TLF/m/n/12 (+20) als Ge-samt-zahl der Ob-jek-te),
+Underfull \hbox (badness 1924) in paragraph at lines 60--64
+\TU/NotoSerif(0)/m/n/12 Hierbei repräsentiert der Index $\OML/cmm/m/it/12 i$ \T
+U/NotoSerif(0)/m/n/12 das jeweilige Objekt innerhalb
+ []
+
+
+Underfull \hbox (badness 2809) in paragraph at lines 60--64
+\TU/NotoSerif(0)/m/n/12 der Bearbeitungsreihenfolge (mit $\OML/cmm/m/it/12 n$ \
+TU/NotoSerif(0)/m/n/12 als Gesamtzahl der Objekte),
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--64
+
+ []
+
+
+Underfull \hbox (badness 4353) in paragraph at lines 60--64
+\TU/NotoSerif(0)/m/n/12 die Gesamtausführungszeit einer Befehlssequenz (bestehe
+nd aus
  []
 
 
@@ -1806,183 +2535,232 @@ Underfull \hbox (badness 10000) in paragraph at lines 60--64
  []
 
 
-Underfull \hbox (badness 1769) in paragraph at lines 60--64
-\T1/NotoSerif-TLF/m/n/12 (+20) die Ge-samt-aus-f�h-rungs-zeit ei-ner Be-fehls-s
-e-quenz (be-ste-hend aus
+Underfull \hbox (badness 5008) in paragraph at lines 60--64
+\TU/NotoSerif(0)/m/n/12 Bei dieser theoretischen Betrachtung wird bewusst eine 
+Worst-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--64
-
+Underfull \hbox (badness 3323) in paragraph at lines 60--64
+\TU/NotoSerif(0)/m/n/12 da der vorliegende Roboter und die zugehörige Software 
+keine
  []
 
-File: figures/dhbwlogo.png Graphic file (type png)
-<use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 64.
-(pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
-[10]
-<figures/Messexperiment.png, id=342, 2366.8425pt x 2276.505pt>
-File: figures/Messexperiment.png Graphic file (type png)
-<use figures/Messexperiment.png>
-Package pdftex.def Info: figures/Messexperiment.png  used on input line 72.
-(pdftex.def)             Requested size: 179.25113pt x 172.39786pt.
+
+Underfull \hbox (badness 1248) in paragraph at lines 60--64
+\TU/NotoSerif(0)/m/n/12 der Software durch statische Wartezeiten (erfahrungsbas
+iert oder
+ []
+
+File: figures/Messexperiment.png Graphic file (type bmp)
+<figures/Messexperiment.png>
+
+Underfull \hbox (badness 1655) in paragraph at lines 65--102
+\TU/NotoSerif(0)/m/n/12 Um die theoretisch hergeleiteten Ineffizienzen und die 
+zeitlichen
+ []
+
+
+Underfull \hbox (badness 4266) in paragraph at lines 65--102
+\TU/NotoSerif(0)/m/n/12 Selbiges muss für Vergleichbarkeit und Bewertbarkeit au
+ch bei
+ []
+
+
+Underfull \hbox (badness 1796) in paragraph at lines 65--102
+\TU/NotoSerif(0)/m/n/12 nachfolgenden Erweiterungen des Systems (siehe []4.1[])
+ zu Grunde
+ []
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 65--102
 
  []
 
 
-Underfull \hbox (badness 8075) in paragraph at lines 65--102
-\T1/NotoSerif-TLF/m/n/12 (+20) Das Mess-ex-pe-ri-ment wird mit vier Zy-lin-de-r
--ob-jek-ten durch-ge-
+Underfull \hbox (badness 10000) in paragraph at lines 65--102
+\TU/NotoSerif(0)/m/n/12 Das Messexperiment wird mit vier Zylinderobjekten durch
+ge-
  []
 
+File: figures/dhbwlogo.png Graphic file (type bmp)
+<figures/dhbwlogo.png>
+[13]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-File: figures/dhbwlogo.png Graphic file (type png)
-<use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 117.
-(pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
-[11 <./figures/Messexperiment.png>]
-LaTeX Font Info:    Font shape `T1/NotoSans-TLF/m/n' will be
-(Font)              scaled to size 6.0pt on input line 128.
+File: figures/dhbwlogo.png Graphic file (type bmp)
+<figures/dhbwlogo.png>
+[14]
+LaTeX Font Info:    Font shape `TU/NotoSans(0)/m/n' will be
+(Font)              scaled to size 5.0pt on input line 138.
+LaTeX Font Info:    Font shape `TU/NotoSansMono(0)/m/n' will be
+(Font)              scaled to size 5.0pt on input line 138.
 
-Overfull \hbox (10.07231pt too wide) in paragraph at lines 144--145
+Overfull \hbox (10.07243pt too wide) in paragraph at lines 144--145
  [][] 
  []
 
-File: figures/dhbwlogo.png Graphic file (type png)
-<use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 155.
-(pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
-[12]
+File: figures/dhbwlogo.png Graphic file (type bmp)
+<figures/dhbwlogo.png>
+[15]
+Underfull \hbox (badness 1210) in paragraph at lines 161--183
+\TU/NotoSerif(0)/m/n/12 Betrachtet man den Programmcode der Klasse \TU/NotoSeri
+f(0)/m/it/12 Roboter.cs\TU/NotoSerif(0)/m/n/12 , so fällt
+ []
+
+
+Underfull \hbox (badness 2435) in paragraph at lines 161--183
+\TU/NotoSerif(0)/m/n/12 Setzt man nun die ermittelten statischen Werte aus Tabe
+lle []3.2[],
+ []
+
+
+Underfull \hbox (badness 1845) in paragraph at lines 161--183
+\TU/NotoSerif(0)/m/n/12 die Wartezeiten bei jedem Senden sowie die Zeit für Sta
+rt- und
+ []
+
+LaTeX Font Info:    Font shape `TU/NotoSans(0)/m/n' will be
+(Font)              scaled to size 10.95pt on input line 204.
+LaTeX Font Info:    Font shape `TU/NotoSansMono(0)/m/n' will be
+(Font)              scaled to size 10.95pt on input line 204.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 )
-File: figures/dhbwlogo.png Graphic file (type png)
-<use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 333.
-(pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
- [13] (sec4.tex
-File: figures/dhbwlogo.png Graphic file (type png)
-<use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 1.
-(pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
- [14]
+File: figures/dhbwlogo.png Graphic file (type bmp)
+<figures/dhbwlogo.png>
+ [16] (sec4.tex
+File: figures/dhbwlogo.png Graphic file (type bmp)
+<figures/dhbwlogo.png>
+ [17]
 Kapitel 4.
-LaTeX Font Info:    Font shape `T1/NotoSans-TLF/m/it' will be
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--1
+|[]\TU/NotoSerif(0)/b/n/24.88 Architekturoptimierung
+ []
+
+LaTeX Font Info:    Font shape `TU/NotoSans(0)/m/it' will be
 (Font)              scaled to size 8.0pt on input line 20.
-LaTeX Font Info:    Font shape `T1/NotoSans-TLF/m/n' will be
-(Font)              scaled to size 10.95pt on input line 23.
-LaTeX Font Info:    Font shape `T1/NotoSans-TLF/b/n' will be
+LaTeX Font Info:    Font shape `TU/NotoSans(0)/b/n' will be
 (Font)              scaled to size 6.0pt on input line 61.
 
-Overfull \hbox (17.08095pt too wide) in paragraph at lines 68--69
+Overfull \hbox (17.08104pt too wide) in paragraph at lines 68--69
  [][] 
  []
 
 )
-File: figures/dhbwlogo.png Graphic file (type png)
-<use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 337.
-(pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
- [15
+File: figures/dhbwlogo.png Graphic file (type bmp)
+<figures/dhbwlogo.png>
+ [18
 
 ] (sec5.tex
 Kapitel 5.
 
-Underfull \hbox (badness 2556) in paragraph at lines 8--11
-\T1/NotoSerif-TLF/m/n/12 (+20) In der mo-der-nen in-dus-tri-el-len Pro-duk-ti-o
-n hat sich ei-ne Vor-ge-
+Underfull \hbox (badness 1383) in paragraph at lines 6--6
+|[]\TU/NotoSerif(0)/b/n/14.4 Kriterienbasierte Evaluierung der Sicherheits-
  []
 
 
-Underfull \hbox (badness 2401) in paragraph at lines 8--11
-\T1/NotoSerif-TLF/m/n/12 (+20) um funk-tio-nie-ren-de so-wie fi-nan-zi-ell und 
-funk-tio-nell op-ti-mier-te
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--11
-\T1/NotoSerif-TLF/m/n/12 (+20) Ab-si-che-rungs-sys-te-me zu ent-wi-ckeln. Die I
-n-ter-ak-ti-on zwi-schen
+Underfull \hbox (badness 1052) in paragraph at lines 8--11
+\TU/NotoSerif(0)/m/n/12 und Anwendungsfelder basiert. Dieser Ansatz ist maßgebl
+ich, um
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 8--11
+\TU/NotoSerif(0)/m/n/12 Interaction (HRI) beziehungsweise im industriellen Umfe
+ld als
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--11
 
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 8--11
-\T1/NotoSerif-TLF/m/n/12 (+20) Die Aus-wahl ei-ner ge-eig-ne-ten MRK-Sicherheit
-s�berwachung
+\TU/NotoSerif(0)/m/n/12 Die Auswahl einer geeigneten MRK-Sicherheitsüberwachung
+
  []
 
 
-Overfull \hbox (23.10919pt too wide) in paragraph at lines 15--26
+Underfull \hbox (badness 1755) in paragraph at lines 8--11
+\TU/NotoSerif(0)/m/n/12 Um den Rahmen dieser Arbeit zu wahren, konzentriert sic
+h die
+ []
+
+
+Underfull \hbox (badness 1742) in paragraph at lines 8--11
+\TU/NotoSerif(0)/m/n/12 Darstellung für jede Kategorie exemplarisch auf eine Ge
+genüber-
+ []
+
+
+Underfull \hbox (badness 1009) in paragraph at lines 8--11
+\TU/NotoSerif(0)/m/n/12 stellung zweier primärer Ausprägungen (Variante A und V
+ariante
+ []
+
+
+Underfull \hbox (badness 1019) in paragraph at lines 8--11
+\TU/NotoSerif(0)/m/n/12 B), wenngleich in der Praxis weitere technologische Mis
+chformen
+ []
+
+
+Overfull \hbox (23.10947pt too wide) in paragraph at lines 15--26
  [][] 
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 26--26
-[]\T1/NotoSerif-TLF/b/n/10.95 (+20) Tabelle 5.1: |\T1/NotoSerif-TLF/m/n/10.95 (
-+20) Ent-schei-dungs-ma-trix zur Aus-wahl der MRK-
+[]\TU/NotoSerif(0)/b/n/10.95 Tabelle 5.1: |\TU/NotoSerif(0)/m/n/10.95 Entscheid
+ungsmatrix zur Auswahl der MRK-
  []
 
-<figures/Frauenhofer_Arbeitsraumueberwachung.jpg, id=385, 770.88pt x 513.92pt>
-File: figures/Frauenhofer_Arbeitsraumueberwachung.jpg Graphic file (type jpg)
-<use figures/Frauenhofer_Arbeitsraumueberwachung.jpg>
-Package pdftex.def Info: figures/Frauenhofer_Arbeitsraumueberwachung.jpg  used 
-on input line 39.
-(pdftex.def)             Requested size: 227.62204pt x 151.74623pt.
+File: figures/Frauenhofer_Arbeitsraumueberwachung.jpg Graphic file (type bmp)
+<figures/Frauenhofer_Arbeitsraumueberwachung.jpg>
 
-Underfull \hbox (badness 1184) in paragraph at lines 30--42
-\T1/NotoSerif-TLF/m/n/12 (+20) Ein sta-ti-scher Si-cher-heits-be-reich zeich-ne
-t sich pri-m�r durch die
+Underfull \hbox (badness 1275) in paragraph at lines 40--40
+[]\TU/NotoSerif(0)/b/n/10.95 Abbildung 5.1: |\TU/NotoSerif(0)/m/n/10.95 Projekt
+ions- und kameraba-
  []
 
 
-Underfull \hbox (badness 1043) in paragraph at lines 30--42
-\T1/NotoSerif-TLF/m/n/12 (+20) Ver-let-zung der de-fi-nier-ten Gren-zen durch e
-i-ne Be-dro-hung, wird
+Underfull \hbox (badness 2635) in paragraph at lines 40--40
+\TU/NotoSerif(0)/m/n/10.95 sierte Technologie zur Arbeitsraumüberwa-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--42
-
+Underfull \hbox (badness 7925) in paragraph at lines 30--42
+\TU/NotoSerif(0)/m/n/12 realisiert werden. Eine Kaskadierung des Raumes in mehr
+ere
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--42
-\T1/NotoSerif-TLF/m/n/12 (+20) Demgegen�ber passt sich ein dy-na-mi-scher Si-ch
-er-heits-be-reich
+Underfull \hbox (badness 1102) in paragraph at lines 30--42
+\TU/NotoSerif(0)/m/n/12 ebene. Erkennt der Algorithmus innerhalb dieses Sichtfe
+ldes eine
  []
 
 
-Underfull \hbox (badness 1701) in paragraph at lines 30--42
-\T1/NotoSerif-TLF/m/n/12 (+20) des Ge-samt-sys-tems und er-for-dert f�r den Wer
--ker ei-ne dy-na-mi-
+Underfull \hbox (badness 2237) in paragraph at lines 30--42
+\TU/NotoSerif(0)/m/n/12 Verletzung der definierten Grenzen durch eine Bedrohung
+, wird
  []
 
 
-Underfull \hbox (badness 1769) in paragraph at lines 30--42
-\T1/NotoSerif-TLF/m/n/12 (+20) sche, vi-su-el-le An-zei-ge des ak-ti-ven Be-rei
-chs, bei-spiels-wei-se �ber
+Underfull \hbox (badness 1048) in paragraph at lines 30--42
+\TU/NotoSerif(0)/m/n/12 die Sicherheitsreaktion des Roboters initiiert. Da der 
+Sichtbereich
  []
 
 
-Underfull \hbox (badness 3068) in paragraph at lines 30--42
-\T1/NotoSerif-TLF/m/n/12 (+20) Licht-pro-jek-tio-nen oder in-ner-halb ei-nes Di
--gi-ta-len Zwil-lings. Der
- []
-
-
-Underfull \hbox (badness 1616) in paragraph at lines 30--42
-\T1/NotoSerif-TLF/m/n/12 (+20) Das Frauenhofer-Institut f�r Fa-brik-be-trieb un
-d -automatisierung
+Underfull \hbox (badness 1383) in paragraph at lines 30--42
+\TU/NotoSerif(0)/m/n/12 geometrische Ausrichtung auf den zu betrachtenden Arbei
+tsraum
  []
 
 
@@ -1990,610 +2768,778 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--42
 
  []
 
-File: figures/dhbwlogo.png Graphic file (type png)
-<use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 42.
-(pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
-[16
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--42
+\TU/NotoSerif(0)/m/n/12 Demgegenüber passt sich ein dynamischer Sicherheitsbere
+ich
+ []
+
+
+Underfull \hbox (badness 1789) in paragraph at lines 30--42
+\TU/NotoSerif(0)/m/n/12 Komplexität dieser Implementierung ist bedeutend höher 
+als bei
+ []
+
+
+Underfull \hbox (badness 1881) in paragraph at lines 30--42
+\TU/NotoSerif(0)/m/n/12 werden müssen. Dies bedingt eine sehr geringe Datenbus-
+Latenz
+ []
+
+
+Underfull \hbox (badness 3019) in paragraph at lines 30--42
+\TU/NotoSerif(0)/m/n/12 des Gesamtsystems und erfordert für den Werker eine dyn
+ami-
+ []
+
+
+Underfull \hbox (badness 3364) in paragraph at lines 30--42
+\TU/NotoSerif(0)/m/n/12 sche, visuelle Anzeige des aktiven Bereichs, beispielsw
+eise über
+ []
+
+
+Underfull \hbox (badness 5771) in paragraph at lines 30--42
+\TU/NotoSerif(0)/m/n/12 Lichtprojektionen oder innerhalb eines Digitalen Zwilli
+ngs. Der
+ []
+
+
+Underfull \hbox (badness 4072) in paragraph at lines 30--42
+\TU/NotoSerif(0)/m/n/12 Das Frauenhofer-Institut für Fabrikbetrieb und -automat
+isierung
+ []
+
+
+Underfull \hbox (badness 1748) in paragraph at lines 30--42
+\TU/NotoSerif(0)/m/n/12 lichtprojizierten Sicherheitsrahmen welcher von der Bil
+dverarbei-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--42
+
+ []
+
+File: figures/dhbwlogo.png Graphic file (type bmp)
+<figures/dhbwlogo.png>
+[19
 
 ]
-File: figures/dhbwlogo.png Graphic file (type png)
-<use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 42.
-(pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
- [17]
-Underfull \hbox (badness 2781) in paragraph at lines 42--52
-[]\T1/NotoSerif-TLF/m/n/12 (+20) Bei der al-go-rith-mi-schen
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 42--52
-\T1/NotoSerif-TLF/m/n/12 (+20) Er-eig-nis-s-teue-rung wird
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 42--52
-\T1/NotoSerif-TLF/m/n/12 (+20) zwi-schen uni-ver-sel-ler
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 42--52
-\T1/NotoSerif-TLF/m/n/12 (+20) Ob-jek-ter-ken-nung und
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 42--52
-\T1/NotoSerif-TLF/m/n/12 (+20) spe-zi-fi-scher Han-der-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 42--52
-\T1/NotoSerif-TLF/m/n/12 (+20) ken-nung un-ter-schie-den.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 42--52
-\T1/NotoSerif-TLF/m/n/12 (+20) Dient ei-ne ge-ne-rel-le
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 42--52
-\T1/NotoSerif-TLF/m/n/12 (+20) Ob-jek-ter-ken-nung als
- []
-
-
-Underfull \hbox (badness 1112) in paragraph at lines 42--52
-\T1/NotoSerif-TLF/m/n/12 (+20) aus-l�-sen-des Er-eig-nis f�r
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 42--52
-\T1/NotoSerif-TLF/m/n/12 (+20) einen Si-cher-heits-s-topp
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 42--52
-\T1/NotoSerif-TLF/m/n/12 (+20) oder ei-ne Ge-schwin-dig-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 42--52
-\T1/NotoSerif-TLF/m/n/12 (+20) Kan-ten-ex-trak-ti-on oder
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 42--52
-\T1/NotoSerif-TLF/m/n/12 (+20) Hin-ter-grund-sub-trak-ti-on.
- []
-
-
-Underfull \hbox (badness 2401) in paragraph at lines 42--52
-\T1/NotoSerif-TLF/m/n/12 (+20) So-bald ein Frem-d-ob-jekt im Ar-beits-be-reich 
-de-tek-tiert wird, h�lt
- []
-
-
-Underfull \hbox (badness 1755) in paragraph at lines 42--52
-\T1/NotoSerif-TLF/m/n/12 (+20) Pro-gram-mier-auf-wand wie-der-um er-h�ht. Der w
-e-sent-li-che Vor-teil
- []
-
-
-Underfull \hbox (badness 1019) in paragraph at lines 42--52
-\T1/NotoSerif-TLF/m/n/12 (+20) in-dus-tri-el-len Um-feld we-sent-lich zu-ver-l�
-s-si-ger und mi-ni-miert die
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 42--52
-\T1/NotoSerif-TLF/m/n/12 (+20) von der ma-xi-ma-len mensch-li-chen Hand-ge-schw
-in-dig-keit von
- []
-
-
-Underfull \hbox (badness 3826) in paragraph at lines 42--52
-\T1/NotoSerif-TLF/m/n/12 (+20) ent-spre-chend ho-he Bild-wie-der-hol-ra-te (Fra
--mes per Se-cond, fps)
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 42--52
-\T1/NotoSerif-TLF/m/n/12 (+20) Pro-blem bleibt die ma-the-ma-ti-sche "Black-Box
--Problematik"von
- []
-
-
-Underfull \hbox (badness 2875) in paragraph at lines 42--52
-\T1/NotoSerif-TLF/m/n/12 (+20) Deep-Learning-Algorithmen, da die-se schwer de-t
-er-mi-nis-tisch zu
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 42--52
-\T1/NotoSerif-TLF/m/n/12 (+20) der gr��-ten ak-tu-el-len For-schungs-her-aus-fo
-r-de-run-gen. Zu-dem
- []
-
-
-Underfull \hbox (badness 2799) in paragraph at lines 42--52
-\T1/NotoSerif-TLF/m/n/12 (+20) wei-sen die-se kei-ne hin-rei-chen-de Va-ri-anz 
-be-z�g-lich Haut-far-ben,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 42--52
-
- []
-
-
-Underfull \hbox (badness 3895) in paragraph at lines 42--52
-\T1/NotoSerif-TLF/m/n/12 (+20) Auf der sen-so-ri-schen Ebe-ne ste-hen sich phy-
-si-sche und vi-su-el-
- []
-
-
-Underfull \hbox (badness 2990) in paragraph at lines 42--52
-\T1/NotoSerif-TLF/m/n/12 (+20) und Kon-takt-her-aus-for-de-rung �ber klas-si-sc
-he Kom-po-nen-ten wie
- []
-
-
-Underfull \hbox (badness 5077) in paragraph at lines 42--52
-\T1/NotoSerif-TLF/m/n/12 (+20) rea-giert und oft spe-zia-li-sier-te Aus-wer-te-
-elek-tro-nik be-n�-tigt. Da
- []
-
-
-Underfull \hbox (badness 3713) in paragraph at lines 42--52
-\T1/NotoSerif-TLF/m/n/12 (+20) ist der me-cha-ni-sche Ver-schlei� so-wie der ho
--he Montage- und
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 42--52
-\T1/NotoSerif-TLF/m/n/12 (+20) nutzt Ka-me-ra-sys-te-me (2D-Systeme mit Kan-ten
--ex-trak-ti-on oder
- []
-
-
-Underfull \hbox (badness 3724) in paragraph at lines 42--52
-\T1/NotoSerif-TLF/m/n/12 (+20) 3D-Time-of-Flight-Sensoren mit Tie-fen-da-ten) z
-ur vo-lu-me-tri-schen
- []
-
-
-Underfull \hbox (badness 7308) in paragraph at lines 42--52
-\T1/NotoSerif-TLF/m/n/12 (+20) Raum-�ber-wa-chung. Vi-su-el-le Sys-te-me bie-te
-n den Vor-teil ei-ner
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 42--52
-\T1/NotoSerif-TLF/m/n/12 (+20) Sys-te-me emp-find-lich auf wech-seln-de Be-leuc
-h-tungs-ver-h�lt-nis-se,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 42--52
-\T1/NotoSerif-TLF/m/n/12 (+20) Schat-ten-wurf oder Ver-schmut-zun-gen der Lin-s
-e. Nor-ma-tiv ist
- []
-
-
-Underfull \hbox (badness 1205) in paragraph at lines 42--52
-\T1/NotoSerif-TLF/m/n/12 (+20) hier-bei die Zer-ti-fi-zie-rung nach IEC 61496 z
-u be-ach-ten: Op-ti-sche
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 42--52
-
- []
-
-
-Underfull \hbox (badness 4205) in paragraph at lines 42--52
-\T1/NotoSerif-TLF/m/n/12 (+20) Als fi-na-le Ak-tua-to-rik ste-hen der ab-rup-te
- Nothalt und das ad-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 42--52
-\T1/NotoSerif-TLF/m/n/12 (+20) ap-ti-ve Ab-brem-sen zur Aus-wahl. Ein Nothalt f
-�hrt bei ei-ner
- []
-
-
-Underfull \hbox (badness 1178) in paragraph at lines 42--52
-\T1/NotoSerif-TLF/m/n/12 (+20) Schutz-feld-ver-let-zung zum so-for-ti-gen Still
--set-zen des Ro-bo-ter-arms,
- []
-
-
-Underfull \hbox (badness 1221) in paragraph at lines 42--52
-\T1/NotoSerif-TLF/m/n/12 (+20) (Ka-te-go-rie 0/1 nach DIN EN 60204-1). Im Si-ch
-er-heits-kon-text von
- []
-
-
-Underfull \hbox (badness 5161) in paragraph at lines 42--52
-\T1/NotoSerif-TLF/m/n/12 (+20) Dar-�ber hin-aus re-du-ziert die er-heb-li-che W
-ie-der-an-lauf-zeit des
- []
-
-
-Underfull \hbox (badness 1371) in paragraph at lines 42--52
-\T1/NotoSerif-TLF/m/n/12 (+20) mi-ni-miert den me-cha-ni-schen Ver-schlei� und 
-muss �ber si-che-re
- []
-
-File: figures/dhbwlogo.png Graphic file (type png)
-<use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 52.
-(pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
-[18 <./figures/Frauenhofer_Arbeitsraumueberwachung.jpg>]
-File: figures/dhbwlogo.png Graphic file (type png)
-<use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 52.
-(pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
- [19])
-File: figures/dhbwlogo.png Graphic file (type png)
-<use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 341.
-(pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
+File: figures/dhbwlogo.png Graphic file (type bmp)
+<figures/dhbwlogo.png>
  [20]
-File: figures/dhbwlogo.png Graphic file (type png)
-<use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 341.
-(pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
- [21]
-(sec6.tex
+Underfull \hbox (badness 5787) in paragraph at lines 42--52
+[]\TU/NotoSerif(0)/m/n/12 Bei der algorithmischen
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 Ereignissteuerung wird
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 zwischen universeller
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 Objekterkennung und
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 spezifischer Hander-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 kennung unterschieden.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 Dient eine generelle
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 Objekterkennung als
+ []
+
+
+Underfull \hbox (badness 2941) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 auslösendes Ereignis für
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 einen Sicherheitsstopp
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 oder eine Geschwindig-
+ []
+
+
+Underfull \hbox (badness 5504) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 keitsreduzierung, basiert
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 Kantenextraktion oder
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 Hintergrundsubtraktion.
+ []
+
+
+Underfull \hbox (badness 7238) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 Sobald ein Fremdobjekt
+ []
+
+
+Underfull \hbox (badness 4779) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 Implementation. Als kritischer Nachteil erweist sich je
+doch die
+ []
+
+
+Underfull \hbox (badness 3098) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 fälschlicherweise als Pseudoobjekte erkannt werden. Die
+se hohe
+ []
+
+
+Underfull \hbox (badness 2486) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 industriellen Umfeld wesentlich zuverlässiger und minim
+iert die
+ []
+
+
+Underfull \hbox (badness 2970) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 fehlerhaften oder verzögerten Klassifikation (Falsch-Ne
+gativ-Rate).
+ []
+
+
+Underfull \hbox (badness 1721) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 Zudem muss die Auslegung gemäß DIN EN ISO 13855 zwingen
+d
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 von der maximalen menschlichen Handgeschwindigkeit von
+ []
+
+
+Underfull \hbox (badness 1107) in paragraph at lines 42--52
+\OT1/cmr/m/n/12 1600 []$ \TU/NotoSerif(0)/m/n/12 bis $\OT1/cmr/m/n/12 2000 []$ 
+\TU/NotoSerif(0)/m/n/12 ausgehen. KI-Modelle müssen daher eine
+ []
+
+
+Underfull \hbox (badness 6893) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 entsprechend hohe Bildwiederholrate (Frames per Second,
+ fps)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 Problem bleibt die mathematische ”Black-Box-Problematik
+”von
+ []
+
+
+Underfull \hbox (badness 6236) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 Deep-Learning-Algorithmen, da diese schwer deterministi
+sch zu
+ []
+
+
+Underfull \hbox (badness 1406) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 ist der lückenlose Nachweis einer fehlerfreien Entschei
+dung eine
+ []
+
+
+Underfull \hbox (badness 1132) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 der größten aktuellen Forschungsherausforderungen. Zude
+m zeigt
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--52
+
+ []
+
+
+Underfull \hbox (badness 3439) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 Auf der sensorischen Ebene stehen sich physische und vi
+suelle
+ []
+
+
+Underfull \hbox (badness 4181) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 Systeme gegenüber. Die physische Sensorik realisiert di
+e Raum-
+ []
+
+
+Underfull \hbox (badness 6445) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 und Kontaktherausforderung über klassische Komponenten 
+wie
+ []
+
+
+Underfull \hbox (badness 1137) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 (z.B. als sensitive Roboterhaut) oder induktive Felder,
+ die auf die
+ []
+
+
+Underfull \hbox (badness 1314) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 Annäherung von Körperteilen reagieren. Physische Sensor
+en sind
+ []
+
+
+Underfull \hbox (badness 1661) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 kostengünstig und zeichnen sich durch eine einfache Pro
+blembe-
+ []
+
+
+Underfull \hbox (badness 1442) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 Als Nachteil erweist sich die anspruchsvolle Kalibrieru
+ng, da die
+ []
+
+
+Underfull \hbox (badness 1308) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 Sensorik sensibel auf elektromagnetische Umweltstörunge
+n (EMV)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 reagiert und oft spezialisierte Auswerteelektronik benö
+tigt. Da
+ []
+
+
+Underfull \hbox (badness 2980) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 physische Sensoren zudem keine Tiefen- oder Richtungsin
+forma-
+ []
+
+
+Underfull \hbox (badness 2376) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 noch die genaue Position im Raum bestimmen. Ein zusätzl
+icher
+ []
+
+
+Underfull \hbox (badness 2310) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 Faktor ist der mechanische Verschleiß sowie der hohe Mo
+ntage-
+ []
+
+
+Underfull \hbox (badness 2772) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 und Verkabelungsaufwand im rauen Industriealltag. Die v
+isuelle
+ []
+
+
+Underfull \hbox (badness 2181) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 Sensorik nutzt Kamerasysteme (2D-Systeme mit Kantenextr
+aktion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 Raumüberwachung. Visuelle Systeme bieten den Vorteil ei
+ner
+ []
+
+
+Underfull \hbox (badness 2173) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 zuverlässigen Klassifizierung spezieller Geometrien und
+ erlauben
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 Systeme empfindlich auf wechselnde Beleuchtungsverhältn
+isse,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 Schattenwurf oder Verschmutzungen der Linse. Normativ i
+st
+ []
+
+
+Underfull \hbox (badness 2277) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 hierbei die Zertifizierung nach IEC 61496 zu beachten: 
+Optische
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--52
+
+ []
+
+
+Underfull \hbox (badness 2608) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 kontrollierte oder unkontrollierte Energietrennung (Kat
+egorie 0/1
+ []
+
+
+Underfull \hbox (badness 1325) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 wird diese Reaktion gemäß ISO 10218-1 präzise als siche
+rheitsge-
+ []
+
+
+Underfull \hbox (badness 1424) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 führt. Die abrupten Momentenmaxima verursachen zudem ei
+nen
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 Darüber hinaus reduziert die erhebliche Wiederanlaufzei
+t des
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 Geschwindigkeitszonen. Diese Funktion der sicheren Gesc
+hwin-
+ []
+
+
+Underfull \hbox (badness 3568) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 digkeitsreduzierung (Safely-Limited Speed, SLS) sichert
+ fließende
+ []
+
+
+Underfull \hbox (badness 1902) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 für die Bildverarbeitung und verlangt bei Fehlfunktione
+n in der
+ []
+
+
+Underfull \hbox (badness 1297) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 dass ein Quetschen von Körperteilen zwischen dem Robote
+r und
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--52
+\TU/NotoSerif(0)/m/n/12 starren Umgebungsstrukturen physikalisch oder algorithm
+isch
+ []
+
+File: figures/dhbwlogo.png Graphic file (type bmp)
+<figures/dhbwlogo.png>
+[21]
+File: figures/dhbwlogo.png Graphic file (type bmp)
+<figures/dhbwlogo.png>
+ [22]
+File: figures/dhbwlogo.png Graphic file (type bmp)
+<figures/dhbwlogo.png>
+ [23])
+File: figures/dhbwlogo.png Graphic file (type bmp)
+<figures/dhbwlogo.png>
+ [24] (sec6.tex
 Kapitel 6.
 )
-File: figures/dhbwlogo.png Graphic file (type png)
-<use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 345.
-(pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
- [22
+File: figures/dhbwlogo.png Graphic file (type bmp)
+<figures/dhbwlogo.png>
+ [25
 
 ] (sec7.tex) (T3200.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 25--29
-\T1/NotoSerif-TLF/m/n/12 (+20) / / www . i^^X . fraunhofer . de / de / geschaef
-tsbereiche / robotersysteme /
+[] [] [][][] [] [][][] [] [][][][][][][][][][] [] [][] [] [][] [] [][][][][][][
+][][][][][][][][][][][] [] [][][][][][][][][][][][][][] []
  []
 
-File: figures/dhbwlogo.png Graphic file (type png)
-<use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 76.
-(pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
+
+Underfull \hbox (badness 1655) in paragraph at lines 25--29
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][] [] [][][][]$[]\TU/NotoSerif(0)/m/n/12 , 2026, abge-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--45
+[]\TU/NotoSerif(0)/m/n/12 W. Schulz, “Anwendung und vergleich von algorithmen
+ []
+
+
+Underfull \hbox (badness 4927) in paragraph at lines 43--45
+\TU/NotoSerif(0)/m/n/12 zur sicherheitsgerichteten auswertung von 2d laserscann
+er-
+ []
+
+File: figures/dhbwlogo.png Graphic file (type bmp)
+<figures/dhbwlogo.png>
 [7
 
 ]
-Underfull \hbox (badness 2932) in paragraph at lines 85--89
-\T1/NotoSerif-TLF/m/n/12 (+20) li-ne; Zu-ge-grif-fen am 10. Ju-ni 2026]. [On-li
--ne].
+Underfull \hbox (badness 1259) in paragraph at lines 89--92
+\TU/NotoSerif(0)/m/n/12 15066:2016),” DIN Media GmbH, Berlin, Vornorm DIN ISO/T
+S
  []
 
 
-Underfull \hbox (badness 1902) in paragraph at lines 85--89
-\T1/NotoSerif-TLF/m/n/12 (+20) Availa-ble: []$https : / / learn . microsoft . c
-om / de-[]de / dotnet / standard /
+Underfull \hbox (badness 3291) in paragraph at lines 109--113
+\TU/NotoSerif(0)/m/n/12 line; Zugegriffen am 10. Juni 2026]. [Online].
  []
 
 
-Underfull \hbox (badness 1810) in paragraph at lines 96--100
-[]\T1/NotoSerif-TLF/m/n/12 (+20) Microsoft De-vel-opers. asyn-chro-ne pro-gram-
-mier-mus-ter.
+Underfull \hbox (badness 5274) in paragraph at lines 109--113
+\TU/NotoSerif(0)/m/n/12 Available: []$[][][][][] [] [] [] [][][][][] [] [][][][
+][][][][][] [] [][][] [] [][][][][][] [] [][][][][][] [] [][][][][][][][] []
  []
 
 
-Underfull \hbox (badness 1590) in paragraph at lines 96--100
-\T1/NotoSerif-TLF/m/n/12 (+20) [On-li-ne; Zu-ge-grif-fen am 10. Ju-ni 2026]. [O
-n-li-ne].
+Underfull \hbox (badness 2564) in paragraph at lines 120--124
+[]\TU/NotoSerif(0)/m/n/12 Microsoft Developers. asynchrone programmiermuster.
  []
 
 
-Underfull \hbox (badness 1902) in paragraph at lines 96--100
-\T1/NotoSerif-TLF/m/n/12 (+20) Availa-ble: []$https : / / learn . microsoft . c
-om / de-[]de / dotnet / standard /
+Underfull \hbox (badness 1852) in paragraph at lines 120--124
+\TU/NotoSerif(0)/m/n/12 [Online; Zugegriffen am 10. Juni 2026]. [Online].
+ []
+
+
+Underfull \hbox (badness 5274) in paragraph at lines 120--124
+\TU/NotoSerif(0)/m/n/12 Available: []$[][][][][] [] [] [] [][][][][] [] [][][][
+][][][][][] [] [][][] [] [][][][][][] [] [][][][][][] [] [][][][][][][][] []
+ []
+
+File: figures/dhbwlogo.png Graphic file (type bmp)
+<figures/dhbwlogo.png>
+[8])
+File: figures/dhbwlogo.png Graphic file (type bmp)
+<figures/dhbwlogo.png>
+ [9]
+File: figures/dhbwlogo.png Graphic file (type bmp)
+<figures/dhbwlogo.png>
+ [10
+
+]
+File: figures/dhbwlogo.png Graphic file (type bmp)
+<figures/dhbwlogo.png>
+ [11] (T3200.lof
+Underfull \hbox (badness 10000) in paragraph at lines 12--12
+ [][] [][]\TU/NotoSerif(0)/m/n/12 Gegenüberstellung von blockierenden synchrone
+n 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--14
+ [][] [][]\TU/NotoSerif(0)/m/n/12 Projektions- und kamerabasierte Technologie z
+ur 
  []
 
 )
-File: figures/dhbwlogo.png Graphic file (type png)
-<use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 370.
-(pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
- [8]
-File: figures/dhbwlogo.png Graphic file (type png)
-<use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 418.
-(pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
- [9
-
-]
-Package babel Info: 'ngerman' activates 'german' shorthands.
-(babel)             Reported on input line 427.
-File: figures/dhbwlogo.png Graphic file (type png)
-<use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 427.
-(pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
- [10] (T3200.lof)
 \tf@lof=\write6
 \openout6 = `T3200.lof'.
 
-File: figures/dhbwlogo.png Graphic file (type png)
-<use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 441.
-(pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
- [11
+File: figures/dhbwlogo.png Graphic file (type bmp)
+<figures/dhbwlogo.png>
+ [12
 
 ]
-Underfull \hbox (badness 6758) in paragraph at lines 464--464
-|\T1/NotoSerif-TLF/b/n/24.88 (+20) Erkl�rungen zur Ar-beit und
+Underfull \hbox (badness 10000) in paragraph at lines 464--464
+|\TU/NotoSerif(0)/b/n/24.88 Erklärungen zur Arbeit und
  []
 
 
-Underfull \hbox (badness 3019) in paragraph at lines 481--481
-\T1/NotoSerif-TLF/m/n/12 (+20) Er-stel-lung von Blan-ko-vor-la-
+Underfull \hbox (badness 5302) in paragraph at lines 471--472
+[]\TU/NotoSerif(0)/b/n/12 Software: \TU/NotoSerif(0)/m/n/12 OpenCV Bibliothek, 
+Visual Studio (C++ und C#),
  []
 
 
-Underfull \hbox (badness 1348) in paragraph at lines 481--481
-[]|\T1/NotoSerif-TLF/m/n/12 (+20) gesamte Ar-
+Underfull \hbox (badness 1253) in paragraph at lines 471--472
+\TU/NotoSerif(0)/m/n/12 RoboETH, drawIO (Erstellung von Grafiken), texStudio, u
+Eye-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 482--482
-\T1/NotoSerif-TLF/m/n/12 (+20) AI Stu-dent
+Underfull \hbox (badness 10000) in paragraph at lines 471--472
+\TU/NotoSerif(0)/m/n/12 Cockpit und IDS Kameramanager, GitHub (Kollaboratives
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 482--482
-\T1/NotoSerif-TLF/m/n/12 (+20) Pro Li-cen-se:
+Underfull \hbox (badness 10000) in paragraph at lines 481--481
+[]|\TU/NotoSerif(0)/m/n/12 Formatierung von LaTeX-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 482--482
-\T1/NotoSerif-TLF/m/n/12 (+20) De-ep Search-
+Underfull \hbox (badness 10000) in paragraph at lines 481--481
+\TU/NotoSerif(0)/m/n/12 vorlagen für Tabellen und
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 482--482
-[]|\T1/NotoSerif-TLF/m/n/12 (+20) Tiefgreifende Ana-ly-se des
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 482--482
-\T1/NotoSerif-TLF/m/n/12 (+20) Da-ten-blatts des Mo-ve-mas-
- []
-
-
-Underfull \hbox (badness 3977) in paragraph at lines 482--482
-\T1/NotoSerif-TLF/m/n/12 (+20) ter EX RV-M1: Fin-den von
- []
-
-
-Underfull \hbox (badness 2591) in paragraph at lines 482--482
-\T1/NotoSerif-TLF/m/n/12 (+20) Ab-schluss-zei-chen im RS232-
+Underfull \hbox (badness 3312) in paragraph at lines 481--481
+[]|\TU/NotoSerif(0)/m/n/12 gesamte Ar-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 482--482
-\T1/NotoSerif-TLF/m/n/12 (+20) String, Pin-Belegung f�r
+\TU/NotoSerif(0)/m/n/12 AI Student
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 482--482
-\T1/NotoSerif-TLF/m/n/12 (+20) Hard-wa-re-ge-st�tz-tes Ack-
- []
-
-
-Underfull \hbox (badness 7704) in paragraph at lines 482--482
-\T1/NotoSerif-TLF/m/n/12 (+20) now-led-ge-ment �ber RS232,
+\TU/NotoSerif(0)/m/n/12 Pro License:
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 482--482
-\T1/NotoSerif-TLF/m/n/12 (+20) Phy-si-ka-li-sche Si-gnal-ana-ly-se
+\TU/NotoSerif(0)/m/n/12 Deep Search-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 482--482
-\T1/NotoSerif-TLF/m/n/12 (+20) Flow-Control; Er-geb-nis der
+[]|\TU/NotoSerif(0)/m/n/12 Tiefgreifende Analyse des
  []
 
 
-Underfull \hbox (badness 3364) in paragraph at lines 482--482
-\T1/NotoSerif-TLF/m/n/12 (+20) als PDF-Dokument be-reit-ge-
+Underfull \hbox (badness 10000) in paragraph at lines 482--482
+\TU/NotoSerif(0)/m/n/12 Datenblatts des Movemas-
+ []
+
+
+Underfull \hbox (badness 5681) in paragraph at lines 482--482
+\TU/NotoSerif(0)/m/n/12 ter EX RV-M1: Finden von
+ []
+
+
+Underfull \hbox (badness 6157) in paragraph at lines 482--482
+\TU/NotoSerif(0)/m/n/12 Abschlusszeichen im RS232-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 482--482
+\TU/NotoSerif(0)/m/n/12 String, Pin-Belegung für
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 482--482
+\TU/NotoSerif(0)/m/n/12 Hardwaregestütztes Ack-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 482--482
+\TU/NotoSerif(0)/m/n/12 nowledgement über RS232,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 482--482
+\TU/NotoSerif(0)/m/n/12 Physikalische Signalanalyse
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 482--482
+\TU/NotoSerif(0)/m/n/12 für die Implementierung
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 482--482
+\TU/NotoSerif(0)/m/n/12 einer Flow-Control; Ergeb-
+ []
+
+
+Underfull \hbox (badness 4832) in paragraph at lines 482--482
+\TU/NotoSerif(0)/m/n/12 nis der ”Deep Search”kann
+ []
+
+
+Underfull \hbox (badness 5302) in paragraph at lines 482--482
+\TU/NotoSerif(0)/m/n/12 jederzeit als PDF-Dokument
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 483--483
-[]|\T1/NotoSerif-TLF/m/n/12 (+20) Formulierung des eng-lisch-
+[]|\TU/NotoSerif(0)/m/n/12 Formulierung des englisch-
  []
 
-File: figures/dhbwlogo.png Graphic file (type png)
-<use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 486.
-(pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
-[12
+File: figures/dhbwlogo.png Graphic file (type bmp)
+<figures/dhbwlogo.png>
+[13
 
 
 ]
-
-LaTeX Warning: Reference `Robotik' on page xiii undefined on input line 510.
-
-
-LaTeX Warning: Reference `Bildverarbeitung' on page xiii undefined on input lin
-e 510.
-
-
-LaTeX Warning: Reference `Grundlagen der Informatik' on page xiii undefined on 
-input line 510.
+File: figures/dhbwlogo.png Graphic file (type bmp)
+<figures/dhbwlogo.png>
+ [14]
+Underfull \hbox (badness 2326) in paragraph at lines 488--489
+\TU/NotoSerif(0)/m/n/12 Autor die primäre Urheberschaft für die jeweiligen Kapi
+tel bzw.
+ []
 
 
-LaTeX Warning: Reference `Ausgangslage: Hardware' on page xiii undefined on inp
-ut line 510.
+LaTeX Warning: Reference `Robotik' on page xv undefined on input line 510.
 
 
-LaTeX Warning: Reference `Ausgangslage: Software' on page xiii undefined on inp
-ut line 510.
+LaTeX Warning: Reference `Bildverarbeitung' on page xv undefined on input line 
+510.
 
 
-LaTeX Warning: Reference `Messreihe' on page xiii undefined on input line 510.
+Underfull \hbox (badness 2088) in paragraph at lines 510--510
+[]|\TU/NotoSerif(0)/m/n/12 Grundlagen der In-
+ []
+
+
+LaTeX Warning: Reference `Grundlagen der Informatik' on page xv undefined on in
+put line 510.
+
+
+LaTeX Warning: Reference `Ausgangslage: Hardware' on page xv undefined on input
+ line 510.
+
+
+LaTeX Warning: Reference `Ausgangslage: Software' on page xv undefined on input
+ line 510.
+
+
+LaTeX Warning: Reference `Messreihe' on page xv undefined on input line 510.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 510--510
-[]|\T1/NotoSerif-TLF/m/n/12 (+20) Optimierung der
+[]|\TU/NotoSerif(0)/m/n/12 Optimierung der
  []
 
 
-LaTeX Warning: Reference `Optimierung der Softwarestruktur' on page xiii undefi
-ned on input line 510.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 510--510
-[]|\T1/NotoSerif-TLF/m/n/12 (+20) Optimierung der
- []
-
-
-LaTeX Warning: Reference `Optimierung der Bildgewinnung' on page xiii undefined
- on input line 510.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 510--510
-[]|\T1/NotoSerif-TLF/m/n/12 (+20) Optimierung und
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 510--510
-\T1/NotoSerif-TLF/m/n/12 (+20) Ver-bes-se-rungs-m�g-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 510--510
-\T1/NotoSerif-TLF/m/n/12 (+20) lich-kei-ten an der
- []
-
-
-LaTeX Warning: Reference `Optimierung und Verbesserungsmöglichkeiten an der So
-ftware' on page xiii undefined on input line 510.
-
-
-LaTeX Warning: Reference `Normative Anforderungen und Grenzen des RV-M1' on pag
-e xiii undefined on input line 510.
-
-
-Underfull \hbox (badness 3078) in paragraph at lines 510--510
-[]|\T1/NotoSerif-TLF/m/n/12 (+20) Umsetzbare Si-cher-
- []
-
-
-LaTeX Warning: Reference `Umsetzbare Sicherheitsmerkmale' on page xiii undefine
+LaTeX Warning: Reference `Optimierung der Softwarestruktur' on page xv undefine
 d on input line 510.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 510--510
-[]|\T1/NotoSerif-TLF/m/n/12 (+20) Ansatz
+[]|\TU/NotoSerif(0)/m/n/12 Optimierung der
+ []
+
+
+LaTeX Warning: Reference `Optimierung der Bildgewinnung' on page xv undefined o
+n input line 510.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 510--510
+[]|\TU/NotoSerif(0)/m/n/12 Optimierung und
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 510--510
-\T1/NotoSerif-TLF/m/n/12 (+20) Geschwindigkeits-
+\TU/NotoSerif(0)/m/n/12 Verbesserungsmög-
  []
 
 
-Underfull \hbox (badness 7869) in paragraph at lines 510--510
-\T1/NotoSerif-TLF/m/n/12 (+20) und Ab-stands-�ber-
+Underfull \hbox (badness 10000) in paragraph at lines 510--510
+\TU/NotoSerif(0)/m/n/12 lichkeiten an der
  []
 
 
-LaTeX Warning: Reference `Ansatz Geschwindigkeits- und Abstandsüberwachung' on
- page xiii undefined on input line 510.
+LaTeX Warning: Reference `Optimierung und Verbesserungsmöglichkeiten an der Sof
+tware' on page xv undefined on input line 510.
 
 
-LaTeX Warning: Reference `Fazit und Ausblick' on page xiii undefined on input l
-ine 510.
+LaTeX Warning: Reference `Normative Anforderungen und Grenzen des RV-M1' on pag
+e xv undefined on input line 510.
 
-File: figures/dhbwlogo.png Graphic file (type png)
-<use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 511.
-(pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
-[13]
-File: figures/L_Signature.png Graphic file (type png)
-<use figures/L_Signature.png>
-Package pdftex.def Info: figures/L_Signature.png  used on input line 521.
-(pdftex.def)             Requested size: 91.89362pt x 42.67912pt.
 
-Underfull \hbox (badness 4859) in paragraph at lines 512--530
-\T1/NotoSerif-TLF/m/n/12 (+20) dass die oben ge-mach-ten An-ga-ben der Wahr-hei
-t ent-spre-chen.
+Underfull \hbox (badness 10000) in paragraph at lines 510--510
+[]|\TU/NotoSerif(0)/m/n/12 Umsetzbare Sicher-
  []
 
-File: figures/A_Signature.png Graphic file (type png)
-<use figures/A_Signature.png>
-Package pdftex.def Info: figures/A_Signature.png  used on input line 538.
-(pdftex.def)             Requested size: 129.928pt x 42.67912pt.
-File: figures/dhbwlogo.png Graphic file (type png)
-<use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 545.
-(pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
-[14]
+
+LaTeX Warning: Reference `Umsetzbare Sicherheitsmerkmale' on page xv undefined 
+on input line 510.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 510--510
+[]|\TU/NotoSerif(0)/m/n/12 Ansatz
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 510--510
+\TU/NotoSerif(0)/m/n/12 Geschwindigkeits-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 510--510
+\TU/NotoSerif(0)/m/n/12 und Abstandsüber-
+ []
+
+
+LaTeX Warning: Reference `Ansatz Geschwindigkeits- und Abstandsüberwachung' on 
+page xv undefined on input line 510.
+
+
+LaTeX Warning: Reference `Fazit und Ausblick' on page xv undefined on input lin
+e 510.
+
+File: figures/dhbwlogo.png Graphic file (type bmp)
+<figures/dhbwlogo.png>
+[15]
+File: figures/L_Signature.png Graphic file (type bmp)
+<figures/L_Signature.png>
+
+Underfull \hbox (badness 7722) in paragraph at lines 512--530
+\TU/NotoSerif(0)/m/n/12 dass die oben gemachten Angaben der Wahrheit entspreche
+n.
+ []
+
+File: figures/A_Signature.png Graphic file (type bmp)
+<figures/A_Signature.png>
+File: figures/dhbwlogo.png Graphic file (type bmp)
+<figures/dhbwlogo.png>
+[16]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-File: figures/dhbwlogo.png Graphic file (type png)
-<use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 589.
-(pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
-[15
+File: figures/dhbwlogo.png Graphic file (type bmp)
+<figures/dhbwlogo.png>
+[17
 
 
 ]
-File: figures/dhbwlogo.png Graphic file (type png)
-<use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 595.
-(pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
- [16] (T3200.aux)
+File: figures/dhbwlogo.png Graphic file (type bmp)
+<figures/dhbwlogo.png>
+ [18] (T3200.aux)
  ***********
-LaTeX2e <2026-06-01>
-L3 programming layer <2026-05-26>
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-04>
  ***********
 
 
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `T3200.out' has not changed.
-(rerunfilecheck)             Checksum: 1F0072CE456805281779B3B54F392E94;8134.
+(rerunfilecheck)             Checksum: D09B1386BA9D2EC090B186E193D50B94;8780.
  ) 
 Here is how much of TeX's memory you used:
- 35269 strings out of 467509
- 727463 string characters out of 5407322
- 1138466 words of memory out of 5000000
- 63375 multiletter control sequences out of 15000+600000
- 765007 words of font info for 367 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 123i,26n,131p,1612b,1571s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/sommerad/AppData/Local/Programs/MiKTeX/fonts/type1/google/noto/Noto
-Sans-Bold.pfb><C:/Users/sommerad/AppData/Local/Programs/MiKTeX/fonts/type1/goog
-le/noto/NotoSans-Italic.pfb><C:/Users/sommerad/AppData/Local/Programs/MiKTeX/fo
-nts/type1/google/noto/NotoSans-Regular.pfb><C:/Users/sommerad/AppData/Local/Pro
-grams/MiKTeX/fonts/type1/google/noto/NotoSerif-Bold.pfb><C:/Users/sommerad/AppD
-ata/Local/Programs/MiKTeX/fonts/type1/google/noto/NotoSerif-Italic.pfb><C:/User
-s/sommerad/AppData/Local/Programs/MiKTeX/fonts/type1/google/noto/NotoSerif-Regu
-lar.pfb><C:/Users/sommerad/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmex10.pfb><C:/Users/sommerad/AppData/Local/Programs/MiKTeX/fonts/type
-1/public/amsfonts/cm/cmmi10.pfb><C:/Users/sommerad/AppData/Local/Programs/MiKTe
-X/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/sommerad/AppData/Local/Pr
-ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/sommerad/AppDa
-ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/som
-merad/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C
-:/Users/sommerad/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
-mr12.pfb><C:/Users/sommerad/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
-sfonts/cm/cmr8.pfb><C:/Users/sommerad/AppData/Local/Programs/MiKTeX/fonts/type1
-/public/amsfonts/cm/cmsy10.pfb>
-Output written on T3200.pdf (38 pages, 6113488 bytes).
-PDF statistics:
- 580 PDF objects out of 1000 (max. 8388607)
- 111 named destinations out of 1000 (max. 500000)
- 104350 words of extra memory for PDF output out of 106986 (max. 10000000)
+ 34332 strings out of 409617
+ 710937 string characters out of 5774013
+ 1968191 words of memory out of 5000000
+ 55834 multiletter control sequences out of 15000+600000
+ 567135 words of font info for 110 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 123i,23n,131p,1593b,986s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
+Output written on T3200.pdf (43 pages).
