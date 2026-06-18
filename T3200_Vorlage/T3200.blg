@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d
+This is BibTeX, Version 0.99e
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: T3200.aux
 Reallocating 'name_of_file' (item size: 1) to 9 items.
@@ -15,44 +15,44 @@ Database file #1: mylit.bib
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
 
 Done.
-You've used 12 entries,
+You've used 14 entries,
             4087 wiz_defined-function locations,
-            887 strings with 9958 characters,
-and the built_in function-call counts, 5561 in all, are:
-= -- 489
-> -- 67
+            895 strings with 10265 characters,
+and the built_in function-call counts, 6281 in all, are:
+= -- 547
+> -- 75
 < -- 19
-+ -- 34
-- -- 14
-* -- 230
-:= -- 1037
-add.period$ -- 25
-call.type$ -- 12
-change.case$ -- 16
++ -- 38
+- -- 16
+* -- 246
+:= -- 1175
+add.period$ -- 31
+call.type$ -- 14
+change.case$ -- 20
 chr.to.int$ -- 30
-cite$ -- 12
-duplicate$ -- 459
-empty$ -- 467
-format.name$ -- 15
-if$ -- 1222
+cite$ -- 14
+duplicate$ -- 517
+empty$ -- 535
+format.name$ -- 17
+if$ -- 1380
 int.to.chr$ -- 0
-int.to.str$ -- 12
-missing$ -- 101
-newline$ -- 61
-num.names$ -- 12
-pop$ -- 197
+int.to.str$ -- 14
+missing$ -- 117
+newline$ -- 71
+num.names$ -- 14
+pop$ -- 245
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 427
+skip$ -- 481
 stack$ -- 0
-substring$ -- 80
-swap$ -- 326
+substring$ -- 84
+swap$ -- 358
 text.length$ -- 9
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 12
+type$ -- 14
 warning$ -- 0
-while$ -- 17
-width$ -- 14
-write$ -- 137
+while$ -- 19
+width$ -- 16
+write$ -- 157
