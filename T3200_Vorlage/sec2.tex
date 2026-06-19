@@ -49,12 +49,12 @@ Die technische Umsetzung der Überwachung innerhalb dieser Interaktionsstufen st
 In diesem Kapitel werden verschiedene informationstechnische Ansätze, Methoden und Praktiken zur visuellen beziehungsweise optischen Handerkennung detailliert beleuchtet. Die theoretische Auseinandersetzung mit diesen technologischen Konzepten ist im Rahmen dieser Studienarbeit von zentraler Bedeutung, um die dedizierte Auswahl des in dieser Arbeit implementierten Verfahrens wissenschaftlich und methodisch zu begründen. Zu diesem Zweck werden im Folgenden die Vor- und Nachteile der jeweiligen Herangehensweisen systematisch evaluiert.
 
 \subsubsection{Infrarot- und Wärmebildsensorik}
-\begin{wrapfigure}{r}{0.6\textwidth}
+\begin{figure}[htbp] % htbp erlaubt LaTeX die flexibelste Platzierung
 	\centering
-	\includegraphics[width=80mm]{figures/InfRot-HE-Luis.png}
+	\includegraphics[width=0.8\textwidth]{figures/InfRot-HE-Luis.png} 
 	\caption{Testbild Passiv-Infrarot Schutzeinrichtung an einer Kreissäge aus \cite{GRA03}}
 	\label{Infrarot Schutzeinrichtung}
-\end{wrapfigure} 
+\end{figure}
 Ein etablierter Ansatz zur Detektion des menschlichen Körpers basiert auf der Nutzung von Passiv-Infrarot-Sensoren (PIR), welche im infraroten Spektralbereich operieren. Diese Systeme messen die emittierte Wärmestrahlung von Objekten, die sich innerhalb des definierten Erfassungsbereichs befinden. Mittels spezieller Lernalgorithmen, die auf verschiedenen empirischen Fallstudien basieren, gelingt auf dieser Grundlage die selektive Erkennung menschlicher, warmer Haut~\cite{GRA03}. 
 \\
 \\Als wesentlicher Vorteil dieses sensorischen Prinzips erweist sich die robuste Einsetzbarkeit in rauen, industriell geprägten Produktionsumgebungen, da das Messprinzip weitgehend unabhängig von sichtbaren transienten Lichtverhältnissen arbeitet. Demgegenüber stehen jedoch signifikante Nachteile: Neben der Notwendigkeit kostenintensiver Infrarotsensoren neigt das System zu Fehl- und Pseudoerkennungen, sobald die Temperatur umliegender Maschinenteile, Werkstücke oder Betriebsmedien der menschlichen Hautoberflächentemperatur ähnelt. Darüber hinaus erfordert die thermografische Signalverarbeitung und die nachgelagerte algorithmische Merkmalsberechnung eine vergleichsweise hohe Rechenleistung.
