@@ -2,13 +2,14 @@
 \babel@toc {ngerman}{}\relax 
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Problematik von blockierenden Abläufen}}{7}{figure.caption.5}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Testbild Passiv-Infrarot Schutzeinrichtung an einer Kreissäge aus \cite {GRA03}}}{4}{figure.caption.4}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Problematik von blockierenden Abläufen}}{9}{figure.caption.5}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Sequenzielle Abfolge an Befehlen (Eigene Darstellung)}}{9}{figure.caption.6}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Messexperiment zur Evaluation der Sortierperformance}}{11}{figure.caption.7}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Befehle innerhalb einer Objektsortierungssequenz}}{12}{figure.caption.9}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Sequenzielle Abfolge an Befehlen (Eigene Darstellung)}}{11}{figure.caption.6}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Messexperiment zur Evaluation der Sortierperformance}}{13}{figure.caption.7}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Befehle innerhalb einer Objektsortierungssequenz}}{14}{figure.caption.9}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Gegenüberstellung von blockierenden synchronen Abläufen und dem ressourceneffizienten, asynchronen Task-basierten Muster (TAP) bei E/A-Operationen.}}{15}{figure.caption.12}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Gegenüberstellung von blockierenden synchronen Abläufen und dem ressourceneffizienten, asynchronen Task-basierten Muster (TAP) bei E/A-Operationen.}}{19}{figure.caption.12}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Projektions- und kamerabasierte Technologie zur Arbeitsraumüberwachung}}{18}{figure.caption.14}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Projektions- und kamerabasierte Technologie zur Arbeitsraumüberwachung}}{22}{figure.caption.14}%
 \addvspace {10\p@ }

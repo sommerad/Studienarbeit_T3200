@@ -53,7 +53,7 @@ In diesem Kapitel werden verschiedene informationstechnische Ansätze, Methoden 
 	\centering
 	\includegraphics[width=80mm]{figures/InfRot-HE-Luis.png}
 	\caption{Testbild Passiv-Infrarot Schutzeinrichtung an einer Kreissäge aus \cite{GRA03}}
-	\label{Infrarot Schutzeinrichtung}}
+	\label{Infrarot Schutzeinrichtung}
 \end{wrapfigure} 
 Ein etablierter Ansatz zur Detektion des menschlichen Körpers basiert auf der Nutzung von Passiv-Infrarot-Sensoren (PIR), welche im infraroten Spektralbereich operieren. Diese Systeme messen die emittierte Wärmestrahlung von Objekten, die sich innerhalb des definierten Erfassungsbereichs befinden. Mittels spezieller Lernalgorithmen, die auf verschiedenen empirischen Fallstudien basieren, gelingt auf dieser Grundlage die selektive Erkennung menschlicher, warmer Haut~\cite{GRA03}. 
 \\
@@ -113,19 +113,6 @@ Filter, Algorithmen, Linien-/Kantendetektion mit OpenCV
 
 \subsection{Producer-Consumer-Pattern}
 
-\begin{figure}[h!]
-	\begin{tikzpicture}[
-		block/.style={rectangle, draw=blue!70!black, fill=blue!5, rounded corners, minimum width = 3.5cm, minimum height = 1.2cm, align=center, font=\sffamily\bfseries},
-		buffer/.style={rectangle, draw=green!60!black, fill=green!8, minimum width=0.8cm, minimum height=0.8cm, align=center},
-		arrow/.style={-{Stealth[scale=1.2]}, thick, draw=gray!80!black,font=\sffamily\small},
-		labelstyle/.style={font=\sffamily\scriptsize\itshape,color=gray!90!black}]
-		
-		% Layer 1 = Producer (Hauptanwendung & Kamerasystem)
-		
-		
-		
-	\end{tikzpicture}
-\end{figure}
 \subsection{Task Parallel Library (TPL)}
 Die \textit{Task Parallel Library (TPL)} ist eine .NET-Bibliothek, die es dem Programmierer vereinfacht, Parallelität und Nebenläufigkeit in \csharp-Programmen umzusetzen \cite{TPL}. Für diese Arbeit ist vor allem das Konzept der Nebenläufigkeit (\textit{engl.: concurrency}) relevant. Darunter versteht man allgemein, dass "mehr als nur eine Sache zur gleichen Zeit gemacht wird" \cite[Kapitel 1]{ConcurrencyinCSharp}. In der praktischen Anwendung ermöglicht das eine Entkopplung von Rechenoperationen oder Ein-/Ausgabeoperationen vom primären Arbeitsstrang einer Anwendung.
 \begin{figure}[h!]
