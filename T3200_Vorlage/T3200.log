@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 24.1) (preloaded format=xelatex 2026.2.20)  18 JUN 2026 22:18
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 24.1) (preloaded format=xelatex 2026.2.20)  19 JUN 2026 08:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3530,8 +3530,14 @@ L3 programming layer <2024-01-04>
 
 LaTeX Warning: There were undefined references.
 
-Package rerunfilecheck Info: File `T3200.out' has not changed.
-(rerunfilecheck)             Checksum: D09B1386BA9D2EC090B186E193D50B94;8780.
+
+Package rerunfilecheck Warning: File `T3200.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `T3200.out':
+(rerunfilecheck)             Before: D09B1386BA9D2EC090B186E193D50B94;8780
+(rerunfilecheck)             After:  B72455ECF35BEE95CB78631290A0F94C;8853.
  ) 
 Here is how much of TeX's memory you used:
  34332 strings out of 409617

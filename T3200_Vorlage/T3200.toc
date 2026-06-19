@@ -8,7 +8,7 @@
 \contentsline {subsubsection}{\numberline {2.1.2.1}Infrarot- und Wärmebildsensorik}{4}{subsubsection.2.1.2.1}%
 \contentsline {subsubsection}{\numberline {2.1.2.2}2D- und 3D-Time-of-Flight-Scanner}{5}{subsubsection.2.1.2.2}%
 \contentsline {subsubsection}{\numberline {2.1.2.3}Hautfarbenerkennung}{6}{subsubsection.2.1.2.3}%
-\contentsline {subsection}{\numberline {2.1.3}KI-Handerkennungsmodell}{7}{subsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.1.3}Machine learning-Handerkennungsmodell}{7}{subsection.2.1.3}%
 \contentsline {subsection}{\numberline {2.1.4}Normen und Richtlinien}{7}{subsection.2.1.4}%
 \contentsline {subsubsection}{\numberline {2.1.4.1}Rechtliche Grundlagen und funktionale Sicherheit}{7}{subsubsection.2.1.4.1}%
 \contentsline {subsubsection}{\numberline {2.1.4.2}Sicherheitsanforderungen an kollaborative Robotersysteme}{8}{subsubsection.2.1.4.2}%
