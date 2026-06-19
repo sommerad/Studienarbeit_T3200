@@ -3,13 +3,13 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Testbild Passiv-Infrarot Schutzeinrichtung an einer Kreissäge aus \cite {GRA03}}}{5}{figure.caption.4}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Problematik von blockierenden Abläufen}}{9}{figure.caption.5}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Problematik von blockierenden Abläufen}}{10}{figure.caption.6}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Sequenzielle Abfolge an Befehlen (Eigene Darstellung)}}{11}{figure.caption.6}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Messexperiment zur Evaluation der Sortierperformance}}{13}{figure.caption.7}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Befehle innerhalb einer Objektsortierungssequenz}}{14}{figure.caption.9}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Sequenzielle Abfolge an Befehlen (Eigene Darstellung)}}{12}{figure.caption.7}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Messexperiment zur Evaluation der Sortierperformance}}{14}{figure.caption.8}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Befehle innerhalb einer Objektsortierungssequenz}}{15}{figure.caption.10}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Gegenüberstellung von blockierenden synchronen Abläufen und dem ressourceneffizienten, asynchronen Task-basierten Muster (TAP) bei E/A-Operationen.}}{20}{figure.caption.12}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Gegenüberstellung von blockierenden synchronen Abläufen und dem ressourceneffizienten, asynchronen Task-basierten Muster (TAP) bei E/A-Operationen.}}{20}{figure.caption.13}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Projektions- und kamerabasierte Technologie zur Arbeitsraumüberwachung}}{23}{figure.caption.14}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Projektions- und kamerabasierte Technologie zur Arbeitsraumüberwachung}}{23}{figure.caption.15}%
 \addvspace {10\p@ }

@@ -60,24 +60,22 @@ Ein etablierter Ansatz zur Detektion des menschlichen Körpers basiert auf der N
 \\Als wesentlicher Vorteil dieses sensorischen Prinzips erweist sich die robuste Einsetzbarkeit in rauen, industriell geprägten Produktionsumgebungen, da das Messprinzip weitgehend unabhängig von sichtbaren transienten Lichtverhältnissen arbeitet. Demgegenüber stehen jedoch signifikante Nachteile: Neben der Notwendigkeit kostenintensiver Infrarotsensoren neigt das System zu Fehl- und Pseudoerkennungen, sobald die Temperatur umliegender Maschinenteile, Werkstücke oder Betriebsmedien der menschlichen Hautoberflächentemperatur ähnelt. Darüber hinaus erfordert die thermografische Signalverarbeitung und die nachgelagerte algorithmische Merkmalsberechnung eine vergleichsweise hohe Rechenleistung.
 
 \subsubsection{2D- und 3D-Time-of-Flight-Scanner}
-
 Andere wissenschaftliche Arbeiten, wie die Forschungen von Wolfgang Schulz~\cite{SCH05}, behandeln die Detektion von Handkonturen primär auf Basis von Abstandsaufnahmen. Technologisch lässt sich dieses Prinzip entweder als „virtueller Vorhang“ mittels einer planar messenden 2D-Time-of-Flight-Kamera (ToF)~\cite{SCH05} oder als volumetrischer Scan des kompletten Arbeitsbereichs mithilfe einer 3D-ToF-Kamera realisieren, wie es unter anderem von Mandischer et al.~\cite{mandischer2022noncontact} demonstriert wurde. Ein solches volumetrisches System ist in der Lage, einen großflächigen Arbeitsbereich von etwa $2 \times 2\,\text{m}$ lückenlos abzudecken. 
+\\
+\\Mithilfe der ToF-Struktur wird kontinuierlich die euklidische Distanz zwischen der Roboterkinematik und den im Raum befindlichen Objekten ermittelt. Unterschreitet der gemessene Abstand zwischen dem Manipulator und einem externen Objekt normative Schwellenwerte, greift ein algorithmisches Geschwindigkeits- und Abstandsmodell (\textit{Speed and Separation Monitoring}, SSM), um den Roboter kontrolliert zu verlangsamen oder vollständig stillzusetzen. 
+\\
+\\Die Vorteile dieser Technologie liegen in der Option, eine mitbewegte Sensorik zu implementieren; das Kamerasystem kann hierbei direkt an der mechanischen Struktur des Roboters fixiert werden und wandert mit dem Gefahrenbereich mit. Zudem ermöglicht die inhärente Kombination aus Intensitätsbildern und dreidimensionalen Tiefendaten eine zuverlässige Positionsermittlung sowie die Differenzierung zwischen einem maschinellen Werkstück und einem menschlichen Körperteil. 
+\\
+\\Als kritischer Nachteil erweist sich jedoch die normative Zertifizierung im Kontext der funktionalen Sicherheit. Damit eine ToF-Kamera als berührungslos wirkende Schutzeinrichtung (ESPE) zugelassen werden kann, erfordert die Systemarchitektur eine hardwarenahe Zweikanaligkeit (Redundanz) sowie eine permanente, fehlersichere Selbstüberwachung. Zudem bedingt die hochfrequente Verarbeitung großer 3D-Punktwolken einen erheblichen Rechenaufwand, was zu systemischen Latenzzeiten in der Sicherheitskette führen kann.
 
-Mithilfe der ToF-Struktur wird kontinuierlich die euklidische Distanz zwischen der Roboterkinematik und den im Raum befindlichen Objekten ermittelt. Unterschreitet der gemessene Abstand zwischen dem Manipulator und einem externen Objekt normative Schwellenwerte, greift ein algorithmisches Geschwindigkeits- und Abstandsmodell (\textit{Speed and Separation Monitoring}, SSM), um den Roboter kontrolliert zu verlangsamen oder vollständig stillzusetzen. 
-
-Die Vorteile dieser Technologie liegen in der Option, eine mitbewegte Sensorik zu implementieren; das Kamerasystem kann hierbei direkt an der mechanischen Struktur des Roboters fixiert werden und wandert mit dem Gefahrenbereich mit. Zudem ermöglicht die inhärente Kombination aus Intensitätsbildern und dreidimensionalen Tiefendaten eine zuverlässige Positionsermittlung sowie die Differenzierung zwischen einem maschinellen Werkstück und einem menschlichen Körperteil. 
-
-Als kritischer Nachteil erweist sich jedoch die normative Zertifizierung im Kontext der funktionalen Sicherheit. Damit eine ToF-Kamera als berührungslos wirkende Schutzeinrichtung (ESPE) zugelassen werden kann, erfordert die Systemarchitektur eine hardwarenahe Zweikanaligkeit (Redundanz) sowie eine permanente, fehlersichere Selbstüberwachung. Zudem bedingt die hochfrequente Verarbeitung großer 3D-Punktwolken einen erheblichen Rechenaufwand, was zu systemischen Latenzzeiten in der Sicherheitskette führen kann.
-
-\subsubsection{Hautfarbenerkennung}
-
+\subsubsection{Hautfarbenextraktion}
 Eine alternative Methode stellt die Extraktion und Erkennung menschlicher Körperteile auf Basis von rein farbmetrischen Informationen dar. Entsprechende Algorithmen nutzen Schwellwertverfahren, Histogrammanalysen oder vordefinierte Look-up-Tables (LUT), um bestimmte Farbwerte im Bild zu isolieren. Diese Analysen werden in unterschiedlichen Farbräumen wie RGB, HSV oder YCbCr durchgeführt. Ein kombinierter Ansatz, welcher die mathematischen Vorteile der Farbräume RGB, HSV und YCbCr kombiniert, wird in~\cite{Sea03} beschrieben. Durch den sequentiellen Einsatz verschiedener Spektralfilter und komplexer Segmentierungsalgorithmen kann auf diese Weise eine robuste Extraktion der Handgeometrie oder anderer freiliegender Extremitäten erreicht werden.
+\\
+\\Der fundamentale Vorteil dieser Methode liegt in der Hardware-Ökonomie, da für die Umsetzung eine klassische, kostengünstige 2D-Industriekamera ausreichend ist. Zudem arbeitet die farbbasierte Segmentierung weitgehend unabhängig von der konkreten Bewegung, Rotation oder temporären geometrischen Verformung der menschlichen Hand. 
+\\
+\\Dem stehen im industriellen Einsatz gravierende Nachteile gegenüber. Das System versagt inhärent, sobald der Werker vorgeschriebene Arbeitshandschuhe trägt, da die Farbinformation der Haut maskiert wird. Zudem verursachen die mathematischen Transformationen zwischen den Farbräumen und die nachgelagerte Segmentierung einen hohen theoretischen sowie rechentechnischen Aufwand. Das Verfahren setzt qualitativ hochwertige Kamerasysteme voraus und erfordert eine präzise Kalibrierung auf das jeweilige optische System. Zuletzt begründet die strikte Abhängigkeit von den visuellen Hintergrundverhältnissen sowie wechselnden Beleuchtungsszenarien ein hohes Risiko für Falschdetektionen im praktischen Betrieb.
 
-Der fundamentale Vorteil dieser Methode liegt in der Hardware-Ökonomie, da für die Umsetzung eine klassische, kostengünstige 2D-Industriekamera ausreichend ist. Zudem arbeitet die farbbasierte Segmentierung weitgehend unabhängig von der konkreten Bewegung, Rotation oder temporären geometrischen Verformung der menschlichen Hand. 
-
-Dem stehen im industriellen Einsatz gravierende Nachteile gegenüber. Das System versagt inhärent, sobald der Werker vorgeschriebene Arbeitshandschuhe trägt, da die Farbinformation der Haut maskiert wird. Zudem verursachen die mathematischen Transformationen zwischen den Farbräumen und die nachgelagerte Segmentierung einen hohen theoretischen sowie rechentechnischen Aufwand. Das Verfahren setzt qualitativ hochwertige Kamerasysteme voraus und erfordert eine präzise Kalibrierung auf das jeweilige optische System. Zuletzt begründet die strikte Abhängigkeit von den visuellen Hintergrundverhältnissen sowie wechselnden Beleuchtungsszenarien ein hohes Risiko für Falschdetektionen im praktischen Betrieb.
-
-\subsection{KI-Handerkennungsmodell}
+\subsubsection{Haar cascade classifier}
 
 \subsection{Normen und Richtlinien}
 Die Auslegung von Systemen der Mensch-Roboter-Kollaboration (MRK) sowie der Einsatz optischer Schutzsysteme unterliegen einem strikten regulatorischen Rahmen. Da bei kollaborativen Arbeitsplätzen die klassischen physisch-trennenden Schutzeinrichtungen (wie Schutzzäune) entfallen, muss die Sicherheit über sensorisch aufgenommene und durch spezielle Logik- verarbeitete Daten gewährleistet werden.  
@@ -113,6 +111,19 @@ Filter, Algorithmen, Linien-/Kantendetektion mit OpenCV
 
 \subsection{Producer-Consumer-Pattern}
 
+\begin{figure}[h!]
+	\begin{tikzpicture}[
+		block/.style={rectangle, draw=blue!70!black, fill=blue!5, rounded corners, minimum width = 3.5cm, minimum height = 1.2cm, align=center, font=\sffamily\bfseries},
+		buffer/.style={rectangle, draw=green!60!black, fill=green!8, minimum width=0.8cm, minimum height=0.8cm, align=center},
+		arrow/.style={-{Stealth[scale=1.2]}, thick, draw=gray!80!black,font=\sffamily\small},
+		labelstyle/.style={font=\sffamily\scriptsize\itshape,color=gray!90!black}]
+		
+		% Layer 1 = Producer (Hauptanwendung & Kamerasystem)
+		
+		
+		
+	\end{tikzpicture}
+\end{figure}
 \subsection{Task Parallel Library (TPL)}
 Die \textit{Task Parallel Library (TPL)} ist eine .NET-Bibliothek, die es dem Programmierer vereinfacht, Parallelität und Nebenläufigkeit in \csharp-Programmen umzusetzen \cite{TPL}. Für diese Arbeit ist vor allem das Konzept der Nebenläufigkeit (\textit{engl.: concurrency}) relevant. Darunter versteht man allgemein, dass "mehr als nur eine Sache zur gleichen Zeit gemacht wird" \cite[Kapitel 1]{ConcurrencyinCSharp}. In der praktischen Anwendung ermöglicht das eine Entkopplung von Rechenoperationen oder Ein-/Ausgabeoperationen vom primären Arbeitsstrang einer Anwendung.
 \begin{figure}[h!]
