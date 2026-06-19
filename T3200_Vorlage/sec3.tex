@@ -40,15 +40,15 @@ Die vorliegende Befehlsübermittlung an den Movemaster EX RV-M1 wird in der Soft
 		
 	\end{tikzpicture}
 	\caption{Sequenzielle Abfolge an Befehlen (Eigene Darstellung)}
-	\label{sequenzielle Abfolge an Befehlen}
+	\label{fig:sequenzielle Abfolge an Befehlen}
 \end{figure}
 Es ist erkennbar, dass nach jedem gesendeten Befehl ein \textit{Thread.Sleep()-Befehl} den gesamten Hauptthread für eine nicht vernachlässigbare Zeitspanne $T_{schlafen}$ blockiert. Die theoretische Zeit $T$ die benötigt wird, bis ein Befehl vollständig an den Roboter gesendet, von ihm verarbeitet und ausgeführt wird, lässt sich vereinfacht mit $T_{befehlsausfuehrung} = T_{senden} + T_{schlafen}$ beschreiben.\\
-\\Während dieser Zeitspanne friert die gesamte Benutzeroberfläche sowie die Handlungsfähigkeit des Hauptthreads ein. Um die Auswirkungen der sequenziellen Befehlsbereitstellung auf die Gesamtlaufzeit und die Systemstabilität zu quantifizieren, ist eine detaillierte Analyse der Ausführungszeiten sowie der Thread-Verteilung erforderlich. Hierfür wird ein reproduzierbares Messexperiment aufgesetzt - hierzu nachfolgend mehr.\\
+\\Während dieser Zeitspanne friert die gesamte Benutzeroberfläche sowie die Handlungsfähigkeit des Hauptthreads ein. Um die Auswirkungen der sequenziellen Befehlsbereitstellung auf die Gesamtlaufzeit und die Systemstabilität zu quantifizieren, ist eine detaillierte Analyse der Ausführungszeiten erforderlich. Hierfür wird in \ref{kap:messexperiment} ein reproduzierbares Messexperiment aufgesetzt.\\
 \\Das Ziel dieser Analyse ist die Identifikation der kritischen Pfade. Durch eine explizite Messung der Zeitstempel für den Eintritt in die Befehlsverarbeitung, die Dauer der Hardware-Kommunikation und die Verweildauer in den Wartezuständen wird der „Flaschenhals“ der synchronen Architektur isoliert. Erst durch diese messtechnische Herleitung wird transparent, an welcher Stelle die CPU-Last ungenutzt bleibt und wie sich die Thread-Auslastung sowie die Laufzeit bei einer Umstellung auf eine asynchrone Pipeline-Architektur verbessern lässt.
 \subsubsection{Theoretische Limitation}
 \label{Theoretische Limitation}
-Wird erneut \ref{sequenzielle Abfolge an Befehlen} betrachtet, so fällt auf, dass die Zeit, welche benötigt wird, um die Koordinaten der einzelnen Objekte im Arbeitsbereich des Roboters zu berechnen, nicht eingerechnet wird. Grund hierfür ist die Annahme, dass die Berechnungszeit in beiden Fällen (sequenzielle Befehlsstruktur oder asynchrone Befehlspipeline) voraussichtlich gleich ist.\\
-\\Die theoretische Gesamtlaufzeit $T_{s}$ einer Befehlssequenz lässt sich durch Summation der Befehlsausführungszeiten $T_{befehlsausfuehrung}$ bestimmen:
+Wird erneut Abbildung \ref{fig:sequenzielle Abfolge an Befehlen} betrachtet, so fällt auf, dass die Zeit, welche benötigt wird, um die Koordinaten der einzelnen Objekte im Arbeitsbereich des Roboters zu berechnen, nicht eingerechnet wird. Grund hierfür ist die Annahme, dass die Berechnungszeit in beiden Fällen (sequenzielle Befehlsstruktur oder asynchrone Befehlspipeline) voraussichtlich gleich ist und im Vergleich mit den Ausführungszeiten der physischen Roboterbewegung vernachlässigbar ist.\\
+\\Die theoretische Gesamtlaufzeit $T_{s}$ einer Befehlssequenz lässt sich somit durch Summation der Befehlsausführungszeiten $T_{befehlsausfuehrung}$ bestimmen:
 \begin{equation}
 	T_{s} = \sum_{i=1}^{n} \sum_{j=1}^{k} T_{befehlsausfuehrung, i, j}
 	\label{Summation Befehlsausführungszeiten}
@@ -59,10 +59,11 @@ Einsetzen der zuvor beschriebenen Zeiten ergibt:
 		\label{Summation Befehlsausführungszeiten mit eingesetzten Zeiten}
 \end{equation}
 Hierbei repräsentiert der Index $i$ das jeweilige Objekt innerhalb der Bearbeitungsreihenfolge (mit $n$ als Gesamtzahl der Objekte), während der Index $j$ die spezifische Befehlsposition innerhalb eines Manipulationszyklus angibt (mit $k$ als Anzahl der Befehle pro Objekt).\\
-\\In den Gleichungen \ref{Summation Befehlsausführungszeiten} und \ref{Summation Befehlsausführungszeiten mit eingesetzten Zeiten} lässt sich die direkte Korrelation zwischen dem Parameter $n$ und der durch die Bildverarbeitungsklasse erkannten Objekte erkennen. Des weiteren wird verdeutlicht, dass die Gesamtausführungszeit einer Befehlssequenz (bestehend aus $1,...,k$ Befehlen pro Objekt) linear von der Objektanzahl $n$ und der aufsummierten Wartezeiten durch \textit{Thread.Sleep()}-Befehlen abhängt.\\
-\\Bei dieser theoretischen Betrachtung wird bewusst eine Worst-Case-Abschätzung mittels der fest definierten Wartezeiten getroffen, da der vorliegende Roboter und die zugehörige Software keine Bestätigung für eine abgeschlossene Bewegung liefern. Das wird in der Software durch statische Wartezeiten (erfahrungsbasiert oder alternativ grob berechnet) kompensiert, was in der Praxis allerdings zu Einbußen der Systemeffizienz führen kann.
+\\In den Gleichungen \ref{Summation Befehlsausführungszeiten} und \ref{Summation Befehlsausführungszeiten mit eingesetzten Zeiten} lässt sich die direkte Korrelation zwischen dem Parameter $n$ und der durch die Bildverarbeitungsklasse erfassten Objekte erkennen. Des Weiteren wird verdeutlicht, dass die Gesamtausführungszeit einer Befehlssequenz (bestehend aus $1,...,k$ Befehlen pro Objekt) linear von der Objektanzahl $n$ und der aufsummierten Wartezeiten durch \textit{Thread.Sleep()}-Befehlen abhängt.\\
+\\Bei dieser theoretischen Betrachtung wird bewusst eine Worst-Case-Abschätzung mittels der fest definierten Wartezeiten getroffen, um sicherzustellen, dass der Roboter die Bewegung garantiert abgeschlossen hat, bevor der nächste Befehl gesendet wird. Dabei werden die Wartezeiten entweder auf Basis von experimenteller Erfahrung oder durch grobe Berechnung der benötigten Zeit gesetzt. Praktisch funktioniert diese Vorgehensweise, allerdings können hieraus Einbußen in der Systemeffizienz und -dynamik resultieren.
 \subsubsection{Messexperiment}
-Um die theoretisch hergeleiteten Ineffizienzen und die zeitlichen Auswirkungen der sequenziellen Befehlserteilung quantitativ nachzuweisen, wurde ein deterministisches Messexperiment aufgesetzt. Selbiges muss für Vergleichbarkeit und Bewertbarkeit auch bei nachfolgenden Erweiterungen des Systems (siehe \ref{Befehlswarteschlange für dynamischere Robotersteuerung}) zu Grunde gelegt werden.\\
+\label{kap:messexperiment}
+Um die theoretisch hergeleiteten Ineffizienzen und die zeitlichen Auswirkungen der sequenziellen Befehlserteilung quantitativ nachzuweisen, wurde ein deterministisches Messexperiment aufgesetzt. Selbiges muss für Vergleichbarkeit und Bewertbarkeit auch bei nachfolgenden Erweiterungen des Systems (siehe \ref{kap:Befehlswarteschlange für dynamischere Robotersteuerung}) zu Grunde gelegt werden.\\
 \\Das Messexperiment wird mit vier Zylinderobjekten durchgeführt - die Positionen sind jeweils auf der Arbeitsunterlage markiert. Abbildung \ref{fig:messexperiment} zeigt die Anordnung der Objekte sowie die zugehörigen Objektkoordinaten.
 \begin{figure}[htbp]
 	\centering
@@ -98,7 +99,7 @@ Um die theoretisch hergeleiteten Ineffizienzen und die zeitlichen Auswirkungen d
 	\caption{Messexperiment zur Evaluation der Sortierperformance}
 	\label{fig:messexperiment}
 \end{figure}
-Die Geschwindigkeit des Roboters wird per Befehl \textbf{SP} fest auf Stufe 5 (0-9 Stufen) gesetzt. Sowohl die maximalen als auch die eingestellten Geschwindigkeiten der einzelnen Achsen lassen sich aus Tabelle \ref{tab:geschwindikeiten_movemaster} entnehmen und sind für die spätere Betrachtung der inversen Kinematik des Movemaster EX RV-M1 relevant.
+Die Geschwindigkeit des Roboters wird per Befehl \textbf{SP} fest auf Stufe 5 H (0-9 Stufen, H = Hohe Beschleunigung) gesetzt. Sowohl die maximalen als auch die eingestellten Geschwindigkeiten der einzelnen Achsen lassen sich aus Tabelle \ref{tab:geschwindikeiten_movemaster} entnehmen und sind für die spätere Betrachtung der inversen Kinematik des Movemaster EX RV-M1 relevant.
 
 \begin{table}[h!]
 	\renewcommand{\arraystretch}{1.2} % Etwas mehr Zeilenabstand
@@ -145,21 +146,14 @@ Die Geschwindigkeit des Roboters wird per Befehl \textbf{SP} fest auf Stufe 5 (0
 	\caption{Befehle innerhalb einer Objektsortierungssequenz}
 	\label{fig: objektsequenz}
 \end{figure}
-\newline Die theoretische Gesamtverfahrzeit die der Roboter für die Sortierung aller vier Objekte benötigt, setzt sich somit zusammen aus: 
-\begin{itemize}
-	\item Zeit zum Erreichen der Startposition
-	\item $4*T_{Objekt}$ aus \ref{fig: objektsequenz}
-	\item Zeit zum Erreichen der Endposition
-\end{itemize}
-
 \newpage
-
 \subsubsection{Praktische Limitation - Laufzeitmessung mit Simulationsexperiment}
 Um die praktische Limitation der bisherigen Architektur sinnvoll beurteilen zu können, wird zunächst die theoretisch benötigte Laufzeit mit Gleichung \ref{Summation Befehlsausführungszeiten mit eingesetzten Zeiten} ermittelt.
 \begin{equation*}
 	T_{s} = \sum_{i=1}^{n} \sum_{j=1}^{k} (T_{senden, i, j} + T_{schlafen, i, j})
 \end{equation*}
-Betrachtet man den Programmcode der Klasse \textit{Roboter.cs}, so fällt auf, dass jeder Sendevorgang ($T_{senden,i,j}$) mit einem Thread.Sleep() von 800ms beaufschlagt wird. Dies geschieht, um sicherzugehen, dass der interne
+Betrachtet man den Programmcode der Klasse \textit{Roboter.cs, Methode SendData}, so fällt auf, dass jeder Sendevorgang ($T_{senden,i,j}$) mit einem Thread.Sleep() von 800ms beaufschlagt wird. Dies geschieht, um sicherzugehen, dass innerhalb der Befehlsweiterleitung von \csharp-Programm zu RoboETH und letztlich über RS232C an den Movemaster EX RV-M1 genügend Zeit für die RoboETH-Bridge vorhanden ist, um die Befehle zu verarbeiten und an den Roboter weiterzuleiten. Das verhindert Kommandoüberläufe sowie einen Absturz der Bridge und ermöglicht ein sicheres Empfangen über RS232C.\\
+\\Um die festgelegte Zeit $T_{schlafen,i,j}$ für ein Objekt zu ermitteln, werden die Methoden \textit{SendKoordinations, GoToMagazin sowie GoToStartPos} betrachtet und in der nachfolgenden Tabelle dargestellt.
 \begin{table}[h!]
 	\centering
 	\renewcommand{\arraystretch}{1.2}
@@ -179,29 +173,35 @@ Betrachtet man den Programmcode der Klasse \textit{Roboter.cs}, so fällt auf, d
 	\caption{Tabellarische Übersicht der Thread.Sleep()-Verzögerung pro Objektsequenz}
 	\label{tab:thread.sleep()-zeiten}
 \end{table} 
-\newline Setzt man nun die ermittelten statischen Werte aus Tabelle \ref{tab:thread.sleep()-zeiten}, die Wartezeiten bei jedem Senden sowie die Zeit für Start- und Endposition in die Gleichung für die Gesamtdauer $T_{S}$ ein:
+\newpage Setzt man nun die statischen Werte aus Tabelle \ref{tab:thread.sleep()-zeiten}, die Wartezeiten bei jedem Senden sowie die benötigte Zeit für das Erreichen von Start- und Endposition in die Gleichung für die Gesamtdauer $T_{S}$ ein
 \begin{equation}
-	T_{S} = 	T_{s} = 2*(1800ms) \sum_{i=1}^{4} \sum_{j=1}^{9} (T_{senden, i, j} + T_{schlafen, i, j})
+	T_{S} = 	T_{s} = 2*(1800ms) + \sum_{i=1}^{4} \sum_{j=1}^{9} (T_{senden, i, j} + T_{schlafen, i, j})
 \end{equation}
-so erhält man eine berechnete Gesamtdauer von 
-
-
-
+so erhält man eine berechnete Gesamtdauer von 102400 ms. Im Rahmen der Ist-Analyse der vorliegenden Architektur wurde mit der \textit{Stopwatch}-Klasse im \csharp-Namensraum \textit{System.Diagnostics} präzise gemessen, wie lange die gesamte softwareseitige Ausführung der Sortieraufgabe benötigt. Dies ist nachfolgend in \ref{tab:laufzeitanalyse_ist} dargestellt.
 \begin{table}[h!]
 	\renewcommand{\arraystretch}{1.2} % Etwas mehr Zeilenabstand
 	\begin{tabular}{|c|c|c|}
 		\hline
 		\textbf{Objekt-ID} & \textbf{Theoretische Zeit $T_S$ [s]} & \textbf{Gemessene Zeit $T_{mess}$ [s]} \\ \hline
-		Startposition & 1,8 & 24,97 \\ \hline
-		Objekt 1 & 17,5 & 24,97 \\ \hline
-		Objekt 2 & 17,5 & 24,91 \\ \hline
-		Objekt 3 & 17,5 & 24,95 \\ \hline
-		Objekt 4 & 17,5 & 24,89 \\ \hline
-		Endposition & 1,8 & 24,97 \\ \hline
-		\textbf{Mittelwert} & \textbf{17,5} & \textbf{24,93} \\ \hline
-		\textbf{$T_{S}$} & \textbf{70} & \textbf{103,73} \\ \hline
+		Startposition & 1,8 & 2,01 \\ \hline
+		Objekt 1 & 24,7 & 24,97 \\ \hline
+		Objekt 2 & 24,7 & 24,91 \\ \hline
+		Objekt 3 & 24,7 & 24,95 \\ \hline
+		Objekt 4 & 24,7 & 24,89 \\ \hline
+		Endposition & 1,8 & 2,00 \\ \hline
+		\textbf{$T_{S}$} & \textbf{102,40} & \textbf{103,73} \\ \hline
 	\end{tabular}
 	\caption{Vergleich der theoretischen Laufzeit $T_S$ mit den gemessenen Werten $T_{mess}$}
 	\label{tab:laufzeitanalyse_ist}
 \end{table}
+\newline Beim Vergleich der berechneten und gemessenen Laufzeiten lässt sich erkennen, dass die aktuelle Architektur hinsichtlich des \textit{Overheads} bereits sehr performant ist (Abweichung von 1,3\% zwischen Berechnung und Messung).
+\subsubsection*{Beurteilung des IST-Standes}
+Während der Durchführung des Messexperiments am aktuellen Softwarestand ließ sich erkennen, dass die Hardware-Anforderungen des Movemaster EX RV-M1 souverän gemeistert werden und der Sortierungsablauf zuverlässig erfolgt. Allerdings konnten visuell Stillstandszeiten ausgemacht werden, welche die Dynamik des Roboters vor allem bei folgenden Bewegungen stark einschränken:
+\begin{itemize}
+	\item Absenken und Anheben des Roboters auf Z-Offset (über Objekt oder Magazin)
+	\item Objektfahrten
+	\item Magazinfahrten
+\end{itemize}
+ Die Abschätzung hinsichtlich der benötigten Zeiten für das Greifen/Loslassen eines Objekts sowie die Fahrt zu Start-/Endposition wurde hingegen gut getroffen. Auf Basis dieser Erkenntnisse wird in Kapitel \ref{kap:Architekturoptimierung und -erweiterung} ein SOLL-Stand der Architektur erarbeitet und aufgezeigt, wie eine mögliche Implementierung aussehen kann.
+
 
