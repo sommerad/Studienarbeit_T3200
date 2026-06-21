@@ -59,25 +59,102 @@ Die vorangegangenen Betrachtungen der unterschiedlichen sensorischen und algorit
 \\Für den methodischen Rahmen der vorliegenden Arbeit ist dabei insbesondere das Prinzip des Kaskadenklassifikators (\textit{Cascade Classifier}) von Bedeutung, welcher im Kern auf dem klassischen Viola-Jones-Algorithmus basiert. Obwohl dieses Verfahren im direkten Vergleich zu hochkomplexen, modernen Deep-Learning-Modellen wie beispielsweise YOLOv8n (\textit{You Only Look Once}) zu den älteren und informationstechnisch einfacheren Methoden der Bildverarbeitung zählt, bietet es spezifische pragmatische Vorteile. Für die hier fokussierte konzeptionelle Anwendung hat sich der Kaskadenklassifikator im praktischen Entwicklungsprozess als wesentlich anwendungsfreundlicher und ressourcenschonender herausgestellt. Aus diesem Grund wurde dieser klassische Ansatz als die primäre Methode ausgewählt und zur praktischen Anschauung im Rahmen des Versuchsaufbaus funktional umgesetzt.
 
 \subsubsection{Haar Cascade Classifier}
-Der reale Einsatzkontext des entwickelten Systems ist durch eine industrieähnliche Umgebung charakterisiert, welche inhärent eine Vielzahl optischer Störfaktoren aufweist. Hierzu zählen insbesondere teilweise stark fluktuierende Lichtverhältnisse, ein unruhiger und nicht immer idealer Hintergrund sowie das Vorhandensein anderer zu detektierender Objekte im Erfassungsbereich des Sensors. Zusätzlich erschweren transiente Schattenwürfe und unvorhersehbare Reflexionen eine konstante visuelle Erfassung. Um das Erkennungssystem unter diesen anspruchsvollen Bedingungen so robust wie möglich zu gestalten, gleichzeitig jedoch den zeitlichen und inhaltlichen Rahmen dieser Arbeit nicht zu sprengen und die vorhandene Rechenleistung des Zielsystems nicht überzustrapazieren, fiel die technologische Entscheidung auf ein Haar-Cascade-Modell. Dieses spezifische Klassifikatorenmodell wurde explizit darauf trainiert, die menschliche Hand als Zielobjekt zu identifizieren. Durch die mathematische Implementierung verschiedener, kontrastbasierter Filter innerhalb der Berechnungs-Pipeline wird zudem gewährleistet, dass die Handgeometrie selbst beim Tragen von persönlichen Arbeitshandschuhen zuverlässig und resilient erkannt werden kann.
-\begin{figure}
-	\begin{tikzpicture}[node distance=1.8cm and 1.2cm, auto]
+Der reale Einsatzkontext des entwickelten Systems ist durch eine industrieähnliche Umgebung charakterisiert, welche inhärent eine Vielzahl optischer Störfaktoren aufweist. Hierzu zählen insbesondere teilweise stark fluktuierende Lichtverhältnisse, ein unruhiger und nicht immer idealer Hintergrund sowie das Vorhandensein anderer zu detektierender Objekte im Erfassungsbereich des Sensors. Zusätzlich erschweren transiente Schattenwürfe und unvorhersehbare Reflexionen eine konstante visuelle Erfassung. Um das Erkennungssystem unter diesen anspruchsvollen Bedingungen so robust wie möglich zu gestalten, gleichzeitig jedoch den zeitlichen und inhaltlichen Rahmen dieser Arbeit nicht zu sprengen und die vorhandene Rechenleistung des Zielsystems nicht überzustrapazieren, fiel die technologische Entscheidung auf ein Haar-Cascade-Modell. Dieses spezifische Klassifikatorenmodell wurde explizit darauf trainiert, die menschliche Hand als Zielobjekt zu identifizieren. Durch die mathematische Implementierung verschiedener, kontrastbasierter Filter (siehe \autoref{Bildverarbeitungsstruktur}) innerhalb der Berechnungs-Pipeline wird zudem gewährleistet, dass die Handgeometrie selbst beim Tragen von persönlichen Arbeitshandschuhen zuverlässig und resilient erkannt werden kann.
+\begin{figure}[h!]
 	
-	\node [block] (gauss) {Gaußfilter zur\\Rauschreduzierung};
-	\node [block, below=of gauss] (gray) {Graustufenfilter um\\Farbinformationen\\zu reduzieren};
-	\node [block, below=of gray] (thresh) {Threshold um\\Schwarz-Weiß-Bild\\mit variablem\\threshold zu erstellen};
-	
-	% Verbindungen und Pfeile beschriften
-	\draw [arrow] (gauss.north)++(-1.8,0) -- node[above, pos=0.2] {rohes Bild} (gauss.north);
-	\draw [arrow] (gauss.south) -- (gray.north);
-	\draw [arrow] (gray.south) -- (thresh.north);
-	\draw [arrow] (thresh.south) -- node[above, pos=0.8] {Cascade-Algorithmus} ++(2.5,0);
-	
-\end{tikzpicture}
-\caption{Flussdiagramm der Bildvorverarbeitungs-Pipeline für das ML-Modell.}
-\label{fig:filterstruktur_pipeline}
+	\centering
+	\begin{tikzpicture}[
+		% Globale Konfiguration für Abstände
+		node distance=1.5cm and 1.2cm,
+		% Definition der Stile
+		comp/.style={rectangle, draw=black, fill=gray!10, minimum height=1cm, minimum width=2.5cm, align=center, font=\sffamily\small},
+		pipe/.style={rectangle, draw=blue!60!black, fill=blue!5, minimum height=1cm, minimum width=2.5cm, align=center, font=\sffamily\small, rounded corners=2pt},
+		arrow/.style={-{Stealth[scale=1.2]}, thick, draw=black},
+		label/.style={font=\sffamily\bfseries\small}
+		]
+		
+		% --- VORHER: MONOLITHISCH ---
+		\node[label] (label1) {Bildverarbeitungsstruktur};
+		
+		\node[comp, fill=red!10, below=0.5cm of label1] (roh) {Rohes Farbbild};
+		\node[comp, fill=blue!10, below=of roh] (gauß) {Rauscharmes Bild};
+		\node[comp, below=of gauß] (gray) {Graustufenbild};
+		\node[comp, fill=white!10, below=of gray] (threshold) {Schwarz-Weiß Bild};
+		\node[comp, fill=white!10, below=of threshold] (Algorithmus) {Haar-Cascade-Algorithmus};
+		
+		\draw[arrow] (roh.south) -- (gauß.north) node[midway, right, font=\sffamily\tiny] {Gaußfilter};
+		\draw[arrow] (gauß.south) -- (gray.north) node[midway, right, font=\sffamily\tiny] {Grayfilter};
+		\draw[arrow] (gray.south) -- (threshold.north) node[midway, right, font=\sffamily\tiny] {Threshold};
+		\draw[arrow] (threshold.south) -- (Algorithmus.north);
+		
+	\end{tikzpicture}
+	\caption{Bildverarbeitungsstruktur dargestellt als Blockschaltbild}
+	\label{fig:Bilverarbeitungsstruktur}
 \end{figure}
+\newpage
 
+\subsubsection{Testreihe}
+Die Durchführung der Testreihe dient primär der systematischen Validierung und dem funktionalen Nachweis der Erkennungsrate des Modells. Hierbei wird experimentell überprüft, inwieweit das System in der Lage ist, eine menschliche Hand unter idealen Randbedingungen deterministisch zu erfassen, in welchen Grenzfällen die Detektion versagt und ob fälschlicherweise fremde Objekte als Hand klassifiziert werden (Vermeidung von \textit{False Positives}). 
+\\
+\\Darüber hinaus bietet die Testumgebung die Möglichkeit, die zentralen mathematischen Stellgrößen des Algorithmus zu evaluieren und für eine optimale Handerkennung präzise zu parametrisieren. Zu diesen Stellgrößen gehört zum einen der Threshold-Wert der Schwellenwert-Segmentierung innerhalb der Bildvorverarbeitung, welcher im praktischen Versuch jedoch nur eine sehr geringe Auswirkung auf das finale Erkennungsergebnis zeigte. Zum anderen lassen sich die zwei kritischsten Kernparameter des eigentlichen Haar-Cascade-Algorithmus feinjustieren: der Skalierungsfaktor (\textit{Scale Factor}), welcher die relative Schrittweite bei der Vergrößerung des Suchfensters während der multidimensionalen Bildanalyse definiert, sowie der Parameter der minimalen Nachbarn (\textit{Minimum Neighbors}). Letzterer legt fest, wie viele qualifizierende Detektionsrechtecke sich in unmittelbarer Nachbarschaft überlagern müssen, damit eine Bildregion final und rechtssicher als Hand deklariert wird.
+\subsubsection*{Hand ohne Störeinflüsse}
+Um zu testen, ob der Sourcecode sowie der Algorithmus funktionieren, wurde zu Beginn eine Versuchsreihe nur mit einer Hand über dem weißen Hintergrund durchgeführt. Auch auf verschiedene Handformen wurde der Algorithmus dabei erprobt. 
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.8\textwidth]{figures/TR_13.png} 
+	\caption{Testreihe (Hand allein)}
+	\label{Testreihe_13}
+\end{figure}
+\subsubsection*{Scale Factor (min. Neighbors = 6)}
+Die Laborversuche haben gezeigt, dass der Skalierungsfaktor (Scale Factor) – also die Schrittweite, mit der das Suchfenster des Algorithmus vergrößert wird – eine der wichtigsten Stellgrößen für die Zuverlässigkeit der Handerkennung ist. Für die Auswertung wurden drei verschiedene Parametrisierungen getestet:
+
+\begin{itemize}
+\item \textbf{Hoher Skalierungsfaktor (1,3 / 30\% Schrittweite):} Bei dieser Einstellung wird die Hand nur dann zuverlässig erkannt, wenn sie absolut statisch und mittig im Bild positioniert ist. Sobald eine leichte Bewegung stattfindet, bricht die Detektion ab. Der Grund hierfür ist die zu grobe Schrittweite von 30\% pro Skalierungsdurchlauf, wodurch der Algorithmus die sich verändernden Geometrien einer bewegten Hand überspringt.
+
+\item \textbf{Mittlerer Skalierungsfaktor (1,1 / 10\% Schrittweite):} Das Verhalten ist vergleichbar mit der 30\%-Einstellung. Allerdings reagiert das System bei Handbewegungen etwas toleranter und verliert das Zielobjekt nicht ganz so abrupt. Für eine dynamische Erkennung im laufenden Betrieb ist dieser Wert jedoch immer noch zu ungenau.
+
+\item \textbf{Niedriger Skalierungsfaktor (1,01 / 1\% Schrittweite in Kombination mit Minimum Neighbors = 6):} Bei dieser Konfiguration wird die Hand sehr zuverlässig detektiert. Die Erkennung bleibt selbst bei schnellen Bewegungen stabil und funktioniert sogar dann, wenn die Hand nur teilweise im Erfassungsbereich der Kamera zu sehen ist. Durch die minimale Schrittweite von nur 1\% scannt der Algorithmus das Bild extrem feingliedrig ab.
+\end{itemize}
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.8\textwidth]{figures/TR_8.png} 
+	\caption{Testreihe (Zuverlässige Handdetection)}
+	\label{Testreihe_8}
+\end{figure}
+\subsubsection*{Minimum Neighbors}
+Neben dem Skalierungsfaktor wurde im Rahmen der Testreihe auch der Einfluss des Parameters Minimum Neighbors untersucht. Dieser Wert bestimmt, wie viele überlagernde Detektionsfenster in einer Bildregion anschlagen müssen, damit der Algorithmus diese final als Hand wertet. Für die Analyse wurden drei Stufen evaluiert:
+
+\begin{itemize}
+\item \textbf{Hoher Wert:} Wird der Parameter zu groß gewählt, verhält sich das System extrem intolerant. Da der Algorithmus nun eine sehr hohe Anzahl an deckungsgleichen Treffern für dieselbe Bildregion erzwingt, wird die Hand nur noch in seltenen Ausnahmefällen erkannt. Für den praktischen Einsatz ist diese Einstellung daher zu restriktiv.
+
+\item \textbf{Mittlerer Wert:} Bei einer moderaten Erhöhung des Parameters bleibt die Detektion der Hand im statischen Zustand weiterhin verlässlich. Allerdings verlangsamt sich die Verarbeitungsgeschwindigkeit im Algorithmus spürbar, da pro Region mehr mathematische Übereinstimmungen geprüft werden müssen. Bei schnellen, dynamischen Handbewegungen führt dies im Versuch zu einer teilweise unzuverlässigen Erkennung, da das Objekt die Detektionszone verlässt, bevor die nötige Anzahl an Nachbarn erreicht ist.
+
+\item \textbf{Niedriger Wert (Einstellung = 1 bei einem Scale Factor von 1\%):} Bei dieser Konfiguration arbeitet das System hochgradig sensitiv. Die Hand wird in fast 100\% aller Fälle erfolgreich detektiert. Diese Einstellung funktioniert im Laborversuch perfekt, solange alle Bildbereiche fehlerfrei klassifiziert werden. Wie \autoref{Testreihe_12} zu entnehmen ist, kann mit dieser Konfiguration vor allem eine zuverlässige detektion von bewegten Händen gewährleistet werden.
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.8\textwidth]{figures/TR_12.png} 
+	\caption{Testreihe (Bewegte Hand)}
+	\label{Testreihe_12}
+\end{figure}
+Der Nachteil ist jedoch eine erhöhte Anfälligkeit für Störungen: Können Hintergrundstrukturen nicht sauber abgelehnt werden, führt die geringe Schwelle dazu, dass Fremdobjekte fälschlicherweise als Hand interpretiert werden (False Positives).
+\end{itemize}
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.8\textwidth]{figures/TR_11.png} 
+	\caption{Testreihe (Fehlerkennung von Fremdobjekten)}
+	\label{Testreihe_11}
+\end{figure}
+\newpage
+\subsubsection*{Hand über Systemobjekten}
+Die Software sieht eine Zensur von erkannten Systemobjekten die an den Roboter weitergegeben werden vor, um Pseudoerkennungen dieser Objekte auszuschließen. Kommt es jedoch zu einer teilweisen Abschirmung der Objekte durch eine Hand, so können die Systemobjekte nicht mehr vom Programm erkannt und zensiert werden. Die Konturen verschwimmen in einander und eine Handdetektion wird nahezu unmöglich.
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.8\textwidth]{figures/TR_14.png} 
+	\caption{Testreihe (abgedeckte Systemobjekte)}
+	\label{Testreihe_14}
+\end{figure}
+\subsubsection*{Fazit}
+Aus der Versuchsreihe können wertvolle Erkenntnisse gezogen werden. Einerseits die Eingrenzung des Systemanwendungsbereichs, andererseits eine optimale Parametrisierung des Algorithmus für zuverlässige Ergebnisse. 
 \section{Befehlspipeline}
 \subsection{Vergleich von theoretischer und realer Performance}
 Nach der erfolgreichen Implementation der Befehlspipeline in die Steuerungsarchitektur wird das in Kapitel \ref{kap:messexperiment} eingeführte Messexperiment erneut durchgeführt. Für die bessere Vergleichbarkeit werden in MATLAB die zu erwartenden Ausführungszeiten berechnet und nachfolgend in Tabelle \ref{tab:ausfuehrungszeiten} dargestellt:

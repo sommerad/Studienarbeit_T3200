@@ -126,6 +126,7 @@ Smarter, ``Target detection: {Viola-Jones} detection algorithm ({Haar-like}
   (\url{https://zhuanlan.zhihu.com/p/38056144}), Jun. 2018, abgerufen am: 21.
   Juni 2026.
 
+<<<<<<< Updated upstream
 \bibitem{producerconsumer}
 \BIBentryALTinterwordspacing
 {Microsoft Developers}. How to implement a producer-consumer dataflow pattern.
@@ -139,6 +140,22 @@ Smarter, ``Target detection: {Viola-Jones} detection algorithm ({Haar-like}
   [Online]. Available:
   \url{https://learn.microsoft.com/de-de/dotnet/standard/asynchronous-programming-patterns/}
 \BIBentrySTDinterwordspacing
+=======
+\bibitem{burger2022}
+W.~Burger and M.~J. Burge, \emph{Digitale Bildverarbeitung: Eine algorithmische
+  Einführung mit Java}, 4th~ed.\hskip 1em plus 0.5em minus 0.4em\relax Berlin,
+  Heidelberg: Springer Vieweg, 2022.
+
+\bibitem{jaehne2023}
+B.~Jähne, \emph{Digitale Bildverarbeitung: Lehrbuch und Plattform für die
+  Praxis}, 8th~ed.\hskip 1em plus 0.5em minus 0.4em\relax Berlin, Heidelberg:
+  Springer Vieweg, 2023.
+
+\bibitem{bradski2008}
+G.~Bradski and A.~Kaehler, \emph{Learning OpenCV: Computer Vision with the
+  OpenCV Library}, 1st~ed.\hskip 1em plus 0.5em minus 0.4em\relax Sebastopol,
+  CA: O'Reilly Media, 2008.
+>>>>>>> Stashed changes
 
 \bibitem{TPL}
 \BIBentryALTinterwordspacing

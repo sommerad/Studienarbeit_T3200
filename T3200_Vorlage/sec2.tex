@@ -2,7 +2,11 @@
 \label{Grundlagen}
 
 \section{Stand der Technik: Safety-Implementation \& Retrofitting}
+<<<<<<< Updated upstream
 \label{kap:safetyimplementation}
+=======
+In diesem Kapitel werden alle relevanten Fakten des Retrofittings im Kontext der Sicherheitsimplementation beleuchtet.
+>>>>>>> Stashed changes
 \subsection{kollaborative Robotik}
 Für die Modernisierung älterer Industrie- und Robotersysteme (Retrofitting) im Hinblick auf aktuelle Sicherheitsstandards und moderne Sensortechnik existieren vielfältige technologische Ansätze. Diese lassen sich anhand verschiedener Systemparameter kategorisieren. Ein grundlegendes Unterscheidungsmerkmal ist die Dimensionierung der Bilderfassung, bei der entweder kostengünstige 2D-Kameras oder tiefenauflösende 3D-Kamerasysteme eingesetzt werden. Zudem variiert die Systemarchitektur hinsichtlich der Kameraanzahl: Während Monokamerasysteme eine einfache Raumüberwachung ermöglichen, bieten Multikamerasysteme durch hardwareseitige Redundanz eine deutlich verlässlichere Objekterkennung sowie Schutz vor Verdeckungen im sensornahen Bereich.
 \\
@@ -91,8 +95,10 @@ Die allgemeinen Sicherheitsanforderungen für Industrieroboter sind in der Norme
 	\item Kraft- und Leistungsbegrenzung (\textit{Power and Force Limiting}, PFL)
 \end{enumerate}
 Beim Einsatz berührungsloser Raumüberwachungssysteme ist das Prinzip des Speed and Separation Monitoring (SSM) von zentraler Bedeutung. Die \textbf{ISO/TS 15066} \cite{din_ts_15066_2017} liefert hierzu die mathematische Grundlage zur Berechnung des Mindestsicherheitsabstands $S_p$ zwischen Mensch und Roboter:
-
-$$S_p = v_H \cdot (T_R + T_B) + v_R \cdot T_R + s_R + C$$
+\begin{equation}
+	S_p = v_H \cdot (T_R + T_B) + v_R \cdot T_R + s_R + C
+	\label{Mindestsicherheitsabstand in kollaborativen Systemen}
+\end{equation}
 
 In diese Berechnung fließen die menschliche Annäherungsgeschwindigkeit $v_H$, die Systemlatenzzeiten (Reaktionszeit der Sensorik $T_R$ und Bremszeit des Roboters $T_B$) sowie gerätespezifische Nachlaufwege $s_R$ und sensorische Zuschläge $C$ ein.
 
@@ -138,16 +144,45 @@ definiert sind. Diese geometrischen Vorgaben bedingen strikte Dimensionseinschr�
 	\item (e) 20.736 Merkmale
 \end{itemize} 
 Für ein nicht-rotiertes Bild der Dimension $W \times H$ und ein minimales Basismerkmal der Größe $w \times h$ lässt sich die exakte Anzahl der generierten Merkmale über die Skalierungsfaktoren $X = W/w$ und $Y = H/h$ durch folgende analytische Formel bestimmen:
-$$\text{Anzahl} = X Y \left[ W + 1 - \frac{w}{2}(X + 1) \right] \left[ H + 1 - \frac{h}{2}(Y + 1) \right]$$
+\begin{equation}
+	\text{Anzahl} = X Y \left[ W + 1 - \frac{w}{2}(X + 1) \right] \left[ H + 1 - \frac{h}{2}(Y + 1) \right]
+	\label{Anzahl Merkmale}
+\end{equation}
 Um auch Objekte mit veränderter Orientierung im Raum zu erfassen, existiert eine Erweiterung für rotierte Merkmalsrechtecke. Bei dieser geometrischen Anpassung müssen die Breiten- und Höhenparameter mathematisch transformiert und das funktionale Verhältnis anhand der veränderten Dimensionen neu ausgerichtet werden. Unter Einbeziehung der Hilfsvariable $z = w + h$ sowie den angepassten Skalierungsfaktoren $X = W/z$ und $Y = W/z$ berechnet sich die modifizierte Anzahl der rotierten Features nach der Formel:
-$$\text{Anzahl (rotiert)} = X Y \left[ W + 1 - \frac{z}{2}(X + 1) \right] \left[ H + 1 - \frac{z}{2}(Y + 1) \right]$$
+\begin{equation}
+\text{Anzahl (rotiert)} = X Y \left[ W + 1 - \frac{z}{2}(X + 1) \right] \left[ H + 1 - \frac{z}{2}(Y + 1) \right]
+\label{Anzahl rotierte Features}
+\end{equation}
 Da die direkte Berechnung dieser immensen Merkmalsanzahl die Rechenzeit kritisch maximieren würde, wird zur algorithmischen Optimierung das Konzept des Integralbildes – auch als Summenflächentabelle (\textit{Summed-Area Table}, SAT) bezeichnet – implementiert. Mathematisch ist der Wert an einem beliebigen Koordinatenpunkt $ii(x, y)$ des Integralbildes als die akkumulierte Summe aller Graustufenwerte derjenigen Pixel definiert, die sich in dem Rechteck von der linken oberen Bildecke $(0,0) $ bis zu eben diesem Punkt erstrecken. Die Generierung dieses Integralgraphen erfolgt deterministisch und hocheffizient durch ein einmaliges Scannen der Bildmatrix mittels einer zweistufigen, zeilen- und spaltenweisen Rekursionsformel:
-$$s(i,j) = s(i,j-1) + f(i,j) \quad \text{mit} \quad s(i,-1) = 0$$$$ii(i,j) = ii(i-1,j) + s(i,j) \quad \text{mit} \quad ii(-1,j) = 0$$
-Der entscheidende Vorteil dieses Verfahrens zeigt sich bei der anschließenden mathematischen Flächenberechnung innerhalb der Detektionspipeline. Mithilfe des vorbereiteten Integralbildes kann die Summe der Pixelintensitäten einer beliebigen, isolierten rechteckigen Region $D$ über eine einfache 4-Punkt-Formel ermittelt werden. Unter Verwendung der vier Eckpunkte $1$ (oben links), $2$ (oben rechts), $3$ (unten links) und $4$ (unten rechts) reduziert sich die Berechnung auf lediglich vier gezielte Tabellenzugriffe:$$\text{rectsum}(D) = ii(4) + ii(1) - ii(2) - ii(3)$$Da diese Operation unabhängig von der tatsächlichen Größe des Bildbereichs oder der Skalierungsstufe des Merkmals stets eine konstante Anzahl an Zugriffen erfordert, sinkt die rechentechnische Komplexität drastisch. Da die gesamte Pipeline somit fast ausschließlich auf einfachen Grundrechenarten wie der Addition und Subtraktion basiert, resultiert daraus eine bemerkenswert niedrige Rechenleistung. Dies begünstigt eine hardwarenahe Ausführung in Echtzeit, ohne das System auf kostenintensive grafische Beschleuniger anzuweisen. \cite{smarter_violajones_2018}
+\begin{equation}
+s(i,j) = s(i,j-1) + f(i,j) \quad \text{mit} \quad s(i,-1) = 0
+\label{Rekursionsformel 1}
+\end{equation}
+\begin{equation}
+ii(i,j) = ii(i-1,j) + s(i,j) \quad \text{mit} \quad ii(-1,j) = 0
+\label{Flächenberechnung}
+\end{equation}
+Der entscheidende Vorteil dieses Verfahrens zeigt sich bei der anschließenden mathematischen Flächenberechnung innerhalb der Detektionspipeline. Mithilfe des vorbereiteten Integralbildes kann die Summe der Pixelintensitäten einer beliebigen, isolierten rechteckigen Region $D$ über eine einfache 4-Punkt-Formel ermittelt werden. Unter Verwendung der vier Eckpunkte $1$ (oben links), $2$ (oben rechts), $3$ (unten links) und $4$ (unten rechts) reduziert sich die Berechnung auf lediglich vier gezielte Tabellenzugriffe:
+\begin{equation}
+\text{rectsum}(D) = ii(4) + ii(1) - ii(2) - ii(3)
+\label{Rechtecksumme}
+\end{equation} 
+Da diese Operation unabhängig von der tatsächlichen Größe des Bildbereichs oder der Skalierungsstufe des Merkmals stets eine konstante Anzahl an Zugriffen erfordert, sinkt die rechentechnische Komplexität drastisch. Da die gesamte Pipeline somit fast ausschließlich auf einfachen Grundrechenarten wie der Addition und Subtraktion basiert, resultiert daraus eine bemerkenswert niedrige Rechenleistung. Dies begünstigt eine hardwarenahe Ausführung in Echtzeit, ohne das System auf kostenintensive grafische Beschleuniger anzuweisen. \cite{smarter_violajones_2018}
 
 \section{Bildverarbeitung}
+<<<<<<< Updated upstream
 \label{kap:Bildverarbeitung}
 Filter, Algorithmen, Linien-/Kantendetektion mit OpenCV
+=======
+\subsection{Gaußfilter}
+Der Gauß-Filter (oft auch als Gauß-Weichzeichner oder Gaussian Blur bezeichnet) ist ein lineares Filterverfahren in der Bildverarbeitung, das primär zur Reduzierung von hochfrequentem Bildrauschen und zur Glättung von Pixelstrukturen eingesetzt wird. Der Algorithmus berechnet den neuen Farb- oder Graustufenwert eines Pixels über den gewichteten Durchschnitt seiner Nachbarpixel, wobei die Gewichtung auf einer zweidimensionalen Gauß-Verteilung basiert.Dadurch besitzen Bildpunkte im direkten Zentrum der Maske die höchste mathematische Relevanz, während der Einfluss umliegender Pixel mit zunehmendem Abstand exponentiell abnimmt. Technisch wird diese Operation durch die Faltung des Bildes mit einer quadratischen Matrix, dem sogenannten Gauß-Kernel, realisiert, dessen Glättungsintensität über die Standardabweichung $\sigma$ (Sigma) präzise gesteuert werden kann. Da das Verfahren feine Sensorstörungen effektiv eliminiert, die Hauptkanten des Objekts jedoch im Wesentlichen erhält, bildet es eine fundamentale Grundlage für die nachgeschaltete Merkmalserkennung \cite{burger2022}.
+
+\subsection{Greyfilter}
+Der Graustufenfilter ist ein grundlegendes Bildverarbeitungsverfahren, das die dreidimensionale Farbmatrix eines Bildes (meist im RGB-Format) in eine eindimensionale Luminanzmatrix überführt. Der Algorithmus reduziert den Rechenaufwand nachfolgender Merkmalserkennungen drastisch, da statt dreier Farbkanäle für Rot, Grün und Blau nur noch ein einziger Helligkeitswert pro Pixel verarbeitet werden muss. Durch diesen algorithmischen Schritt verliert das Bild zwar jegliche Farbinformation, behält jedoch alle für die Kantendetektion und Kontrastanalyse relevanten Geometrie- und Texturmerkmale bei \cite{jaehne2023}.
+
+\subsection{Threshold von Graustufenbildern}
+Die Threshold-Methode von OpenCV ist ein fundamentales Verfahren zur Bildbinnarisierung, das ein Graustufenbild in ein reines Schwarz-Weiß-Bild überführt. Der Algorithmus analysiert jeden einzelnen Pixelwert der Graustufenmatrix und vergleicht diesen mit einem vordefinierten Schwellenwert (Threshold). Liegt der Helligkeitswert des aktuellen Pixels über diesem Schwellenwert, wird ihm mathematisch der maximale Intensitätswert (üblicherweise 255 für Weiß) zugewiesen, andernfalls wird er auf den Minimalwert (0 für Schwarz) gesetzt. Durch diese binäre Segmentierung wird das Zielobjekt trennscharf von seinem Hintergrund isoliert, wodurch nachfolgende Konturen- und Formanalysen erheblich erleichtert werden. Bibliotheken wie OpenCV stellen ,,ready to use'' -Lösungen zur Verfügung \cite{bradski2008}.
+>>>>>>> Stashed changes
 
 \section{Grundlagen der Informatik}
 \label{kap:Grundlagen der Informatik}

@@ -11,7 +11,11 @@ Reallocating 'wiz_functions' (item size: 4) to 6000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Database file #1: mylit.bib
 Warning--entry type for "SCH05" isn't style-file defined
+<<<<<<< Updated upstream
 --line 637 of file mylit.bib
+=======
+--line 657 of file mylit.bib
+>>>>>>> Stashed changes
 -- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
@@ -19,6 +23,7 @@ Warning--entry type for "SCH05" isn't style-file defined
 Done.
 You've used 26 entries,
             4087 wiz_defined-function locations,
+<<<<<<< Updated upstream
             967 strings with 13073 characters,
 and the built_in function-call counts, 12677 in all, are:
 = -- 1098
@@ -51,11 +56,51 @@ stack$ -- 0
 substring$ -- 258
 swap$ -- 721
 text.length$ -- 18
+=======
+            971 strings with 12912 characters,
+and the built_in function-call counts, 12414 in all, are:
+= -- 1041
+> -- 193
+< -- 46
++ -- 92
+- -- 39
+* -- 494
+:= -- 2172
+add.period$ -- 56
+call.type$ -- 26
+change.case$ -- 36
+chr.to.int$ -- 93
+cite$ -- 26
+duplicate$ -- 1024
+empty$ -- 1108
+format.name$ -- 45
+if$ -- 2808
+int.to.chr$ -- 0
+int.to.str$ -- 26
+missing$ -- 213
+newline$ -- 107
+num.names$ -- 26
+pop$ -- 492
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 2
+skip$ -- 957
+stack$ -- 0
+substring$ -- 222
+swap$ -- 691
+text.length$ -- 15
+>>>>>>> Stashed changes
 text.prefix$ -- 0
 top$ -- 5
 type$ -- 26
 warning$ -- 0
+<<<<<<< Updated upstream
 while$ -- 44
 width$ -- 28
 write$ -- 271
+=======
+while$ -- 43
+width$ -- 28
+write$ -- 261
+>>>>>>> Stashed changes
 (There was 1 warning)
