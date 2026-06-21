@@ -2,7 +2,7 @@
 \label{Grundlagen}
 
 \section{Stand der Technik: Safety-Implementation \& Retrofitting}
-%Hier kleinen Absatz mit kurzeinleitung für das Kapitel 
+\label{kap:safetyimplementation}
 \subsection{kollaborative Robotik}
 Für die Modernisierung älterer Industrie- und Robotersysteme (Retrofitting) im Hinblick auf aktuelle Sicherheitsstandards und moderne Sensortechnik existieren vielfältige technologische Ansätze. Diese lassen sich anhand verschiedener Systemparameter kategorisieren. Ein grundlegendes Unterscheidungsmerkmal ist die Dimensionierung der Bilderfassung, bei der entweder kostengünstige 2D-Kameras oder tiefenauflösende 3D-Kamerasysteme eingesetzt werden. Zudem variiert die Systemarchitektur hinsichtlich der Kameraanzahl: Während Monokamerasysteme eine einfache Raumüberwachung ermöglichen, bieten Multikamerasysteme durch hardwareseitige Redundanz eine deutlich verlässlichere Objekterkennung sowie Schutz vor Verdeckungen im sensornahen Bereich.
 \\
@@ -47,7 +47,7 @@ Die technische Umsetzung der Überwachung innerhalb dieser Interaktionsstufen st
 
 \subsection{Visuelle Handerkennung}
 
-In diesem Kapitel werden verschiedene informationstechnische Ansätze, Methoden und Praktiken zur visuellen bzw. optischen Handerkennung detailliert beleuchtet. Die theoretische Auseinandersetzung mit diesen technologischen Konzepten ist im Rahmen dieser Studienarbeit von zentraler Bedeutung, um die dedizierte Auswahl des in dieser Arbeit implementierten Verfahrens wissenschaftlich und methodisch zu begründen. Zu diesem Zweck werden im Folgenden die Vor- und Nachteile der jeweiligen Herangehensweisen systematisch evaluiert.
+In diesem Kapitel werden verschiedene informationstechnische Ansätze, Methoden und Praktiken zur visuellen beziehungsweise optischen Handerkennung detailliert beleuchtet. Die theoretische Auseinandersetzung mit diesen technologischen Konzepten ist im Rahmen dieser Studienarbeit von zentraler Bedeutung, um die dedizierte Auswahl des in dieser Arbeit implementierten Verfahrens wissenschaftlich und methodisch zu begründen. Zu diesem Zweck werden im Folgenden die Vor- und Nachteile der jeweiligen Herangehensweisen systematisch evaluiert.
 
 \subsubsection{Infrarot- und Wärmebildsensorik}
 \begin{figure}[htbp] 
@@ -146,25 +146,48 @@ $$s(i,j) = s(i,j-1) + f(i,j) \quad \text{mit} \quad s(i,-1) = 0$$$$ii(i,j) = ii(
 Der entscheidende Vorteil dieses Verfahrens zeigt sich bei der anschließenden mathematischen Flächenberechnung innerhalb der Detektionspipeline. Mithilfe des vorbereiteten Integralbildes kann die Summe der Pixelintensitäten einer beliebigen, isolierten rechteckigen Region $D$ über eine einfache 4-Punkt-Formel ermittelt werden. Unter Verwendung der vier Eckpunkte $1$ (oben links), $2$ (oben rechts), $3$ (unten links) und $4$ (unten rechts) reduziert sich die Berechnung auf lediglich vier gezielte Tabellenzugriffe:$$\text{rectsum}(D) = ii(4) + ii(1) - ii(2) - ii(3)$$Da diese Operation unabhängig von der tatsächlichen Größe des Bildbereichs oder der Skalierungsstufe des Merkmals stets eine konstante Anzahl an Zugriffen erfordert, sinkt die rechentechnische Komplexität drastisch. Da die gesamte Pipeline somit fast ausschließlich auf einfachen Grundrechenarten wie der Addition und Subtraktion basiert, resultiert daraus eine bemerkenswert niedrige Rechenleistung. Dies begünstigt eine hardwarenahe Ausführung in Echtzeit, ohne das System auf kostenintensive grafische Beschleuniger anzuweisen. \cite{smarter_violajones_2018}
 
 \section{Bildverarbeitung}
+\label{kap:Bildverarbeitung}
 Filter, Algorithmen, Linien-/Kantendetektion mit OpenCV
 
 \section{Grundlagen der Informatik}
 \label{kap:Grundlagen der Informatik}
 \subsection{Producer-Consumer-Pattern}
 \label{kap:Producer-Consumer-Pattern}
+Das \textit{Producer-Consumer-Pattern} ist ein Entwurfsmuster der Softwaretechnik zur Koordination asynchroner Prozesse. Es dient der Entkopplung von Datenkomponenten, die Informationen erzeugen (\textit{Producer}), und Komponenten, die diese Daten verarbeiten (\textit{Consumer}).Die Kommunikation erfolgt dabei über eine gemeinsame Warteschlange (\textit{engl. Queue}).
 
 \begin{figure}[h!]
+	\centering
 	\begin{tikzpicture}[
-		block/.style={rectangle, draw=blue!70!black, fill=blue!5, rounded corners, minimum width = 3.5cm, minimum height = 1.2cm, align=center, font=\sffamily\bfseries},
-		buffer/.style={rectangle, draw=green!60!black, fill=green!8, minimum width=0.8cm, minimum height=0.8cm, align=center},
-		arrow/.style={-{Stealth[scale=1.2]}, thick, draw=gray!80!black,font=\sffamily\small},
-		labelstyle/.style={font=\sffamily\scriptsize\itshape,color=gray!90!black}]
+		box/.style={draw, rectangle, minimum width=2.4cm, minimum height=1.2cm, align=center, thick},
+		buffer/.style={draw, rectangle, minimum width=0.9cm, minimum height=0.8cm, align=center},
+		arrow/.style={->, >=stealth, thick}
+		]
+		% Nodes (Deutlich weiter auseinander gezogen für mehr Platz)
+		\node[box, fill=blue!10] (prod) at (0.5,0) {Producer\\(Erzeuger)};
+		\node[box, fill=green!10] (cons) at (9.5,0) {Consumer\\(Verbraucher)};
 		
-		% Layer 1 = Producer (Hauptanwendung & Kamerasystem)
+		% Buffer Elemente (Einheitlich positioniert)
+		\node[buffer] (b1) at (3.7,0) {Data};
+		\node[buffer] (b2) at (4.9,0) {Data};
+		\node[buffer] (b3) at (6.1,0) {Data};
 		
+		% Gemeinsame Queue Umrandung
+		\draw[thick, dashed] (3.0,-0.7) rectangle (6.8,0.7);
+		\node[below=0.2cm] at (5.05,-0.7) {Gemeinsame Queue};
+		
+		% Pfeile mit sauber platzierten Labels (above=0.1cm verhindert das Überlappen)
+		\draw[arrow] (prod.east) -- (3.0,0);	
+		\draw[arrow] (6.8,0) -- (cons);
 	\end{tikzpicture}
+	\caption{Architektur eines Producer-Consumer-Patterns (eigene Darstellung)}
+	\label{fig:producer_consumer}
 \end{figure}
+Für einen fehlerfreien Ablauf in nebenläufigen/konkurrenten Systemen müssen folgende zwei zentrale Synchronisationsprobleme gelöst werden \cite{producerconsumer, asynchroneMuster}:
 
+\begin{enumerate}
+	\item \textbf{Puffer-Überlauf:} Ist der Puffer vollständig gefüllt, muss der Producer so lange blockiert werden, bis der Consumer ein Element entnommen hat.
+	\item \textbf{Puffer-Leerlauf:} Ist der Puffer leer, muss der Consumer blockieren, bis der Producer neue Daten bereitstellt.
+\end{enumerate}
 \subsection{Task Parallel Library (TPL)}
 \label{Task Parallel Library (TPL)}
 Die \textit{Task Parallel Library (TPL)} ist eine .NET-Bibliothek, die es dem Programmierer vereinfacht, Parallelität und Nebenläufigkeit in \csharp-Programmen umzusetzen \cite{TPL}. Für diese Arbeit ist vor allem das Konzept der Nebenläufigkeit (\textit{engl.: concurrency}) relevant. Darunter versteht man allgemein, dass "mehr als nur eine Sache zur gleichen Zeit gemacht wird" \cite[Kapitel 1]{ConcurrencyinCSharp}. In der praktischen Anwendung ermöglicht das eine Entkopplung von Rechenoperationen oder Ein-/Ausgabeoperationen vom primären Arbeitsstrang einer Anwendung.
@@ -192,7 +215,7 @@ Die \textit{Task Parallel Library (TPL)} ist eine .NET-Bibliothek, die es dem Pr
 		\node[task, minimum width=2cm] at (3, 0) {Aufgabe 2};
 		\node[task, minimum width=2cm] at (5, 0) {Aufgabe 3};
 	\end{tikzpicture}
-	\caption{Problematik von blockierenden Abläufen}
+	\caption{Problematik von blockierenden Abläufen (eigene Darstellung)}
 	\label{Problematik von blockierenden Abläufen}
 \end{figure}
 In Abbildung \ref{Problematik von blockierenden Abläufen} werden synchrone und asynchrone Abläufe gegenübergestellt. Es lässt sich erkennen, das bei einem synchronen Ablauf eine Wartezeit den aufrufenden Thread blockiert - TPL löst diese Problematik durch die Einführung von asynchronen \textit{Tasks}.
@@ -204,11 +227,120 @@ Die TPL löst die starre Bindung an Betriebssystem-Threads durch das Konzept des
 
 \subsubsection{Task-based Asynchronous Pattern (TAP)}
 \label{kap:Task-based Asynchronous Pattern (TAP)}
-Das Task-based Asynchronous Pattern (TAP) setzt das zuvor beschriebene Task-Modell ab .NET-Framework 4 als Standard für die asynchrone Programmierung in \csharp\ durch \cite{asynchroneMuster}. Hierzu kommen die Schlüsselwörter \textbf{async} und \textbf{await} zum Einsatz.
+Das Task-based Asynchronous Pattern (TAP) setzt das zuvor beschriebene Task-Modell ab .NET-Framework 4 als Standard für die asynchrone Programmierung in \csharp\ durch \cite{asynchroneMuster}. Hierzu kommen die Schlüsselwörter \textbf{async} und \textbf{await} zum Einsatz. Der Kern dieses Entwurfsmusters basiert auf den Abstraktionsebenen \textit{Task} und \textit{Task<TResult>}, welche asynchrone Operationen als eigenständige Funktionseinheiten im verwalteten (\textit{engl. managed memory}) Speicher kapseln.\\
+\\Die Deklaration einer Methode mit dem Schlüsselwort \textit{async} signalisiert dem Compiler, dass innerhalb dieser Routine asynchrone Wartepunkte existieren können. Trifft der Kontrollfluss hingegen auf das Schlüsselwort \textit{await}, wird die Ausführung der aktuellen Methode unterbrochen. Anstatt jedoch den aktuellen Thread (z.B. den Haupt- oder GUI-Thread) blockierend zu blockieren, wird der Ausführungskontext eingefroren und die Kontrolle an den aufrufenden Prozess zurückgegeben.\\
+\\Eine genauere Ausführung zu dieser Thematik ist unter \cite{TAP} zu finden.
 
 \subsubsection{Task Cancellation/kooperativer Abbruch}
 \label{kap:Task Cancellation/kooperativer Abbruch}
+Ein Problem asynchroner Hintergrundprozesse ist deren kontrollierte Beendigung. Da das gewaltsame Abbrechen von Threads (\textit{engl. Thread Abortion}) aufgrund von potenziellen Speicherlecks und inkonsistenten Objektzuständen in modernen Laufzeitumgebungen als unzulässig gilt, implementiert das .NET-Ökosystem das Prinzip des \textit{kooperativen Abbruchs}.
+Dieses beruht auf der Interaktion zweier Kernkomponenten:
+\begin{itemize}
+	\item \textbf{CancellationTokenSource (CTS):} Diese Komponente fungiert als zentraler Signalgeber. Sie verwaltet den Abbruchzustand und löst bei Bedarf die Stornierung aus.
+	\item \textbf{CancellationToken:} Dies ist ein Struktur-Token, welches von der CTS erzeugt und als Argument an asynchrone Tasks übergeben wird.
+\end{itemize}
+ Der Abbruch erfolgt rein freiwillig und kooperativ. Der asynchrone Hintergrundprozess muss in regelmäßigen Abständen den Zustand des Tokens über die Eigenschaft \textit{IsCancellationRequested} aktiv prüfen oder das Token an blockierende asynchrone Methoden weiterreichen. 
 
 \section{Inverse Kinematik des Mitsubishi Movemaster EX RV-M1}
 \label{kap:Inverse Kinematik des Mitsubishi Movemaster EX RV-M1}
+Die inverse Kinematik, auch Rückwärtstransformation genannt, befasst sich mit der Bestimmung der Gelenkwinkel $\theta_{1},\ldots,\theta_{i}$ eines Roboters um eine vorgegebene Position und Orientierung des TCP in kartesischen Koordinaten zu erreichen. Der Index $i$ steht dabei für den Freiheitsgrad des Roboters (\textit{Degree's of Freedom}). Für den vorliegenden Mitsubishi Movemaster EX RV-M1 werden damit die fünf Gelenkwinkel analytisch über einen geometrisch-trigonometrischen Ansatz gelöst \cite{benbelkacem2011explicit}.
+\subsection{Kinematische Parameter des RV-M1}
+Für die Berechnung der Gelenkwinkel werden die Dimensionen der einzelnen Glieder benötigt. Diese sind nachfolgend in Tabelle \ref{tab:Dimensionen RV-M1} dargestellt:
+\begin{figure}[h]
+	\begin{minipage}[c]{0.45\textwidth}
+		\centering
+		\begin{tabular}{|c|c|}
+			\hline
+			\textbf{Achse} & \textbf{Länge [mm]} \\ \hline
+			$d_{1}$ & 300 \\ \hline
+			$a_{1}$ & 250 \\ \hline
+			$a_{2}$ & 160 \\ \hline
+			$d_{G}$ & 179 \\ \hline        
+		\end{tabular}
+		\caption{Kinematische Parameter des RV-M1}
+		\label{tab:Dimensionen RV-M1}
+	\end{minipage}
+	\hfill
+	\begin{minipage}[c]{0.45\textwidth}
+		\centering
+		\includegraphics[width=60mm]{figures/DH_frame_rvm1} 
+		\caption{Skizze Denavit-Hartenberg-Frames des RV-M1 \cite{benbelkacem2011explicit}}
+		\label{fig:dh parameter rvm1}
+	\end{minipage}
+\end{figure}
+Die nachfolgenden Gleichungen basieren allesamt auf \cite{benbelkacem2011explicit}. Ein alternativer, auf diesen Gleichungen aufbauender bzw. herleitbarer Ansatz wurde zusätzlich in MATLAB implementiert. Das zugehörige Skript ist im digitalen Anhang ersichtlich.
+
+\subsection{Trigonometrische Kompaktnotation nach \cite{benbelkacem2011explicit}}
+\label{kap:trigonometrische Notation}
+Zur Reduzierung der mathematischen Komplexität und für eine übersichtliche Darstellung der Transformationsmatrizen wird nach \cite{benbelkacem2011explicit} eine standardisierte trigonometrische Kurzschreibweise eingeführt.\\
+\\Dabei repräsentieren die Buchstaben $c$ und $s$ die Kosinus- bzw. Sinusfunktionen. Ein einzelner numerischer Index verweist auf das jeweilige isolierte Gelenk, während verkettete Indizes die Summe der entsprechenden Gelenkwinkel darstellen:
+
+\begin{align}
+	c_i &= \cos(\theta_i) \\
+	s_i &= \sin(\theta_i) \\
+	c_{ij} &= \cos(\theta_i + \theta_j) \\
+	s_{ij} &= \sin(\theta_i + \theta_j) \\
+	c_{ijk} &= \cos(\theta_i + \theta_j + \theta_k) \\
+	s_{ijk} &= \sin(\theta_i + \theta_j + \theta_k)
+\end{align}
+
+Diese Notation findet nachfolgend Verwendung für die Rückwärtstransformationsgleichungen.
+\subsection{Analytische Gelenkwinkelberechnung}
+\label{kap:analytische gelenkwinkelberechnung}
+\subsubsection*{Berechnen des Basiswinkels $\theta_{1}$}
+Betrachtet man Abbildung \ref{fig:dh parameter rvm1}, so lässt sich schnell erkennen, dass der Basiswinkel $\theta_{1}$ unabhängig von den nachfolgenden Gelenken berechnet werden kann. Es reicht zu betrachten, wo die Zielkoordinaten liegen.
+\begin{equation}
+	\theta_1 = \operatorname{atan2}(X, Y)	
+\end{equation}
+Hier kommt die atan2-Funktion zum Einsatz mit welcher die Vorzeichen der Quadranten beachtet werden und eine eindeutige Winkelbestimmung im Bereich von -180° bis +180° möglich ist.
+\subsubsection*{Berechnung Handwurzelpunkt}
+Um die Position des Handwurzelpunktes (\textit{Wrist Center}) $[x_w, y_w, z_w]^T$ im Referenzkoordinatensystem zu bestimmen, wird die Transformation des Endeffektors (Greiferlänge $d_G$, \ref{fig:dh parameter rvm1}) in Abhängigkeit des Neigungswinkels (Pitch) von den Zielkoordinaten subtrahiert. Zur Vereinfachung der Notation werden die trigonometrischen Funktionen im Folgenden mit $c_1 = \cos(\theta_1)$ und $s_1 = \sin(\theta_1)$ abgekürzt:
+\begin{align}
+	x_w &= x_G - d_G \cdot t_{13} = c_1 (a_2 c_2 + a_3 c_{23}) \\
+	y_w &= y_G - d_G \cdot t_{23} = -s_1 (a_2 c_2 + a_3 c_{23}) \\
+	z_w &= z_G - d_G \cdot t_{33} = d_1 + a_2 s_2 + a_3 s_{23}
+\end{align}
+\subsubsection*{Berechnung des Schulterwinkels ($\theta_2$)}
+Zur analytischen Bestimmung von $\theta_2$ werden die Gleichungen der Handwurzelkoordinaten quadriert und addiert. Dies führt auf eine rekurrente kinematische Gleichung der Form:
+\begin{equation}
+	\alpha \sin\theta_2 + \beta \cos\theta_2 = \gamma
+\end{equation}
+Die mathematischen Hilfsvariablen $\alpha, \beta, \gamma$ sowie der Radius $r$ sind dabei wie folgt definiert:
+\begin{equation}
+	\left\{
+	\begin{aligned}
+		\alpha &= z_w - d_1 \\
+		\beta &= x_w c_1 - y_w s_1 \\
+		\gamma &= \frac{a_2^2 - a_3^2 - \alpha^2 - \beta^2}{2a_2} \\
+		r &= \sqrt{\alpha^2 + \beta^2}
+	\end{aligned}
+	\right.
+\end{equation}
+
+Die geschlossene Lösung für das Schultergelenk lautet folglich:
+\begin{equation}
+	\theta_2 = \operatorname{atan2}\left(\gamma, \pm\sqrt{r^2 - \gamma^2}\right) - \operatorname{atan2}(\alpha, \beta)
+\end{equation}
+Eine Arbeitsraumprüfung erfolgt implizit über den Radikanden: Ist $r^2 - \gamma^2 < 0$, ist der Zielpunkt mathematisch imaginär und liegt außerhalb der physikalischen Reichweite des Roboters, was zum Abbruch des Berechnungsalgorithmus führen muss.
+
+\subsubsection*{Berechnung des Ellbogenwinkels ($\theta_3$)}
+Nachdem $\theta_2$ bestimmt wurde, lässt sich der Ellbogenwinkel durch die Division der entkoppelten Positionsgleichungen auflösen:
+\begin{equation}
+	\theta_3 = \operatorname{atan2}(\beta - a_2 c_2, \alpha - a_2 s_2) - \theta_2
+\end{equation}
+
+\subsubsection*{Orientierungswinkel ($\theta_4, \theta_5$)}
+Um die Orientierung des Greifers im Raum unabhängig von der Armkonfiguration konstant zu halten, wird der absolute Neigungswinkel $\varphi$ zur Horizontalen (Bodenreferenz) definiert:
+\begin{equation}
+	\varphi = \theta_2 + \theta_3 + \theta_4
+\end{equation}
+Hieraus isoliert sich das Pitch-Gelenk $\theta_4$ direkt über die Differenz:
+\begin{equation}
+	\theta_4 = \varphi - \theta_2 - \theta_3
+\end{equation}
+Der Roll-Winkel des Handgelenks resultiert aufgrund der kinematischen Struktur linear aus der geforderten Eigenrotation des Endeffektors:
+\begin{equation}
+	\theta_5 = \text{Roll}
+\end{equation}
+\clearpage
 
