@@ -32,7 +32,7 @@ Da eine direkte Rückmeldung des Roboters sowie ein aktives Abfragen der Positio
 	\caption{Bewegungsablauf asynchrone/synchrone PTP nach \cite{wüstrobotik}}
 	\label{fig: Bewegungsablauf PTP}
 \end{figure}
-Die Gesamtdauer der Bewegung wird folglich durch die langsamste Achse vorgegeben - diese nennt man bei synchronen PTP-Bewegungen Leitachse \textit{engl. Leading Axis} \cite[27]{wüstrobotik}. Mit der inversen Kinematik werden für jeden Zielpunkt die Gelenkwinkeldifferenzen $\Delta\theta_i$ (mit $i=1, \ldots, 5$) berechnet. Bezieht man die maximalen Winkelgeschwindigkeiten $\dot{\theta}_{\text{max}, i}$, erläutert in Tabelle \ref{tab:geschwindikeiten_movemaster} ein, so erhält man folgende Gleichung:
+Die Gesamtdauer der Bewegung wird folglich durch die langsamste Achse vorgegeben - diese nennt man bei synchronen PTP-Bewegungen Leitachse (\textit{engl. Leading Axis}) \cite[27]{wüstrobotik}. Mit der inversen Kinematik werden für jeden Zielpunkt die Gelenkwinkeldifferenzen $\Delta\theta_i$ (mit $i=1, \ldots, 5$) berechnet. Bezieht man die maximalen Winkelgeschwindigkeiten $\dot{\theta}_{\text{max}, i}$, erläutert in Tabelle \ref{tab:geschwindikeiten_movemaster} ein, so erhält man folgende Gleichung:
 \begin{equation}
 	T_{\text{Fahrt}} = \max_{i=1}^{5} \left( \frac{|\theta_{i, \text{Ziel}} - \theta_{i, \text{Start}}|}{\dot{\theta}{\text{max}, i}} \right)
 	\label{eq:praediktive_zeit_ik}

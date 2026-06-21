@@ -11,52 +11,51 @@ Reallocating 'wiz_functions' (item size: 4) to 6000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Database file #1: mylit.bib
 Warning--entry type for "SCH05" isn't style-file defined
---line 583 of file mylit.bib
-Warning--I didn't find a database entry for "Biagiotti2008"
+--line 599 of file mylit.bib
 -- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
 
 Done.
-You've used 22 entries,
+You've used 23 entries,
             4087 wiz_defined-function locations,
-            951 strings with 12367 characters,
-and the built_in function-call counts, 10652 in all, are:
-= -- 923
-> -- 158
+            954 strings with 12542 characters,
+and the built_in function-call counts, 11053 in all, are:
+= -- 959
+> -- 162
 < -- 37
-+ -- 80
-- -- 33
-* -- 425
-:= -- 1899
-add.period$ -- 48
-call.type$ -- 22
-change.case$ -- 31
++ -- 82
+- -- 34
+* -- 438
+:= -- 1974
+add.period$ -- 50
+call.type$ -- 23
+change.case$ -- 33
 chr.to.int$ -- 66
-cite$ -- 22
-duplicate$ -- 866
-empty$ -- 910
-format.name$ -- 37
-if$ -- 2389
+cite$ -- 23
+duplicate$ -- 900
+empty$ -- 948
+format.name$ -- 38
+if$ -- 2479
 int.to.chr$ -- 0
-int.to.str$ -- 22
-missing$ -- 188
-newline$ -- 95
-num.names$ -- 22
-pop$ -- 410
+int.to.str$ -- 23
+missing$ -- 196
+newline$ -- 98
+num.names$ -- 23
+pop$ -- 430
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 828
+skip$ -- 861
 stack$ -- 0
-substring$ -- 194
-swap$ -- 611
+substring$ -- 197
+swap$ -- 631
 text.length$ -- 15
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 22
+type$ -- 23
 warning$ -- 0
-while$ -- 36
-width$ -- 24
-write$ -- 231
-(There were 2 warnings)
+while$ -- 37
+width$ -- 25
+write$ -- 240
+(There was 1 warning)

@@ -123,7 +123,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %TODO: create variables and implement syntax like \art{T1000}
 \newcommand{\art}{Studienarbeit T3200} %feminin
-\newcommand{\titel}{Cognitive Robotics}
+\newcommand{\titel}{Cognitive Robotics: Implementierung einer Befehlswarteschlange und bildbasierter Safety-Funktionalität}
 \newcommand{\untertitel}{}
 
 \newcommand{\studiengang}{Elektrotechnik}
@@ -240,17 +240,15 @@
 
 %\thispagestyle{plain}
 \section*{Kurzzusammenfassung}
- Diese Studienarbeit befasst sich mit der Optimierung und Erweiterung eines autonomen Robotersystems, bestehend aus einem Mitsubishi Movemaster EX RV-M1, einer 3D-ToF-Kamera sowie einer 2D-Industriekamera. Dabei ist das übergeordnete Ziel die Transformation des vorliegenden Aufbaus hin zu einem intelligenten System, welches durch die Implementierung von bildbasierten Sicherheitsfunktionen Potenziale für einen kollaborativen Betrieb aufzeigt.\\
- \\Zunächst wird der Einfluss verschiedener Beleuchtungsbedingungen auf das Bildgewinnungssystem in einer Messreihe erforscht und mögliche Optimierungen erarbeitet. Nachfolgend gibt die Analyse der C++/\csharp-Softwarearchitektur Aufschluss über vorhandene Schwachstellen, wie auftretende Probleme bei der Thread-Synchronisierung und der Implementierung einer statischen Robotersteuerung. Für letzteres wird durch die Konzeptionierung einer dynamischen und geschlossenen Ansteuerung eine Alternative geschaffen.\\
- \\Aufbauend auf den Erkenntnissen der Analyse und Konzeptionierung der dynamischen Ansteuerung wird ein Gesamtkonzept für die Entwicklung einer \textit{Geschwindigkeits- und Abstandsüberwachung (SSM)} erstellt. Dieses Konzept nutzt die Fusion der 2D- und 3D-Bilddaten, um dynamische Warn- und Stoppbereiche softwareseitig zu realisieren. Die Arbeit bildet somit das Fundament für die sicherheitstechnische und steuerungstechnische Implementierung in der nachfolgenden Studienarbeit.
+Diese Studienarbeit befasst sich mit der Optimierung und Erweiterung eines autonomen Robotersystems, welches aus einem Mitsubishi Movemaster EX RV-M1 und einem Vision-System (2D- \& 3D-ToF-Kamera) besteht. Das zentrale Ziel ist dabei die Transformation in ein intelligentes System, um durch die Implementation von bildbasierten Sicherheitsfunktionen einen kollaborativen Betrieb zu evaluiern.\\
+\\Mittels einer IST-Analyse werden Limitationen der bestehenden Architektur identifiziert und für die nachfolgende Optimierung analysiert. Der Hauptfokus liegt hierbei in der Überführung der synchronen Befehlsstruktur in eine asynchrone Befehlswarteschlange, welche mithilfe der inversen Kinematik die Laufzeit einzelner Befehle errechnet und den Roboter dynamisch ansteuert.\\
+\\Im Bereich der bildbasierten Safety-Implementation erforscht die Arbeit verschiedene Ansätze zur Handerkennung. Einer dieser Ansätze stellt der Haar Cascade Classifier dar - dieser wurde im Rahmen der Arbeit als geeignetes Verfahren ausgewählt und mittels einer Testreihe geprüft. Aus diesen beiden fundamentalen Änderungen der Steuerungssoftware resultiert eine Basis für die weitere Transformation des Robotersystems hin zum kollaborativen Einsatz.
 \newpage
 %\thispagestyle{plain}
 \section*{Abstract}
-This student research project deals with the optimisation and expansion of an autonomous robot system consisting of a Mitsubishi Movemaster EX RV-M1, a 3D ToF camera and a 2D industrial camera. The overarching goal is to transform the existing setup into an intelligent system that reveals the potential for collaborative operation through the implementation of image-based safety functions.\\
-\\
-First, the influence of different lighting conditions on the image acquisition system is investigated in a series of measurements and possible optimisations are developed. Subsequently, the analysis of the C++/C\# software architecture highlights existing weaknesses, such as problems occurring in thread synchronisation and the implementation of a static robot control system. For the latter, an alternative is created by designing a dynamic and closed-loop control system.\\
-\\
-Based on the findings of the analysis and design of the dynamic control system, an overall concept for the development of a \textit{Speed and Separation Monitoring (SSM)} system is created. This concept uses the fusion of 2D and 3D image data to implement dynamic warning and stop areas software-side. The work thus forms the foundation for the safety-related and control-related implementation in the subsequent student research project.
+This student research project focuses on the optimisation and extension of an autonomous robotic system comprising a Mitsubishi Movemaster EX RV-M1 and a vision system (2D and 3D ToF cameras). The primary objective is to transform the system into an intelligent one in order to evaluate collaborative operation through the implementation of image-based safety functions.\\
+\\An ‘as-is’ analysis is used to identify limitations in the existing architecture and analyse them for subsequent optimisation. The main focus here is on converting the synchronous command structure into an asynchronous command queue, which uses inverse kinematics to calculate the execution time of individual commands and dynamically controls the robot.\\
+\\In the field of image-based safety implementation, this thesis investigates various approaches to hand detection. One such approach is the Haar Cascade Classifier – this was selected as a suitable method within the scope of the thesis and tested through a series of trials. These two fundamental changes to the control software provide a basis for the further transformation of the robot system towards collaborative use.
 \newpage
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

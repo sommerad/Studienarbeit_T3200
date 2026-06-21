@@ -7,11 +7,11 @@
 \contentsline {figure}{\numberline {2.3}{\ignorespaces Problematik von blockierenden Abläufen}}{14}{figure.caption.7}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Sequenzielle Abfolge an Befehlen (Eigene Darstellung)}}{16}{figure.caption.8}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Messexperiment zur Evaluation der Sortierperformance}}{18}{figure.caption.9}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Befehle innerhalb einer Objektsortierungssequenz}}{19}{figure.caption.11}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Messexperiment zur Evaluation der Sortierperformance (eigene Darstellung)}}{18}{figure.caption.9}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Befehle innerhalb einer Objektsortierungssequenz (eigene Darstellung)}}{19}{figure.caption.11}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Gegenüberstellung von blockierenden synchronen Abläufen und dem ressourceneffizienten, asynchronen Task-basierten Muster (TAP) bei E/A-Operationen.}}{25}{figure.caption.14}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Bewegungsablauf asynchrone/synchrone PTP nach \cite {wüstrobotik}}}{25}{figure.caption.14}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Projektions- und kamerabasierte Technologie zur Arbeitsraumüberwachung}}{28}{figure.caption.16}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Flussdiagramm der Bildvorverarbeitungs-Pipeline für das ML-Modell.}}{32}{figure.caption.17}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Projektions- und kamerabasierte Technologie zur Arbeitsraumüberwachung}}{29}{figure.caption.17}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Flussdiagramm der Bildvorverarbeitungs-Pipeline für das ML-Modell.}}{33}{figure.caption.18}%
 \addvspace {10\p@ }
