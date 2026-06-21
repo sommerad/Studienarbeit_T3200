@@ -1,5 +1,5 @@
 \chapter{Fazit \& Ausblick}
-\label{fig:Fazit und Ausblick}
+\label{kap:Fazit und Ausblick}
 Im Rahmen dieser Studienarbeit konnte erfolgreich die methodische und technische Grundlage für die Transformation des vorhandenen Robotersystems - bestehend aus dem EX RV-M1 und einem Vision-System (2D \& 3D-ToF) - hin zu einem limitiert kollaborativen und dynamischen System gelegt werden.
 \\
 \\Zunächst wurden durch eine IST-Analyse die konkreten Limitationen der synchronen Softwarearchitektur, insbesondere die blockierenden Wartezeiten durch die Verwendung von Thread.Sleep()-Befehlen, quantitativ aufgezeigt. Auf Basis dieser Erkenntnisse wurde eine asynchrone Befehlsstruktur konzipiert und implementiert. Diese verwendet moderne .NET-Prinzipien (TPL und TAP) und eine prädiktive Zeitberechnung mittels inverser Kinematik, um die Laufzeit des Systems an die physisch auszuführenden Bewegung anzupassen. Diese Umstellung bietet weitere Optimierungspotenziale, welche in nachfolgenden Arbeiten umgesetzt werden können. Dazu zählen:

@@ -41,42 +41,24 @@ Diese berechnete Zeit $T_{Fahrt}$ bildet die fundamentale Zeitbasis für das nac
 \newpage
 \section{Befehlswarteschlange für dynamische Robotersteuerung}
 \label{kap:Befehlswarteschlange für dynamischere Robotersteuerung}
-Um die theoretisch hergeleitete Zeitberechnung in der Steuerungssoftware umzusetzen, muss zunächst die gewünschte Funktionsweise definiert werden. Hierfür sind vor allem die in Kapitel \ref{kap:Producer-Consumer-Pattern} und \ref{kap:Task-based Asynchronous Pattern (TAP)} erläuterten Grundlagen relevant. 
+Um die theoretisch hergeleitete Zeitberechnung in der Steuerungssoftware umzusetzen, muss zunächst die gewünschte Funktionsweise definiert werden. Hierfür sind vor allem die in Kapitel \ref{kap:Producer-Consumer-Pattern} und \ref{kap:Task-based Asynchronous Pattern (TAP)} erläuterten Grundlagen relevant.\\
+\\Der wesentliche Architekturwechsel von einem rein sequenziellen, blockierenden Steuerungsansatz hin zu einer entkoppelten, ereignisgesteuerten Pipeline ist in Abbildung \ref{fig:architektur_vergleich} gegenübergestellt.
 \begin{figure}[h!]
-	
 	\centering
-	\begin{tikzpicture}[
-		% Globale Konfiguration für Abstände
-		node distance=1.5cm and 1.2cm,
-		% Definition der Stile
-		comp/.style={rectangle, draw=black, fill=gray!10, minimum height=1cm, minimum width=2.5cm, align=center, font=\sffamily\small},
-		pipe/.style={rectangle, draw=blue!60!black, fill=blue!5, minimum height=1cm, minimum width=2.5cm, align=center, font=\sffamily\small, rounded corners=2pt},
-		arrow/.style={-{Stealth[scale=1.2]}, thick, draw=black},
-		label/.style={font=\sffamily\bfseries\small}
-		]
-		
-		% --- VORHER: MONOLITHISCH ---
-		\node[label] (label1) {Vorher: Monolithischer Controller};
-		\node[comp, fill=red!10, below=0.5cm of label1] (ctrl) {Controller.cs \\ (Berechnung + IO + Sleep)};
-		\node[comp, right=of ctrl] (rob) {Roboter-Hardware};
-		
-		\draw[arrow] (ctrl.east) -- (rob.west) node[midway, above, font=\sffamily\tiny] {Blockiert};
-		
-		% --- NACHHER: PIPELINE-ARCHITEKTUR ---
-		% Wir positionieren die gesamte Gruppe relativ zum Vorher-Block
-		\node[label, below=2cm of ctrl, anchor=north] (label2) {Nachher: Pipeline-Architektur};
-		\node[comp, below=0.5cm of label2] (ctrl2) {Controller.cs \\ (Orchestrator)};
-		\node[pipe, right=of ctrl2] (pipe) {Robot\_Befehlspipeline \\ (BlockingCollection)};
-		\node[comp, right=of pipe] (rob2) {Roboter-Hardware};
-		
-		\draw[arrow] (ctrl2.east) -- (pipe.west) node[midway, above, font=\sffamily\tiny] {Enqueue()};
-		\draw[arrow] (pipe.east) -- (rob2.west) node[midway, above, font=\sffamily\tiny] {Consume / Delay};
-	\end{tikzpicture}
+	\includegraphics[width=\textwidth]{figures/pipeline.drawio}
+	\caption{Vergleich zwischen monolithischer Befehlsverarbeitung und entkoppelter Pipeline-Architektur}
+	\label{fig:architektur_vergleich}
 \end{figure}
+\\Die softwaretechnische Umsetzung dieser Pipeline-Architektur setzt drei Kernaspekte der dynamischen Robotersteuerung um:
 
 \begin{enumerate}
 	\item \textbf{Entkopplung während der Befehlsübertragung:} 
+	In der ursprünglichen Systemarchitektur blockierte jeder Sendevorgang den übergeordneten Steuerungs-Thread. Durch die Implementierung der \textit{Robot\_Befehlspipeline} agiert die Steuerungsklasse \textit{Controller.cs} nun rein als \textit{Producer}. Fahrbefehle werden als Datenpakete mittels der Methode \textit{Enqueue()} in die \textit{BlockingCollection} eingereiht. Dieser Vorgang ist nahezu latenzfrei, wodurch der Orchestrator unmittelbar für weitere Berechnungen, wie die Auswertung der Punktwolke oder GUI-Interaktionen, freigegeben wird.
 	\item \textbf{Asynchronität der Abarbeitung:}
+	Die physische Befehlsausführung wird vollständig in einen dedizierten Hintergrund-Task (\textit{Worker-Task}) verlagert, der nach dem \textit{Task-based Asynchronous Pattern} (TAP) operiert. Der Worker-Task konsumiert die eintreffenden \textit{RobotCommand}-Instanzen sequenziell. \\
+	\\Die Synchronisation zwischen der Software-Ebene und der physischen Hardwarebewegung erfolgt asynchron über \textit{await Task.Delay()}. Dadurch wird verhindert, dass CPU-Ressourcen durch blockierende Warteschleifen (\textit{Thread.Sleep}) verschwendet werden. Die Pipeline kontrolliert sich selbst: Ist die Queue leer, verbleibt der Hintergrund-Task in einem ressourcenschonenden Blockierungszustand, bis ein neues Element in die Queue geschickt wird.
 	\item \textbf{Dynamische Fahrtzeitberechnung:}
+	Die größte Herausforderung einer entkoppelten Steuerung ohne reales Hardware-Feedback liegt darin, ein Voreilen der Software zu verhindern. Würden Befehle ohne abgestimmte zeitliche Basis an den Roboter gesendet, liefe der interne Puffer des seriellen Controllers über, was zu Datenverlust oder unkontrollierten Bewegungsabbrüchen führen würde.\\
+	\\Die Pipeline löst dieses Problem durch eine prädiktive Zeitsteuerung. Für jeden eingereihten Fahrbefehl wird im Vorfeld die Verfahrzeit der Leitachse basierend auf dem inversen kinematischen Modell \ref{kap:Inverse Kinematik des Mitsubishi Movemaster EX RV-M1} berechnet. Dieser Wert wird dem \textit{RobotCommand} als Eigenschaft übergeben und zwingt den asynchronen \textit{Consumer}, so lange mit dem nächsten Sendevorgang zu warten, bis der Roboter die Zielposition physikalisch erreicht hat.
 \end{enumerate}
 

@@ -21,6 +21,11 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
+\bibitem{benbelkacem2011explicit}
+Y.~Benbelkacem and R.~Mohd-Mokhtar, ``Explicit kinematic model of the
+  mitsubishi rv-m1 robot arm,'' \emph{International Journal of Advanced Robotic
+  Systems}, vol.~8, no.~4, pp. 114--124, 2011.
+
 \bibitem{fraunhoferiff2026proj}
 {Fraunhofer-Institut für Fabrikbetrieb und -automatisierung IFF},
   ``Projektions- und kamerabasierte sicherheitstechnologien,''
@@ -121,10 +126,24 @@ Smarter, ``Target detection: {Viola-Jones} detection algorithm ({Haar-like}
   (\url{https://zhuanlan.zhihu.com/p/38056144}), Jun. 2018, abgerufen am: 21.
   Juni 2026.
 
+\bibitem{producerconsumer}
+\BIBentryALTinterwordspacing
+{Microsoft Developers}. How to implement a producer-consumer dataflow pattern.
+  [Online; Zugegriffen am 10. Juni 2026]. [Online]. Available:
+  \url{https://learn.microsoft.com/en-us/dotnet/standard/parallel-programming/how-to-implement-a-producer-consumer-dataflow-pattern}
+\BIBentrySTDinterwordspacing
+
+\bibitem{asynchroneMuster}
+\BIBentryALTinterwordspacing
+------. asynchrone programmiermuster. [Online; Zugegriffen am 10. Juni 2026].
+  [Online]. Available:
+  \url{https://learn.microsoft.com/de-de/dotnet/standard/asynchronous-programming-patterns/}
+\BIBentrySTDinterwordspacing
+
 \bibitem{TPL}
 \BIBentryALTinterwordspacing
-{Microsoft Developers}. Task parallel library tpl. [Online; Zugegriffen am 10.
-  Juni 2026]. [Online]. Available:
+------. Task parallel library tpl. [Online; Zugegriffen am 10. Juni 2026].
+  [Online]. Available:
   \url{https://learn.microsoft.com/de-de/dotnet/standard/parallel-programming/task-parallel-library-tpl}
 \BIBentrySTDinterwordspacing
 
@@ -132,11 +151,11 @@ Smarter, ``Target detection: {Viola-Jones} detection algorithm ({Haar-like}
 S.~Cleary, \emph{Concurrency in CSharp Cookbook}, 2nd~ed.\hskip 1em plus 0.5em
   minus 0.4em\relax O'Reilly Media, Inc., 2019.
 
-\bibitem{asynchroneMuster}
+\bibitem{TAP}
 \BIBentryALTinterwordspacing
-{Microsoft Developers}. asynchrone programmiermuster. [Online; Zugegriffen am
-  10. Juni 2026]. [Online]. Available:
-  \url{https://learn.microsoft.com/de-de/dotnet/standard/asynchronous-programming-patterns/}
+{Microsoft Developers}. Task-based asynchronous pattern (tap). [Online;
+  Zugegriffen am 10. Juni 2026]. [Online]. Available:
+  \url{https://learn.microsoft.com/de-de/dotnet/standard/asynchronous-programming-patterns/task-based-asynchronous-pattern-tap}
 \BIBentrySTDinterwordspacing
 
 \bibitem{rvm1manual}

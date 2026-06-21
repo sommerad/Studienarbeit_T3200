@@ -477,7 +477,6 @@ Dies erfolgt im Einklang mit der entsprechenden Verordnung der DHBW \href{https:
 		\hline
 		\textbf{Tool} & \textbf{Art der Nutzung} & \textbf{Abschnitt} \\ \hline
 		{Google Gemini AI Student Pro License} & {Formatierung von LaTeX-Code, Erstellung von Blankovorlagen für Tabellen und Listen} & {gesamte Arbeit} \\ \hline
-		{Google Gemini AI Student Pro License: Deep Search-Feature} & {Tiefgreifende Analyse des Datenblatts des Movemaster EX RV-M1: Finden von Abschlusszeichen im RS232-String, Pin-Belegung für Hardwaregestütztes Acknowledgement über RS232, Physikalische Signalanalyse für die Implementierung einer Flow-Control; Ergebnis der "Deep Search" kann jederzeit als PDF-Dokument bereitgestellt werden} & {4.3.2} \\ \hline
 		{DeepL AI Übersetzer} & {Formulierung des englischsprachigen Abstracts} & {Abstract} \\ \hline
 	\end{tabular}
 \end{table}
@@ -492,19 +491,12 @@ Die Erstellung der vorliegenden Studienarbeit erfolgte in gemeinsamer Kooperatio
 	\hline
 	\textbf{Kapitel / Abschnitt} & \textbf{Kapitelnummer} & \textbf{Autor} \\ \hline
 	Einleitung                           & \ref{Einleitung} & Gemeinsame Bearbeitung \\ \hline
-	Robotik                              & \ref{Robotik} & \autor \\ \hline
-	Industrielle Bildverarbeitung        & \ref{Bildverarbeitung} & \autorzwei \\ \hline
-	Grundlagen der Informatik            & \ref{Grundlagen der Informatik} & \autor \\ \hline
-	Hardware                             & \ref{Ausgangslage: Hardware} & \autor \\ \hline
-	Software                             & \ref{Ausgangslage: Software} & \autorzwei \\ \hline
-	Messreihe							 & \ref{Messreihe} & \autor \\ \hline
-	Optimierung der Softwarestruktur	 & \ref{Optimierung der Softwarestruktur} & \autor \\ \hline
-	Optimierung der Bildgewinnung   	 & \ref{Optimierung der Bildgewinnung} & \autor \\ \hline
-	Optimierung und Verbesserungsmöglichkeiten an der Software & \ref{Optimierung und Verbesserungsmöglichkeiten an der Software} & \autorzwei \\ \hline
-	Normative Anforderungen 		     & \ref{Normative Anforderungen und Grenzen des RV-M1} & Gemeinsame Bearbeitung \\ \hline
-	Umsetzbare Sicherheitsanforderungen	 & \ref{Umsetzbare Sicherheitsmerkmale} & Gemeinsame Bearbeitung \\ \hline
-	Ansatz Geschwindigkeits- und Abstandsüberwachung & \ref{Ansatz Geschwindigkeits- und Abstandsüberwachung} & \autorzwei \\ \hline
-	Fazit und Ausblick                   & \ref{Fazit und Ausblick} & Gemeinsame Bearbeitung \\ \hline
+	Safety-Implementation                             & \ref{kap:safetyimplementation} & \autor \\ \hline
+	Bildverarbeitung        & \ref{kap:Bildverarbeitung} & \autor \\ \hline
+	Grundlagen der Informatik            & \ref{kap:Grundlagen der Informatik} & \autorzwei \\ \hline
+	Inverse Kinematik                             & \ref{kap:Inverse Kinematik des Mitsubishi Movemaster EX RV-M1} & \autorzwei \\ \hline
+	Architekturlimitation                             & \ref{kap:Architekturlimitationen} & \autorzwei \\ \hline
+	Fazit und Ausblick                   & \ref{kap:Fazit und Ausblick} & Gemeinsame Bearbeitung \\ \hline
 \end{tabularx}
 \newpage
 Hiermit bestätigen wir, \autor{} und \autorzwei, dass die oben gemachten Angaben der Wahrheit entsprechen.
@@ -542,40 +534,7 @@ Hiermit bestätigen wir, \autor{} und \autorzwei, dass die oben gemachten Angabe
 \end{tabular}
 \clearpage % Beendet das vorherige Kapitel sauber
 \chapter*{Anhang}
-	\begin{table}[h!]
-		\centering
-		\begin{tabularx}{\textwidth}{c X r}
-			\toprule
-			\textbf{Sequenz} & \textbf{Beschreibung} & \textbf{Zeit [s]} \\
-			\midrule
-			1 & Startposition -> Objekt 1 + GC & 4,793 + 0,5 \\
-			1 & Objekt 1 -> Objekt 1-$Z_{offset}$ & 0,682 \\
-			1 & Objekt 1-$Z_{offset}$ -> Magazin 1-$Z_{offset}$ & 1,555 \\
-			1 & Magazin 1-$Z_{offset}$ -> Magazin 1 + GO & 0,697 + 1 \\
-			1 & Magazin 1 -> Magazin 1-$Z_{offset}$ & 0,697 \\
-			2 & Magazin 1-$Z_{offset}$ -> Objekt 2 + GC & 2,195 + 0,5 \\
-			2 & Objekt 2 -> Objekt 2-$Z_{offset}$ & 0,676 \\
-			2 & Objekt 2-$Z_{offset}$ -> Magazin 2-$Z_{offset}$ & 1,586 \\
-			2 & Magazin 2-$Z_{offset}$ -> Magazin 2 + GO & 0,638 + 1 \\
-			2 & Magazin 2 -> Magazin 2-$Z_{offset}$ & 0,638 \\
-			2 & Magazin 2-$Z_{offset}$ -> Objekt 3 + GC & 1,160 + 0,5 \\
-			3 & Objekt 3 -> Objekt 3-$Z_{offset}$ & 0,677 \\
-			3 & Objekt 3-$Z_{offset}$ -> Magazin 3-$Z_{offset}$ & 0,886 \\
-			3 & Magazin 3-$Z_{offset}$ -> Magazin 3 + GO & 0,647 + 1 \\
-			3 & Magazin 3 -> Magazin 3-$Z_{offset}$ & 0,647 \\
-			4 & Magazin 3-$Z_{offset}$ -> Objekt 4 + GC & 0,915 + 0,5 \\
-			4 & Objekt 4 -> Objekt 4-$Z_{offset}$ & 0,634 \\
-			4 & Objekt 4-$Z_{offset}$ -> Magazin 4-$Z_{offset}$ & 0,918 \\
-			4 & Magazin 4-$Z_{offset}$ -> Magazin 4 + GO & 0,649 + 1 \\
-			4 & Magazin 4 -> Magazin 4-$Z_{offset}$ & 0,649 \\
-			- & Magazin 4-$Z_{offset}$ -> Startposition & 4,467 \\	
-			\bottomrule
-			 & & \textbf{31,88}
-		\end{tabularx}
-		\caption{Theoretische Ausführungszeiten der Befehlspipeline}
-		\label{tab:ausfuehrungszeiten}
-	\end{table}
-
+	
 \section*{Inhalt des digitalen Anhangs}
 \label{Inhalt des digitalen Anhangs}
 \begin{itemize}

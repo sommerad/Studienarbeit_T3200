@@ -18,31 +18,35 @@
 \contentsline {section}{\numberline {2.2}Bildverarbeitung}{13}{section.2.2}%
 \contentsline {section}{\numberline {2.3}Grundlagen der Informatik}{13}{section.2.3}%
 \contentsline {subsection}{\numberline {2.3.1}Producer-Consumer-Pattern}{13}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Task Parallel Library (TPL)}{13}{subsection.2.3.2}%
-\contentsline {subsubsection}{\numberline {2.3.2.1}Task-based Asynchronous Pattern (TAP)}{14}{subsubsection.2.3.2.1}%
-\contentsline {subsubsection}{\numberline {2.3.2.2}Task Cancellation/kooperativer Abbruch}{15}{subsubsection.2.3.2.2}%
-\contentsline {section}{\numberline {2.4}Inverse Kinematik des Mitsubishi Movemaster EX RV-M1}{15}{section.2.4}%
-\contentsline {chapter}{\numberline {3}Ausgangssituation/IST-Analyse}{16}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Architekturlimitationen des bisherigen Systems}{16}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Punktwolkenverarbeitung Probleme}{16}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Sequenzielle Befehlsstruktur}{16}{subsection.3.1.2}%
-\contentsline {subsubsection}{\numberline {3.1.2.1}Theoretische Limitation}{17}{subsubsection.3.1.2.1}%
-\contentsline {subsubsection}{\numberline {3.1.2.2}Messexperiment}{18}{subsubsection.3.1.2.2}%
-\contentsline {subsubsection}{\numberline {3.1.2.3}Praktische Limitation - Laufzeitmessung mit Simulationsexperiment}{20}{subsubsection.3.1.2.3}%
-\contentsline {chapter}{\numberline {4}Architekturoptimierung und -erweiterung}{23}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Konzeptionierung der dynamischen Robotersteuerung}{23}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Optionen zur Positionserkennung/Befehl-Bewegungssynchronisation}{23}{subsection.4.1.1}%
-\contentsline {section}{\numberline {4.2}Befehlswarteschlange für dynamische Robotersteuerung}{26}{section.4.2}%
-\contentsline {chapter}{\numberline {5}Implementation der Erweiterungen}{27}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Safetyimplementation}{27}{section.5.1}%
-\contentsline {subsection}{\numberline {5.1.1}Kriterienbasierte Evaluierung der Sicherheitsüberwachungssysteme}{27}{subsection.5.1.1}%
-\contentsline {subsection}{\numberline {5.1.2}Machine-learning Modell zur visuellen Handerkennung}{32}{subsection.5.1.2}%
-\contentsline {subsubsection}{\numberline {5.1.2.1}Machine learning-Modell}{32}{subsubsection.5.1.2.1}%
-\contentsline {subsubsection}{\numberline {5.1.2.2}Haar Cascade Classifier}{33}{subsubsection.5.1.2.2}%
-\contentsline {section}{\numberline {5.2}Befehlspipeline}{34}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}Vergleich von theoretischer und realer Performance}{34}{subsection.5.2.1}%
-\contentsline {chapter}{\numberline {6}Fazit \& Ausblick}{35}{chapter.6}%
+\contentsline {subsection}{\numberline {2.3.2}Task Parallel Library (TPL)}{14}{subsection.2.3.2}%
+\contentsline {subsubsection}{\numberline {2.3.2.1}Task-based Asynchronous Pattern (TAP)}{15}{subsubsection.2.3.2.1}%
+\contentsline {subsubsection}{\numberline {2.3.2.2}Task Cancellation/kooperativer Abbruch}{16}{subsubsection.2.3.2.2}%
+\contentsline {section}{\numberline {2.4}Inverse Kinematik des Mitsubishi Movemaster EX RV-M1}{16}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Kinematische Parameter des RV-M1}{16}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Trigonometrische Kompaktnotation nach \cite {benbelkacem2011explicit}}{17}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Analytische Gelenkwinkelberechnung}{18}{subsection.2.4.3}%
+\contentsline {chapter}{\numberline {3}Ausgangssituation/IST-Analyse}{20}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Architekturlimitationen des bisherigen Systems}{20}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Punktwolkenverarbeitung Probleme}{20}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Sequenzielle Befehlsstruktur}{20}{subsection.3.1.2}%
+\contentsline {subsubsection}{\numberline {3.1.2.1}Theoretische Limitation}{21}{subsubsection.3.1.2.1}%
+\contentsline {subsubsection}{\numberline {3.1.2.2}Messexperiment}{22}{subsubsection.3.1.2.2}%
+\contentsline {subsubsection}{\numberline {3.1.2.3}Praktische Limitation - Laufzeitmessung mit Simulationsexperiment}{24}{subsubsection.3.1.2.3}%
+\contentsline {chapter}{\numberline {4}Architekturoptimierung und -erweiterung}{27}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Konzeptionierung der dynamischen Robotersteuerung}{27}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Optionen zur Positionserkennung/Befehl-Bewegungssynchronisation}{27}{subsection.4.1.1}%
+\contentsline {section}{\numberline {4.2}Befehlswarteschlange für dynamische Robotersteuerung}{30}{section.4.2}%
+\contentsline {chapter}{\numberline {5}Implementation der Erweiterungen}{32}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Safetyimplementation}{32}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Kriterienbasierte Evaluierung der Sicherheitsüberwachungssysteme}{32}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Machine-learning Modell zur visuellen Handerkennung}{37}{subsection.5.1.2}%
+\contentsline {subsubsection}{\numberline {5.1.2.1}Machine learning-Modell}{37}{subsubsection.5.1.2.1}%
+\contentsline {subsubsection}{\numberline {5.1.2.2}Haar Cascade Classifier}{38}{subsubsection.5.1.2.2}%
+\contentsline {section}{\numberline {5.2}Befehlspipeline}{39}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Vergleich von theoretischer und realer Performance}{39}{subsection.5.2.1}%
+\contentsline {section}{\numberline {5.3}Integration der Safety-Implementation in die Befehlspipeline}{40}{section.5.3}%
+\contentsline {chapter}{\numberline {6}Fazit \& Ausblick}{41}{chapter.6}%
 \contentsline {chapter}{Literaturverzeichnis}{vii}{chapter.6}%
-\contentsline {chapter}{Abk"urzungsverzeichnis}{ix}{chapter*.19}%
-\contentsline {chapter}{Abbildungsverzeichnis}{xii}{chapter*.20}%
-\contentsline {chapter}{Erklärungen zur Arbeit und Hilfsmitteln}{xiii}{chapter*.21}%
+\contentsline {chapter}{Abk"urzungsverzeichnis}{ix}{chapter*.21}%
+\contentsline {chapter}{Abbildungsverzeichnis}{xii}{chapter*.22}%
+\contentsline {chapter}{Erklärungen zur Arbeit und Hilfsmitteln}{xiii}{chapter*.23}%
