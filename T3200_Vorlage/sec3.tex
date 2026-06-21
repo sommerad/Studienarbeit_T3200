@@ -96,7 +96,7 @@ Um die theoretisch hergeleiteten Ineffizienzen und die zeitlichen Auswirkungen d
 		\caption{Koordinaten im Messexperiment}
 		\label{fig:koordinaten}
 	\end{subfigure}
-	\caption{Messexperiment zur Evaluation der Sortierperformance}
+	\caption{Messexperiment zur Evaluation der Sortierperformance (eigene Darstellung)}
 	\label{fig:messexperiment}
 \end{figure}
 Die Geschwindigkeit des Roboters wird per Befehl \textbf{SP} fest auf Stufe 5 H (0-9 Stufen, H = Hohe Beschleunigung) gesetzt. Sowohl die maximalen als auch die eingestellten Geschwindigkeiten der einzelnen Achsen lassen sich aus Tabelle \ref{tab:geschwindikeiten_movemaster} entnehmen und sind für die spätere Betrachtung der inversen Kinematik des Movemaster EX RV-M1 relevant.
@@ -105,7 +105,7 @@ Die Geschwindigkeit des Roboters wird per Befehl \textbf{SP} fest auf Stufe 5 H 
 	\renewcommand{\arraystretch}{1.2} % Etwas mehr Zeilenabstand
 	\begin{tabular}{|c|c|c|}
 		\hline
-		\textbf{Achse} & \textbf{maximale Geschwindigkeit} & \textbf{SP5-Geschwindigkeit} \\ \hline
+		\textbf{Achse} & \textbf{maximale Geschwindigkeit SP9} & \textbf{SP5-Geschwindigkeit $\dot{\theta}_{\text{max}, i}$} \\ \hline
 		Joint 1 & 120 °/sec & 29,64 °/sec \\ \hline
 		Joint 2 & 72 °/sec & 17,78 °/sec\\ \hline
 		Joint 3 & 109 °/sec & 26,92 °/sec \\ \hline
@@ -143,7 +143,7 @@ Die Geschwindigkeit des Roboters wird per Befehl \textbf{SP} fest auf Stufe 5 H 
 		\draw[dashed, gray] (B7.south) -- ++(0,-0.3);
 		
 	\end{tikzpicture}
-	\caption{Befehle innerhalb einer Objektsortierungssequenz}
+	\caption{Befehle innerhalb einer Objektsortierungssequenz (eigene Darstellung)}
 	\label{fig: objektsequenz}
 \end{figure}
 \newpage

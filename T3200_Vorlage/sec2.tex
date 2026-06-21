@@ -108,8 +108,9 @@ Zusammenfassend ergibt sich in der mathematisch-deterministischen Validierung na
 Filter, Algorithmen, Linien-/Kantendetektion mit OpenCV
 
 \section{Grundlagen der Informatik}
-
+\label{kap:Grundlagen der Informatik}
 \subsection{Producer-Consumer-Pattern}
+\label{kap:Producer-Consumer-Pattern}
 
 \begin{figure}[h!]
 	\begin{tikzpicture}[
@@ -120,11 +121,11 @@ Filter, Algorithmen, Linien-/Kantendetektion mit OpenCV
 		
 		% Layer 1 = Producer (Hauptanwendung & Kamerasystem)
 		
-		
-		
 	\end{tikzpicture}
 \end{figure}
+
 \subsection{Task Parallel Library (TPL)}
+\label{Task Parallel Library (TPL)}
 Die \textit{Task Parallel Library (TPL)} ist eine .NET-Bibliothek, die es dem Programmierer vereinfacht, Parallelität und Nebenläufigkeit in \csharp-Programmen umzusetzen \cite{TPL}. Für diese Arbeit ist vor allem das Konzept der Nebenläufigkeit (\textit{engl.: concurrency}) relevant. Darunter versteht man allgemein, dass "mehr als nur eine Sache zur gleichen Zeit gemacht wird" \cite[Kapitel 1]{ConcurrencyinCSharp}. In der praktischen Anwendung ermöglicht das eine Entkopplung von Rechenoperationen oder Ein-/Ausgabeoperationen vom primären Arbeitsstrang einer Anwendung.
 \begin{figure}[h!]
 	\centering
@@ -159,8 +160,14 @@ Um die Rolle der TPL im Kontext dieser Arbeit zu präzisieren, muss zwischen Neb
 \\Dabei ist Multithreading – also die Verwendung mehrerer Ausführungsstränge – lediglich eine Form der nebenläufigen Programmierung. Moderne Frameworks wie die TPL bieten hierfür übergeordnete Abstraktionen, die den direkten, fehleranfälligen Umgang mit Threads durch effizientere Konzepte ersetzen.
 \subsubsection*{Task-Modell}
 Die TPL löst die starre Bindung an Betriebssystem-Threads durch das Konzept des Tasks (.NET-Bibliothek System.Threading.Tasks) auf. Ein Task repräsentiert eine asynchrone Operation und verkörpert das Entwurfsmuster eines Futures oder Promises – ein logisches Versprechen auf ein in der Zukunft liegendes Ergebnis. Anstatt Aufgaben fest an schwerfällige Betriebssystem-Threads zu binden, entkoppelt die TPL die logische Aufgabe von der physikalischen Ausführung. Ein interner Thread-Pool verwaltet eine minimale Anzahl von Arbeiter-Threads und verteilt die anfallenden Tasks dynamisch. Wartet ein Task beispielsweise auf eine Netzwerkanfrage, gibt er den physischen Thread sofort für andere nebenläufige Aufgaben frei.
-\subsubsection{Task-based Asynchronous Pattern (TAP)}
-Das Task-based Asynchronous Pattern (TAP) setzt das zuvor beschriebene Task-Modell ab .NET-Framework 4 als Standard für die asynchrone Programmierung in \csharp\ durch \cite{asynchroneMuster}. Hierzu kommen die Schlüsselwörter \textbf{async} und \textbf{await} zum Einsatz.
-\subsubsection{Task Cancellation/kooperativer Abbruch}
 
+\subsubsection{Task-based Asynchronous Pattern (TAP)}
+\label{kap:Task-based Asynchronous Pattern (TAP)}
+Das Task-based Asynchronous Pattern (TAP) setzt das zuvor beschriebene Task-Modell ab .NET-Framework 4 als Standard für die asynchrone Programmierung in \csharp\ durch \cite{asynchroneMuster}. Hierzu kommen die Schlüsselwörter \textbf{async} und \textbf{await} zum Einsatz.
+
+\subsubsection{Task Cancellation/kooperativer Abbruch}
+\label{kap:Task Cancellation/kooperativer Abbruch}
+
+\section{Inverse Kinematik des Mitsubishi Movemaster EX RV-M1}
+\label{kap:Inverse Kinematik des Mitsubishi Movemaster EX RV-M1}
 

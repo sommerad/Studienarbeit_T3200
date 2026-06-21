@@ -6,10 +6,10 @@
 \contentsline {figure}{\numberline {2.2}{\ignorespaces Problematik von blockierenden Abläufen}}{10}{figure.caption.6}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Sequenzielle Abfolge an Befehlen (Eigene Darstellung)}}{12}{figure.caption.7}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Messexperiment zur Evaluation der Sortierperformance}}{14}{figure.caption.8}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Befehle innerhalb einer Objektsortierungssequenz}}{15}{figure.caption.10}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Messexperiment zur Evaluation der Sortierperformance (eigene Darstellung)}}{14}{figure.caption.8}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Befehle innerhalb einer Objektsortierungssequenz (eigene Darstellung)}}{15}{figure.caption.10}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Gegenüberstellung von blockierenden synchronen Abläufen und dem ressourceneffizienten, asynchronen Task-basierten Muster (TAP) bei E/A-Operationen.}}{20}{figure.caption.13}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Bewegungsablauf asynchrone/synchrone PTP nach \cite {wüstrobotik}}}{21}{figure.caption.13}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Projektions- und kamerabasierte Technologie zur Arbeitsraumüberwachung}}{23}{figure.caption.15}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Projektions- und kamerabasierte Technologie zur Arbeitsraumüberwachung}}{25}{figure.caption.16}%
 \addvspace {10\p@ }
