@@ -104,6 +104,23 @@ S.~K. Singh, D.~S. Chauhan, M.~Vatsa, and R.~Singh, ``A robust skin color based
   menschlichen körpers (iso 13855:2024); deutsche fassung en iso 13855:2024,''
   DIN Media GmbH, Berlin, Norm DIN EN ISO 13855, Oct. 2025.
 
+\bibitem{Tamascelli2024}
+N.~Tamascelli, A.~Campari, T.~Parhizkar, and N.~Paltrinieri, ``Artificial
+  intelligence for safety and reliability: A descriptive, bibliometric and
+  interpretative review on machine learning,'' \emph{Journal of Loss Prevention
+  in the Process Industries}, vol.~90, p. 105343, 2024.
+
+\bibitem{apmonitor_cascade_2026}
+{APMonitor}, ``Machine learning for engineers: Cascade classifier,''
+  \url{https://apmonitor.com/pds/index.php/Main/CascadeClassifier}, angerufen
+  am: 21. Juni 2026.
+
+\bibitem{smarter_violajones_2018}
+Smarter, ``Target detection: {Viola-Jones} detection algorithm ({Haar-like}
+  features + {AdaBoost} + cascade classifier),'' Zhihu Zhuanlan
+  (\url{https://zhuanlan.zhihu.com/p/38056144}), Jun. 2018, abgerufen am: 21.
+  Juni 2026.
+
 \bibitem{TPL}
 \BIBentryALTinterwordspacing
 {Microsoft Developers}. Task parallel library tpl. [Online; Zugegriffen am 10.
@@ -133,11 +150,5 @@ M.~Electric. Mitsubishi movemaster ex rv-m1 manual. [Online; Zugegriffen am 10.
 R.~Meta, ``Event-driven programming for responsive robotic systems,''
   \url{https://roboticsmeta.com/event-driven-programming-for-responsive-robotic-systems/},
   2024, accessed: 2026-06-19.
-
-\bibitem{Tamascelli2024}
-N.~Tamascelli, A.~Campari, T.~Parhizkar, and N.~Paltrinieri, ``Artificial
-  intelligence for safety and reliability: A descriptive, bibliometric and
-  interpretative review on machine learning,'' \emph{Journal of Loss Prevention
-  in the Process Industries}, vol.~90, p. 105343, 2024.
 
 \end{thebibliography}

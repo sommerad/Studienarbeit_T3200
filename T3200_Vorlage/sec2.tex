@@ -49,7 +49,7 @@ Die technische Umsetzung der Überwachung innerhalb dieser Interaktionsstufen st
 In diesem Kapitel werden verschiedene informationstechnische Ansätze, Methoden und Praktiken zur visuellen beziehungsweise optischen Handerkennung detailliert beleuchtet. Die theoretische Auseinandersetzung mit diesen technologischen Konzepten ist im Rahmen dieser Studienarbeit von zentraler Bedeutung, um die dedizierte Auswahl des in dieser Arbeit implementierten Verfahrens wissenschaftlich und methodisch zu begründen. Zu diesem Zweck werden im Folgenden die Vor- und Nachteile der jeweiligen Herangehensweisen systematisch evaluiert.
 
 \subsubsection{Infrarot- und Wärmebildsensorik}
-\begin{figure}[htbp] % htbp erlaubt LaTeX die flexibelste Platzierung
+\begin{figure}[htbp] 
 	\centering
 	\includegraphics[width=0.8\textwidth]{figures/InfRot-HE-Luis.png} 
 	\caption{Testbild Passiv-Infrarot Schutzeinrichtung an einer Kreissäge aus \cite{GRA03}}
@@ -74,8 +74,6 @@ Eine alternative Methode stellt die Extraktion und Erkennung menschlicher Körpe
 \\Der fundamentale Vorteil dieser Methode liegt in der Hardware-Ökonomie, da für die Umsetzung eine klassische, kostengünstige 2D-Industriekamera ausreichend ist. Zudem arbeitet die farbbasierte Segmentierung weitgehend unabhängig von der konkreten Bewegung, Rotation oder temporären geometrischen Verformung der menschlichen Hand. 
 \\
 \\Dem stehen im industriellen Einsatz gravierende Nachteile gegenüber. Das System versagt inhärent, sobald der Werker vorgeschriebene Arbeitshandschuhe trägt, da die Farbinformation der Haut maskiert wird. Zudem verursachen die mathematischen Transformationen zwischen den Farbräumen und die nachgelagerte Segmentierung einen hohen theoretischen sowie rechentechnischen Aufwand. Das Verfahren setzt qualitativ hochwertige Kamerasysteme voraus und erfordert eine präzise Kalibrierung auf das jeweilige optische System. Zuletzt begründet die strikte Abhängigkeit von den visuellen Hintergrundverhältnissen sowie wechselnden Beleuchtungsszenarien ein hohes Risiko für Falschdetektionen im praktischen Betrieb.
-
-\subsubsection{Haar cascade classifier}
 
 \subsection{Normen und Richtlinien}
 Die Auslegung von Systemen der Mensch-Roboter-Kollaboration (MRK) sowie der Einsatz optischer Schutzsysteme unterliegen einem strikten regulatorischen Rahmen. Da bei kollaborativen Arbeitsplätzen die klassischen physisch-trennenden Schutzeinrichtungen (wie Schutzzäune) entfallen, muss die Sicherheit über sensorisch aufgenommene und durch spezielle Logik- verarbeitete Daten gewährleistet werden.  
@@ -104,6 +102,48 @@ Wird der Schutzraum volumetrisch überwacht, greift die Normenreihe \textbf{DIN 
 Ergänzend definiert die \textbf{DIN EN ISO 13855} \cite{din13855_2025} die Anordnung von Schutzeinrichtungen im Hinblick auf die Annäherungsgeschwindigkeit des menschlichen Körpers. Sobald ein System auf die Detektion von Teilbereichen des Körpers, wie Hände oder Finger, ausgelegt wird, fordert die Norm den Ansatz standardisierter, maximaler Handgeschwindigkeiten ($1600\,\text{mm/s}$ bis $2000\,\text{mm/s}$). Für optische Systeme, die auf Mustererkennung basieren, ergibt sich daraus theoretisch die Anforderung, dass die Verarbeitungsfrequenz (\textit{Frames per Second}) und die Pipeline-Latenz so dimensioniert sein müssen, dass eine Handbewegung innerhalb dieser Dynamikgrenzen deterministisch und ohne unzulässige Zeitverzögerung erfasst werden kann.
 
 Zusammenfassend ergibt sich in der mathematisch-deterministischen Validierung nach ISO 13849-1 \cite{din13849_1_2023} und IEC 61496 \cite{din_iec_61496_1_2021} eine theoretische Diskrepanz beim Einsatz stochastischer Auswertealgorithmen (wie maschinellen Lernverfahren). Da diese systembedingt keine klassischen deterministischen Zustandstabellen aufweisen, fordert die normative Praxis bei sicherheitskritischen Anwendungen stets eine Absicherung der mathematischen Ergebnisse durch diversitäre Sensorik oder fest programmierte Hardware-Gateways.
+
+\subsection{Cascade classifier}
+Die fundamentale Aufgabe der Haar-Cascade-Methode liegt in der effizienten Erkennung und Extraktion spezifischer Merkmale (\textit{Features}) innerhalb einer digitalen Bildmatrix.\cite{Tamascelli2024} Diese bildbasierten Merkmale lassen sich dabei mathematisch und visuell anhand von grundlegenden Eigenschaften wie der Farbe, der geometrischen Form oder der absoluten Größe des zu detektierenden Objekts identifizieren und abgrenzen. \cite{apmonitor_cascade_2026} Um diese Erkennung prozesstechnisch umzusetzen, stützt sich die Architektur des Kaskadenklassifikators (\textit{Cascade Classifier}) auf eine sequentielle, hierarchisch strukturierte Liste von aufeinanderfolgenden Stufen (\textit{Stages}). Jede dieser einzelnen Stufen fungiert als separater Filter innerhalb der Kontrollkette und setzt sich wiederum aus einer definierten Liste von sogenannten schwachen Lernern (\textit{Weak Learners}) zusammen, welche in ihrer Gesamtheit eine hocheffiziente und rechenschonende Entscheidungsmatrix bilden. \cite{Tamascelli2024}
+\subsubsection{Haar-like Features}
+Die Objektdetektion mittels eines Kaskadenklassifikators basiert auf einem sequenziellen Suchfenster-Prinzip, bei dem ein vordefiniertes Fenster (wie in \autoref*{haar_features}) schrittweise über die gesamte Bildmatrix verschoben wird. Innerhalb dieses Prozesses führt jede einzelne Stufe der Kaskade eine binäre Klassifikation der aktuell fokussierten Bildregion durch, um diese entweder als potenzielles Objekt (positiv) oder als Hintergrund (negativ) einzustufen. Der logische Ablauf dieser Klassifikationskette folgt dabei einem strikten Ausschlussverfahren: Sobald eine Stufe ein negatives Ergebnis liefert, wird die Analyse der aktuellen Region unverzüglich abgebrochen und das Suchfenster rückt zur nächsten Position weiter. Ein positives Resultat hingegen bewirkt, dass der Bildausschnitt zur tiefergehenden Überprüfung an die nächsthöhere Stufe ($n+1$) übergeben wird. Ein Objekt gilt folglich erst dann als final und verlässlich detektiert, wenn es sämtliche Stufen der Kaskadenstruktur erfolgreich und durchgehend positiv durchlaufen hat.\cite{Tamascelli2024}
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.8\textwidth]{figures/haar-like-features.jpg} 
+	\caption{Prinzip-Skizze Haar-like-features aus \cite{smarter_violajones_2018}}
+	\label{haar_features}
+\end{figure}
+Zur Bewertung der Klassifikationsgüte dieses Systems lässt sich das Prinzip der Konfusionsmatrix heranziehen, welche die Ergebnisse in vier fundamentale Kategorien unterteilt. Ein \textit{True Positive} (Richtig-Positiv) beschreibt dabei die korrekte Erkennung eines real existierenden Objekts, während ein \textit{True Negative} (Richtig-Negativ) die zutreffende Identifikation von Hintergrundstrukturen als Nicht-Objekt darstellt. Kritischer sind die Fehlklassifikationen: Ein \textit{False Positive} (Falsch-Positiv) liegt vor, wenn ein Hintergrundbereich fälschlicherweise als Zielobjekt eingestuft wird, wohingegen ein \textit{False Negative} (Falsch-Negativ) bedeutet, dass ein tatsächlich vorhandenes Objekt vom Algorithmus übersehen wird.
+\\
+\\Aus dieser Dynamik leiten sich hochgradig asymmetrische und sicherheitskritische Anforderungen an die einzelnen Kaskadenstufen ab. Da ein einmalig als negativ deklarierter Bildbereich sofort verworfen wird, ist eine extrem niedrige Falsch-Negativ-Rate pro Stufe zwingend erforderlich; ein hier entstandener Fehler lässt sich im späteren Verlauf der Detektion nicht mehr korrigieren. Im Gegensatz dazu ist eine höhere Falsch-Positiv-Rate in den einzelnen Stufen durchaus tolerierbar. Falls eine frühe Instanz der Kaskade ein Nicht-Objekt fälschlicherweise als positiv bewertet und passieren lässt, verbleibt für das Gesamtsystem die Möglichkeit, diesen Irrtum in den nachfolgenden, spezialisierteren Filterstufen ($n+1$) nachträglich zu korrigieren und die Fehlleitung zu eliminieren.
+
+\subsubsection{Mathematische Grundlagen und algorithmische Optimierung der Haar-Merkmale}
+Die mathematische Zusammensetzung der klassischen Objektdetektion nach Viola und Jones basiert auf der Definition standardisierter, rechteckiger Merkmalsmasken. Der Algorithmus spezifiziert standardmäßig fünf grundlegende Typen von Helligkeitsmasken, deren feste Breiten-Höhen-Seitenverhältnisse als 
+\begin{itemize}
+	\item (a) $2:1$
+	\item (b) $3:1$
+	\item (c) $1:2$
+	\item (d) $1:3$
+	\item (e) $2:2$
+\end{itemize}
+definiert sind. Diese geometrischen Vorgaben bedingen strikte Dimensionseinschränkungen bei der Skalierung, so muss beispielsweise bei einem Verhältnis von $3:1$ die absolute Breite der Maske zwingend ein Vielfaches von drei betragen. 
+\\
+\\Durch das systematische Verschieben und kontinuierliche Skalieren dieser fünf Basis-Rechtecktypen über die Bildmatrix entsteht eine kombinatorische Explosion der zu berechnenden Werte. Bereits innerhalb eines sehr kleinen Standard-Suchfensters von lediglich $24 \times 24$ Pixeln generieren die Masken insgesamt 160.381 unterschiedliche Merkmalswerte. Diese enorme Vielfalt teilt sich analytisch in x Merkmale für die jeweiligen Typen auf: 
+\begin{itemize}
+	\item (a) 43.200 Merkmale
+	\item (b) 27.600 Merkmale
+	\item (c) 43.200 Merkmale
+	\item (d) 27.600 Merkmale
+	\item (e) 20.736 Merkmale
+\end{itemize} 
+Für ein nicht-rotiertes Bild der Dimension $W \times H$ und ein minimales Basismerkmal der Größe $w \times h$ lässt sich die exakte Anzahl der generierten Merkmale über die Skalierungsfaktoren $X = W/w$ und $Y = H/h$ durch folgende analytische Formel bestimmen:
+$$\text{Anzahl} = X Y \left[ W + 1 - \frac{w}{2}(X + 1) \right] \left[ H + 1 - \frac{h}{2}(Y + 1) \right]$$
+Um auch Objekte mit veränderter Orientierung im Raum zu erfassen, existiert eine Erweiterung für rotierte Merkmalsrechtecke. Bei dieser geometrischen Anpassung müssen die Breiten- und Höhenparameter mathematisch transformiert und das funktionale Verhältnis anhand der veränderten Dimensionen neu ausgerichtet werden. Unter Einbeziehung der Hilfsvariable $z = w + h$ sowie den angepassten Skalierungsfaktoren $X = W/z$ und $Y = W/z$ berechnet sich die modifizierte Anzahl der rotierten Features nach der Formel:
+$$\text{Anzahl (rotiert)} = X Y \left[ W + 1 - \frac{z}{2}(X + 1) \right] \left[ H + 1 - \frac{z}{2}(Y + 1) \right]$$
+Da die direkte Berechnung dieser immensen Merkmalsanzahl die Rechenzeit kritisch maximieren würde, wird zur algorithmischen Optimierung das Konzept des Integralbildes – auch als Summenflächentabelle (\textit{Summed-Area Table}, SAT) bezeichnet – implementiert. Mathematisch ist der Wert an einem beliebigen Koordinatenpunkt $ii(x, y)$ des Integralbildes als die akkumulierte Summe aller Graustufenwerte derjenigen Pixel definiert, die sich in dem Rechteck von der linken oberen Bildecke $(0,0) $ bis zu eben diesem Punkt erstrecken. Die Generierung dieses Integralgraphen erfolgt deterministisch und hocheffizient durch ein einmaliges Scannen der Bildmatrix mittels einer zweistufigen, zeilen- und spaltenweisen Rekursionsformel:
+$$s(i,j) = s(i,j-1) + f(i,j) \quad \text{mit} \quad s(i,-1) = 0$$$$ii(i,j) = ii(i-1,j) + s(i,j) \quad \text{mit} \quad ii(-1,j) = 0$$
+Der entscheidende Vorteil dieses Verfahrens zeigt sich bei der anschließenden mathematischen Flächenberechnung innerhalb der Detektionspipeline. Mithilfe des vorbereiteten Integralbildes kann die Summe der Pixelintensitäten einer beliebigen, isolierten rechteckigen Region $D$ über eine einfache 4-Punkt-Formel ermittelt werden. Unter Verwendung der vier Eckpunkte $1$ (oben links), $2$ (oben rechts), $3$ (unten links) und $4$ (unten rechts) reduziert sich die Berechnung auf lediglich vier gezielte Tabellenzugriffe:$$\text{rectsum}(D) = ii(4) + ii(1) - ii(2) - ii(3)$$Da diese Operation unabhängig von der tatsächlichen Größe des Bildbereichs oder der Skalierungsstufe des Merkmals stets eine konstante Anzahl an Zugriffen erfordert, sinkt die rechentechnische Komplexität drastisch. Da die gesamte Pipeline somit fast ausschließlich auf einfachen Grundrechenarten wie der Addition und Subtraktion basiert, resultiert daraus eine bemerkenswert niedrige Rechenleistung. Dies begünstigt eine hardwarenahe Ausführung in Echtzeit, ohne das System auf kostenintensive grafische Beschleuniger anzuweisen. \cite{smarter_violajones_2018}
+
 \section{Bildverarbeitung}
 Filter, Algorithmen, Linien-/Kantendetektion mit OpenCV
 

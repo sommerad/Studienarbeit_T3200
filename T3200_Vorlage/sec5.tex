@@ -57,5 +57,26 @@ Die vorangegangenen Betrachtungen der unterschiedlichen sensorischen und algorit
 \\Ein Blick auf aktuelle, umfassende Meta-Studien zum Stand der Technik verdeutlicht, dass man in der modernen Sicherheits- und Automatisierungstechnik heute primär auf Ansätze trifft, die auf Verfahren der Künstlichen Intelligenz beziehungsweise des Maschinellen Lernens basieren~\cite{Tamascelli2024}. Innerhalb dieses datengetriebenen Leitbildes existiert eine Vielzahl unterschiedlicher Algorithmen und mathematischer Modelle, die sich in ihrer Komplexität und ihren Hardware-Anforderungen stark voneinander unterscheiden. 
 \\
 \\Für den methodischen Rahmen der vorliegenden Arbeit ist dabei insbesondere das Prinzip des Kaskadenklassifikators (\textit{Cascade Classifier}) von Bedeutung, welcher im Kern auf dem klassischen Viola-Jones-Algorithmus basiert. Obwohl dieses Verfahren im direkten Vergleich zu hochkomplexen, modernen Deep-Learning-Modellen wie beispielsweise YOLOv8n (\textit{You Only Look Once}) zu den älteren und informationstechnisch einfacheren Methoden der Bildverarbeitung zählt, bietet es spezifische pragmatische Vorteile. Für die hier fokussierte konzeptionelle Anwendung hat sich der Kaskadenklassifikator im praktischen Entwicklungsprozess als wesentlich anwendungsfreundlicher und ressourcenschonender herausgestellt. Aus diesem Grund wurde dieser klassische Ansatz als die primäre Methode ausgewählt und zur praktischen Anschauung im Rahmen des Versuchsaufbaus funktional umgesetzt.
+
+\subsubsection{Haar Cascade Classifier}
+Der reale Einsatzkontext des entwickelten Systems ist durch eine industrieähnliche Umgebung charakterisiert, welche inhärent eine Vielzahl optischer Störfaktoren aufweist. Hierzu zählen insbesondere teilweise stark fluktuierende Lichtverhältnisse, ein unruhiger und nicht immer idealer Hintergrund sowie das Vorhandensein anderer zu detektierender Objekte im Erfassungsbereich des Sensors. Zusätzlich erschweren transiente Schattenwürfe und unvorhersehbare Reflexionen eine konstante visuelle Erfassung. Um das Erkennungssystem unter diesen anspruchsvollen Bedingungen so robust wie möglich zu gestalten, gleichzeitig jedoch den zeitlichen und inhaltlichen Rahmen dieser Arbeit nicht zu sprengen und die vorhandene Rechenleistung des Zielsystems nicht überzustrapazieren, fiel die technologische Entscheidung auf ein Haar-Cascade-Modell. Dieses spezifische Klassifikatorenmodell wurde explizit darauf trainiert, die menschliche Hand als Zielobjekt zu identifizieren. Durch die mathematische Implementierung verschiedener, kontrastbasierter Filter innerhalb der Berechnungs-Pipeline wird zudem gewährleistet, dass die Handgeometrie selbst beim Tragen von persönlichen Arbeitshandschuhen zuverlässig und resilient erkannt werden kann.
+\begin{figure}
+	\begin{tikzpicture}[node distance=1.8cm and 1.2cm, auto]
+	
+	\node [block] (gauss) {Gaußfilter zur\\Rauschreduzierung};
+	\node [block, below=of gauss] (gray) {Graustufenfilter um\\Farbinformationen\\zu reduzieren};
+	\node [block, below=of gray] (thresh) {Threshold um\\Schwarz-Weiß-Bild\\mit variablem\\threshold zu erstellen};
+	
+	% Verbindungen und Pfeile beschriften
+	\draw [arrow] (gauss.north)++(-1.8,0) -- node[above, pos=0.2] {rohes Bild} (gauss.north);
+	\draw [arrow] (gauss.south) -- (gray.north);
+	\draw [arrow] (gray.south) -- (thresh.north);
+	\draw [arrow] (thresh.south) -- node[above, pos=0.8] {Cascade-Algorithmus} ++(2.5,0);
+	
+\end{tikzpicture}
+\caption{Flussdiagramm der Bildvorverarbeitungs-Pipeline für das ML-Modell.}
+\label{fig:filterstruktur_pipeline}
+\end{figure}
+
 \section{Befehlspipeline}
 \subsection{Vergleich von theoretischer und realer Performance}
