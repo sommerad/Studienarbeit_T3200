@@ -129,6 +129,11 @@ M.~Electric. Mitsubishi movemaster ex rv-m1 manual. [Online; Zugegriffen am 10.
   \url{https://www.roboex.com/Mitsubishi%20Movemaster%20Robot%20Manual/RV-M1/RV-M1_InstructionManual.pdf}
 \BIBentrySTDinterwordspacing
 
+\bibitem{roboticsmeta2024}
+R.~Meta, ``Event-driven programming for responsive robotic systems,''
+  \url{https://roboticsmeta.com/event-driven-programming-for-responsive-robotic-systems/},
+  2024, accessed: 2026-06-19.
+
 \bibitem{Tamascelli2024}
 N.~Tamascelli, A.~Campari, T.~Parhizkar, and N.~Paltrinieri, ``Artificial
   intelligence for safety and reliability: A descriptive, bibliometric and

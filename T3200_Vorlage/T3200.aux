@@ -69,7 +69,7 @@
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.1.1}Sequenzielle Befehlsstruktur}{12}{subsection.3.1.1}\protected@file@percent }
 \newlabel{Sequenzielle Befehelsstruktur}{{3.1.1}{12}{Sequenzielle Befehlsstruktur}{subsection.3.1.1}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces Sequenzielle Abfolge an Befehlen (Eigene Darstellung)}}{12}{figure.caption.7}\protected@file@percent }
-\newlabel{sequenzielle Abfolge an Befehlen}{{3.1}{12}{Sequenzielle Abfolge an Befehlen (Eigene Darstellung)}{figure.caption.7}{}}
+\newlabel{fig:sequenzielle Abfolge an Befehlen}{{3.1}{12}{Sequenzielle Abfolge an Befehlen (Eigene Darstellung)}{figure.caption.7}{}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.1.1}Theoretische Limitation}{13}{subsubsection.3.1.1.1}\protected@file@percent }
 \newlabel{Theoretische Limitation}{{3.1.1.1}{13}{Theoretische Limitation}{subsubsection.3.1.1.1}{}}
 \newlabel{Summation Befehlsausführungszeiten}{{3.1}{13}{Theoretische Limitation}{equation.3.1.1}{}}
@@ -77,6 +77,7 @@
 \citation{rvm1manual}
 \citation{rvm1manual}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.1.2}Messexperiment}{14}{subsubsection.3.1.1.2}\protected@file@percent }
+\newlabel{kap:messexperiment}{{3.1.1.2}{14}{Messexperiment}{subsubsection.3.1.1.2}{}}
 \newlabel{fig:objektanordung}{{3.2a}{14}{Objektanordnung}{figure.caption.8}{}}
 \newlabel{sub@fig:objektanordung}{{a}{14}{Objektanordnung}{figure.caption.8}{}}
 \newlabel{fig:koordinaten}{{3.2b}{14}{Koordinaten im Messexperiment}{figure.caption.8}{}}
@@ -92,35 +93,38 @@
 \newlabel{tab:thread.sleep()-zeiten}{{3.2}{16}{Tabellarische Übersicht der Thread.Sleep()-Verzögerung pro Objektsequenz}{table.caption.11}{}}
 \@writefile{lot}{\contentsline {table}{\numberline {3.3}{\ignorespaces Vergleich der theoretischen Laufzeit $T_S$ mit den gemessenen Werten $T_{mess}$}}{17}{table.caption.12}\protected@file@percent }
 \newlabel{tab:laufzeitanalyse_ist}{{3.3}{17}{Vergleich der theoretischen Laufzeit $T_S$ mit den gemessenen Werten $T_{mess}$}{table.caption.12}{}}
-\citation{Skeie2006}
-\@writefile{toc}{\contentsline {chapter}{\numberline {4}Architekturoptimierung und -erweiterung}{18}{chapter.4}\protected@file@percent }
+\citation{roboticsmeta2024}
+\citation{rvm1manual}
+\@writefile{toc}{\contentsline {chapter}{\numberline {4}Architekturoptimierung und -erweiterung}{19}{chapter.4}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {4.1}Konzeptionierung der dynamischen Robotersteuerung}{18}{section.4.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.1}Optionen zur Positionserkennung/Befehl-Bewegungssynchronisation}{18}{subsection.4.1.1}\protected@file@percent }
+\newlabel{kap:Architekturoptimierung und -erweiterung}{{4}{19}{Architekturoptimierung und -erweiterung}{chapter.4}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.1}Konzeptionierung der dynamischen Robotersteuerung}{19}{section.4.1}\protected@file@percent }
+\newlabel{kap:Konzeptionierung der dynamischen Robotersteuerung}{{4.1}{19}{Konzeptionierung der dynamischen Robotersteuerung}{section.4.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.1}Optionen zur Positionserkennung/Befehl-Bewegungssynchronisation}{19}{subsection.4.1.1}\protected@file@percent }
 \citation{Biagiotti2008}
-\newlabel{eq:praediktive_zeit_ik}{{4.1}{20}{}{equation.4.1.1}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.2}Befehlswarteschlange für dynamischere Robotersteuerung}{20}{section.4.2}\protected@file@percent }
-\newlabel{Befehlswarteschlange für dynamischere Robotersteuerung}{{4.2}{20}{Befehlswarteschlange für dynamischere Robotersteuerung}{section.4.2}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.1}{\ignorespaces Gegenüberstellung von blockierenden synchronen Abläufen und dem ressourceneffizienten, asynchronen Task-basierten Muster (TAP) bei E/A-Operationen.}}{20}{figure.caption.13}\protected@file@percent }
-\newlabel{fig:vergleich_sync_async}{{4.1}{20}{Gegenüberstellung von blockierenden synchronen Abläufen und dem ressourceneffizienten, asynchronen Task-basierten Muster (TAP) bei E/A-Operationen}{figure.caption.13}{}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {5}Implementation der Erweiterungen}{21}{chapter.5}\protected@file@percent }
+\newlabel{eq:praediktive_zeit_ik}{{4.1}{21}{}{equation.4.1.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.2}Befehlswarteschlange für dynamischere Robotersteuerung}{21}{section.4.2}\protected@file@percent }
+\newlabel{kap:Befehlswarteschlange für dynamischere Robotersteuerung}{{4.2}{21}{Befehlswarteschlange für dynamischere Robotersteuerung}{section.4.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.1}{\ignorespaces Gegenüberstellung von blockierenden synchronen Abläufen und dem ressourceneffizienten, asynchronen Task-basierten Muster (TAP) bei E/A-Operationen.}}{21}{figure.caption.13}\protected@file@percent }
+\newlabel{fig:vergleich_sync_async}{{4.1}{21}{Gegenüberstellung von blockierenden synchronen Abläufen und dem ressourceneffizienten, asynchronen Task-basierten Muster (TAP) bei E/A-Operationen}{figure.caption.13}{}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {5}Implementation der Erweiterungen}{22}{chapter.5}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {5.1}Safetyimplementation}{21}{section.5.1}\protected@file@percent }
-\newlabel{Sichere Mensch-Roboter-Kolaboration}{{5.1}{21}{Safetyimplementation}{section.5.1}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.1}Kriterienbasierte Evaluierung der Sicherheitsüberwachungssysteme}{21}{subsection.5.1.1}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {5.1}{\ignorespaces Entscheidungsmatrix zur Auswahl der MRK-Sicherheitsüberwachung}}{22}{table.caption.14}\protected@file@percent }
-\newlabel{tab:Entscheidungsmatrix}{{5.1}{22}{Entscheidungsmatrix zur Auswahl der MRK-Sicherheitsüberwachung}{table.caption.14}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.1}Safetyimplementation}{22}{section.5.1}\protected@file@percent }
+\newlabel{Sichere Mensch-Roboter-Kolaboration}{{5.1}{22}{Safetyimplementation}{section.5.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.1}Kriterienbasierte Evaluierung der Sicherheitsüberwachungssysteme}{22}{subsection.5.1.1}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {5.1}{\ignorespaces Entscheidungsmatrix zur Auswahl der MRK-Sicherheitsüberwachung}}{23}{table.caption.14}\protected@file@percent }
+\newlabel{tab:Entscheidungsmatrix}{{5.1}{23}{Entscheidungsmatrix zur Auswahl der MRK-Sicherheitsüberwachung}{table.caption.14}{}}
 \citation{din13849_1_2023}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.1}{\ignorespaces Projektions- und kamerabasierte Technologie zur Arbeitsraumüberwachung}}{23}{figure.caption.15}\protected@file@percent }
-\newlabel{IFF Projektionslösung}{{5.1}{23}{Projektions- und kamerabasierte Technologie zur Arbeitsraumüberwachung}{figure.caption.15}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.1}{\ignorespaces Projektions- und kamerabasierte Technologie zur Arbeitsraumüberwachung}}{24}{figure.caption.15}\protected@file@percent }
+\newlabel{IFF Projektionslösung}{{5.1}{24}{Projektions- und kamerabasierte Technologie zur Arbeitsraumüberwachung}{figure.caption.15}{}}
 \citation{Tamascelli2024}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.2}Machine-learning Modell zur visuellen Handerkennung}{26}{subsection.5.1.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.1.2.1}Machine learning-Modell}{26}{subsubsection.5.1.2.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {5.2}Befehlspipeline}{27}{section.5.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.1}Vergleich von theoretischer und realer Performance}{27}{subsection.5.2.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {chapter}{\numberline {6}Fazit \& Ausblick}{28}{chapter.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.2}Machine-learning Modell zur visuellen Handerkennung}{27}{subsection.5.1.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.1.2.1}Machine learning-Modell}{27}{subsubsection.5.1.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5.2}Befehlspipeline}{28}{section.5.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.1}Vergleich von theoretischer und realer Performance}{28}{subsection.5.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\numberline {6}Fazit \& Ausblick}{29}{chapter.6}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \bibstyle{IEEEtran}
@@ -133,7 +137,7 @@
 \bibcite{Sea03}{6}
 \bibcite{maschinenrichtlinie_2006}{7}
 \bibcite{maschinenverordnung_2023}{8}
-\HyPL@Entry{34<</S/r /St 7>>}
+\HyPL@Entry{35<</S/r /St 7>>}
 \@writefile{toc}{\contentsline {chapter}{Literaturverzeichnis}{vii}{chapter.6}\protected@file@percent }
 \bibcite{din13849_1_2023}{9}
 \bibcite{din10218_1_2012}{10}
@@ -145,7 +149,8 @@
 \bibcite{ConcurrencyinCSharp}{16}
 \bibcite{asynchroneMuster}{17}
 \bibcite{rvm1manual}{18}
-\bibcite{Tamascelli2024}{19}
+\bibcite{roboticsmeta2024}{19}
+\bibcite{Tamascelli2024}{20}
 \@writefile{toc}{\contentsline {chapter}{Abk"urzungsverzeichnis}{ix}{chapter*.16}\protected@file@percent }
 \citation{GRA03}
 \@writefile{toc}{\contentsline {chapter}{Abbildungsverzeichnis}{xii}{chapter*.17}\protected@file@percent }
@@ -154,4 +159,4 @@
 \newlabel{Inhalt des digitalen Anhangs}{{6}{xvii}{}{table.caption.22}{}}
 \@writefile{lot}{\contentsline {table}{\numberline {6.1}{\ignorespaces Theoretische Ausführungszeiten der Befehlspipeline}}{xviii}{table.caption.22}\protected@file@percent }
 \newlabel{tab:ausfuehrungszeiten}{{6.1}{xviii}{Theoretische Ausführungszeiten der Befehlspipeline}{table.caption.22}{}}
-\gdef \@abspage@last{46}
+\gdef \@abspage@last{47}

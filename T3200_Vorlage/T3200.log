@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 24.1) (preloaded format=xelatex 2026.2.20)  19 JUN 2026 11:09
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 24.1) (preloaded format=xelatex 2026.2.20)  21 JUN 2026 08:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2541,9 +2541,13 @@ Underfull \hbox (badness 1648) in paragraph at lines 4--4
  []
 
 
-Underfull \hbox (badness 2401) in paragraph at lines 8--48
-[]\TU/NotoSerif(0)/m/n/12 3.1[] zeigt qualitativ auf, wie eine solche Abfolge a
-ussieht. Es ist
+LaTeX Warning: Reference `sequenzielle Abfolge an Befehlen' on page 12 undefine
+d on input line 8.
+
+
+Underfull \hbox (badness 2951) in paragraph at lines 8--48
+[] \TU/NotoSerif(0)/m/n/12 zeigt qualitativ auf, wie eine solche Abfolge aussie
+ht. Es ist
  []
 
 
@@ -2595,12 +2599,6 @@ f die
  []
 
 
-Underfull \hbox (badness 3803) in paragraph at lines 8--48
-\TU/NotoSerif(0)/m/n/12 erforderlich. Hierfür wird ein reproduzierbares Messexp
-eriment
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 8--48
 
  []
@@ -2628,9 +2626,9 @@ File: figures/dhbwlogo.png Graphic file (type bmp)
 [12
 
 ]
-Underfull \hbox (badness 5231) in paragraph at lines 50--52
-\TU/NotoSerif(0)/m/n/12 Befehlsstruktur oder asynchrone Befehlspipeline) voraus
-sichtlich
+Underfull \hbox (badness 1642) in paragraph at lines 50--52
+\TU/NotoSerif(0)/m/n/12 Wird erneut Abbildung []3.1[] betrachtet, so fällt auf,
+ dass die Zeit,
  []
 
 
@@ -2642,6 +2640,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 50--52
 Underfull \hbox (badness 10000) in paragraph at lines 50--52
 \TU/NotoSerif(0)/m/n/12 Die theoretische Gesamtlaufzeit $\OML/cmm/m/it/12 T[]$ 
 \TU/NotoSerif(0)/m/n/12 einer Befehlssequenz lässt
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--52
+\TU/NotoSerif(0)/m/n/12 sich somit durch Summation der Befehlsausführungszeiten
+
  []
 
 
@@ -2662,6 +2666,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 60--64
  []
 
 
+Underfull \hbox (badness 1048) in paragraph at lines 60--64
+\TU/NotoSerif(0)/m/n/12 erfassten Objekte erkennen. Des Weiteren wird verdeutli
+cht, dass
+ []
+
+
 Underfull \hbox (badness 4353) in paragraph at lines 60--64
 \TU/NotoSerif(0)/m/n/12 die Gesamtausführungszeit einer Befehlssequenz (bestehe
 nd aus
@@ -2679,51 +2689,57 @@ Worst-
  []
 
 
-Underfull \hbox (badness 3323) in paragraph at lines 60--64
-\TU/NotoSerif(0)/m/n/12 da der vorliegende Roboter und die zugehörige Software 
-keine
+Underfull \hbox (badness 6575) in paragraph at lines 60--64
+\TU/NotoSerif(0)/m/n/12 um sicherzustellen, dass der Roboter die Bewegung garan
+tiert
  []
 
 
-Underfull \hbox (badness 1248) in paragraph at lines 60--64
-\TU/NotoSerif(0)/m/n/12 der Software durch statische Wartezeiten (erfahrungsbas
-iert oder
- []
-
-File: figures/Messexperiment.png Graphic file (type bmp)
-<figures/Messexperiment.png>
-
-Underfull \hbox (badness 1655) in paragraph at lines 65--102
-\TU/NotoSerif(0)/m/n/12 Um die theoretisch hergeleiteten Ineffizienzen und die 
-zeitlichen
+Underfull \hbox (badness 1990) in paragraph at lines 60--64
+\TU/NotoSerif(0)/m/n/12 werden die Wartezeiten entweder auf Basis von experimen
+teller
  []
 
 
-Underfull \hbox (badness 4266) in paragraph at lines 65--102
-\TU/NotoSerif(0)/m/n/12 Selbiges muss für Vergleichbarkeit und Bewertbarkeit au
-ch bei
- []
-
-
-Underfull \hbox (badness 1796) in paragraph at lines 65--102
-\TU/NotoSerif(0)/m/n/12 nachfolgenden Erweiterungen des Systems (siehe []4.2[])
- zu Grunde
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 65--102
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 65--102
-\TU/NotoSerif(0)/m/n/12 Das Messexperiment wird mit vier Zylinderobjekten durch
-ge-
+Underfull \hbox (badness 10000) in paragraph at lines 60--64
+\TU/NotoSerif(0)/m/n/12 Praktisch funktioniert diese Vorgehensweise, allerdings
+ können
  []
 
 File: figures/dhbwlogo.png Graphic file (type bmp)
 <figures/dhbwlogo.png>
 [13]
+File: figures/Messexperiment.png Graphic file (type bmp)
+<figures/Messexperiment.png>
+
+Underfull \hbox (badness 1655) in paragraph at lines 66--103
+\TU/NotoSerif(0)/m/n/12 Um die theoretisch hergeleiteten Ineffizienzen und die 
+zeitlichen
+ []
+
+
+Underfull \hbox (badness 4266) in paragraph at lines 66--103
+\TU/NotoSerif(0)/m/n/12 Selbiges muss für Vergleichbarkeit und Bewertbarkeit au
+ch bei
+ []
+
+
+Underfull \hbox (badness 1796) in paragraph at lines 66--103
+\TU/NotoSerif(0)/m/n/12 nachfolgenden Erweiterungen des Systems (siehe []4.2[])
+ zu Grunde
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--103
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--103
+\TU/NotoSerif(0)/m/n/12 Das Messexperiment wird mit vier Zylinderobjekten durch
+ge-
+ []
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -2731,48 +2747,88 @@ File: figures/dhbwlogo.png Graphic file (type bmp)
 <figures/dhbwlogo.png>
 [14]
 LaTeX Font Info:    Font shape `TU/NotoSans(0)/m/n' will be
-(Font)              scaled to size 5.0pt on input line 138.
+(Font)              scaled to size 5.0pt on input line 139.
 LaTeX Font Info:    Font shape `TU/NotoSansMono(0)/m/n' will be
-(Font)              scaled to size 5.0pt on input line 138.
+(Font)              scaled to size 5.0pt on input line 139.
 
-Overfull \hbox (10.07243pt too wide) in paragraph at lines 144--145
+Overfull \hbox (10.07243pt too wide) in paragraph at lines 145--146
  [][] 
  []
 
 File: figures/dhbwlogo.png Graphic file (type bmp)
 <figures/dhbwlogo.png>
 [15]
-Underfull \hbox (badness 1210) in paragraph at lines 161--183
-\TU/NotoSerif(0)/m/n/12 Betrachtet man den Programmcode der Klasse \TU/NotoSeri
-f(0)/m/it/12 Roboter.cs\TU/NotoSerif(0)/m/n/12 , so fällt
+Underfull \hbox (badness 2573) in paragraph at lines 154--176
+\TU/NotoSerif(0)/m/n/12 Thread.Sleep() von 800ms beaufschlagt wird. Dies geschi
+eht, um
  []
 
 
-Underfull \hbox (badness 2435) in paragraph at lines 161--183
-\TU/NotoSerif(0)/m/n/12 Setzt man nun die ermittelten statischen Werte aus Tabe
-lle []3.2[],
+Underfull \hbox (badness 5578) in paragraph at lines 154--176
+\TU/NotoSerif(0)/m/n/12 sicherzugehen, dass innerhalb der Befehlsweiterleitung 
+von C#-
  []
 
 
-Underfull \hbox (badness 1845) in paragraph at lines 161--183
-\TU/NotoSerif(0)/m/n/12 die Wartezeiten bei jedem Senden sowie die Zeit für Sta
-rt- und
+Underfull \hbox (badness 10000) in paragraph at lines 154--176
+
  []
 
+
+Underfull \hbox (badness 6268) in paragraph at lines 154--176
+\TU/NotoSerif(0)/m/n/12 Um die festgelegte Zeit $\OML/cmm/m/it/12 T[]$ \TU/Noto
+Serif(0)/m/n/12 für ein Objekt zu ermitteln,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--176
+\TU/NotoSerif(0)/m/n/12 werden die Methoden \TU/NotoSerif(0)/m/it/12 SendKoordi
+nations, GoToMagazin sowie
+ []
+
+File: figures/dhbwlogo.png Graphic file (type bmp)
+<figures/dhbwlogo.png>
+[16]
 LaTeX Font Info:    Font shape `TU/NotoSans(0)/m/n' will be
-(Font)              scaled to size 10.95pt on input line 204.
+(Font)              scaled to size 10.95pt on input line 194.
 LaTeX Font Info:    Font shape `TU/NotoSansMono(0)/m/n' will be
-(Font)              scaled to size 10.95pt on input line 204.
+(Font)              scaled to size 10.95pt on input line 194.
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+Underfull \hbox (badness 1571) in paragraph at lines 179--198
+\TU/NotoSerif(0)/m/n/12 so erhält man eine berechnete Gesamtdauer von 102400 ms
+. Im
+ []
+
+
+Underfull \hbox (badness 1635) in paragraph at lines 179--198
+\TU/NotoSerif(0)/m/n/12 Rahmen der Ist-Analyse der vorliegenden Architektur wur
+de mit
+ []
+
+
+Underfull \hbox (badness 1546) in paragraph at lines 179--198
+\TU/NotoSerif(0)/m/n/12 gemessen, wie lange die gesamte softwareseitige Ausführ
+ung der
+ []
+
+File: figures/dhbwlogo.png Graphic file (type bmp)
+<figures/dhbwlogo.png>
+[17]
+Underfull \hbox (badness 1895) in paragraph at lines 205--206
+\TU/NotoSerif(0)/m/n/12 Die Abschätzung hinsichtlich der benötigten Zeiten für 
+das Grei-
+ []
+
+
+Underfull \hbox (badness 1648) in paragraph at lines 205--206
+\TU/NotoSerif(0)/m/n/12 fen/Loslassen eines Objekts sowie die Fahrt zu Start-/E
+ndposition
+ []
 
 )
 File: figures/dhbwlogo.png Graphic file (type bmp)
 <figures/dhbwlogo.png>
- [16] (sec4.tex
-File: figures/dhbwlogo.png Graphic file (type bmp)
-<figures/dhbwlogo.png>
- [17]
+ [18] (sec4.tex
 Kapitel 4.
 
 Underfull \hbox (badness 10000) in paragraph at lines 1--1
@@ -2780,168 +2836,206 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--1
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2--2
+Underfull \hbox (badness 10000) in paragraph at lines 3--3
 |[]\TU/NotoSerif(0)/b/n/17.28 Konzeptionierung der dynamischen
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--4
+Underfull \hbox (badness 10000) in paragraph at lines 6--6
 |[]\TU/NotoSerif(0)/b/n/14.4 Optionen zur Positionserkennung/Befehl-
  []
 
 
-LaTeX Warning: Citation `Skeie2006' on page 18 undefined on input line 6.
-
-
-Underfull \hbox (badness 3148) in paragraph at lines 6--7
-\TU/NotoSerif(0)/m/n/12 Kommunikationsmedium zurück, welches in der Software ei
-nen
+Underfull \hbox (badness 2302) in paragraph at lines 7--8
+\TU/NotoSerif(0)/m/n/12 Um eine dynamische und nahezu unterbrechungsfreie Befeh
+lser-
  []
 
 
-Underfull \hbox (badness 1286) in paragraph at lines 6--7
-\TU/NotoSerif(0)/m/n/12 physikalischen Stillstand der Achsen. Eine reaktiv-erei
-gnisbasierte
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+\TU/NotoSerif(0)/m/n/12 teilung zu realisieren, ist ein Mechanismus unerlässlic
+h, der
+ []
+
+
+Underfull \hbox (badness 5578) in paragraph at lines 7--8
+\TU/NotoSerif(0)/m/n/12 der Steuerungssoftware mitteilt, wenn die physische Bew
+egung
+ []
+
+
+Underfull \hbox (badness 3989) in paragraph at lines 7--8
+\TU/NotoSerif(0)/m/n/12 des Roboters vollständig abgeschlossen ist. Nachfolgend
+ werden
+ []
+
+
+Underfull \hbox (badness 2310) in paragraph at lines 7--8
+\TU/NotoSerif(0)/m/n/12 unterschiedliche Möglichkeiten betrachtet, mit denen ei
+n solches
+ []
+
+
+Underfull \hbox (badness 5787) in paragraph at lines 11--13
+\TU/NotoSerif(0)/m/n/12 Ein übliches Verfahren zur Synchronisation des Zustande
+s der
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--13
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--13
+\TU/NotoSerif(0)/m/n/12 Der Mitsubishi Movemaster EX RV-M1 bietet allerdings ke
+ine
+ []
+
+
+Underfull \hbox (badness 2302) in paragraph at lines 11--13
+\TU/NotoSerif(0)/m/n/12 hardwareseitige Implementation einer solchen Rückmeldun
+g. Die
  []
 
 File: figures/dhbwlogo.png Graphic file (type bmp)
 <figures/dhbwlogo.png>
-[18
+[19
 
 ]
-Underfull \hbox (badness 1571) in paragraph at lines 7--8
+Underfull \hbox (badness 1571) in paragraph at lines 13--14
 \TU/NotoSerif(0)/m/it/12 Active Polling\TU/NotoSerif(0)/m/n/12 ) dar. Parallel 
 zur Bewegungsausführung sendet die
  []
 
 
-Underfull \hbox (badness 3302) in paragraph at lines 7--8
+Underfull \hbox (badness 3302) in paragraph at lines 13--14
 \TU/NotoSerif(0)/m/n/12 Durch den Abgleich der aktuellen Ist-Koordinaten mit de
 n Ziel-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7--8
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
 \TU/NotoSerif(0)/m/n/12 Soll-Koordinaten innerhalb eines definierten Toleranzsc
 hlauchs
  []
 
 
-Underfull \hbox (badness 3815) in paragraph at lines 7--8
+Underfull \hbox (badness 3815) in paragraph at lines 13--14
 \TU/NotoSerif(0)/m/n/12 mathematisch approximiert und der nächste Befehl freige
 geben
  []
 
 
-Underfull \hbox (badness 1024) in paragraph at lines 7--8
+Underfull \hbox (badness 1024) in paragraph at lines 13--14
 \TU/NotoSerif(0)/m/n/12 werden.In experimentellen Voruntersuchungen (siehe Absc
 hnitt []3[])
  []
 
 
-Underfull \hbox (badness 7777) in paragraph at lines 7--8
+Underfull \hbox (badness 7777) in paragraph at lines 13--14
 \TU/NotoSerif(0)/m/n/12 TCP-Schnittstelle) läuft bei der hochfrequenten Interak
 tion aus
  []
 
 
-Underfull \hbox (badness 4303) in paragraph at lines 7--8
+Underfull \hbox (badness 4303) in paragraph at lines 13--14
 \TU/NotoSerif(0)/m/n/12 Schreibbefehlen (Bahndaten) und Lesebefehlen (Polling) 
 in eine
  []
 
 
-Underfull \hbox (badness 1394) in paragraph at lines 7--8
+Underfull \hbox (badness 1394) in paragraph at lines 13--14
 \TU/NotoSerif(0)/m/it/12 Schnittstellen-Saturierung \TU/NotoSerif(0)/m/n/12 (Bu
 ffer Overflow). Da der Prozessor des
  []
 
 
-Underfull \hbox (badness 1616) in paragraph at lines 7--8
+Underfull \hbox (badness 1616) in paragraph at lines 13--14
 \TU/NotoSerif(0)/m/n/12 Positionsdaten aufwenden muss, bricht die interpolierte
  Trajekto-
  []
 
 
-Underfull \hbox (badness 2245) in paragraph at lines 7--8
+Underfull \hbox (badness 2245) in paragraph at lines 13--14
 \TU/NotoSerif(0)/m/n/12 rie ein, was sich in ruckartigen Bewegungen oder vollst
 ändigen
  []
 
 
-LaTeX Warning: Citation `Biagiotti2008' on page 19 undefined on input line 8.
+LaTeX Warning: Citation `Biagiotti2008' on page 20 undefined on input line 14.
 
 
-Underfull \hbox (badness 7667) in paragraph at lines 8--8
+Underfull \hbox (badness 7667) in paragraph at lines 14--14
 \TU/NotoSerif(0)/m/n/12 Da eine direkte sensorische oder softwareseitige Rückme
 ldung
  []
 
 
-Underfull \hbox (badness 5374) in paragraph at lines 8--8
+Underfull \hbox (badness 5374) in paragraph at lines 14--14
 \TU/NotoSerif(0)/m/n/12 der Hardware fehlschlägt, wechselt die vorliegende Konz
 eption
  []
 
 
-Underfull \hbox (badness 6842) in paragraph at lines 8--8
+Underfull \hbox (badness 6842) in paragraph at lines 14--14
 \TU/NotoSerif(0)/m/n/12 von einem reaktiven zu einem \TU/NotoSerif(0)/b/n/12 pr
 ädiktiven (vorhersagenden)
  []
 
 
-Underfull \hbox (badness 1762) in paragraph at lines 8--8
+Underfull \hbox (badness 1762) in paragraph at lines 14--14
 \TU/NotoSerif(0)/b/n/12 Steuerungsmodell \TU/NotoSerif(0)/m/n/12 (engl. \TU/Not
 oSerif(0)/m/it/12 Predictive Time-Scaling\TU/NotoSerif(0)/m/n/12 ). Anstatt auf
  ein
  []
 
 
-Underfull \hbox (badness 3148) in paragraph at lines 8--8
+Underfull \hbox (badness 3148) in paragraph at lines 14--14
 \TU/NotoSerif(0)/m/n/12 Feedback der Hardware zu warten, berechnet die Software
  die
  []
 
 
-Underfull \hbox (badness 1132) in paragraph at lines 8--8
+Underfull \hbox (badness 1132) in paragraph at lines 14--14
 \TU/NotoSerif(0)/m/n/12 der Befehl an den Puffer übermittelt wird.Da der \TU/No
 toSerif(0)/m/it/12 MP-Befehl \TU/NotoSerif(0)/m/n/12 eine
  []
 
 
-Underfull \hbox (badness 1609) in paragraph at lines 8--8
+Underfull \hbox (badness 1609) in paragraph at lines 14--14
 \TU/NotoSerif(0)/m/n/12 simultan das Ziel. Die Gesamtdauer wird folglich determ
 inistisch
  []
 
 
-Underfull \hbox (badness 1635) in paragraph at lines 8--8
+Underfull \hbox (badness 1635) in paragraph at lines 14--14
 \TU/NotoSerif(0)/m/n/12 werden für jeden Zielpunkt die exakten Gelenkwinkeldiff
 erenzen
  []
 
 
-Underfull \hbox (badness 2111) in paragraph at lines 8--8
+Underfull \hbox (badness 2111) in paragraph at lines 14--14
 \TU/NotoSerif(0)/m/n/12 maximalen Winkelgeschwindigkeiten $[]$ und des systemwe
 iten
  []
 
 File: figures/dhbwlogo.png Graphic file (type bmp)
 <figures/dhbwlogo.png>
-[19]
+[20]
 LaTeX Font Info:    Font shape `TU/NotoSans(0)/m/it' will be
-(Font)              scaled to size 8.0pt on input line 28.
+(Font)              scaled to size 8.0pt on input line 34.
 LaTeX Font Info:    Font shape `TU/NotoSans(0)/b/n' will be
-(Font)              scaled to size 6.0pt on input line 69.
+(Font)              scaled to size 6.0pt on input line 75.
 
-Overfull \hbox (17.08104pt too wide) in paragraph at lines 76--77
+Overfull \hbox (17.08104pt too wide) in paragraph at lines 82--83
  [][] 
  []
 
 )
 File: figures/dhbwlogo.png Graphic file (type bmp)
 <figures/dhbwlogo.png>
- [20] (sec5.tex
+ [21] (sec5.tex
 Kapitel 5.
 
 Underfull \hbox (badness 1383) in paragraph at lines 6--6
@@ -3109,12 +3203,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--42
 
 File: figures/dhbwlogo.png Graphic file (type bmp)
 <figures/dhbwlogo.png>
-[21
+[22
 
 ]
 File: figures/dhbwlogo.png Graphic file (type bmp)
 <figures/dhbwlogo.png>
- [22]
+ [23]
 Underfull \hbox (badness 5787) in paragraph at lines 42--52
 []\TU/NotoSerif(0)/m/n/12 Bei der algorithmischen
  []
@@ -3440,13 +3534,13 @@ isch
 
 File: figures/dhbwlogo.png Graphic file (type bmp)
 <figures/dhbwlogo.png>
-[23]
-File: figures/dhbwlogo.png Graphic file (type bmp)
-<figures/dhbwlogo.png>
- [24]
+[24]
 File: figures/dhbwlogo.png Graphic file (type bmp)
 <figures/dhbwlogo.png>
  [25]
+File: figures/dhbwlogo.png Graphic file (type bmp)
+<figures/dhbwlogo.png>
+ [26]
 Underfull \hbox (badness 7326) in paragraph at lines 55--60
 \TU/NotoSerif(0)/m/n/12 Die vorangegangenen Betrachtungen der unterschiedlichen
  sen-
@@ -3483,7 +3577,7 @@ Underfull \hbox (badness 2012) in paragraph at lines 55--60
 
 
 Underfull \hbox (badness 2913) in paragraph at lines 55--60
-\TU/NotoSerif(0)/m/n/12 nellen Lernens basieren [[]19[]]. Innerhalb dieses date
+\TU/NotoSerif(0)/m/n/12 nellen Lernens basieren [[]20[]]. Innerhalb dieses date
 ngetriebenen
  []
 
@@ -3536,15 +3630,15 @@ sentlich
 
 File: figures/dhbwlogo.png Graphic file (type bmp)
 <figures/dhbwlogo.png>
-[26])
+[27])
 File: figures/dhbwlogo.png Graphic file (type bmp)
 <figures/dhbwlogo.png>
- [27] (sec6.tex
+ [28] (sec6.tex
 Kapitel 6.
 )
 File: figures/dhbwlogo.png Graphic file (type bmp)
 <figures/dhbwlogo.png>
- [28
+ [29
 
 ] (sec7.tex) (T3200.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 25--29
@@ -3608,7 +3702,24 @@ Underfull \hbox (badness 5274) in paragraph at lines 120--124
 
 File: figures/dhbwlogo.png Graphic file (type bmp)
 <figures/dhbwlogo.png>
-[8])
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 133--136
+[]\TU/NotoSerif(0)/m/n/12 R. Meta, “Event-driven programming for respon-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--136
+\TU/NotoSerif(0)/m/n/12 sive robotic systems,” []$[][][][][] [] [] [] [][][][][
+][][][][][][][] [] [][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--136
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][]$[]\TU/NotoSerif(0)/m/n/12 ,
+ []
+
+)
 File: figures/dhbwlogo.png Graphic file (type bmp)
 <figures/dhbwlogo.png>
  [9]
@@ -3910,12 +4021,12 @@ Package rerunfilecheck Info: File `T3200.out' has not changed.
 (rerunfilecheck)             Checksum: 4D9B133325A220CD2189444D2ADFCCBF;9507.
  ) 
 Here is how much of TeX's memory you used:
- 34338 strings out of 409617
- 711034 string characters out of 5774013
+ 34342 strings out of 409617
+ 711203 string characters out of 5774013
  1968191 words of memory out of 5000000
- 55840 multiletter control sequences out of 15000+600000
+ 55844 multiletter control sequences out of 15000+600000
  567135 words of font info for 110 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  123i,23n,131p,2037b,986s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on T3200.pdf (46 pages).
+Output written on T3200.pdf (47 pages).
