@@ -6,80 +6,77 @@ In diesem Kapitel werden Möglichkeiten erläutert, wie die Objektsortierung dur
 \subsection{Optionen zur Positionserkennung/Befehl-Bewegungssynchronisation}
 Um eine dynamische und nahezu unterbrechungsfreie Befehlserteilung zu realisieren, ist ein Mechanismus unerlässlich, der der Steuerungssoftware mitteilt, wenn die physische Bewegung des Roboters vollständig abgeschlossen ist. Nachfolgend werden unterschiedliche Möglichkeiten betrachtet, mit denen ein solches \textit{Acknowledgement} erzielt werden kann.
 
-
 \subsubsection*{Ereignisbasiertes Hardware-Feedback}
 Ein übliches Verfahren zur Synchronisation des Zustandes der Steuerungssoftware mit der aktuellen Position des Roboters stellen ereignisbasierte Architekturen (event-driven architectures) dar. Hierbei sendet der Roboter bei Erreichen der Zielposition und -orientierung ein Quittierungssignal über den Kommunikationskanal zurück an die Steuerung. Innerhalb der Steuerung wird ein \textit{Event-Handler} aktiviert, der den weiteren Ablauf einleitet. Allgemeine Vorteile eines solchen Systems sind nahezu sofortige Reaktionszeiten der Steuerung sowie niedrige Datenmengen \cite{roboticsmeta2024}.\\
-\\ Der Mitsubishi Movemaster EX RV-M1 bietet allerdings keine hardwareseitige Implementation einer solchen Rückmeldung. Die Drive Unit des Roboters quittiert den fehlerfreien Erhalt eines per RS232C gesendeten Befehl, liefert allerdings keine Auskunft über den Abschluss der Roboterbewegung \cite[Vgl.]{rvm1manual}. Eine ereignisbasierte Architektur über den Standard-Befehlssatz und der Standard-Hardware des EX RV-M1 ist somit ausgeschlossen.
-\subsubsection*{Zyklische Zustandsabfrage mit 'WH'-Befehl}Eine alternative Methode zur Zustandserkennung stellt das zyklische Abfragen der Gelenk- oder Raumkoordinaten im Hintergrund (engl. \textit{Active Polling}) dar. Parallel zur Bewegungsausführung sendet die Software kontinuierlich den Befehl \textit{WH} (Where) an den Controller. Durch den Abgleich der aktuellen Ist-Koordinaten mit den Ziel-Soll-Koordinaten innerhalb eines definierten Toleranzschlauchs ($\|X_{\text{Ist}} - X_{\text{Soll}}\| < \epsilon$) kann der physikalische Abschluss der Bewegung mathematisch approximiert und der nächste Befehl freigegeben werden.In experimentellen Voruntersuchungen (siehe Abschnitt \ref{Ausgangssituation/IST-Analyse}) erwies sich dieser Ansatz für den RV-M1 jedoch als \textbf{instabil und unpraktikabel}. Die serielle Kommunikation (bzw. die bridge-basierte TCP-Schnittstelle) läuft bei der hochfrequenten Interaktion aus Schreibbefehlen (Bahndaten) und Lesebefehlen (Polling) in eine \textit{Schnittstellen-Saturierung} (Buffer Overflow). Da der Prozessor des Roboters zudem Rechenkapazitäten für das Parsen und Senden der Positionsdaten aufwenden muss, bricht die interpolierte Trajektorie ein, was sich in ruckartigen Bewegungen oder vollständigen Kommunikationsabbrüchen äußert.
-\subsubsection*{Prädiktive Trajektorieberechnung mit inverser Kinematik}Da eine direkte sensorische oder softwareseitige Rückmeldung der Hardware fehlschlägt, wechselt die vorliegende Konzeption von einem reaktiven zu einem \textbf{prädiktiven (vorhersagenden) Steuerungsmodell} (engl. \textit{Predictive Time-Scaling}). Anstatt auf ein Feedback der Hardware zu warten, berechnet die Software die physikalisch notwendige Dauer jeder Bewegung im Voraus, bevor der Befehl an den Puffer übermittelt wird.Da der \textit{MP-Befehl} eine strikt achssynchrone PTP-Interpolation im Gelenkraum (Joint Space) erzwingt, bewegen sich alle Achsen gleichzeitig los und erreichen simultan das Ziel. Die Gesamtdauer wird folglich deterministisch durch die langsamste Achse – die sogenannte \textit{Führungsachse} (engl. \textit{Leading Axis}) – diktiert \cite{Biagiotti2008}. Über die analytische inverse Kinematik werden für jeden Zielpunkt die exakten Gelenkwinkeldifferenzen $\Delta\theta_i$ (mit $i=1,\ldots,5$) berechnet. Unter Einbeziehung der spezifischen maximalen Winkelgeschwindigkeiten $\dot{\theta}_{\text{max}, i}$ und des systemweiten Override-Faktors ($v_{\text{override}} = 0,247$ für die Geschwindigkeitsstufe SP5) ergibt sich die prädiktive Verfahrzeit zu:\begin{equation}T_{\text{Fahrt}} = \max_{i=1}^{5} \left( \frac{|\theta_{i, \text{Ziel}} - \theta_{i, \text{Start}}|}{\dot{\theta}{\text{max}, i} \cdot v{\text{override}}} \right)\label{eq:praediktive_zeit_ik}\end{equation}Diese berechnete Zeitspanne wird zuzüglich eines minimalen, empirisch ermittelten Rampenkoeffizienten als dynamische Blockadezeit (\textit{TimeoutMs}) an die asynchrone Befehlspipeline übergeben. Da es sich um ein reines Softwaremodell handelt, wird die Hardwareschnittstelle des RV-M1 nicht belastet. Die statischen, konservativen \textit{Worst-Case}-Wartezeiten des alten Systems schrumpfen somit dynamisch auf das mathematisch kleinstmögliche, pfadabhängige Minimum zusammen.
-
-
-\section{Befehlswarteschlange für dynamischere Robotersteuerung}
-\label{kap:Befehlswarteschlange für dynamischere Robotersteuerung}
+\\ Der Mitsubishi Movemaster EX RV-M1 bietet allerdings keine hardwareseitige Implementation einer solchen Rückmeldung. Die Drive Unit des Roboters quittiert den fehlerfreien Erhalt eines per RS232C gesendeten Befehl, liefert allerdings keine Auskunft über den Abschluss der Roboterbewegung \cite[Vgl.]{rvm1manual}. Eine ereignisbasierte Architektur über den Standard-Befehlssatz und die Standard-Hardware des EX RV-M1 ist somit ausgeschlossen.
+\subsubsection*{Zyklische Zustandsabfrage mit 'WH'-Befehl}
+Eine alternative Variante zur Bestimmung des aktuellen Roboterzustands stellt ein zyklisches Abfragen (\textit{engl. Active Polling}) der Gelenkwinkel oder der Position in Weltkoordinaten dar. Dies kann über den Befehl \textit{WH} (Where), welcher von der Steuerungssoftware kontinuierlich an den Roboter gesendet wird, realisiert werden.\\
+\\Innerhalb der Steuerungssoftware muss eine Methode implementiert werden, die die zurückgemeldeten Ist-Koordinaten mit den Zielkoordinaten vergleicht. 
+\begin{equation}
+	\|X_{\text{Ist}} - X_{\text{Soll}}\| < \epsilon
+\end{equation}
+Befindet sich der Roboter innerhalb eines definierten Toleranzrahmens $\epsilon$, so kann der nächste Befehl freigegeben werden.\\
+\\Für diese Studienarbeit wurde der Ansatz experimentell evaluiert und aufgrund von Systemlimitationen als unpraktikabel und unzureichend für eine dynamische Steuerung eingestuft. Grund hierfür sind folgende Probleme:
+\begin{itemize}
+	\item \textbf{Schnittstellen-Überforderung:} Bei dem Versuch, während der Ausführung von Bewegungen per \textit{WH} die Position des Roboters zu erfragen, fiel auf, dass dies zuverlässig zu einem Fehlerzustand in der Drive Unit führt. Auch die Applikation \textit{RoboETH} stürzt ab.
+	\item \textbf{Latenz:} Eine kontinuierliche Abfrage der Position durch das Senden von WH-Befehlen erzeugt ein hochfrequentes \textit{Request-Response-Rauschen} auf der RS232C-Schnittstelle. Das kann Auswirkungen auf andere zeitkritische Steuerbefehle (wie MP- und GO-/GC-Befehle) haben.   
+\end{itemize}
+Deswegen wird auch dieser Ansatz für das weitere Vorgehen verworfen.
+\newpage
+\subsubsection*{Prädiktive Zeitberechnung mit inverser Kinematik}
+Da eine direkte Rückmeldung des Roboters sowie ein aktives Abfragen der Position nicht realisierbar sind, wird in diesem Unterkapitel die Möglichkeit einer prädiktiven Zeitberechnung \textit{engl. predictive time-scaling} mithilfe der inversen Kinematik vorgestellt. Durch die Bilderkennung sind bereits vor Beginn der Bewegungsausführung alle Koordinaten der Objekte sowie die fest definierten Koordinaten der Magazinpositionen bekannt. Mithilfe dieser werden über die in Kapitel \ref{kap:Inverse Kinematik des Mitsubishi Movemaster EX RV-M1} hergeleiteten Gleichungen die erforderten Gelenkwinkel des Roboters zum Erreichen der gewünschten Position und Orientierung bestimmt.\\
+\\Bei der Verwendung von \textit{MP} führt der EX RV-M1 eine synchrone Point-To-Point-Bewegung aus. Darunter versteht man, dass die Bewegung aller fünf Achsen gleichzeitig gestartet und abgeschlossen wird (siehe Abbildung \ref{fig: Bewegungsablauf PTP}). 
 \begin{figure}[h!]
 	\centering
+	\includegraphics[width=80mm]{figures/asynchrone_synchrone_ptp}
+	\caption{Bewegungsablauf asynchrone/synchrone PTP nach \cite{wüstrobotik}}
+	\label{fig: Bewegungsablauf PTP}
+\end{figure}
+Die Gesamtdauer der Bewegung wird folglich durch die langsamste Achse vorgegeben - diese nennt man bei synchronen PTP-Bewegungen Leitachse \textit{engl. Leading Axis} \cite[27]{wüstrobotik}. Mit der inversen Kinematik werden für jeden Zielpunkt die Gelenkwinkeldifferenzen $\Delta\theta_i$ (mit $i=1, \ldots, 5$) berechnet. Bezieht man die maximalen Winkelgeschwindigkeiten $\dot{\theta}_{\text{max}, i}$, erläutert in Tabelle \ref{tab:geschwindikeiten_movemaster} ein, so erhält man folgende Gleichung:
+\begin{equation}
+	T_{\text{Fahrt}} = \max_{i=1}^{5} \left( \frac{|\theta_{i, \text{Ziel}} - \theta_{i, \text{Start}}|}{\dot{\theta}{\text{max}, i}} \right)
+	\label{eq:praediktive_zeit_ik}
+\end{equation}
+Diese berechnete Zeit $T_{Fahrt}$ bildet die fundamentale Zeitbasis für das nachfolgende Kapitel. 
+\newpage
+\section{Befehlswarteschlange für dynamische Robotersteuerung}
+\label{kap:Befehlswarteschlange für dynamischere Robotersteuerung}
+Um die theoretisch hergeleitete Zeitberechnung in der Steuerungssoftware umzusetzen, muss zunächst die gewünschte Funktionsweise definiert werden. Hierfür sind vor allem die in Kapitel \ref{kap:Producer-Consumer-Pattern} und \ref{kap:Task-based Asynchronous Pattern (TAP)} erläuterten Grundlagen relevant. 
+\begin{figure}[h!]
+	
+	\centering
 	\begin{tikzpicture}[
-		task/.style={rectangle, draw=blue!70!black, fill=blue!10, minimum height=0.75cm, font=\sffamily\small, align=center, rounded corners=1pt},
-		wait/.style={rectangle, draw=red!70!black, fill=red!10, minimum height=0.75cm, font=\sffamily\small, align=center, dashed, rounded corners=1pt},
-		io/.style={rectangle, draw=green!60!black, fill=green!10, minimum height=0.75cm, font=\sffamily\small, align=center, rounded corners=1pt},
-		axis/.style={-{Stealth[scale=1.2]}, thick, draw=gray!80!black},
-		labelstyle/.style={font=\sffamily\bfseries\small},
-		sublabel/.style={font=\sffamily\scriptsize\itshape, color=gray!90!black}
+		% Globale Konfiguration für Abstände
+		node distance=1.5cm and 1.2cm,
+		% Definition der Stile
+		comp/.style={rectangle, draw=black, fill=gray!10, minimum height=1cm, minimum width=2.5cm, align=center, font=\sffamily\small},
+		pipe/.style={rectangle, draw=blue!60!black, fill=blue!5, minimum height=1cm, minimum width=2.5cm, align=center, font=\sffamily\small, rounded corners=2pt},
+		arrow/.style={-{Stealth[scale=1.2]}, thick, draw=black},
+		label/.style={font=\sffamily\bfseries\small}
 		]
 		
-		% =========================================================================
-		% 1. SYNCHRONER ABLAUF (Blockierend)
-		% =========================================================================
-		\node[anchor=west, labelstyle] at (-0.5, 4.0) {Synchroner Ablauf (Blockierend):};
-		\node[anchor=west, sublabel] at (-0.5, 3.6) {Hauptthread ist während der E/A-Operation blockiert};
+		% --- VORHER: MONOLITHISCH ---
+		\node[label] (label1) {Vorher: Monolithischer Controller};
+		\node[comp, fill=red!10, below=0.5cm of label1] (ctrl) {Controller.cs \\ (Berechnung + IO + Sleep)};
+		\node[comp, right=of ctrl] (rob) {Roboter-Hardware};
 		
-		% Zeitachse
-		\draw[axis] (0, 2.5) -- (11.5, 2.5) node[right, font=\sffamily\small] {Zeit};
+		\draw[arrow] (ctrl.east) -- (rob.west) node[midway, above, font=\sffamily\tiny] {Blockiert};
 		
-		% Tasks auf der Hauptachse
-		\node[task, minimum width=2.5cm, anchor=west] (synct1) at (0, 2.5) {Aufgabe 1\\(CPU-Berechnung)};
-		\node[wait, minimum width=3.5cm, anchor=west] (syncwait) at (2.5, 2.5) {Warten auf Legacy-System\\(E/A-Blockade / Idle)};
-		\node[task, minimum width=2.5cm, anchor=west] (synct2) at (6.0, 2.5) {Aufgabe 2\\(Verarbeitung)};
+		% --- NACHHER: PIPELINE-ARCHITEKTUR ---
+		% Wir positionieren die gesamte Gruppe relativ zum Vorher-Block
+		\node[label, below=2cm of ctrl, anchor=north] (label2) {Nachher: Pipeline-Architektur};
+		\node[comp, below=0.5cm of label2] (ctrl2) {Controller.cs \\ (Orchestrator)};
+		\node[pipe, right=of ctrl2] (pipe) {Robot\_Befehlspipeline \\ (BlockingCollection)};
+		\node[comp, right=of pipe] (rob2) {Roboter-Hardware};
 		
-		% Externe E/A-Schnittstelle (Roboter)
-		\node[io, minimum width=3.5cm, anchor=west] (syncio) at (2.5, 1.0) {TCP-Kommunikation\\(Roboter arbeitet Befehl ab)};
-		
-		% Verbindungs-/Ablauflinien
-		\draw[thick, dashed, ->, >=stealth, draw=red!70!black] (2.5, 2.5) -- (2.5, 1.4);
-		\draw[thick, dashed, ->, >=stealth, draw=green!60!black] (6.0, 1.0) -- (6.0, 2.1);
-		
-		
-		% =========================================================================
-		% 2. ASYNCHRONER ABLAUF (Nebenläufig via TPL / TAP)
-		% =========================================================================
-		\begin{scope}[yshift=-4.0cm]
-			\node[anchor=west, labelstyle] at (-0.5, 4.0) {Asynchroner Ablauf (Nebenläufig via TPL / TAP):};
-			\node[anchor=west, sublabel] at (-0.5, 3.6) {Thread-Freigabe bei E/A-Operationen dank async/await};
-			
-			% Hauptthread-Achse
-			\draw[axis] (0, 2.5) -- (11.5, 2.5) node[right, font=\sffamily\small] {Hauptthread};
-			
-			% Tasks auf Hauptthread
-			\node[task, minimum width=2.5cm, anchor=west] (asynct1) at (0, 2.5) {Aufgabe 1\\(CPU)};
-			\node[task, fill=orange!15, draw=orange!80!black, minimum width=1.2cm, anchor=west] (asyncb) at (2.5, 2.5) {Befehl\\senden};
-			\node[task, fill=purple!10, draw=purple!70!black, minimum width=2.5cm, anchor=west] (asynct2) at (3.7, 2.5) {Andere UI-Task /\\Berechnung};
-			\node[task, fill=purple!10, draw=purple!70!black, minimum width=2.0cm, anchor=west] (asynct3) at (6.2, 2.5) {Hintergrund-\\prozess};
-			\node[task, minimum width=2.5cm, anchor=west] (asyncend) at (8.5, 2.5) {Aufgabe 2\\(Ergebnis-Verarb.)};
-			
-			% Hintergrund-/E/A-Ebene (Roboter / Netzwerk)
-			\node[io, minimum width=4.5cm, anchor=west] (asyncio) at (3.0, 0.8) {Asynchrone TCP-Operation (E/A-Task)\\Roboter führt Bewegung aus};
-			
-			% Signalfluss-Pfeile
-			% 1. Aufruf & Freigabe des Threads
-			\draw[-{Stealth[scale=1.0]}, thick, draw=orange!90!black] (3.1, 2.1) -- (3.1, 1.2);
-			\node[right, font=\sffamily\tiny, text width=2cm, color=orange!90!black!80] at (1.6, 1.7) {\textbf{await} gibt\\Thread frei};
-			
-			% 2. Callback / Fortsetzung (Continuation)
-			\draw[-{Stealth[scale=1.0]}, thick, draw=green!70!black] (7.5, 1.2) -- (8.5, 2.1);
-			\node[right, font=\sffamily\tiny, text width=2.2cm, color=green!70!black] at (7.8, 1.6) {E/A fertig \\Fortsetzung (\textbf{Task})};
-		\end{scope}
-		
+		\draw[arrow] (ctrl2.east) -- (pipe.west) node[midway, above, font=\sffamily\tiny] {Enqueue()};
+		\draw[arrow] (pipe.east) -- (rob2.west) node[midway, above, font=\sffamily\tiny] {Consume / Delay};
 	\end{tikzpicture}
-	\caption{Gegenüberstellung von blockierenden synchronen Abläufen und dem ressourceneffizienten, asynchronen Task-basierten Muster (TAP) bei E/A-Operationen.}
-	\label{fig:vergleich_sync_async}
 \end{figure}
+
+\begin{enumerate}
+	\item \textbf{Entkopplung während der Befehlsübertragung:} 
+	\item \textbf{Asynchronität der Abarbeitung:}
+	\item \textbf{Dynamische Fahrtzeitberechnung:}
+\end{enumerate}
+
