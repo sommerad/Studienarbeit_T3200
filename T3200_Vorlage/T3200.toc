@@ -17,7 +17,7 @@
 \contentsline {subsubsection}{\numberline {2.1.4.2}Mathematische Grundlagen und algorithmische Optimierung der Haar-Merkmale}{11}{subsubsection.2.1.4.2}%
 \contentsline {section}{\numberline {2.2}Bildverarbeitung}{13}{section.2.2}%
 \contentsline {subsection}{\numberline {2.2.1}Gaußfilter}{13}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Greyfilter}{14}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.2}Greyfilter}{13}{subsection.2.2.2}%
 \contentsline {subsection}{\numberline {2.2.3}Threshold von Graustufenbildern}{14}{subsection.2.2.3}%
 \contentsline {section}{\numberline {2.3}Grundlagen der Informatik}{14}{section.2.3}%
 \contentsline {subsection}{\numberline {2.3.1}Producer-Consumer-Pattern}{14}{subsection.2.3.1}%
@@ -30,25 +30,26 @@
 \contentsline {subsection}{\numberline {2.4.3}Analytische Gelenkwinkelberechnung}{19}{subsection.2.4.3}%
 \contentsline {chapter}{\numberline {3}Ausgangssituation/IST-Analyse}{21}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Architekturlimitationen des bisherigen Systems}{21}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Verwaltung der Punktwolken-Daten}{21}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Sequenzielle Befehlsstruktur}{22}{subsection.3.1.2}%
-\contentsline {subsubsection}{\numberline {3.1.2.1}Theoretische Limitation}{23}{subsubsection.3.1.2.1}%
-\contentsline {subsubsection}{\numberline {3.1.2.2}Messexperiment}{24}{subsubsection.3.1.2.2}%
-\contentsline {subsubsection}{\numberline {3.1.2.3}Praktische Limitation - Laufzeitmessung mit Simulationsexperiment}{26}{subsubsection.3.1.2.3}%
-\contentsline {chapter}{\numberline {4}Architekturoptimierung und -erweiterung}{29}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Konzeptionierung der dynamischen Robotersteuerung}{29}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Optionen zur Positionserkennung/Befehl-Bewegungssynchronisation}{29}{subsection.4.1.1}%
-\contentsline {section}{\numberline {4.2}Befehlswarteschlange für dynamische Robotersteuerung}{32}{section.4.2}%
-\contentsline {chapter}{\numberline {5}Implementation der Erweiterungen}{34}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Safetyimplementation}{34}{section.5.1}%
-\contentsline {subsection}{\numberline {5.1.1}Kriterienbasierte Evaluierung der Sicherheitsüberwachungssysteme}{34}{subsection.5.1.1}%
-\contentsline {subsection}{\numberline {5.1.2}Machine-learning Modell zur visuellen Handerkennung}{39}{subsection.5.1.2}%
-\contentsline {subsubsection}{\numberline {5.1.2.1}Machine learning-Modell}{39}{subsubsection.5.1.2.1}%
-\contentsline {subsubsection}{\numberline {5.1.2.2}Haar Cascade Classifier}{40}{subsubsection.5.1.2.2}%
-\contentsline {subsubsection}{\numberline {5.1.2.3}Testreihe}{41}{subsubsection.5.1.2.3}%
-\contentsline {section}{\numberline {5.2}Befehlspipeline}{46}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}Vergleich von theoretischer und realer Performance}{46}{subsection.5.2.1}%
-\contentsline {section}{\numberline {5.3}Integration der Safety-Implementation in die Befehlspipeline}{47}{section.5.3}%
+\contentsline {subsection}{\numberline {3.1.1}Punktwolkenverarbeitung Probleme}{21}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Sequenzielle Befehlsstruktur}{21}{subsection.3.1.2}%
+\contentsline {subsubsection}{\numberline {3.1.2.1}Theoretische Limitation}{22}{subsubsection.3.1.2.1}%
+\contentsline {subsubsection}{\numberline {3.1.2.2}Messexperiment}{23}{subsubsection.3.1.2.2}%
+\contentsline {subsubsection}{\numberline {3.1.2.3}Praktische Limitation - Laufzeitmessung mit Simulationsexperiment}{25}{subsubsection.3.1.2.3}%
+\contentsline {chapter}{\numberline {4}Architekturoptimierung und -erweiterung}{28}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Konzeptionierung der dynamischen Robotersteuerung}{28}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Optionen zur Positionserkennung/Befehl-Bewegungssynchronisation}{28}{subsection.4.1.1}%
+\contentsline {section}{\numberline {4.2}Befehlswarteschlange für dynamische Robotersteuerung}{31}{section.4.2}%
+\contentsline {chapter}{\numberline {5}Implementation der Erweiterungen}{33}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Safetyimplementation}{33}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Kriterienbasierte Evaluierung der Sicherheitsüberwachungssysteme}{33}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Machine-learning Modell zur visuellen Handerkennung}{38}{subsection.5.1.2}%
+\contentsline {subsubsection}{\numberline {5.1.2.1}Machine learning-Modell}{38}{subsubsection.5.1.2.1}%
+\contentsline {subsubsection}{\numberline {5.1.2.2}Haar Cascade Classifier}{39}{subsubsection.5.1.2.2}%
+\contentsline {subsubsection}{\numberline {5.1.2.3}Testreihe}{40}{subsubsection.5.1.2.3}%
+\contentsline {section}{\numberline {5.2}Befehlspipeline}{45}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Vergleich von theoretischer und realer Performance}{45}{subsection.5.2.1}%
+\contentsline {section}{\numberline {5.3}Integration der Safety-Implementation in die Befehlspipeline}{46}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Kooperativer Abbruchmechanismus mit CancellationTokenSource}{46}{subsection.5.3.1}%
 \contentsline {chapter}{\numberline {6}Fazit \& Ausblick}{48}{chapter.6}%
 \contentsline {chapter}{Literaturverzeichnis}{vii}{chapter.6}%
 \contentsline {chapter}{Abk"urzungsverzeichnis}{x}{chapter*.26}%

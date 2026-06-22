@@ -1,613 +1,650 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.7.30)  22 JUN 2026 08:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.6.15)  22 JUN 2026 08:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **./T3200.tex
 (T3200.tex
-LaTeX2e <2023-11-01> patch level 1
-L3 programming layer <2024-01-04>
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
-Document Class: report 2023/05/17 v1.4n Standard LaTeX document class
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
-File: size12.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+LaTeX2e <2026-06-01>
+L3 programming layer <2026-05-26>
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
+Document Class: report 2025/01/22 v1.4n Standard LaTeX document class
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
+File: size12.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count187
-\c@chapter=\count188
-\c@section=\count189
-\c@subsection=\count190
-\c@subsubsection=\count191
-\c@paragraph=\count192
-\c@subparagraph=\count193
-\c@figure=\count194
-\c@table=\count195
-\abovecaptionskip=\skip48
-\belowcaptionskip=\skip49
-\bibindent=\dimen140
+\c@part=\count276
+\c@chapter=\count277
+\c@section=\count278
+\c@subsection=\count279
+\c@subsubsection=\count280
+\c@paragraph=\count281
+\c@subparagraph=\count282
+\c@figure=\count283
+\c@table=\count284
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen150
 )
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
-Package: amsmath 2023/05/13 v2.17o AMS math features
-\@mathmargin=\skip50
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2026/05/19 v2.18d AMS math features
+\@mathmargin=\skip51
 
 For additional information on amsmath, use the `?' option.
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
-Package: amstext 2021/08/26 v2.01 AMS text
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2024/11/17 v2.01 AMS text
 
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks17
-\ex@=\dimen141
-))
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+\ex@=\dimen151
+)) (C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.st
+y
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen142
-)
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+\pmbraise@=\dimen152
+) (C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count196
-LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count197
-\leftroot@=\count198
-LaTeX Info: Redefining \overline on input line 399.
-LaTeX Info: Redefining \colon on input line 410.
-\classnum@=\count199
-\DOTSCASE@=\count266
-LaTeX Info: Redefining \ldots on input line 496.
-LaTeX Info: Redefining \dots on input line 499.
-LaTeX Info: Redefining \cdots on input line 620.
-\Mathstrutbox@=\box51
-\strutbox@=\box52
-LaTeX Info: Redefining \big on input line 722.
-LaTeX Info: Redefining \Big on input line 723.
-LaTeX Info: Redefining \bigg on input line 724.
-LaTeX Info: Redefining \Bigg on input line 725.
-\big@size=\dimen143
-LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count267
-LaTeX Info: Redefining \bmod on input line 905.
-LaTeX Info: Redefining \pmod on input line 910.
-LaTeX Info: Redefining \smash on input line 940.
-LaTeX Info: Redefining \relbar on input line 970.
-LaTeX Info: Redefining \Relbar on input line 971.
-\c@MaxMatrixCols=\count268
-\dotsspace@=\muskip16
-\c@parentequation=\count269
-\dspbrk@lvl=\count270
+\inf@bad=\count285
+LaTeX Info: Redefining \frac on input line 233.
+\uproot@=\count286
+\leftroot@=\count287
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count288
+\DOTSCASE@=\count289
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box53
+\strutbox@=\box54
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen153
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count290
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count291
+\dotsspace@=\muskip17
+\c@parentequation=\count292
+\dspbrk@lvl=\count293
 \tag@help=\toks18
-\row@=\count271
-\column@=\count272
-\maxfields@=\count273
+\row@=\count294
+\column@=\count295
+\maxfields@=\count296
 \andhelp@=\toks19
-\eqnshift@=\dimen144
-\alignsep@=\dimen145
-\tagshift@=\dimen146
-\tagwidth@=\dimen147
-\totwidth@=\dimen148
-\lineht@=\dimen149
+\eqnshift@=\dimen154
+\alignsep@=\dimen155
+\tagshift@=\dimen156
+\tagwidth@=\dimen157
+\totwidth@=\dimen158
+\lineht@=\dimen159
 \@envbody=\toks20
-\multlinegap=\skip51
-\multlinetaggap=\skip52
+\multlinegap=\skip52
+\multlinetaggap=\skip53
 \mathdisplay@stack=\toks21
-LaTeX Info: Redefining \[ on input line 2953.
-LaTeX Info: Redefining \] on input line 2954.
+LaTeX Info: Redefining \[ on input line 2965.
+LaTeX Info: Redefining \] on input line 2966.
 )
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.
-sty
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.st
-y
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
--common.tex
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\ti
+kz.sty
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.s
+ty
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs
+.sty
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfu
+til-common.tex
 \pgfutil@everybye=\toks22
-\pgfutil@tempdima=\dimen150
-\pgfutil@tempdimb=\dimen151
+\pgfutil@tempdima=\dimen160
+\pgfutil@tempdimb=\dimen161
 )
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
--latex.def
-\pgfutil@abb=\box53
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfu
+til-latex.def
+\pgfutil@abb=\box55
 )
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.
-code.tex
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
-Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfr
+cs.code.tex
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.t
+ex)
+Package: pgfrcs 2025-08-29 v3.1.11a (3.1.11a)
 ))
-Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+Package: pgf 2025-08-29 v3.1.11a (3.1.11a)
 
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.
-sty
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
-Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfco
+re.sty
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.st
+y
+Package: graphicx 2026-05-17 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
 
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
-Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2026-05-17 v1.15 key=value parser (DPC)
 \KV@toks@=\toks23
 )
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
-Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
-
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
-Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.st
+y
+Package: graphics 2026-05-17 v1.4h Standard LaTeX Graphics (DPC,SPQR)
+ (C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
 )
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
-fg
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphic
+s.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 107.
+Package graphics Info: Driver file: pdftex.def on input line 106.
 
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
-File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.
+def
+File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen152
-\Gin@req@width=\dimen153
+\Gin@req@height=\dimen162
+\Gin@req@width=\dimen163
 )
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.
-sty
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
-s.code.tex
-Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfs
+ys.sty
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pg
+fsys.code.tex
+Package: pgfsys 2025-08-29 v3.1.11a (3.1.11a)
 
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
-.code.tex
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfk
+eys.code.tex
 \pgfkeys@pathtoks=\toks24
 \pgfkeys@temptoks=\toks25
 
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
-libraryfiltered.code.tex
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfk
+eyslibraryfiltered.code.tex
 \pgfkeys@tmptoks=\toks26
 ))
-\pgf@x=\dimen154
-\pgf@y=\dimen155
-\pgf@xa=\dimen156
-\pgf@ya=\dimen157
-\pgf@xb=\dimen158
-\pgf@yb=\dimen159
-\pgf@xc=\dimen160
-\pgf@yc=\dimen161
-\pgf@xd=\dimen162
-\pgf@yd=\dimen163
+\pgf@x=\dimen164
+\pgf@y=\dimen165
+\pgf@xa=\dimen166
+\pgf@ya=\dimen167
+\pgf@xb=\dimen168
+\pgf@yb=\dimen169
+\pgf@xc=\dimen170
+\pgf@yc=\dimen171
+\pgf@xd=\dimen172
+\pgf@yd=\dimen173
 \w@pgf@writea=\write3
 \r@pgf@reada=\read2
-\c@pgf@counta=\count274
-\c@pgf@countb=\count275
-\c@pgf@countc=\count276
-\c@pgf@countd=\count277
+\c@pgf@counta=\count297
+\c@pgf@countb=\count298
+\c@pgf@countc=\count299
+\c@pgf@countd=\count300
 \t@pgf@toka=\toks27
 \t@pgf@tokb=\toks28
 \t@pgf@tokc=\toks29
-\pgf@sys@id@count=\count278
+\pgf@sys@id@count=\count301
 
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.c
-fg
-File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pg
+f.cfg
+File: pgf.cfg 2025-08-29 v3.1.11a (3.1.11a)
 )
 Driver file for pgf: pgfsys-pdftex.def
 
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
-s-pdftex.def
-File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pg
+fsys-pdftex.def
+File: pgfsys-pdftex.def 2025-08-29 v3.1.11a (3.1.11a)
 
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
-s-common-pdf.def
-File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pg
+fsys-common-pdf.def
+File: pgfsys-common-pdf.def 2025-08-29 v3.1.11a (3.1.11a)
 )))
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
-ssoftpath.code.tex
-File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfsyssoftpath@smallbuffer@items=\count279
-\pgfsyssoftpath@bigbuffer@items=\count280
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pg
+fsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfsyssoftpath@smallbuffer@items=\count302
+\pgfsyssoftpath@bigbuffer@items=\count303
 )
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
-sprotocol.code.tex
-File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pg
+fsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 ))
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
-Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
 
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.c
+fg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 274.
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1354.
-Package xcolor Info: Model `RGB' extended on input line 1366.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1369.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
-)
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-e.code.tex
-Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
 
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
-.tex
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.
-code.tex)
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparse
-r.code.tex
-\pgfmath@dimen=\dimen164
-\pgfmath@count=\count281
-\pgfmath@box=\box54
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.l
+tx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+)
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
+core.code.tex
+Package: pgfcore 2025-08-29 v3.1.11a (3.1.11a)
+
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.c
+ode.tex
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathut
+il.code.tex)
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathpa
+rser.code.tex
+\pgfmath@dimen=\dimen174
+\pgfmath@count=\count304
+\pgfmath@box=\box56
 \pgfmath@toks=\toks30
 \pgfmath@stack@operand=\toks31
 \pgfmath@stack@operation=\toks32
 )
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
-ions.code.tex)
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
-ions.basic.code.tex)
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
-ions.trigonometric.code.tex)
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
-ions.random.code.tex)
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
-ions.comparison.code.tex)
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
-ions.base.code.tex)
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
-ions.round.code.tex)
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
-ions.misc.code.tex)
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
-ions.integerarithmetics.code.tex)
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.
-code.tex)
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat
-.code.tex
-\c@pgfmathroundto@lastzeros=\count282
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfu
+nctions.code.tex)
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfu
+nctions.basic.code.tex)
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfu
+nctions.trigonometric.code.tex)
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfu
+nctions.random.code.tex)
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfu
+nctions.comparison.code.tex)
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfu
+nctions.base.code.tex)
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfu
+nctions.round.code.tex)
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfu
+nctions.misc.code.tex)
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfu
+nctions.integerarithmetics.code.tex)
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathca
+lc.code.tex)
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfl
+oat.code.tex
+\c@pgfmathroundto@lastzeros=\count305
 ))
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.
-tex)
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-epoints.code.tex
-File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@picminx=\dimen165
-\pgf@picmaxx=\dimen166
-\pgf@picminy=\dimen167
-\pgf@picmaxy=\dimen168
-\pgf@pathminx=\dimen169
-\pgf@pathmaxx=\dimen170
-\pgf@pathminy=\dimen171
-\pgf@pathmaxy=\dimen172
-\pgf@xx=\dimen173
-\pgf@xy=\dimen174
-\pgf@yx=\dimen175
-\pgf@yy=\dimen176
-\pgf@zx=\dimen177
-\pgf@zy=\dimen178
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.co
+de.tex)
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
+corepoints.code.tex
+File: pgfcorepoints.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@picminx=\dimen175
+\pgf@picmaxx=\dimen176
+\pgf@picminy=\dimen177
+\pgf@picmaxy=\dimen178
+\pgf@pathminx=\dimen179
+\pgf@pathmaxx=\dimen180
+\pgf@pathminy=\dimen181
+\pgf@pathmaxy=\dimen182
+\pgf@xx=\dimen183
+\pgf@xy=\dimen184
+\pgf@yx=\dimen185
+\pgf@yy=\dimen186
+\pgf@zx=\dimen187
+\pgf@zy=\dimen188
 )
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-epathconstruct.code.tex
-File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@path@lastx=\dimen179
-\pgf@path@lasty=\dimen180
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
+corepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@path@lastx=\dimen189
+\pgf@path@lasty=\dimen190
 )
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-epathusage.code.tex
-File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@shorten@end@additional=\dimen181
-\pgf@shorten@start@additional=\dimen182
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
+corepathusage.code.tex
+File: pgfcorepathusage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@shorten@end@additional=\dimen191
+\pgf@shorten@start@additional=\dimen192
 )
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-escopes.code.tex
-File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfpic=\box55
-\pgf@hbox=\box56
-\pgf@layerbox@main=\box57
-\pgf@picture@serial@count=\count283
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
+corescopes.code.tex
+File: pgfcorescopes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfpic=\box57
+\pgf@hbox=\box58
+\pgf@layerbox@main=\box59
+\pgf@picture@serial@count=\count306
 )
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-egraphicstate.code.tex
-File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgflinewidth=\dimen183
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
+coregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgflinewidth=\dimen193
 )
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-etransformations.code.tex
-File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@pt@x=\dimen184
-\pgf@pt@y=\dimen185
-\pgf@pt@temp=\dimen186
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
+coretransformations.code.tex
+File: pgfcoretransformations.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@pt@x=\dimen194
+\pgf@pt@y=\dimen195
+\pgf@pt@temp=\dimen196
 )
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-equick.code.tex
-File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
+corequick.code.tex
+File: pgfcorequick.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 )
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-eobjects.code.tex
-File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
+coreobjects.code.tex
+File: pgfcoreobjects.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 )
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-epathprocessing.code.tex
-File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
+corepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 )
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-earrows.code.tex
-File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfarrowsep=\dimen187
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
+corearrows.code.tex
+File: pgfcorearrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfarrowsep=\dimen197
 )
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-eshade.code.tex
-File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@max=\dimen188
-\pgf@sys@shading@range@num=\count284
-\pgf@shadingcount=\count285
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
+coreshade.code.tex
+File: pgfcoreshade.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@max=\dimen198
+\pgf@sys@shading@range@num=\count307
+\pgf@shadingcount=\count308
 )
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-eimage.code.tex
-File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
+coreimage.code.tex
+File: pgfcoreimage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 )
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-eexternal.code.tex
-File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfexternal@startupbox=\box58
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
+coreexternal.code.tex
+File: pgfcoreexternal.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfexternal@startupbox=\box60
 )
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-elayers.code.tex
-File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
+corelayers.code.tex
+File: pgfcorelayers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 )
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-etransparency.code.tex
-File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
+coretransparency.code.tex
+File: pgfcoretransparency.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 )
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-epatterns.code.tex
-File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
+corepatterns.code.tex
+File: pgfcorepatterns.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 )
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-erdf.code.tex
-File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
+corerdf.code.tex
+File: pgfcorerdf.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 )))
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
-shapes.code.tex
-File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfnodeparttextbox=\box59
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmod
+uleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfnodeparttextbox=\box61
 )
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
-plot.code.tex
-File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmod
+uleplot.code.tex
+File: pgfmoduleplot.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 )
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
-mp-version-0-65.sty
-Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
-\pgf@nodesepstart=\dimen189
-\pgf@nodesepend=\dimen190
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pg
+fcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@nodesepstart=\dimen199
+\pgf@nodesepend=\dimen256
 )
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
-mp-version-1-18.sty
-Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pg
+fcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2025-08-29 v3.1.11a (3.1.11a)
 ))
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.st
-y
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.s
-ty
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
-.code.tex))
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
-.tex))
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.
-code.tex
-Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
-\pgffor@iter=\dimen191
-\pgffor@skip=\dimen192
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor
+.sty
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkey
+s.sty
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfk
+eys.code.tex))
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty
+
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.c
+ode.tex))
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgff
+or.code.tex
+Package: pgffor 2025-08-29 v3.1.11a (3.1.11a)
+\pgffor@iter=\dimen257
+\pgffor@skip=\dimen258
 \pgffor@stack=\toks33
 \pgffor@toks=\toks34
 ))
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
-z\tikz.code.tex
-Package: tikz 2023-01-15 v3.1.10 (3.1.10)
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/
+tikz\tikz.code.tex
+Package: tikz 2025-08-29 v3.1.11a (3.1.11a)
 
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
-aryplothandlers.code.tex
-File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@plot@mark@count=\count286
-\pgfplotmarksize=\dimen193
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgfl
+ibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@plot@mark@count=\count309
+\pgfplotmarksize=\dimen259
 )
-\tikz@lastx=\dimen194
-\tikz@lasty=\dimen195
-\tikz@lastxsaved=\dimen196
-\tikz@lastysaved=\dimen197
-\tikz@lastmovetox=\dimen198
-\tikz@lastmovetoy=\dimen199
-\tikzleveldistance=\dimen256
-\tikzsiblingdistance=\dimen257
-\tikz@figbox=\box60
-\tikz@figbox@bg=\box61
-\tikz@tempbox=\box62
-\tikz@tempbox@bg=\box63
-\tikztreelevel=\count287
-\tikznumberofchildren=\count288
-\tikznumberofcurrentchild=\count289
-\tikz@fig@count=\count290
+\tikz@lastx=\dimen260
+\tikz@lasty=\dimen261
+\tikz@lastxsaved=\dimen262
+\tikz@lastysaved=\dimen263
+\tikz@lastmovetox=\dimen264
+\tikz@lastmovetoy=\dimen265
+\tikzleveldistance=\dimen266
+\tikzsiblingdistance=\dimen267
+\tikz@figbox=\box62
+\tikz@figbox@bg=\box63
+\tikz@tempbox=\box64
+\tikz@tempbox@bg=\box65
+\tikztreelevel=\count310
+\tikznumberofchildren=\count311
+\tikznumberofcurrentchild=\count312
+\tikz@fig@count=\count313
 
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
-matrix.code.tex
-File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfmatrixcurrentrow=\count291
-\pgfmatrixcurrentcolumn=\count292
-\pgf@matrix@numberofcolumns=\count293
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmod
+ulematrix.code.tex
+File: pgfmodulematrix.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfmatrixcurrentrow=\count314
+\pgfmatrixcurrentcolumn=\count315
+\pgf@matrix@numberofcolumns=\count316
 )
-\tikz@expandcount=\count294
+\tikz@expandcount=\count317
 
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
-z/libraries\tikzlibrarytopaths.code.tex
-File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/
+tikz/libraries\tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 )))
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
-z/libraries\tikzlibraryshapes.geometric.code.tex
-File: tikzlibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/
+tikz/libraries\tikzlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\
-pgflibraryshapes.geometric.code.tex
-File: pgflibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shap
+es\pgflibraryshapes.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 ))
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
-z/libraries\tikzlibraryarrows.code.tex
-File: tikzlibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/
+tikz/libraries\tikzlibraryarrows.code.tex
+File: tikzlibraryarrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
-aryarrows.code.tex
-File: pgflibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\arrowsize=\dimen258
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgfl
+ibraryarrows.code.tex
+File: pgflibraryarrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\arrowsize=\dimen268
 ))
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
-z/libraries\tikzlibrarycalc.code.tex
-File: tikzlibrarycalc.code.tex 2023-01-15 v3.1.10 (3.1.10)
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/
+tikz/libraries\tikzlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 )
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
-z/libraries\tikzlibrarypositioning.code.tex
-File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/
+tikz/libraries\tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 )
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
-z/libraries\tikzlibraryshadows.code.tex
-File: tikzlibraryshadows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/
+tikz/libraries\tikzlibraryshadows.code.tex
+File: tikzlibraryshadows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
-z/libraries\tikzlibraryfadings.code.tex
-File: tikzlibraryfadings.code.tex 2023-01-15 v3.1.10 (3.1.10)
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/
+tikz/libraries\tikzlibraryfadings.code.tex
+File: tikzlibraryfadings.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
-aryfadings.code.tex
-File: pgflibraryfadings.code.tex 2023-01-15 v3.1.10 (3.1.10)
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgfl
+ibraryfadings.code.tex
+File: pgflibraryfadings.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 ))) (nimbusmononarrow.sty
 Package: nimbusmononarrow 2016/01/04 Style file for NimbusMonoNarrow (msharpe).
 
 
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
-Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
 )
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
-Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
+Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
 )
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
 Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
 
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.te
+x
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.t
+ex
 \XKV@toks=\toks35
 \XKV@tempa@toks=\toks36
 )
-\XKV@depth=\count295
+\XKV@depth=\count318
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 )))
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.sty
-Package: microtype 2025/07/09 v3.2b Micro-typographical refinements (RS)
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
-Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count296
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.
+sty
+Package: microtype 2026/03/01 v3.2d Micro-typographical refinements (RS)
+
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.st
+y
+Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count319
 )
 \MT@toks=\toks37
-\MT@tempbox=\box64
-\MT@count=\count297
-LaTeX Info: Redefining \noprotrusionifhmode on input line 1087.
-LaTeX Info: Redefining \leftprotrusion on input line 1088.
+\MT@tempbox=\box66
+\MT@count=\count320
+LaTeX Info: Redefining \noprotrusionifhmode on input line 1084.
+LaTeX Info: Redefining \leftprotrusion on input line 1085.
 \MT@prot@toks=\toks38
-LaTeX Info: Redefining \rightprotrusion on input line 1107.
+LaTeX Info: Redefining \rightprotrusion on input line 1104.
 LaTeX Info: Redefining \textls on input line 1449.
-\MT@outer@kern=\dimen259
+\MT@outer@kern=\dimen269
 LaTeX Info: Redefining \microtypecontext on input line 2053.
 LaTeX Info: Redefining \textmicrotypecontext on input line 2070.
-\MT@listname@count=\count298
+\MT@listname@count=\count321
 
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype-pdf
-tex.def
-File: microtype-pdftex.def 2025/07/09 v3.2b Definitions specific to pdftex (RS)
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype-
+pdftex.def
+File: microtype-pdftex.def 2026/03/01 v3.2d Definitions specific to pdftex (RS)
 
 LaTeX Info: Redefining \lsstyle on input line 944.
 LaTeX Info: Redefining \lslig on input line 944.
-\MT@outer@space=\skip53
+\MT@outer@space=\skip54
 )
 Package microtype Info: Loading configuration file microtype.cfg.
 
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.cfg
-File: microtype.cfg 2025/07/09 v3.2b microtype main configuration file (RS)
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.
+cfg
+File: microtype.cfg 2026/03/01 v3.2d microtype main configuration file (RS)
 )
 LaTeX Info: Redefining \microtypesetup on input line 3065.
-) (C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/noto\noto.sty
+) (C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/noto\noto.sty
 Package: noto 2022/09/11 (Bob Tennent) Supports Noto fonts for all LaTeX engine
 s.
 
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifxetex.sty
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifxetex.sty
 Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
 
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
-Package: iftex 2022/02/03 v1.0f TeX engine tests
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
 ))
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifluatex.sty
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifluatex.sty
 Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+) (C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
 )
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
-Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/fontaxes\fontaxes.st
+y
+Package: fontaxes 2026-01-02 v2.0.2 Font selection axes (deprecated)
+Applying: [2024-11-01] Use figureversions if present on input line 74.
+
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/figureversions\figur
+eversions.sty
+Package: figureversions 2025-04-29 v1.0.1 Figure versions
 )
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/fontaxes\fontaxes.sty
-Package: fontaxes 2020/07/21 v1.0e Font selection axes
-LaTeX Info: Redefining \upshape on input line 29.
-LaTeX Info: Redefining \itshape on input line 31.
-LaTeX Info: Redefining \slshape on input line 33.
-LaTeX Info: Redefining \swshape on input line 35.
-LaTeX Info: Redefining \scshape on input line 37.
-LaTeX Info: Redefining \sscshape on input line 39.
-LaTeX Info: Redefining \ulcshape on input line 41.
-LaTeX Info: Redefining \textsw on input line 47.
-LaTeX Info: Redefining \textssc on input line 48.
-LaTeX Info: Redefining \textulc on input line 49.
-)) (C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.s
+Already applied: [0000-00-00] Fall back to v1 on input line 76.
+))
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.s
 ty
 Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
 
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
-\caption@tempdima=\dimen260
-\captionmargin=\dimen261
-\caption@leftmargin=\dimen262
-\caption@rightmargin=\dimen263
-\caption@width=\dimen264
-\caption@indent=\dimen265
-\caption@parindent=\dimen266
-\caption@hangindent=\dimen267
+\caption@tempdima=\dimen270
+\captionmargin=\dimen271
+\caption@leftmargin=\dimen272
+\caption@rightmargin=\dimen273
+\caption@width=\dimen274
+\caption@indent=\dimen275
+\caption@parindent=\dimen276
+\caption@hangindent=\dimen277
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count299
-\c@continuedfloat=\count300
+\c@caption@flags=\count322
+\c@continuedfloat=\count323
 )
 Package caption Info: New subtype `subfigure' on input line 238.
-\c@subfigure=\count301
+\c@subfigure=\count324
 Package caption Info: New subtype `subtable' on input line 238.
-\c@subtable=\count302
-) (C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/cite\cite.sty
+\c@subtable=\count325
+) (C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/cite\cite.sty
 LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 332.
 Package: cite 2015/02/27  v 5.5
 )
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/eurosym\eurosym.sty
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/eurosym\eurosym.sty
 Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
-\@eurobox=\box65
-)
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
-Package: babel 2024/01/07 v24.1 The Babel package
-\babel@savecnt=\count303
-\U@D=\dimen268
+\@eurobox=\box67
+) (C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2026/05/20 v26.8 The multilingual framework for LuaLaTeX, pdfLaT
+eX and XeLaTeX
+\babel@savecnt=\count326
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input li
+ne 2084.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input li
+ne 2086.
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input lin
+e 2088.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input lin
+e 2089.
+LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) 
+on input line 2090.
+LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) 
+on input line 2092.
+LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) 
+on input line 2117.
+\U@D=\dimen278
 \l@unhyphenated=\language79
 
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def
+)
 \bbl@readstream=\read3
-\bbl@dirlevel=\count304
+\bbl@dirlevel=\count327
+Package babel Info: Configuration files are deprecated, as
+(babel)             they can break document portability.
+(babel)             Reported on input line 4228.
 
 *************************************
 * Local config file bblopts.cfg used
 *
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/babel-english\english.l
-df
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/en\ba
+bel-english.tex)
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/inval
+id\babel-ngerman.tex)
+Package babel Info: Importing font and identification data for english
+(babel)             from babel-en.ini. Reported on input line 4356.
+
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/babel-english\englis
+h.ldf
 Language: english 2017/06/06 v3.3r English support from the babel system
 Package babel Info: Hyphen rules for 'canadian' set to \l@english
 (babel)             (\language0). Reported on input line 102.
@@ -616,404 +653,402 @@ Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
 Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
 (babel)             (\language73). Reported on input line 108.
 )
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/babel-german\ngerman.ld
-f
-Language: ngerman 2024/01/19 v2.14 German support for babel (post-1996 orthogra
-phy)
-
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/babel-german\ngermanb.l
-df
-Language: ngermanb 2024/01/19 v2.14 German support for babel (post-1996 orthogr
-aphy)
-Package babel Info: Making " an active character on input line 122.
-)))
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/de\babel
--ngerman.tex
 Package babel Info: Importing font and identification data for ngerman
-(babel)             from babel-de.ini. Reported on input line 11.
-)
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/en\babel
--english.tex
-Package babel Info: Importing font and identification data for english
-(babel)             from babel-en.ini. Reported on input line 11.
-)
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/germbib\bibgerm.sty
+(babel)             from babel-de.ini. Reported on input line 4356.
+
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/babel-german\ngerman
+.ldf
+Language: ngerman 
+
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/babel-german\babel-g
+erman.def
+Package babel Info: Making " an active character on input line 500.
+)))
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/germbib\bibgerm.sty
 Package: bibgerm 2000/08/18 v0.1 Support for mixed language bibliographies
 
 ** Macros for german `BibTeX'ing added to Style Option `german' 20 Apr 1993 **
 ** idea and languages `german' and `USenglish' implemented by M. Wallmeier **
 ** Modified for LaTeX 2e and german.sty 2.5b by A. Scherer 1 Nov 1995 **
 ** Modified for ngerman.sty and babel.sty by H. Harders 21 August 2000 **)
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/wrapfig\wrapfig.sty
-\wrapoverhang=\dimen269
-\WF@size=\dimen270
-\c@WF@wrappedlines=\count305
-\WF@box=\box66
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/wrapfig\wrapfig.sty
+\wrapoverhang=\dimen279
+\WF@size=\dimen280
+\c@WF@wrappedlines=\count328
+\WF@box=\box68
 \WF@everypar=\toks39
 Package: wrapfig 2003/01/31  v 3.6
-)
-(sistyle.sty
+) (sistyle.sty
 Package: sistyle 2008/07/16 v2.3a SI units and numbers (DNJ Els)
 \ttoks@A=\toks40
 \ttoks@B=\toks41
 )
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/base\latexsym.sty
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/base\latexsym.sty
 Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
 \symlasy=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
 (Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
 )
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
-Package: hyperref 2023-11-26 v7.01g Hypertext links for LaTeX
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.st
+y
+Package: hyperref 2026-04-24 v7.01q Hypertext links for LaTeX
 
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.s
-ty
-Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
-)
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.
+sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 )
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefine
-keys.sty
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdef
+inekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 )
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.s
-ty
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescap
+e.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
 
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.st
+y
 Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
 )
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
-.sty
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexc
+mds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarer
+r.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 ))
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 )
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letltxmacro
-.sty
-Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
-)
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
-Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
-)
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
-Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+Package: nameref 2026-01-29 v2.58 Cross-referencing by name of section
 
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.st
+y
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 )
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettit
-lestring.sty
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\get
+titlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.
+sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-\c@section@level=\count306
+\c@section@level=\count329
 )
-\@linkdim=\dimen271
-\Hy@linkcounter=\count307
-\Hy@pagecounter=\count308
- (C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
-File: pd1enc.def 2023-11-26 v7.01g Hyperref: PDFDocEncoding definition (HO)
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringen
+c.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+\@linkdim=\dimen281
+\Hy@linkcounter=\count330
+\Hy@pagecounter=\count331
+
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2026-04-24 v7.01q Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
-) (C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+)
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.st
+y
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count309
- (C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
-File: puenc.def 2023-11-26 v7.01g Hyperref: PDF Unicode definition (HO)
+\Hy@SavedSpaceFactor=\count332
+
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+File: puenc.def 2026-04-24 v7.01q Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
-Package hyperref Info: Hyper figures OFF on input line 4181.
-Package hyperref Info: Link nesting OFF on input line 4186.
-Package hyperref Info: Hyper index ON on input line 4189.
-Package hyperref Info: Plain pages OFF on input line 4196.
-Package hyperref Info: Backreferencing OFF on input line 4201.
+Package hyperref Info: Hyper figures OFF on input line 4199.
+Package hyperref Info: Link nesting OFF on input line 4204.
+Package hyperref Info: Hyper index ON on input line 4207.
+Package hyperref Info: Plain pages OFF on input line 4214.
+Package hyperref Info: Backreferencing OFF on input line 4219.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4448.
-\c@Hy@tempcnt=\count310
+Package hyperref Info: Bookmarks ON on input line 4466.
+\c@Hy@tempcnt=\count333
 
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
-\Urlmuskip=\muskip17
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip18
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 4786.
-\XeTeXLinkMargin=\dimen272
+LaTeX Info: Redefining \url on input line 4805.
+\XeTeXLinkMargin=\dimen282
 
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc
-.sty
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintc
+alc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count311
-\Field@Width=\dimen273
-\Fld@charsize=\dimen274
-Package hyperref Info: Hyper figures OFF on input line 6065.
-Package hyperref Info: Link nesting OFF on input line 6070.
-Package hyperref Info: Hyper index ON on input line 6073.
-Package hyperref Info: backreferencing OFF on input line 6080.
-Package hyperref Info: Link coloring OFF on input line 6085.
-Package hyperref Info: Link coloring with OCG OFF on input line 6090.
-Package hyperref Info: PDF/A mode OFF on input line 6095.
-
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
-Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
-package with kernel methods
-)
-\Hy@abspage=\count312
-\c@Item=\count313
-\c@Hfootnote=\count314
+\Fld@menulength=\count334
+\Field@Width=\dimen283
+\Fld@charsize=\dimen284
+Package hyperref Info: Hyper figures OFF on input line 6091.
+Package hyperref Info: Link nesting OFF on input line 6096.
+Package hyperref Info: Hyper index ON on input line 6099.
+Package hyperref Info: backreferencing OFF on input line 6106.
+Package hyperref Info: Link coloring OFF on input line 6111.
+Package hyperref Info: Link coloring with OCG OFF on input line 6116.
+Package hyperref Info: PDF/A mode OFF on input line 6121.
+\Hy@abspage=\count335
+\c@Item=\count336
+\c@Hfootnote=\count337
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
-File: hpdftex.def 2023-11-26 v7.01g Hyperref driver for pdfTeX
 
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty
-Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
-kage
-with kernel methods
-)
-\Fld@listcount=\count315
-\c@bookmark@seq@number=\count316
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2026-04-24 v7.01q Hyperref driver for pdfTeX
+\Fld@listcount=\count338
+\c@bookmark@seq@number=\count339
 
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfil
-echeck.sty
-Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerun
+filecheck.sty
+Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
 
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquec
-ounter.sty
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniq
+uecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
-85.
+84.
 )
-\Hy@SectionHShift=\skip54
+\Hy@SectionHShift=\skip55
 )
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.sty
-Package: csquotes 2024-04-04 v5.2o context-sensitive quotations (JAW)
-\csq@reset=\count317
-\csq@gtype=\count318
-\csq@glevel=\count319
-\csq@qlevel=\count320
-\csq@maxlvl=\count321
-\csq@tshold=\count322
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.st
+y
+Package: csquotes 2026-05-19 v5.2p context-sensitive quotations (JAW)
+\csq@reset=\count340
+\csq@gtype=\count341
+\csq@glevel=\count342
+\csq@qlevel=\count343
+\csq@maxlvl=\count344
+\csq@tshold=\count345
 \csq@ltx@everypar=\toks42
 
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.def
-File: csquotes.def 2024-04-04 v5.2o csquotes generic definitions (JAW)
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.de
+f
+File: csquotes.def 2026-05-19 v5.2p csquotes generic definitions (JAW)
 )
 Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
 Package csquotes Info: ... configuration file loaded successfully.
 
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.cfg
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.cf
+g
 File: csquotes.cfg 
-)) (C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.st
+))
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.st
 y
-Package: geometry 2020/01/02 v5.9 Page Geometry
-
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: geometry 2026/03/07 v6.0 Page Geometry
+ (C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count323
-\Gm@cntv=\count324
-\c@Gm@tempcnt=\count325
-\Gm@bindingoffset=\dimen275
-\Gm@wd@mp=\dimen276
-\Gm@odd@mp=\dimen277
-\Gm@even@mp=\dimen278
-\Gm@layoutwidth=\dimen279
-\Gm@layoutheight=\dimen280
-\Gm@layouthoffset=\dimen281
-\Gm@layoutvoffset=\dimen282
+\Gm@cnth=\count346
+\Gm@cntv=\count347
+\c@Gm@tempcnt=\count348
+\Gm@bindingoffset=\dimen285
+\Gm@wd@mp=\dimen286
+\Gm@odd@mp=\dimen287
+\Gm@even@mp=\dimen288
+\Gm@layoutwidth=\dimen289
+\Gm@layoutheight=\dimen290
+\Gm@layouthoffset=\dimen291
+\Gm@layoutvoffset=\dimen292
 \Gm@dimlist=\toks43
 
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cf
+g)) (C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count326
+\c@float@type=\count349
 \float@exts=\toks44
-\float@box=\box67
+\float@box=\box69
 \@float@everytoks=\toks45
-\@floatcapt=\box68
-)
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
-Package: tabularx 2023/07/08 v2.11c `tabularx' package (DPC)
+\@floatcapt=\box70
+) (C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
+Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
 
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
-Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
-\col@sep=\dimen283
-\ar@mcellbox=\box69
-\extrarowheight=\dimen284
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2026/02/24 v2.7b Tabular extension package (FMi)
+\col@sep=\dimen293
+\ar@mcellbox=\box71
+\extrarowheight=\dimen294
 \NC@list=\toks46
-\extratabsurround=\skip55
-\backup@length=\skip56
-\ar@cellbox=\box70
+\extratabsurround=\skip56
+\backup@length=\skip57
+\ar@cellbox=\box72
 )
-\TX@col@width=\dimen285
-\TX@old@table=\dimen286
-\TX@old@col=\dimen287
-\TX@target=\dimen288
-\TX@delta=\dimen289
-\TX@cols=\count327
+\TX@col@width=\dimen295
+\TX@old@table=\dimen296
+\TX@old@col=\dimen297
+\TX@target=\dimen298
+\TX@delta=\dimen299
+\TX@cols=\count350
 \TX@ftn=\toks47
 )
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.st
+y
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen290
-\lightrulewidth=\dimen291
-\cmidrulewidth=\dimen292
-\belowrulesep=\dimen293
-\belowbottomsep=\dimen294
-\aboverulesep=\dimen295
-\abovetopsep=\dimen296
-\cmidrulesep=\dimen297
-\cmidrulekern=\dimen298
-\defaultaddspace=\dimen299
-\@cmidla=\count328
-\@cmidlb=\count329
-\@aboverulesep=\dimen300
-\@belowrulesep=\dimen301
-\@thisruleclass=\count330
-\@lastruleclass=\count331
-\@thisrulewidth=\dimen302
+\heavyrulewidth=\dimen300
+\lightrulewidth=\dimen301
+\cmidrulewidth=\dimen302
+\belowrulesep=\dimen303
+\belowbottomsep=\dimen304
+\aboverulesep=\dimen305
+\abovetopsep=\dimen306
+\cmidrulesep=\dimen307
+\cmidrulekern=\dimen308
+\defaultaddspace=\dimen309
+\@cmidla=\count351
+\@cmidlb=\count352
+\@aboverulesep=\dimen310
+\@belowrulesep=\dimen311
+\@thisruleclass=\count353
+\@lastruleclass=\count354
+\@thisrulewidth=\dimen312
 )
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pdfpages.sty
-Package: pdfpages 2025/07/23 v0.6g Insert pages of external PDF documents (AM)
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pdfpages.st
+y
+Package: pdfpages 2026/03/30 v0.6h Insert pages of external PDF documents (AM)
+ (C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
+)
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
+Package: calc 2025/03/01 v4.3b Infix arithmetic (KKT,FJ)
+\calc@Acount=\count355
+\calc@Bcount=\count356
+\calc@Adimen=\dimen313
+\calc@Bdimen=\dimen314
+\calc@Askip=\skip58
+\calc@Bskip=\skip59
+LaTeX Info: Redefining \setlength on input line 86.
+LaTeX Info: Redefining \addtolength on input line 87.
+\calc@Ccount=\count357
+\calc@Cskip=\skip60
+)
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
+Package: eso-pic 2026/05/31 v3.0e eso-pic (RN)
+\ESO@tempdima=\dimen315
+\ESO@tempdimb=\dimen316
+)
+\AM@pagewidth=\dimen317
+\AM@pageheight=\dimen318
+\AM@fboxrule=\dimen319
 
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
-Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pppdftex.de
+f
+File: pppdftex.def 2026/03/30 v0.6h Pdfpages driver for pdfTeX (AM)
 )
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
-Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count332
-\calc@Bcount=\count333
-\calc@Adimen=\dimen303
-\calc@Bdimen=\dimen304
-\calc@Askip=\skip57
-\calc@Bskip=\skip58
-LaTeX Info: Redefining \setlength on input line 80.
-LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count334
-\calc@Cskip=\skip59
-)
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
-Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
-\ESO@tempdima=\dimen305
-\ESO@tempdimb=\dimen306
-)
-\AM@pagewidth=\dimen307
-\AM@pageheight=\dimen308
-\AM@fboxrule=\dimen309
-
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pppdftex.def
-File: pppdftex.def 2025/07/23 v0.6g Pdfpages driver for pdfTeX (AM)
-)
-\pdfpages@includegraphics@status=\count335
-\AM@pagebox=\box71
+\pdfpages@includegraphics@status=\count358
+\AM@pagebox=\box73
 \AM@global@opts=\toks48
-\AM@pagecnt=\count336
+\AM@pagecnt=\count359
 \AM@toc@title=\toks49
 \AM@lof@heading=\toks50
-\c@AM@survey=\count337
-\AM@templatesizebox=\box72
+\c@AM@survey=\count360
+\AM@templatesizebox=\box74
 )
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.
+sty
 Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
 
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape-nom
-etadata.sty
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape-
+nometadata.sty
 Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PD
 F (HO)
 
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
 Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/appendix\appendix.sty
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/appendix\appendix.st
+y
 Package: appendix 2020/02/08 v1.2c extra appendix facilities
-\c@@pps=\count338
-\c@@ppsavesec=\count339
-\c@@ppsaveapp=\count340
+\c@@pps=\count361
+\c@@ppsavesec=\count362
+\c@@ppsaveapp=\count363
 )
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.st
+y
 Package: titlesec 2025/01/04 v2.17 Sectioning titles
-\ttl@box=\box73
-\beforetitleunit=\skip60
-\aftertitleunit=\skip61
-\ttl@plus=\dimen310
-\ttl@minus=\dimen311
+\ttl@box=\box75
+\beforetitleunit=\skip61
+\aftertitleunit=\skip62
+\ttl@plus=\dimen320
+\ttl@minus=\dimen321
 \ttl@toksa=\toks51
-\titlewidth=\dimen312
-\titlewidthlast=\dimen313
-\titlewidthfirst=\dimen314
+\titlewidth=\dimen322
+\titlewidthlast=\dimen323
+\titlewidthfirst=\dimen324
 )
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.st
+y
 Package: setspace 2022/12/04 v6.7b set line spacing
 )
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/todonotes\todonotes.sty
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/todonotes\todonotes.
+sty
 Package: todonotes 2024/01/05 v1.1.7 Todonotes source and documentation.
 Package: todonotes 2024/01/05
-\c@@todonotes@numberoftodonotes=\count341
+\c@@todonotes@numberoftodonotes=\count364
 )
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
-aryarrows.meta.code.tex
-File: pgflibraryarrows.meta.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfarrowinset=\dimen315
-\pgfarrowlength=\dimen316
-\pgfarrowwidth=\dimen317
-\pgfarrowlinewidth=\dimen318
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgfl
+ibraryarrows.meta.code.tex
+File: pgflibraryarrows.meta.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfarrowinset=\dimen325
+\pgfarrowlength=\dimen326
+\pgfarrowwidth=\dimen327
+\pgfarrowlinewidth=\dimen328
 )
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlayer-sc
-rpage.sty
-Package: scrlayer-scrpage 2023/07/07 v3.41 KOMA-Script package (end user interf
-ace for scrlayer)
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlayer
+-scrpage.sty
+Package: scrlayer-scrpage 2026/02/02 v3.49.2 KOMA-Script package (end user inte
+rface for scrlayer)
 
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlayer.st
-y
-Package: scrlayer 2023/07/07 v3.41 KOMA-Script package (defining layers and pag
-e styles)
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlayer
+.sty
+Package: scrlayer 2026/02/02 v3.49.2 KOMA-Script package (defining layers and p
+age styles)
 
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrkbase.st
-y
-Package: scrkbase 2023/07/07 v3.41 KOMA-Script package (KOMA-Script-dependent b
-asics and keyval usage)
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrkbase
+.sty
+Package: scrkbase 2026/02/02 v3.49.2 KOMA-Script package (KOMA-Script-dependent
+ basics and keyval usage)
 
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrbase.sty
-Package: scrbase 2023/07/07 v3.41 KOMA-Script package (KOMA-Script-independent 
-basics and keyval usage)
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrbase.
+sty
+Package: scrbase 2026/02/02 v3.49.2 KOMA-Script package (KOMA-Script-independen
+t basics and keyval usage)
 
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile.st
-y
-Package: scrlfile 2023/07/07 v3.41 KOMA-Script package (file load hooks)
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile
+.sty
+Package: scrlfile 2026/02/02 v3.49.2 KOMA-Script package (file load hooks)
 
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile-ho
-ok.sty
-Package: scrlfile-hook 2023/07/07 v3.41 KOMA-Script package (using LaTeX hooks)
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile
+-hook.sty
+Package: scrlfile-hook 2026/02/02 v3.49.2 KOMA-Script package (using LaTeX hook
+s)
 
-
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlogo.sty
-Package: scrlogo 2023/07/07 v3.41 KOMA-Script package (logo)
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlogo.
+sty
+Package: scrlogo 2026/02/02 v3.49.2 KOMA-Script package (logo)
 )))
-Applying: [2021/05/01] Usage of raw or classic option list on input line 252.
+Applying: [2021/05/01] Usage of raw or classic option list on input line 254.
 Already applied: [0000/00/00] Usage of raw or classic option list on input line
- 368.
+ 370.
 ))
-\footheight=\skip62
-Package scrlayer Info: patching LaTeX kernel macro \pagestyle on input line 218
-3.
+\footheight=\skip63
+Package scrlayer Info: patching LaTeX kernel macro \pagestyle on input line 217
+9.
 )
 
 Package scrlayer-scrpage Warning: it seems that package `titlesec' is used
@@ -1045,16 +1080,19 @@ Package csquotes Info: Redefining alias 'default' -> 'ngerman'.
 LaTeX Font Info:    Trying to load font information for T1+NotoSerif-TLF on inp
 ut line 169.
 
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/noto\t1notoserif-tlf.fd
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/noto\t1notoserif-tlf
+.fd
 File: T1NotoSerif-TLF.fd 2021/09/07 (autoinst) Font definitions for T1/NotoSeri
 f-TLF.
 )
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
-tex.def
-File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count342
-\l__pdf_internal_box=\box74
-) (T3200.aux)
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-
+pdftex.def
+File: l3backend-pdftex.def 2026-02-18 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count365
+) (T3200.aux
+Package babel Info: 'ngerman' activates 'german' shorthands.
+(babel)             Reported on input line 8.
+)
 \openout1 = `T3200.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 169.
@@ -1076,26 +1114,26 @@ LaTeX Font Info:    ... okay on input line 169.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 169.
 LaTeX Font Info:    ... okay on input line 169.
 
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
-ii
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf
+.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count343
-\scratchdimen=\dimen319
-\scratchbox=\box75
-\nofMPsegments=\count344
-\nofMParguments=\count345
+\scratchcounter=\count366
+\scratchdimen=\dimen329
+\scratchbox=\box76
+\nofMPsegments=\count367
+\nofMParguments=\count368
 \everyMPshowfont=\toks52
-\MPscratchCnt=\count346
-\MPscratchDim=\dimen320
-\MPnumerator=\count347
-\makeMPintoPDFobject=\count348
+\MPscratchCnt=\count369
+\MPscratchDim=\dimen330
+\MPnumerator=\count370
+\makeMPintoPDFobject=\count371
 \everyMPtoPDFconversion=\toks53
 )
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
-ase.sty
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopd
+f-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/grfext\grfext.sty
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/grfext\grfext.sty
 Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
 )
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -1105,8 +1143,8 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 504.
 
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
-fg
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sy
+s.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 LaTeX Info: Redefining \microtypecontext on input line 169.
@@ -1133,8 +1171,8 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `NotoSerif-TLF' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-\c@mv@tabular=\count349
-\c@mv@boldtabular=\count350
+\c@mv@tabular=\count372
+\c@mv@boldtabular=\count373
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
@@ -1143,14 +1181,14 @@ Package caption Info: End \AtBeginDocument code.
 
 bibgerm.sty: babel.sty detected
 
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-cmr.cfg
+
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
 LaTeX Font Info:    Trying to load font information for U+lasy on input line 16
 9.
-
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/base\ulasy.fd
+ (C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/base\ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 Package microtype Info: Loading generic protrusion settings for font family
@@ -1217,16 +1255,16 @@ LaTeX Font Info:    Font shape `T1/NotoSerif-TLF/m/sl' in size <12> not availab
 le
 (Font)              Font shape `T1/NotoSerif-TLF/m/it' tried instead on input l
 ine 231.
-<figures/dhbwlogo.png, id=245, 184.69pt x 77.28876pt>
+<figures/dhbwlogo.png, id=249, 184.69pt x 77.28876pt>
 File: figures/dhbwlogo.png Graphic file (type png)
 <use figures/dhbwlogo.png>
 Package pdftex.def Info: figures/dhbwlogo.png  used on input line 231.
 (pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
 [1
 
-{C:/Users/luist/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/luis
-t/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/noto/a_mz6bs5.enc} <./figures/d
-hbwlogo.png>]
+{C:/Users/sommerad/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/s
+ommerad/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/noto/a_mz6bs5.enc} <./fig
+ures/dhbwlogo.png>]
 Underfull \hbox (badness 1275) in paragraph at lines 243--246
 \T1/NotoSerif-TLF/m/n/12 (+20) ei-nes au-to-no-men Ro-bo-ter-sys-tems, wel-ches
  aus ei-nem Mit-sub-is-hi
@@ -1307,12 +1345,12 @@ File: figures/dhbwlogo.png Graphic file (type png)
 Package pdftex.def Info: figures/dhbwlogo.png  used on input line 252.
 (pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
 [2]
-<figures/L_Signature.png, id=264, 239.89626pt x 111.41624pt>
+<figures/L_Signature.png, id=268, 239.89626pt x 111.41624pt>
 File: figures/L_Signature.png Graphic file (type png)
 <use figures/L_Signature.png>
 Package pdftex.def Info: figures/L_Signature.png  used on input line 275.
 (pdftex.def)             Requested size: 91.89362pt x 42.67912pt.
-<figures/A_Signature.png, id=265, 123.46124pt x 45.92157pt>
+<figures/A_Signature.png, id=269, 123.46124pt x 45.92157pt>
 File: figures/A_Signature.png Graphic file (type png)
 <use figures/A_Signature.png>
 Package pdftex.def Info: figures/A_Signature.png  used on input line 292.
@@ -1426,120 +1464,122 @@ Overfull \hbox (2.40323pt too wide) in paragraph at lines 4--4
  []
 
 LaTeX Font Info:    Trying to load font information for T1+NotoSans-TLF on inpu
-t line 33.
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/noto\t1notosans-tlf.fd
+t line 34.
+
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/noto\t1notosans-tlf.
+fd
 File: T1NotoSans-TLF.fd 2021/09/07 (autoinst) Font definitions for T1/NotoSans-
 TLF.
 )
 LaTeX Font Info:    Font shape `T1/NotoSans-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 33.
+(Font)              scaled to size 12.0pt on input line 34.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `NotoSans-TLF' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/NotoSans-TLF/b/n' will be
-(Font)              scaled to size 12.0pt on input line 33.
+(Font)              scaled to size 12.0pt on input line 34.
 LaTeX Font Info:    Font shape `T1/NotoSans-TLF/b/n' will be
-(Font)              scaled to size 10.95pt on input line 33.
+(Font)              scaled to size 10.95pt on input line 34.
 
-Underfull \hbox (badness 1803) in paragraph at lines 10--42
+Underfull \hbox (badness 1803) in paragraph at lines 11--43
 \T1/NotoSerif-TLF/m/n/12 (+20) der Bil-der-fas-sung, bei der ent-we-der kos-ten
 -güns-ti-ge 2D-Kameras
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10--42
+Underfull \hbox (badness 10000) in paragraph at lines 11--43
 \T1/NotoSerif-TLF/m/n/12 (+20) va-ri-iert die Sys-te-mar-chi-tek-tur hin-sicht-
 lich der Ka-me-raan-zahl:
  []
 
 
-Underfull \hbox (badness 1924) in paragraph at lines 10--42
+Underfull \hbox (badness 1924) in paragraph at lines 11--43
 \T1/NotoSerif-TLF/m/n/12 (+20) Wäh-rend Mo-no-ka-me-ra-sys-te-me ei-ne ein-fa-c
 he Raum-über-wa-chung
  []
 
 
-Underfull \hbox (badness 3240) in paragraph at lines 10--42
+Underfull \hbox (badness 3240) in paragraph at lines 11--43
 \T1/NotoSerif-TLF/m/n/12 (+20) er-mög-li-chen, bie-ten Mul-ti-ka-me-ra-sys-te-m
 e durch hard-wa-re-sei-ti-ge
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10--42
+Underfull \hbox (badness 10000) in paragraph at lines 11--43
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10--42
+Underfull \hbox (badness 10000) in paragraph at lines 11--43
 \T1/NotoSerif-TLF/m/n/12 (+20) Die al-go-rith-mi-sche Aus-wer-tung lässt sich w
 ie-der-um in zwei
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10--42
+Underfull \hbox (badness 10000) in paragraph at lines 11--43
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10--42
+Underfull \hbox (badness 10000) in paragraph at lines 11--43
 \T1/NotoSerif-TLF/m/n/12 (+20) Die in-for-ma-ti-ons-tech-ni-sche Ab-si-che-rung
  des Ar-beits-rau-mes
  []
 
 
-Underfull \hbox (badness 2762) in paragraph at lines 10--42
+Underfull \hbox (badness 2762) in paragraph at lines 11--43
 \T1/NotoSerif-TLF/m/n/12 (+20) Ge-schwin-dig-keits-re-ge-lung (Dy-na-mic Speed 
 Con-trol), bei der die
  []
 
 
-Underfull \hbox (badness 8132) in paragraph at lines 10--42
+Underfull \hbox (badness 8132) in paragraph at lines 11--43
 \T1/NotoSerif-TLF/m/n/12 (+20) Sys-tem-ge-schwin-dig-keit ad-ap-tiv an die Po-s
 i-ti-on des Men-schen
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10--42
+Underfull \hbox (badness 10000) in paragraph at lines 11--43
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10--42
+Underfull \hbox (badness 10000) in paragraph at lines 11--43
 \T1/NotoSerif-TLF/m/n/12 (+20) Ein zen-tra-les wis-sen-schaft-li-ches Fun-da-me
 nt für sol-che fle-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10--42
+Underfull \hbox (badness 10000) in paragraph at lines 11--43
 \T1/NotoSerif-TLF/m/n/12 (+20) xiblen Si-cher-heits-ar-chi-tek-tu-ren be-schrei
 -ben Bdi-wi, M., Pfei-fer,
  []
 
 
-Underfull \hbox (badness 1902) in paragraph at lines 10--42
+Underfull \hbox (badness 1902) in paragraph at lines 11--43
 \T1/NotoSerif-TLF/m/n/12 (+20) M. und Ster-zing, A. [[]3[]], die sich in-ten-si
 v mit un-ter-schied-li-chen
  []
 
 
-Underfull \hbox (badness 1097) in paragraph at lines 10--42
+Underfull \hbox (badness 1097) in paragraph at lines 11--43
 \T1/NotoSerif-TLF/m/n/12 (+20) Die Au-to-ren schla-gen ei-ne sys-te-ma-ti-sche 
 Ta-xo-no-mie vor, wel-che
  []
 
 File: figures/dhbwlogo.png Graphic file (type png)
 <use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 42.
+Package pdftex.def Info: figures/dhbwlogo.png  used on input line 43.
 (pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
 [2
 
 ]
 LaTeX Font Info:    Trying to load font information for TS1+NotoSerif-TLF on in
-put line 44.
+put line 45.
 
-(C:\Users\luist\AppData\Local\Programs\MiKTeX\tex/latex/noto\ts1notoserif-tlf.f
-d
+(C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/noto\ts1notoserif-tl
+f.fd
 File: TS1NotoSerif-TLF.fd 2021/09/07 (autoinst) Font definitions for TS1/NotoSe
 rif-TLF.
 )
@@ -1554,531 +1594,457 @@ File: figures/dhbwlogo.png Graphic file (type png)
 <use figures/dhbwlogo.png>
 Package pdftex.def Info: figures/dhbwlogo.png  used on input line 48.
 (pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
- [3{C:/Users/luist/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/noto/a_honops.
-enc}]
-<figures/InfRot-HE-Luis.png, id=366, 371.13657pt x 240.14719pt>
+ [3{C:/Users/sommerad/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/noto/a_hono
+ps.enc}]
+<figures/InfRot-HE-Luis.png, id=372, 371.13657pt x 240.14719pt>
 File: figures/InfRot-HE-Luis.png Graphic file (type png)
 <use figures/InfRot-HE-Luis.png>
-Package pdftex.def Info: figures/InfRot-HE-Luis.png  used on input line 58.
+Package pdftex.def Info: figures/InfRot-HE-Luis.png  used on input line 59.
 (pdftex.def)             Requested size: 318.67207pt x 206.20374pt.
 
-Underfull \hbox (badness 2478) in paragraph at lines 62--65
+Underfull \hbox (badness 2478) in paragraph at lines 63--66
 \T1/NotoSerif-TLF/m/n/12 (+20) Ein eta-blier-ter An-satz zur De-tek-ti-on des m
 ensch-li-chen Kör-pers
  []
 
 
-Underfull \hbox (badness 2617) in paragraph at lines 62--65
+Underfull \hbox (badness 2617) in paragraph at lines 63--66
 \T1/NotoSerif-TLF/m/n/12 (+20) im in-fra-ro-ten Spek-tral-be-reich ope-rie-ren.
  Die-se Sys-te-me mes-sen
  []
 
 
-Underfull \hbox (badness 1189) in paragraph at lines 62--65
+Underfull \hbox (badness 1189) in paragraph at lines 63--66
 \T1/NotoSerif-TLF/m/n/12 (+20) die emit-tier-te Wär-me-strah-lung von Ob-jek-te
 n, die sich in-ner-halb
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 62--65
+Underfull \hbox (badness 10000) in paragraph at lines 63--66
 \T1/NotoSerif-TLF/m/n/12 (+20) des de-fi-nier-ten Er-fas-sungs-be-reichs be-fin
 -den. Mit-tels spe-zi-el-ler
  []
 
 
-Underfull \hbox (badness 1515) in paragraph at lines 62--65
+Underfull \hbox (badness 1515) in paragraph at lines 63--66
 \T1/NotoSerif-TLF/m/n/12 (+20) Ler-nal-go-rith-men, die auf ver-schie-de-nen em
 -pi-ri-schen Fall-stu-di-en
  []
 
 
-Underfull \hbox (badness 2600) in paragraph at lines 62--65
+Underfull \hbox (badness 2600) in paragraph at lines 63--66
 \T1/NotoSerif-TLF/m/n/12 (+20) ba-sie-ren, ge-lingt auf die-ser Grund-la-ge die
  se-lek-ti-ve Er-ken-nung
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 62--65
+Underfull \hbox (badness 10000) in paragraph at lines 63--66
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 62--65
+Underfull \hbox (badness 10000) in paragraph at lines 63--66
 \T1/NotoSerif-TLF/m/n/12 (+20) Als we-sent-li-cher Vor-teil die-ses sen-so-ri-s
 chen Prin-zips er-weist
  []
 
 
-Underfull \hbox (badness 4279) in paragraph at lines 62--65
+Underfull \hbox (badness 4279) in paragraph at lines 63--66
 \T1/NotoSerif-TLF/m/n/12 (+20) sich die ro-bus-te Ein-setz-bar-keit in rau-en, 
 in-dus-tri-ell ge-präg-ten
  []
 
 
-Underfull \hbox (badness 3386) in paragraph at lines 62--65
+Underfull \hbox (badness 3386) in paragraph at lines 63--66
 \T1/NotoSerif-TLF/m/n/12 (+20) Pro-duk-ti-ons-um-ge-bun-gen, da das Mess-prin-z
 ip weit-ge-hend un-ab-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 62--65
+Underfull \hbox (badness 10000) in paragraph at lines 63--66
 \T1/NotoSerif-TLF/m/n/12 (+20) hän-gig von sicht-ba-ren tran-si-en-ten Licht-ve
 r-hält-nis-sen ar-bei-tet.
  []
 
 
-Underfull \hbox (badness 2922) in paragraph at lines 62--65
+Underfull \hbox (badness 2922) in paragraph at lines 63--66
 \T1/NotoSerif-TLF/m/n/12 (+20) Dem-ge-gen-über ste-hen je-doch si-gni-fi-kan-te
  Nach-tei-le: Ne-ben der
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 62--65
+Underfull \hbox (badness 10000) in paragraph at lines 63--66
 \T1/NotoSerif-TLF/m/n/12 (+20) Hauto-ber-flä-chen-tem-pe-ra-tur äh-nelt. Dar-üb
 er hin-aus er-for-dert
  []
 
 
-Underfull \hbox (badness 7796) in paragraph at lines 62--65
+Underfull \hbox (badness 7796) in paragraph at lines 63--66
 \T1/NotoSerif-TLF/m/n/12 (+20) die ther-mo-gra-fi-sche Si-gnal-ver-ar-bei-tung 
 und die nach-ge-la-ger-te
  []
 
 
-Underfull \hbox (badness 4779) in paragraph at lines 62--65
+Underfull \hbox (badness 4779) in paragraph at lines 63--66
 \T1/NotoSerif-TLF/m/n/12 (+20) al-go-rith-mi-sche Merk-mals-be-rech-nung ei-ne 
 ver-gleichs-wei-se ho-he
  []
 
 File: figures/dhbwlogo.png Graphic file (type png)
 <use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 65.
+Package pdftex.def Info: figures/dhbwlogo.png  used on input line 66.
 (pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 67--74
+Underfull \hbox (badness 10000) in paragraph at lines 68--75
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--74
+Underfull \hbox (badness 10000) in paragraph at lines 68--75
 \T1/NotoSerif-TLF/m/n/12 (+20) Mithilfe der ToF-Struktur wird kon-ti-nu-ier-lic
 h die eu-kli-di-sche
  []
 
 
-Underfull \hbox (badness 1194) in paragraph at lines 67--74
+Underfull \hbox (badness 1194) in paragraph at lines 68--75
 \T1/NotoSerif-TLF/m/n/12 (+20) li-chen Ob-jek-ten er-mit-telt. Un-ter-schrei-te
 t der ge-mes-se-ne Ab-stand
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--74
+Underfull \hbox (badness 10000) in paragraph at lines 68--75
 
  []
 
 
-Underfull \hbox (badness 2884) in paragraph at lines 67--74
+Underfull \hbox (badness 2884) in paragraph at lines 68--75
 \T1/NotoSerif-TLF/m/n/12 (+20) Die Vor-tei-le die-ser Tech-no-lo-gie lie-gen in
  der Op-ti-on, ei-ne mit-
  []
 
 
-Underfull \hbox (badness 2027) in paragraph at lines 67--74
+Underfull \hbox (badness 2027) in paragraph at lines 68--75
 \T1/NotoSerif-TLF/m/n/12 (+20) in-hä-ren-te Kom-bi-na-ti-on aus In-ten-si-täts-
 bil-dern und drei-di-men-sio-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--74
+Underfull \hbox (badness 10000) in paragraph at lines 68--75
 
  []
 
 
-Underfull \hbox (badness 4699) in paragraph at lines 67--74
+Underfull \hbox (badness 4699) in paragraph at lines 68--75
 \T1/NotoSerif-TLF/m/n/12 (+20) Als kri-ti-scher Nach-teil er-weist sich je-doch
  die nor-ma-ti-ve Zer-
  []
 
 
-Underfull \hbox (badness 3612) in paragraph at lines 67--74
+Underfull \hbox (badness 3612) in paragraph at lines 68--75
 \T1/NotoSerif-TLF/m/n/12 (+20) ti-fi-zie-rung im Kon-text der funk-tio-na-len S
 i-cher-heit. Da-mit ei-ne
  []
 
 
-Underfull \hbox (badness 4940) in paragraph at lines 67--74
+Underfull \hbox (badness 4940) in paragraph at lines 68--75
 \T1/NotoSerif-TLF/m/n/12 (+20) zu-ge-las-sen wer-den kann, er-for-dert die Sys-
 te-mar-chi-tek-tur ei-ne
  []
 
 File: figures/dhbwlogo.png Graphic file (type png)
 <use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 74.
+Package pdftex.def Info: figures/dhbwlogo.png  used on input line 75.
 (pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
 [5 <./figures/InfRot-HE-Luis.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 76--81
+Underfull \hbox (badness 10000) in paragraph at lines 77--82
 \T1/NotoSerif-TLF/m/n/12 (+20) dar. Ent-spre-chen-de Al-go-rith-men nut-zen Sch
 well-wert-ver-fah-ren,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--81
+Underfull \hbox (badness 10000) in paragraph at lines 77--82
 
  []
 
 
-Underfull \hbox (badness 1019) in paragraph at lines 76--81
+Underfull \hbox (badness 1019) in paragraph at lines 77--82
 \T1/NotoSerif-TLF/m/n/12 (+20) Ökonomie, da für die Um-set-zung ei-ne klas-si-s
 che, kos-ten-güns-ti-ge
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--81
+Underfull \hbox (badness 10000) in paragraph at lines 77--82
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--81
+Underfull \hbox (badness 10000) in paragraph at lines 77--82
 \T1/NotoSerif-TLF/m/n/12 (+20) Dem ste-hen im in-dus-tri-el-len Ein-satz gra-vi
 e-ren-de Nach-tei-le
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--81
+Underfull \hbox (badness 10000) in paragraph at lines 77--82
 \T1/NotoSerif-TLF/m/n/12 (+20) ge-gen-über. Das Sys-tem ver-sagt in-hä-rent, so
 -bald der Wer-ker
  []
 
 File: figures/dhbwlogo.png Graphic file (type png)
 <use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 81.
+Package pdftex.def Info: figures/dhbwlogo.png  used on input line 82.
 (pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
 [6]
 File: figures/dhbwlogo.png Graphic file (type png)
 <use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 87.
+Package pdftex.def Info: figures/dhbwlogo.png  used on input line 88.
 (pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
  [7]
-Underfull \hbox (badness 1748) in paragraph at lines 106--111
-\T1/NotoSerif-TLF/m/n/12 (+20) wir-ken-de Schutzein-rich-tun-gen (ES-PE) re-gel
-t. Für den Ein-satz in
- []
-
-
-Underfull \hbox (badness 8113) in paragraph at lines 106--111
-\T1/NotoSerif-TLF/m/n/12 (+20) dass das Sen-sor-sys-tem über ei-ne per-ma-nen-t
-e, hard-wa-re-na-he
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 106--111
-
- []
-
-
-Underfull \hbox (badness 1394) in paragraph at lines 106--111
-\T1/NotoSerif-TLF/m/n/12 (+20) des mensch-li-chen Kör-pers. So-bald ein Sys-tem
- auf die De-tek-ti-on
- []
-
-
-Underfull \hbox (badness 2443) in paragraph at lines 106--111
-\T1/NotoSerif-TLF/m/n/12 (+20) wird, for-dert die Norm den An-satz stan-dar-di-
-sier-ter, ma-xi-ma-ler
- []
-
-
-Underfull \hbox (badness 5519) in paragraph at lines 106--111
-\T1/NotoSerif-TLF/m/n/12 (+20) Hand-ge-schwin-dig-kei-ten ($\OT1/cmr/m/n/12 160
-0 []$ \T1/NotoSerif-TLF/m/n/12 (+20) bis $\OT1/cmr/m/n/12 2000 []$\T1/NotoSerif
--TLF/m/n/12 (+20) ). Für op-ti-sche
- []
-
-
-Underfull \hbox (badness 2409) in paragraph at lines 106--111
-\T1/NotoSerif-TLF/m/n/12 (+20) Sys-te-me, die auf Mus-te-rer-ken-nung ba-sie-re
-n, er-gibt sich dar-aus
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 106--111
-\T1/NotoSerif-TLF/m/n/12 (+20) theo-re-tisch die An-for-de-rung, dass die Ver-a
-r-bei-tungs-fre-quenz
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 106--111
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 106--111
-\T1/NotoSerif-TLF/m/n/12 (+20) Dis-kre-panz beim Ein-satz sto-chas-ti-scher Aus
--wer-te-al-go-rith-men
- []
-
-
-Underfull \hbox (badness 1024) in paragraph at lines 106--111
-\T1/NotoSerif-TLF/m/n/12 (+20) (wie ma-schi-nel-len Lern-ver-fah-ren). Da die-s
-e sys-tem-be-dingt kei-ne
- []
-
 File: figures/dhbwlogo.png Graphic file (type png)
 <use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 111.
+Package pdftex.def Info: figures/dhbwlogo.png  used on input line 110.
 (pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
-[8]
-<figures/haar-like-features.jpg, id=432, 636.3775pt x 386.44376pt>
+ [8]
+Underfull \hbox (badness 10000) in paragraph at lines 111--112
+[]\T1/NotoSerif-TLF/m/n/12 (+20) Zusammenfassend er-gibt sich in der mathematis
+ch-
+ []
+
+
+Underfull \hbox (badness 6493) in paragraph at lines 111--112
+\T1/NotoSerif-TLF/m/n/12 (+20) deterministischen Va-li-die-rung nach ISO 13849-
+1 [[]10[]] und IEC
+ []
+
+
+Underfull \hbox (badness 5954) in paragraph at lines 111--112
+\T1/NotoSerif-TLF/m/n/12 (+20) An-wen-dun-gen stets ei-ne Ab-si-che-rung der ma
+-the-ma-ti-schen Er-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 111--112
+\T1/NotoSerif-TLF/m/n/12 (+20) geb-nis-se durch di-ver-si-täre Sen-so-rik oder 
+fest pro-gram-mier-te
+ []
+
+<figures/haar-like-features.jpg, id=438, 636.3775pt x 386.44376pt>
 File: figures/haar-like-features.jpg Graphic file (type jpg)
 <use figures/haar-like-features.jpg>
-Package pdftex.def Info: figures/haar-like-features.jpg  used on input line 118
+Package pdftex.def Info: figures/haar-like-features.jpg  used on input line 119
 .
 (pdftex.def)             Requested size: 318.67207pt x 193.51033pt.
 
-Underfull \hbox (badness 1082) in paragraph at lines 115--125
+Underfull \hbox (badness 1082) in paragraph at lines 116--126
 \T1/NotoSerif-TLF/m/n/12 (+20) ver-scho-ben wird. In-ner-halb die-ses Pro-zes-s
 es führt je-de ein-zel-ne
  []
 
 
-Underfull \hbox (badness 2103) in paragraph at lines 115--125
+Underfull \hbox (badness 2103) in paragraph at lines 116--126
 \T1/NotoSerif-TLF/m/n/12 (+20) dass der Bild-aus-schnitt zur tiefer-ge-hen-den 
 Über-prü-fung an die
  []
 
 
-Underfull \hbox (badness 2065) in paragraph at lines 115--125
+Underfull \hbox (badness 2065) in paragraph at lines 116--126
 \T1/NotoSerif-TLF/m/n/12 (+20) sich das Prin-zip der Kon-fu-si-ons-ma-trix her-
 an-zie-hen, wel-che die
  []
 
 
-Underfull \hbox (badness 1577) in paragraph at lines 115--125
+Underfull \hbox (badness 1577) in paragraph at lines 116--126
 \T1/NotoSerif-TLF/m/n/12 (+20) Er-geb-nis-se in vier fun-da-men-ta-le Ka-te-go-
 ri-en un-ter-teilt. Ein \T1/NotoSerif-TLF/m/it/12 (+20) True
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 115--125
+Underfull \hbox (badness 10000) in paragraph at lines 116--126
 \T1/NotoSerif-TLF/m/n/12 (+20) die zu-tref-fen-de Iden-ti-fi-ka-ti-on von Hin-t
 er-grund-struk-tu-ren als
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 115--125
+Underfull \hbox (badness 10000) in paragraph at lines 116--126
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 115--125
+Underfull \hbox (badness 10000) in paragraph at lines 116--126
 \T1/NotoSerif-TLF/m/n/12 (+20) Aus die-ser Dy-na-mik lei-ten sich hoch-gra-dig 
 asym-me-tri-sche
  []
 
 
-Underfull \hbox (badness 1783) in paragraph at lines 115--125
+Underfull \hbox (badness 1783) in paragraph at lines 116--126
 \T1/NotoSerif-TLF/m/n/12 (+20) und si-cher-heits-kri-ti-sche An-for-de-run-gen 
 an die ein-zel-nen Kas-ka-
  []
 
 File: figures/dhbwlogo.png Graphic file (type png)
 <use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 125.
+Package pdftex.def Info: figures/dhbwlogo.png  used on input line 126.
 (pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
 [9]
 File: figures/dhbwlogo.png Graphic file (type png)
 <use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 125.
+Package pdftex.def Info: figures/dhbwlogo.png  used on input line 126.
 (pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
  [10 <./figures/haar-like-features.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 135--138
+Underfull \hbox (badness 10000) in paragraph at lines 136--139
 
  []
 
 
-Underfull \hbox (badness 5050) in paragraph at lines 135--138
+Underfull \hbox (badness 5050) in paragraph at lines 136--139
 \T1/NotoSerif-TLF/m/n/12 (+20) Durch das sys-te-ma-ti-sche Ver-schie-ben und ko
 n-ti-nu-ier-li-che Ska-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 135--138
+Underfull \hbox (badness 10000) in paragraph at lines 136--139
 \T1/NotoSerif-TLF/m/n/12 (+20) ei-ne kom-bi-na-to-ri-sche Ex-plo-si-on der zu b
 e-rech-nen-den Wer-te.
  []
 
 
-Underfull \hbox (badness 2418) in paragraph at lines 135--138
+Underfull \hbox (badness 2418) in paragraph at lines 136--139
 \T1/NotoSerif-TLF/m/n/12 (+20) Be-reits in-ner-halb ei-nes sehr klei-nen Standa
 rd-Suchfensters von
  []
 
 
-Underfull \hbox (badness 1205) in paragraph at lines 135--138
+Underfull \hbox (badness 1205) in paragraph at lines 136--139
 \T1/NotoSerif-TLF/m/n/12 (+20) un-ter-schied-li-che Merk-mals-wer-te. Die-se en
 or-me Viel-falt teilt sich
  []
 
 File: figures/dhbwlogo.png Graphic file (type png)
 <use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 143.
+Package pdftex.def Info: figures/dhbwlogo.png  used on input line 145.
 (pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
 [11]
 File: figures/dhbwlogo.png Graphic file (type png)
 <use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 165.
+Package pdftex.def Info: figures/dhbwlogo.png  used on input line 169.
 (pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
  [12]
 File: figures/dhbwlogo.png Graphic file (type png)
 <use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 180.
+Package pdftex.def Info: figures/dhbwlogo.png  used on input line 182.
 (pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
  [13]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
 File: figures/dhbwlogo.png Graphic file (type png)
 <use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 221.
+Package pdftex.def Info: figures/dhbwlogo.png  used on input line 223.
 (pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
-[14]
+ [14]
 LaTeX Font Info:    Font shape `T1/NotoSans-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 238.
+(Font)              scaled to size 8.0pt on input line 241.
 
-Underfull \hbox (badness 5533) in paragraph at lines 225--254
-\T1/NotoSerif-TLF/m/n/12 (+20) Pro-gram-mie-rer ver-ein-facht, Par-al-le-li-tät
- und Ne-ben-läu-fig-keit in
- []
-
-
-Underfull \hbox (badness 1210) in paragraph at lines 225--254
-\T1/NotoSerif-TLF/m/n/12 (+20) C#-Programmen um-zu-set-zen [[]24[]]. Für die-se
- Ar-beit ist vor al-lem
- []
-
-
-Underfull \hbox (badness 7722) in paragraph at lines 225--254
-\T1/NotoSerif-TLF/m/n/12 (+20) das Kon-zept der Ne-ben-läu-fig-keit (\T1/NotoSe
-rif-TLF/m/it/12 (+20) engl.: con-cur-ren-cy\T1/NotoSerif-TLF/m/n/12 (+20) ) re-
-le-vant.
- []
-
-
-Underfull \hbox (badness 1189) in paragraph at lines 225--254
-\T1/NotoSerif-TLF/m/n/12 (+20) oder Ein-/Ausgabeoperationen vom pri-mären Ar-be
-itss-trang ei-ner
- []
-
-
-Underfull \hbox (badness 1924) in paragraph at lines 255--257
+Underfull \hbox (badness 1924) in paragraph at lines 258--260
 \T1/NotoSerif-TLF/m/n/12 (+20) Um die Rol-le der TPL im Kon-text die-ser Ar-bei
 t zu prä-zi-sie-ren,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 255--257
+Underfull \hbox (badness 10000) in paragraph at lines 258--260
 \T1/NotoSerif-TLF/m/n/12 (+20) muss zwi-schen Ne-ben-läu-fig-keit und Par-al-le
 -li-tät un-ter-schie-den
  []
 
 
-Underfull \hbox (badness 2680) in paragraph at lines 255--257
+Underfull \hbox (badness 2680) in paragraph at lines 258--260
 \T1/NotoSerif-TLF/m/n/12 (+20) Ein ne-ben-läu-fi-ges Sys-tem ist dar-auf aus-ge
 -legt, Auf-ga-ben durch
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 255--257
+Underfull \hbox (badness 10000) in paragraph at lines 258--260
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 255--257
+Underfull \hbox (badness 10000) in paragraph at lines 258--260
 \T1/NotoSerif-TLF/m/n/12 (+20) Dabei ist Mul-ti-threa-ding ^^U al-so die Ver-we
 n-dung meh-re-rer
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 255--257
+Underfull \hbox (badness 10000) in paragraph at lines 258--260
 \T1/NotoSerif-TLF/m/n/12 (+20) Aus-füh-rungs-strän-ge ^^U le-dig-lich ei-ne For
 m der ne-ben-läu-fi-gen
  []
 
 
-Underfull \hbox (badness 2913) in paragraph at lines 255--257
+Underfull \hbox (badness 2913) in paragraph at lines 258--260
 \T1/NotoSerif-TLF/m/n/12 (+20) über-ge-ord-ne-te Ab-strak-tio-nen, die den di-r
 ek-ten, feh-ler-an-fäl-li-gen
  []
 
 File: figures/dhbwlogo.png Graphic file (type png)
 <use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 257.
+Package pdftex.def Info: figures/dhbwlogo.png  used on input line 260.
 (pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
 [15]
-Underfull \hbox (badness 10000) in paragraph at lines 262--265
+Underfull \hbox (badness 10000) in paragraph at lines 265--268
 
  []
 
 
-Underfull \hbox (badness 8113) in paragraph at lines 262--265
+Underfull \hbox (badness 8113) in paragraph at lines 265--268
 \T1/NotoSerif-TLF/m/n/12 (+20) Die De-kla-ra-ti-on ei-ner Me-tho-de mit dem Sch
 lüs-sel-wort \T1/NotoSerif-TLF/m/it/12 (+20) async
  []
 
 
-Underfull \hbox (badness 1087) in paragraph at lines 262--265
+Underfull \hbox (badness 1087) in paragraph at lines 265--268
 \T1/NotoSerif-TLF/m/n/12 (+20) auf das Schlüs-sel-wort \T1/NotoSerif-TLF/m/it/1
 2 (+20) await\T1/NotoSerif-TLF/m/n/12 (+20) , wird die Aus-füh-rung der ak-tu-e
 l-len
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 262--265
+Underfull \hbox (badness 10000) in paragraph at lines 265--268
 
  []
 
 
-Underfull \hbox (badness 6063) in paragraph at lines 262--265
+Underfull \hbox (badness 6063) in paragraph at lines 265--268
 \T1/NotoSerif-TLF/m/n/12 (+20) Eine ge-naue-re Aus-füh-rung zu die-ser The-ma-t
 ik ist un-ter [[]26[]]
  []
 
 File: figures/dhbwlogo.png Graphic file (type png)
 <use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 265.
+Package pdftex.def Info: figures/dhbwlogo.png  used on input line 273.
 (pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
 [16]
-<figures/DH_frame_rvm1.png, id=503, 242.40562pt x 164.11313pt>
+<figures/DH_frame_rvm1.png, id=510, 242.40562pt x 164.11313pt>
 File: figures/DH_frame_rvm1.png Graphic file (type png)
 <use figures/DH_frame_rvm1.png>
-Package pdftex.def Info: figures/DH_frame_rvm1.png  used on input line 298.
+Package pdftex.def Info: figures/DH_frame_rvm1.png  used on input line 301.
 (pdftex.def)             Requested size: 170.71652pt x 115.58456pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-File: figures/dhbwlogo.png Graphic file (type png)
-<use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 304.
-(pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
-[17]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 305.
+(hyperref)                removing `\@ifnextchar' on input line 308.
 
 
-Underfull \hbox (badness 1394) in paragraph at lines 307--309
+Underfull \hbox (badness 1394) in paragraph at lines 310--312
 \T1/NotoSerif-TLF/m/n/12 (+20) Zur Re-du-zie-rung der ma-the-ma-ti-schen Kom-pl
 e-xi-tät und für ei-ne
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 307--309
+Underfull \hbox (badness 10000) in paragraph at lines 310--312
 
  []
 
 
-Underfull \hbox (badness 1838) in paragraph at lines 307--309
+Underfull \hbox (badness 1838) in paragraph at lines 310--312
 \T1/NotoSerif-TLF/m/n/12 (+20) Dabei re-prä-sen-tie-ren die Buch-sta-ben $\OML/
 cmm/m/it/12 c$ \T1/NotoSerif-TLF/m/n/12 (+20) und $\OML/cmm/m/it/12 s$ \T1/Noto
 Serif-TLF/m/n/12 (+20) die Kosinus- bzw.
@@ -2086,17 +2052,22 @@ Serif-TLF/m/n/12 (+20) die Kosinus- bzw.
 
 File: figures/dhbwlogo.png Graphic file (type png)
 <use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 326.
+Package pdftex.def Info: figures/dhbwlogo.png  used on input line 312.
 (pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
-[18 <./figures/DH_frame_rvm1.png>]
+[17]
 File: figures/dhbwlogo.png Graphic file (type png)
 <use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 355.
+Package pdftex.def Info: figures/dhbwlogo.png  used on input line 329.
+(pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
+ [18 <./figures/DH_frame_rvm1.png>]
+File: figures/dhbwlogo.png Graphic file (type png)
+<use figures/dhbwlogo.png>
+Package pdftex.def Info: figures/dhbwlogo.png  used on input line 358.
 (pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
  [19]
 File: figures/dhbwlogo.png Graphic file (type png)
 <use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 377.
+Package pdftex.def Info: figures/dhbwlogo.png  used on input line 380.
 (pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
  [20]) (sec3.tex
 Kapitel 3.
@@ -2106,161 +2077,144 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--1
  []
 
 
-Underfull \hbox (badness 2790) in paragraph at lines 8--9
-\T1/NotoSerif-TLF/m/n/12 (+20) in der Aus-gangs-la-ge ein kri-ti-sches Stör-ver
--hal-ten in-ner-halb der
- []
-
-
-Underfull \hbox (badness 5533) in paragraph at lines 8--9
-\T1/NotoSerif-TLF/m/n/12 (+20) Rendering-Engine des \T1/NotoSerif-TLF/m/it/12 (
-+20) PCL-Vi-sua-li-zer\T1/NotoSerif-TLF/m/n/12 (+20) . Beim Ver-such, im View-e
-r
- []
-
-File: figures/dhbwlogo.png Graphic file (type png)
-<use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 16.
-(pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
-[21
-
-
-]
-Underfull \hbox (badness 1515) in paragraph at lines 19--59
+Underfull \hbox (badness 1515) in paragraph at lines 11--51
 []\T1/NotoSerif-TLF/m/n/12 (+20) 3.1[] zeigt qua-li-ta-tiv auf, wie ei-ne sol-c
 he Ab-fol-ge aus-sieht. Es ist
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 19--59
+Underfull \hbox (badness 10000) in paragraph at lines 11--51
 \T1/NotoSerif-TLF/m/n/12 (+20) den ge-sam-ten Haupt-thread für ei-ne nicht ver-
 nach-läs-sig-ba-re
  []
 
 
-Underfull \hbox (badness 2961) in paragraph at lines 19--59
+Underfull \hbox (badness 2961) in paragraph at lines 11--51
 \T1/NotoSerif-TLF/m/n/12 (+20) wird, bis ein Be-fehl voll-stän-dig an den Ro-bo
 -ter ge-sen-det, von
  []
 
 
-Underfull \hbox (badness 1584) in paragraph at lines 19--59
+Underfull \hbox (badness 1584) in paragraph at lines 11--51
 \T1/NotoSerif-TLF/m/n/12 (+20) ihm ver-ar-bei-tet und aus-ge-führt wird, lässt 
 sich ver-ein-facht mit
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 19--59
+Underfull \hbox (badness 10000) in paragraph at lines 11--51
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 19--59
+Underfull \hbox (badness 10000) in paragraph at lines 11--51
 \T1/NotoSerif-TLF/m/n/12 (+20) Während die-ser Zeit-span-ne friert die ge-sam-t
 e Be-nut-ze-ro-ber-
  []
 
 
-Underfull \hbox (badness 2689) in paragraph at lines 19--59
+Underfull \hbox (badness 2689) in paragraph at lines 11--51
 \T1/NotoSerif-TLF/m/n/12 (+20) flä-che so-wie die Hand-lungs-fä-hig-keit des Ha
 upt-threads ein. Um
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 19--59
+Underfull \hbox (badness 10000) in paragraph at lines 11--51
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 19--59
+Underfull \hbox (badness 10000) in paragraph at lines 11--51
 \T1/NotoSerif-TLF/m/n/12 (+20) Das Ziel die-ser Ana-ly-se ist die Iden-ti-fi-ka
 -ti-on der kri-ti-schen
  []
 
 File: figures/dhbwlogo.png Graphic file (type png)
 <use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 59.
+Package pdftex.def Info: figures/dhbwlogo.png  used on input line 51.
 (pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
-[22]
-Underfull \hbox (badness 10000) in paragraph at lines 61--63
+[21
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 53--55
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--63
+Underfull \hbox (badness 10000) in paragraph at lines 53--55
 \T1/NotoSerif-TLF/m/n/12 (+20) Die theo-re-ti-sche Ge-samt-lauf-zeit $\OML/cmm/
 m/it/12 T[]$ \T1/NotoSerif-TLF/m/n/12 (+20) ei-ner Be-fehls-se-quenz lässt
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--63
+Underfull \hbox (badness 10000) in paragraph at lines 53--55
 \T1/NotoSerif-TLF/m/n/12 (+20) sich so-mit durch Sum-ma-ti-on der Be-fehls-aus-
 füh-rungs-zei-ten
  []
 
 
-Underfull \hbox (badness 1418) in paragraph at lines 71--75
+Underfull \hbox (badness 1418) in paragraph at lines 63--67
 \T1/NotoSerif-TLF/m/n/12 (+20) der Be-ar-bei-tungs-rei-hen-fol-ge (mit $\OML/cm
 m/m/it/12 n$ \T1/NotoSerif-TLF/m/n/12 (+20) als Ge-samt-zahl der Ob-jek-te),
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 71--75
+Underfull \hbox (badness 10000) in paragraph at lines 63--67
 
  []
 
 
-Underfull \hbox (badness 1769) in paragraph at lines 71--75
+Underfull \hbox (badness 1769) in paragraph at lines 63--67
 \T1/NotoSerif-TLF/m/n/12 (+20) die Ge-samt-aus-füh-rungs-zeit ei-ner Be-fehls-s
 e-quenz (be-ste-hend aus
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 71--75
+Underfull \hbox (badness 10000) in paragraph at lines 63--67
 
  []
 
 
-Underfull \hbox (badness 2884) in paragraph at lines 71--75
+Underfull \hbox (badness 2884) in paragraph at lines 63--67
 \T1/NotoSerif-TLF/m/n/12 (+20) Bei die-ser theo-re-ti-schen Be-trach-tung wird 
 be-wusst ei-ne Worst-
  []
 
 
-Underfull \hbox (badness 4024) in paragraph at lines 71--75
+Underfull \hbox (badness 4024) in paragraph at lines 63--67
 \T1/NotoSerif-TLF/m/n/12 (+20) um si-cher-zu-stel-len, dass der Ro-bo-ter die B
 e-we-gung ga-ran-tiert
  []
 
 
-Underfull \hbox (badness 4266) in paragraph at lines 71--75
+Underfull \hbox (badness 4266) in paragraph at lines 63--67
 \T1/NotoSerif-TLF/m/n/12 (+20) Prak-tisch funk-tio-niert die-se Vor-ge-hens-wei
 -se, al-ler-dings kön-nen
  []
 
 File: figures/dhbwlogo.png Graphic file (type png)
 <use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 75.
+Package pdftex.def Info: figures/dhbwlogo.png  used on input line 67.
 (pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
-[23]
-<figures/Messexperiment.png, id=571, 2366.8425pt x 2276.505pt>
+[22]
+<figures/Messexperiment.png, id=573, 2366.8425pt x 2276.505pt>
 File: figures/Messexperiment.png Graphic file (type png)
 <use figures/Messexperiment.png>
-Package pdftex.def Info: figures/Messexperiment.png  used on input line 84.
+Package pdftex.def Info: figures/Messexperiment.png  used on input line 76.
 (pdftex.def)             Requested size: 179.25113pt x 172.39786pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--114
+Underfull \hbox (badness 10000) in paragraph at lines 69--106
 
  []
 
 
-Underfull \hbox (badness 8075) in paragraph at lines 77--114
+Underfull \hbox (badness 8075) in paragraph at lines 69--106
 \T1/NotoSerif-TLF/m/n/12 (+20) Das Mess-ex-pe-ri-ment wird mit vier Zy-lin-de-r
 -ob-jek-ten durch-ge-
  []
 
 
-Overfull \hbox (23.79189pt too wide) in paragraph at lines 117--126
+Overfull \hbox (23.79189pt too wide) in paragraph at lines 109--118
 [][] 
  []
 
@@ -2269,52 +2223,52 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 File: figures/dhbwlogo.png Graphic file (type png)
 <use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 129.
+Package pdftex.def Info: figures/dhbwlogo.png  used on input line 121.
 (pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
-[24 <./figures/Messexperiment.png>]
+[23 <./figures/Messexperiment.png>]
 LaTeX Font Info:    Font shape `T1/NotoSans-TLF/m/n' will be
-(Font)              scaled to size 6.0pt on input line 140.
+(Font)              scaled to size 6.0pt on input line 132.
 
-Overfull \hbox (10.07231pt too wide) in paragraph at lines 156--157
+Overfull \hbox (10.07231pt too wide) in paragraph at lines 148--149
  [][] 
  []
 
 File: figures/dhbwlogo.png Graphic file (type png)
 <use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 160.
+Package pdftex.def Info: figures/dhbwlogo.png  used on input line 152.
 (pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
-[25]
-Underfull \hbox (badness 10000) in paragraph at lines 165--187
+[24]
+Underfull \hbox (badness 10000) in paragraph at lines 157--179
 
  []
 
 
-Underfull \hbox (badness 4660) in paragraph at lines 165--187
+Underfull \hbox (badness 4660) in paragraph at lines 157--179
 \T1/NotoSerif-TLF/m/n/12 (+20) Um die fest-ge-leg-te Zeit $\OML/cmm/m/it/12 T[]
 $ \T1/NotoSerif-TLF/m/n/12 (+20) für ein Ob-jekt zu er-mit-teln,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 165--187
+Underfull \hbox (badness 10000) in paragraph at lines 157--179
 \T1/NotoSerif-TLF/m/n/12 (+20) wer-den die Me-tho-den \T1/NotoSerif-TLF/m/it/12
  (+20) Send-Ko-or-di-na-ti-ons, Go-To-Ma-ga-zin so-wie
  []
 
 File: figures/dhbwlogo.png Graphic file (type png)
 <use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 187.
+Package pdftex.def Info: figures/dhbwlogo.png  used on input line 179.
 (pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
-[26]
+[25]
 File: figures/dhbwlogo.png Graphic file (type png)
 <use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 215.
+Package pdftex.def Info: figures/dhbwlogo.png  used on input line 207.
 (pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
- [27])
+ [26])
 File: figures/dhbwlogo.png Graphic file (type png)
 <use figures/dhbwlogo.png>
 Package pdftex.def Info: figures/dhbwlogo.png  used on input line 331.
 (pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
- [28] (sec4.tex
+ [27] (sec4.tex
 Kapitel 4.
 
 Underfull \hbox (badness 10000) in paragraph at lines 6--6
@@ -2342,7 +2296,7 @@ File: figures/dhbwlogo.png Graphic file (type png)
 <use figures/dhbwlogo.png>
 Package pdftex.def Info: figures/dhbwlogo.png  used on input line 12.
 (pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
-[29
+[28
 
 ]
 Underfull \hbox (badness 1521) in paragraph at lines 13--15
@@ -2401,8 +2355,8 @@ File: figures/dhbwlogo.png Graphic file (type png)
 <use figures/dhbwlogo.png>
 Package pdftex.def Info: figures/dhbwlogo.png  used on input line 25.
 (pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
-[30]
-<figures/asynchrone_synchrone_ptp.png, id=626, 365.86688pt x 102.3825pt>
+[29]
+<figures/asynchrone_synchrone_ptp.png, id=628, 365.86688pt x 102.3825pt>
 File: figures/asynchrone_synchrone_ptp.png Graphic file (type png)
 <use figures/asynchrone_synchrone_ptp.png>
 Package pdftex.def Info: figures/asynchrone_synchrone_ptp.png  used on input li
@@ -2447,8 +2401,8 @@ File: figures/dhbwlogo.png Graphic file (type png)
 <use figures/dhbwlogo.png>
 Package pdftex.def Info: figures/dhbwlogo.png  used on input line 41.
 (pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
-[31 <./figures/asynchrone_synchrone_ptp.png>]
-<figures/pipeline.drawio.png, id=643, 613.29124pt x 302.12875pt>
+[30 <./figures/asynchrone_synchrone_ptp.png>]
+<figures/pipeline.drawio.png, id=644, 613.29124pt x 302.12875pt>
 File: figures/pipeline.drawio.png Graphic file (type png)
 <use figures/pipeline.drawio.png>
 Package pdftex.def Info: figures/pipeline.drawio.png  used on input line 48.
@@ -2497,7 +2451,7 @@ File: figures/dhbwlogo.png Graphic file (type png)
 <use figures/dhbwlogo.png>
 Package pdftex.def Info: figures/dhbwlogo.png  used on input line 60.
 (pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
-[32 <./figures/pipeline.drawio.png>]
+[31 <./figures/pipeline.drawio.png>]
 Underfull \hbox (badness 3930) in paragraph at lines 60--63
 \T1/NotoSerif-TLF/m/n/12 (+20) Be-feh-le oh-ne ab-ge-stimm-te zeit-li-che Ba-si
 s an den Ro-bo-ter
@@ -2531,7 +2485,7 @@ File: figures/dhbwlogo.png Graphic file (type png)
 <use figures/dhbwlogo.png>
 Package pdftex.def Info: figures/dhbwlogo.png  used on input line 335.
 (pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
- [33] (sec5.tex
+ [32] (sec5.tex
 Kapitel 5.
 
 Underfull \hbox (badness 2556) in paragraph at lines 8--11
@@ -2573,7 +2527,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 26--26
 +20) Ent-schei-dungs-ma-trix zur Aus-wahl der MRK-
  []
 
-<figures/Frauenhofer_Arbeitsraumueberwachung.jpg, id=659, 770.88pt x 513.92pt>
+<figures/Frauenhofer_Arbeitsraumueberwachung.jpg, id=661, 770.88pt x 513.92pt>
 File: figures/Frauenhofer_Arbeitsraumueberwachung.jpg Graphic file (type jpg)
 <use figures/Frauenhofer_Arbeitsraumueberwachung.jpg>
 Package pdftex.def Info: figures/Frauenhofer_Arbeitsraumueberwachung.jpg  used 
@@ -2635,14 +2589,19 @@ File: figures/dhbwlogo.png Graphic file (type png)
 <use figures/dhbwlogo.png>
 Package pdftex.def Info: figures/dhbwlogo.png  used on input line 42.
 (pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
-[34
+[33
 
 ]
 File: figures/dhbwlogo.png Graphic file (type png)
 <use figures/dhbwlogo.png>
 Package pdftex.def Info: figures/dhbwlogo.png  used on input line 42.
 (pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
- [35]
+ [34]
+Underfull \hbox (badness 2781) in paragraph at lines 42--52
+[]\T1/NotoSerif-TLF/m/n/12 (+20) Bei der al-go-rith-mi-schen
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 42--52
 \T1/NotoSerif-TLF/m/n/12 (+20) Er-eig-nis-s-teue-rung wird
  []
@@ -2781,27 +2740,39 @@ si-sche und vi-su-el-
  []
 
 
-Underfull \hbox (badness 1629) in paragraph at lines 42--52
-\T1/NotoSerif-TLF/m/n/12 (+20) und oft spe-zia-li-sier-te Aus-wer-te-elek-tro-n
-ik be-nö-tigt. Da phy-si-sche
+Underfull \hbox (badness 2990) in paragraph at lines 42--52
+\T1/NotoSerif-TLF/m/n/12 (+20) und Kon-takt-her-aus-for-de-rung über klas-si-sc
+he Kom-po-nen-ten wie
  []
 
 
-Underfull \hbox (badness 5832) in paragraph at lines 42--52
-\T1/NotoSerif-TLF/m/n/12 (+20) Sys-te-me bie-ten den Vor-teil ei-ner zu-ver-läs
--si-gen Klas-si-fi-zie-rung
+Underfull \hbox (badness 5077) in paragraph at lines 42--52
+\T1/NotoSerif-TLF/m/n/12 (+20) rea-giert und oft spe-zia-li-sier-te Aus-wer-te-
+elek-tro-nik be-nö-tigt. Da
  []
 
 
-Underfull \hbox (badness 1565) in paragraph at lines 42--52
-\T1/NotoSerif-TLF/m/n/12 (+20) die-sel-be Hard-wa-re so-wohl für Si-cher-heits-
-auf-ga-ben als auch für
+Underfull \hbox (badness 3713) in paragraph at lines 42--52
+\T1/NotoSerif-TLF/m/n/12 (+20) ist der me-cha-ni-sche Ver-schleiÿ so-wie der ho
+-he Montage- und
  []
 
 
-Underfull \hbox (badness 3158) in paragraph at lines 42--52
-\T1/NotoSerif-TLF/m/n/12 (+20) bild-ver-ar-bei-tungs-ge-stütz-te Greif-pro-zes-
-se (Pick-and-Place) ge-nutzt
+Underfull \hbox (badness 10000) in paragraph at lines 42--52
+\T1/NotoSerif-TLF/m/n/12 (+20) nutzt Ka-me-ra-sys-te-me (2D-Systeme mit Kan-ten
+-ex-trak-ti-on oder
+ []
+
+
+Underfull \hbox (badness 3724) in paragraph at lines 42--52
+\T1/NotoSerif-TLF/m/n/12 (+20) 3D-Time-of-Flight-Sensoren mit Tie-fen-da-ten) z
+ur vo-lu-me-tri-schen
+ []
+
+
+Underfull \hbox (badness 7308) in paragraph at lines 42--52
+\T1/NotoSerif-TLF/m/n/12 (+20) Raum-über-wa-chung. Vi-su-el-le Sys-te-me bie-te
+n den Vor-teil ei-ner
  []
 
 
@@ -2867,12 +2838,12 @@ File: figures/dhbwlogo.png Graphic file (type png)
 <use figures/dhbwlogo.png>
 Package pdftex.def Info: figures/dhbwlogo.png  used on input line 52.
 (pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
-[36 <./figures/Frauenhofer_Arbeitsraumueberwachung.jpg>]
+[35 <./figures/Frauenhofer_Arbeitsraumueberwachung.jpg>]
 File: figures/dhbwlogo.png Graphic file (type png)
 <use figures/dhbwlogo.png>
 Package pdftex.def Info: figures/dhbwlogo.png  used on input line 52.
 (pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
- [37]
+ [36]
 Underfull \hbox (badness 10000) in paragraph at lines 55--60
 \T1/NotoSerif-TLF/m/n/12 (+20) Die vor-an-ge-gan-ge-nen Be-trach-tun-gen der un
 -ter-schied-li-chen
@@ -2964,14 +2935,18 @@ File: figures/dhbwlogo.png Graphic file (type png)
 <use figures/dhbwlogo.png>
 Package pdftex.def Info: figures/dhbwlogo.png  used on input line 60.
 (pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
-[38]
+[37]
+
+LaTeX Warning: Reference `Bildverarbeitungsstruktur' on page 38 undefined on in
+put line 62.
+
 LaTeX Font Info:    Font shape `T1/NotoSans-TLF/m/n' will be
 (Font)              scaled to size 10.95pt on input line 79.
 File: figures/dhbwlogo.png Graphic file (type png)
 <use figures/dhbwlogo.png>
 Package pdftex.def Info: figures/dhbwlogo.png  used on input line 94.
 (pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
- [39]
+[38]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -2979,7 +2954,7 @@ File: figures/dhbwlogo.png Graphic file (type png)
 <use figures/dhbwlogo.png>
 Package pdftex.def Info: figures/dhbwlogo.png  used on input line 94.
 (pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
-[40]
+[39]
 Underfull \hbox (badness 10000) in paragraph at lines 97--100
 
  []
@@ -3012,8 +2987,8 @@ File: figures/dhbwlogo.png Graphic file (type png)
 <use figures/dhbwlogo.png>
 Package pdftex.def Info: figures/dhbwlogo.png  used on input line 100.
 (pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
-[41]
-<figures/TR_13.png, id=699, 790.82953pt x 301.5014pt>
+[40]
+<figures/TR_13.png, id=700, 790.82953pt x 301.5014pt>
 File: figures/TR_13.png Graphic file (type png)
 <use figures/TR_13.png>
 Package pdftex.def Info: figures/TR_13.png  used on input line 104.
@@ -3022,8 +2997,8 @@ File: figures/dhbwlogo.png Graphic file (type png)
 <use figures/dhbwlogo.png>
 Package pdftex.def Info: figures/dhbwlogo.png  used on input line 115.
 (pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
- [42 <./figures/TR_13.png>]
-<figures/TR_8.png, id=706, 790.82953pt x 300.7486pt>
+ [41 <./figures/TR_13.png>]
+<figures/TR_8.png, id=707, 790.82953pt x 300.7486pt>
 File: figures/TR_8.png Graphic file (type png)
 <use figures/TR_8.png>
 Package pdftex.def Info: figures/TR_8.png  used on input line 120.
@@ -3032,7 +3007,7 @@ File: figures/dhbwlogo.png Graphic file (type png)
 <use figures/dhbwlogo.png>
 Package pdftex.def Info: figures/dhbwlogo.png  used on input line 131.
 (pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
- [43 <./figures/TR_8.png>]
+ [42 <./figures/TR_8.png>]
 <figures/TR_12.png, id=715, 791.95876pt x 299.24297pt>
 File: figures/TR_12.png Graphic file (type png)
 <use figures/TR_12.png>
@@ -3041,58 +3016,133 @@ Package pdftex.def Info: figures/TR_12.png  used on input line 135.
 <figures/TR_11.png, id=716, 790.82953pt x 300.7486pt>
 File: figures/TR_11.png Graphic file (type png)
 <use figures/TR_11.png>
-Package pdftex.def Info: figures/TR_11.png  used on input line 144.
+Package pdftex.def Info: figures/TR_11.png  used on input line 143.
 (pdftex.def)             Requested size: 318.67207pt x 121.18758pt.
 File: figures/dhbwlogo.png Graphic file (type png)
 <use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 148.
+Package pdftex.def Info: figures/dhbwlogo.png  used on input line 147.
 (pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
- [44 <./figures/TR_12.png>]
-<figures/TR_14.png, id=723, 922.19531pt x 299.24297pt>
+ [43 <./figures/TR_12.png>]
+<figures/TR_14.png, id=724, 922.19531pt x 299.24297pt>
 File: figures/TR_14.png Graphic file (type png)
 <use figures/TR_14.png>
-Package pdftex.def Info: figures/TR_14.png  used on input line 153.
+Package pdftex.def Info: figures/TR_14.png  used on input line 152.
 (pdftex.def)             Requested size: 318.67207pt x 103.4033pt.
 
-Underfull \hbox (badness 5091) in paragraph at lines 161--197
+Underfull \hbox (badness 5091) in paragraph at lines 160--196
 \T1/NotoSerif-TLF/m/n/12 (+20) Nach der er-folg-rei-chen Im-ple-men-ta-ti-on de
 r Be-fehl-spi-pe-li-ne in
  []
 
 
-Underfull \hbox (badness 2452) in paragraph at lines 161--197
+Underfull \hbox (badness 2452) in paragraph at lines 160--196
 \T1/NotoSerif-TLF/m/n/12 (+20) und nach-fol-gend in Ta-bel-le []5.2[] dar-ge-st
 ellt: Auch hier kom-men
  []
 
 
-Underfull \hbox (badness 2726) in paragraph at lines 161--197
+Underfull \hbox (badness 2726) in paragraph at lines 160--196
 \T1/NotoSerif-TLF/m/n/12 (+20) er-neut\T1/NotoSerif-TLF/m/it/12 (+20) Stopwatch
 es \T1/NotoSerif-TLF/m/n/12 (+20) aus \T1/NotoSerif-TLF/m/it/12 (+20) Sys-tems.
 Diagnostics \T1/NotoSerif-TLF/m/n/12 (+20) zum Ein-satz um die
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 161--197
+Underfull \hbox (badness 10000) in paragraph at lines 160--196
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 161--197
+Underfull \hbox (badness 10000) in paragraph at lines 160--196
 \T1/NotoSerif-TLF/m/n/12 (+20) Die Be-fehl-spi-pe-li-ne er-mög-licht al-ler-din
 gs ei-ne Re-duk-ti-on auf
  []
 
 File: figures/dhbwlogo.png Graphic file (type png)
 <use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 197.
+Package pdftex.def Info: figures/dhbwlogo.png  used on input line 196.
 (pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
-[45 <./figures/TR_11.png> <./figures/TR_14.png>]
+[44 <./figures/TR_11.png> <./figures/TR_14.png>]
 File: figures/dhbwlogo.png Graphic file (type png)
 <use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 197.
+Package pdftex.def Info: figures/dhbwlogo.png  used on input line 196.
 (pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
- [46])
+ [45]
+Underfull \hbox (badness 10000) in paragraph at lines 198--200
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 198--200
+\T1/NotoSerif-TLF/m/n/12 (+20) Klassische, syn-chro-ne Event-Handler ber-gen da
+s Ri-si-ko, den
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 198--200
+\T1/NotoSerif-TLF/m/n/12 (+20) auf-ru-fen-den Thread wäh-rend der Aus-füh-rung 
+nach-ge-la-ger-ter
+ []
+
+
+Underfull \hbox (badness 6675) in paragraph at lines 198--200
+\T1/NotoSerif-TLF/m/n/12 (+20) blo-ckie-ren-de Event-Architektur zu mas-si-ven 
+Ver-zö-ge-run-gen in
+ []
+
+
+Underfull \hbox (badness 3701) in paragraph at lines 198--200
+\T1/NotoSerif-TLF/m/n/12 (+20) ($\OML/cmm/m/it/12 pHandDetected \OT1/cmr/m/n/12
+ = \OML/cmm/m/it/12 true$\T1/NotoSerif-TLF/m/n/12 (+20) ) über ein asyn-chro-ne
+s Delegaten-Event
+ []
+
+
+Underfull \hbox (badness 1762) in paragraph at lines 202--206
+\T1/NotoSerif-TLF/m/n/12 (+20) Das abon-nier-te Event greift di-rekt auf die th
+read-si-che-re Klas-se
+ []
+
+
+Underfull \hbox (badness 2932) in paragraph at lines 202--206
+\T1/NotoSerif-TLF/m/it/12 (+20) Ro-bot_Befehlspipeline \T1/NotoSerif-TLF/m/n/12
+ (+20) zu. Der Kern des Stopps ba-siert auf dem
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 202--206
+\T1/NotoSerif-TLF/m/n/12 (+20) Prin-zip des ko-ope-ra-ti-ven Ab-bruchs un-ter V
+er-wen-dung ei-ner
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 202--206
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 202--206
+\T1/NotoSerif-TLF/m/n/12 (+20) Der in-ter-ne Worker-Task der Pi-pe-li-ne (\T1/N
+otoSerif-TLF/m/it/12 (+20) Pro-cess-Queu-eA-sync\T1/NotoSerif-TLF/m/n/12 (+20) 
+)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 202--206
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 202--206
+\T1/NotoSerif-TLF/m/n/12 (+20) Sobald das asyn-chro-ne Event der Bild-ver-ar-be
+i-tung den Not-
+ []
+
+File: figures/dhbwlogo.png Graphic file (type png)
+<use figures/dhbwlogo.png>
+Package pdftex.def Info: figures/dhbwlogo.png  used on input line 207.
+(pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
+[46])
 File: figures/dhbwlogo.png Graphic file (type png)
 <use figures/dhbwlogo.png>
 Package pdftex.def Info: figures/dhbwlogo.png  used on input line 339.
@@ -3258,6 +3308,8 @@ Package pdftex.def Info: figures/dhbwlogo.png  used on input line 416.
  [11
 
 ]
+Package babel Info: 'ngerman' activates 'german' shorthands.
+(babel)             Reported on input line 425.
 File: figures/dhbwlogo.png Graphic file (type png)
 <use figures/dhbwlogo.png>
 Package pdftex.def Info: figures/dhbwlogo.png  used on input line 425.
@@ -3342,39 +3394,51 @@ Package pdftex.def Info: figures/dhbwlogo.png  used on input line 546.
 
 ] (T3200.aux)
  ***********
-LaTeX2e <2023-11-01> patch level 1
-L3 programming layer <2024-01-04>
+LaTeX2e <2026-06-01>
+L3 programming layer <2026-05-26>
  ***********
-Package rerunfilecheck Info: File `T3200.out' has not changed.
-(rerunfilecheck)             Checksum: BCA7027E4C53FBEF8E1D5380A250827E;12612.
+
+
+LaTeX Warning: There were undefined references.
+
+
+Package rerunfilecheck Warning: File `T3200.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `T3200.out':
+(rerunfilecheck)             Before: 80202F286DD254BC0AFA695A45F6A536;12975
+(rerunfilecheck)             After:  8BCFCBED29629F702D518421F418D1A2;12975.
  ) 
 Here is how much of TeX's memory you used:
- 35297 strings out of 474486
- 726927 string characters out of 5743755
- 1948542 words of memory out of 5000000
- 56261 multiletter control sequences out of 15000+600000
- 703140 words of font info for 420 fonts, out of 8000000 for 9000
+ 35601 strings out of 467509
+ 735062 string characters out of 5407322
+ 1141825 words of memory out of 5000000
+ 63486 multiletter control sequences out of 15000+600000
+ 779915 words of font info for 444 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 123i,26n,131p,1612b,1561s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/luist/AppData/Local/Programs/MiKTeX/fonts/type1/google/noto/NotoSan
-s-Bold.pfb><C:/Users/luist/AppData/Local/Programs/MiKTeX/fonts/type1/google/not
-o/NotoSans-Regular.pfb><C:/Users/luist/AppData/Local/Programs/MiKTeX/fonts/type
-1/google/noto/NotoSerif-Bold.pfb><C:/Users/luist/AppData/Local/Programs/MiKTeX/
-fonts/type1/google/noto/NotoSerif-Italic.pfb><C:/Users/luist/AppData/Local/Prog
-rams/MiKTeX/fonts/type1/google/noto/NotoSerif-Regular.pfb><C:/Users/luist/AppDa
-ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/lu
-ist/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:
-/Users/luist/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi1
-2.pfb><C:/Users/luist/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
-/cm/cmmi5.pfb><C:/Users/luist/AppData/Local/Programs/MiKTeX/fonts/type1/public/
-amsfonts/cm/cmmi6.pfb><C:/Users/luist/AppData/Local/Programs/MiKTeX/fonts/type1
-/public/amsfonts/cm/cmmi8.pfb><C:/Users/luist/AppData/Local/Programs/MiKTeX/fon
-ts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/luist/AppData/Local/Programs/Mi
-KTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/luist/AppData/Local/Prog
-rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on T3200.pdf (65 pages, 13814643 bytes).
+ 123i,26n,131p,1612b,1569s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/sommerad/AppData/Local/Programs/MiKTeX/fonts/type1/google/noto/Noto
+Sans-Bold.pfb><C:/Users/sommerad/AppData/Local/Programs/MiKTeX/fonts/type1/goog
+le/noto/NotoSans-Regular.pfb><C:/Users/sommerad/AppData/Local/Programs/MiKTeX/f
+onts/type1/google/noto/NotoSerif-Bold.pfb><C:/Users/sommerad/AppData/Local/Prog
+rams/MiKTeX/fonts/type1/google/noto/NotoSerif-BoldItalic.pfb><C:/Users/sommerad
+/AppData/Local/Programs/MiKTeX/fonts/type1/google/noto/NotoSerif-Italic.pfb><C:
+/Users/sommerad/AppData/Local/Programs/MiKTeX/fonts/type1/google/noto/NotoSerif
+-Regular.pfb><C:/Users/sommerad/AppData/Local/Programs/MiKTeX/fonts/type1/publi
+c/amsfonts/cm/cmex10.pfb><C:/Users/sommerad/AppData/Local/Programs/MiKTeX/fonts
+/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/sommerad/AppData/Local/Programs/
+MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/sommerad/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/sommerad/
+AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/User
+s/sommerad/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.p
+fb><C:/Users/sommerad/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
+/cm/cmr12.pfb><C:/Users/sommerad/AppData/Local/Programs/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmr8.pfb><C:/Users/sommerad/AppData/Local/Programs/MiKTeX/fonts/
+type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on T3200.pdf (65 pages, 13831495 bytes).
 PDF statistics:
- 977 PDF objects out of 1000 (max. 8388607)
- 212 named destinations out of 1000 (max. 500000)
- 102504 words of extra memory for PDF output out of 106986 (max. 10000000)
+ 995 PDF objects out of 1000 (max. 8388607)
+ 217 named destinations out of 1000 (max. 500000)
+ 106608 words of extra memory for PDF output out of 106986 (max. 10000000)
 

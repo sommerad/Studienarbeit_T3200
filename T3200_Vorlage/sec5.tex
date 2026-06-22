@@ -196,3 +196,18 @@ Auch hier kommen erneut\textit{Stopwatches} aus \textit{Systems.Diagnostics} zum
 \\Die Befehlspipeline ermöglicht allerdings eine Reduktion auf 31\% der ursprünglichen Ausführungszeit.
 \section{Integration der Safety-Implementation in die Befehlspipeline}
 \label{Integration der Safety-Implementation in die Befehlspipeline}
+Um eine reibungslose und latenzfreie Kombination aus der kontinuierlichen Bildverarbeitung (Kamera-Thread) und der zeitkritischen Robotersteuerung zu gewährleisten, wurde die Not-Aus-Signalisierung nach dem Task-based Asynchronous Pattern (TAP) realisiert.\\
+\\Klassische, synchrone Event-Handler bergen das Risiko, den aufrufenden Thread während der Ausführung nachgelagerter Logik zu blockieren. Da die Methode \textit{DetectHands} zyklisch mit der Bildwiederholungsrate der Kamera aurgerufen wird, würde eine blockierende Event-Architektur zu massiven Verzögerungen in der Bildverarbeitung führen. Aus diesem Grund wird der Abbruchimpuls bei positiver Detektion mit dem bool'schen Rückgabewert ($pHandDetected = true$) über ein asynchrones Delegaten-Event (\textit{Func<Task> OnHandDetectedAsync}) entkoppelt. Durch den Einsatz der Task Parallel Library (TPL) und der Methode \textit{Task.Run} wird die Not-Aus-Aktivierung sofort in einen unblockierten Thread des .NET-ThreadPools ausgelagert.
+
+\subsection{Kooperativer Abbruchmechanismus mit CancellationTokenSource}
+Das abonnierte Event greift direkt auf die threadsichere Klasse \textit{Robot\_Befehlspipeline} zu. Der Kern des Stopps basiert auf dem Prinzip des kooperativen Abbruchs unter Verwendung einer \textit{CancellationTokenSource} (CTS). \\
+\\Der interne Worker-Task der Pipeline (\textit{ProcessQueueAsync}) verarbeitet die Roboterkommandos sequenziell und befindet sich während der physischen Verfahrzeiten des Manipulators in einem blockierungsfreien Wartezustand, welcher durch das übergebene \textit{CancellationToken} überwacht wird.\\
+\\Sobald das asynchrone Event der Bildverarbeitung den Not-Aus auslöst, wird die Methode \textit{EmergencyStopAndClear()} ausgeführt.
+Der Ablauf sieht dabei wie folgt aus:
+\begin{enumerate}
+	\item \textbf{Zustandsänderung des Tokens (\textit{\_cts.Cancel()}):} Das CTS-Objekt wechselt in den Zustand \textit{Cancelled} und signalisiert allen konsumierenden Tasks den Abbruch. 
+	\item \textbf{Asynchroner Interrupt:} Das aktuell aktive \textit{Task.Delay} in der Pipeline bricht den internen Timer ab und wirft eine \textit{TaskCanceledException}. Die Pipeline muss somit nicht das reguläre Ende des Verfahrzeit-Timeouts abwarten, sondern wechselt in den Zustand "Pipeline blockiert".
+	\item \textbf{Evakuierung der BlockingCollection:} Gleichzeitig wird der Befehlspuffer der Pipeline (\textit{BlockingCollection<RobotCommand>}) geleert. Nachfolgende, bereits eingereihte Fahr- oder Greifbefehle werden somit verworfen und nicht mehr an die Hardware übermittelt.
+	\item \textbf{Verriegelung:} Das Flag \textit{\_isEmergencyMode} wird auf \textit{true} gesetzt, wodurch das softwareseitige Einreihen neuer Befehle blockiert ist, bis ein System-Reset/Quittierung erfolgt.
+\end{enumerate}
+Durch diese Kombination aus TPL-Tasks und des Werfen des \textit{CancellationToken} wird sichergestellt, dass die Pipeline abbrechbar ist, ohne die verarbeitenden Threads (Kamera \& Controller) zu blockieren oder einzuschränken.
