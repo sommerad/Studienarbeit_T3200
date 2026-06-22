@@ -1,0 +1,148 @@
+Parameter Name,Type,Symbolics,Current Value
+AcquisitionControl,ICategory,,
+AcquisitionFrameCount,IInteger,,1
+AcquisitionFrameRate,IFloat,,60.0
+AcquisitionFrameRateEnable,IBoolean,,False
+AcquisitionMode,IEnumeration,"Continuous, SingleFrame, MultiFrame",Continuous
+AcquisitionStart,ICommand,,
+AcquisitionStatus,IBoolean,,False
+AcquisitionStatusSelector,IEnumeration,"AcquisitionTriggerWait, FrameTriggerWait",AcquisitionTriggerWait
+AcquisitionStop,ICommand,,
+BilateralFilterD,IInteger,,3
+BilateralFilterEnable,IBoolean,,False
+BilateralFilterSigmaColor,IFloat,,19.0
+BilateralFilterSigmaSpace,IFloat,,1.0
+CalibrationParameter,ICategory,,
+ConfidenceFilterEnable,IBoolean,,True
+ConfidenceFilterValue,IFloat,,0.05000000074505806
+DeviceControl,ICategory,,
+DeviceGitVersion,IString,,610253a475b70c11a2552e8f9fdb6bbf59120bb8
+DeviceModelName,IString,,AM-T100
+DeviceScanType,IEnumeration,Areascan3D,Areascan3D
+DeviceSerialNumber,IString,,T22370024
+DeviceTemperature,IFloat,,43.0
+DeviceTemperatureSelector,IEnumeration,"Sensor, LaserDiodeDriver, FpgaPL, FpgaPS, FpgaPsRemote",Sensor
+DeviceUserID,IString,,
+DeviceVendorName,IString,,K.A. Schmersal GmbH & Co. KG
+DeviceVersion,IString,,v0.32
+DigitalIOControl,ICategory,,
+DistortionK1,IFloat,,-0.24419496953487396
+DistortionK2,IFloat,,0.16453105211257935
+DistortionK3,IFloat,,-0.13569043576717377
+DistortionP1,IFloat,,-8.98147263797e-05
+DistortionP2,IFloat,,-0.0007643267745152116
+DistortionParameter,ICategory,,
+ExponentialFilterEnable,IBoolean,,False
+ExponentialFilterSmoothFactor,IFloat,,1.0
+ExposureFilterEnable,IBoolean,,False
+ExposureTime,IFloat,,1000.0
+FocalOffset,IFloat,,29.514972686767578
+GevCCP,IEnumeration,"OpenAccess, ExclusiveAccess, ControlAccess",Error
+GevCurrentDefaultGateway,IInteger,,167845436
+GevCurrentIPAddress,IInteger,,167840448
+GevCurrentIPConfigurationDHCP,IBoolean,,True
+GevCurrentIPConfigurationLLA,IBoolean,,True
+GevCurrentIPConfigurationPersistentIP,IBoolean,,False
+GevCurrentSubnetMask,IInteger,,4294901760
+GevDeviceModeCharacterSet,IEnumeration,UTF8,UTF8
+GevDeviceModeIsBigEndian,IBoolean,,True
+GevFirstURL,IString,,Local:DMV-ToF-GEA.zip;11000000;49A9
+GevGVCPHeartbeatDisable,IBoolean,,False
+GevGVCPPendingAck,IBoolean,,False
+GevGVCPPendingTimeout,IInteger,,2000
+GevHeartbeatTimeout,IInteger,,10000
+GevInterfaceSelector,IInteger,,0
+GevLinkSpeed,IInteger,,0
+GevMACAddress,IInteger,,103675525043
+GevMessageChannelCount,IInteger,,0
+GevNumberOfInterfaces,IInteger,,1
+GevPersistentDefaultGateway,IInteger,,0
+GevPersistentIPAddress,IInteger,,0
+GevPersistentSubnetMask,IInteger,,0
+GevPrimaryApplicationIPAddress,IInteger,,167840454
+GevPrimaryApplicationSocket,IInteger,,49152
+GevSCDA,IInteger,,167840454
+GevSCPD,IInteger,,400
+GevSCPDirection,IEnumeration,"Transmitter, Receiver",Transmitter
+GevSCPHostPort,IInteger,,49154
+GevSCPInterfaceIndex,IInteger,,0
+GevSCPSBigEndian,IBoolean,,False
+GevSCPSDoNotFragment,IBoolean,,True
+GevSCPSFireTestPacket,IBoolean,,False
+GevSCPSPacketSize,IInteger,,676
+GevSCSP,IInteger,,400
+GevSecondURL,IString,,
+GevStreamChannelCount,IInteger,,1
+GevStreamChannelSelector,IInteger,,0
+GevSupportedOption,IBoolean,,True
+GevSupportedOptionSelector,IEnumeration,"UserDefinedName, SerialNumber, HeartbeatDisable, LinkSpeed, CCPApplicationSocket, ManifestTable, TestData, DiscoveryAckDelay, DiscoveryAckDelayWritable, ExtendedStatusCodes, Action, PendingAck, EventData, Event, PacketResend, WriteMem, CommandsConcatenation, IPConfigurationLLA, IPConfigurationDHCP, IPConfigurationPersistentIP, StreamChannelSourceSocket",CommandsConcatenation
+GevVersionMajor,IInteger,,2
+GevVersionMinor,IInteger,,0
+Height,IInteger,,1440
+ImageFormatControl,ICategory,,
+Interoperability,IBoolean,,True
+IntrinsicCx,IFloat,,306.81353759765625
+IntrinsicCy,IFloat,,226.58958435058594
+IntrinsicFx,IFloat,,528.502685546875
+IntrinsicFy,IFloat,,528.2146606445312
+IntrinsicParameter,ICategory,,
+IntrinsicS,IFloat,,0.0
+LineDebounceTime,IFloat,,1.0
+LineFormat,IEnumeration,"NoConnect, TriState, TTL, LVDS, RS422, OptoCoupled, OpenDrain",OptoCoupled
+LineInverter,IBoolean,,False
+LineMinPulseWidth,IFloat,,Error
+LineMode,IEnumeration,"Input, Output",Input
+LineSelector,IEnumeration,"Line0, Line1, Line2, Line3",Line0
+LineSource,IEnumeration,"Off, UserOutput0, UserOutput1, FrameTriggerWait, AcquisitionTriggerWait, ExternalTrigger0Active, ExternalTrigger1Active",Error
+LineStatus,IBoolean,,False
+MeanFilterEnable,IBoolean,,False
+MeanFilterKSize,IInteger,,3
+MechanicalOffset,IFloat,,34.79999923706055
+MedianFilterEnable,IBoolean,,False
+MedianFilterKSize,IInteger,,3
+OverExposureInvalidValue,IInteger,,1200
+PayloadSize,IInteger,,3686400
+PixelFormat,IEnumeration,"Mono12p, Mono16, Coord3D_C12p, Coord3D_C16, Coord3D_ABC12p, Coord3D_ABC16, Confidence16, Confidence12p, Coord3D_CY12p, Coord3D_ABCY12p, Coord3D_CY16, Coord3D_ABCY16, Coord3D_CZ12p, Coord3D_ABCZ12p, Coord3D_CZ16, Coord3D_ABCZ16, Coord3D_C32f",Coord3D_C32f
+PixelSize,IEnumeration,"Bpp12, Bpp16, Bpp32",Bpp32
+RangeFilter,ICategory,,
+RangeMode,IEnumeration,"Range1500, Range1875, Range2000, Range6000, Range7500, Range30000",Range7500
+Root,ICategory,,
+Scan3dAxisMax,IFloat,,7700.0
+Scan3dAxisMin,IFloat,,181.93362426757812
+Scan3dControl,ICategory,,
+Scan3dCoordinateOffset,IFloat,,0.0
+Scan3dCoordinateScale,IFloat,,1.0
+Scan3dCoordinateSelector,IEnumeration,"CoordinateA, CoordinateB, CoordinateC",CoordinateC
+Scan3dCoordinateSystem,IEnumeration,"Cartesian, Spherical, Cylindrical",Cartesian
+Scan3dDistanceUnit,IEnumeration,"Millimeter, Meter, Inch, Pixel",Millimeter
+Scan3dInvalidDataFlag,IBoolean,,True
+Scan3dInvalidDataValue,IFloat,,0.0
+Scan3dOutputMode,IEnumeration,"UncalibratedC, CalibratedABC_Grid, CalibratedC",CalibratedABC_Grid
+SensorHeight,IInteger,,480
+SensorWidth,IInteger,,640
+TLParamsLocked,IInteger,,0
+TestPattern,IEnumeration,"Off, PN9",Off
+TestPatternGeneratorSelector,IEnumeration,Sensor,Sensor
+TransmitConfidenceImage,IBoolean,,False
+TransmitIntensityImage,IBoolean,,False
+TransmitRangeImage,IBoolean,,True
+TransportLayerControl,ICategory,,
+TriggerActivation,IEnumeration,"RisingEdge, FallingEdge, AnyEdge",RisingEdge
+TriggerDelay,IFloat,,0.0
+TriggerDelayEnable,IBoolean,,False
+TriggerMode,IEnumeration,"Off, On",Off
+TriggerSelector,IEnumeration,"AcquisitionStart, FrameStart",AcquisitionStart
+TriggerSoftware,ICommand,,
+TriggerSource,IEnumeration,"Software, Line0, Line1",Software
+UserOutputSelector,IEnumeration,"UserOutput0, UserOutput1",UserOutput0
+UserOutputValue,IBoolean,,False
+UserOutputValueAll,IInteger,,0
+UserOutputValueAllMask,IInteger,,3
+UserSetControl,ICategory,,
+UserSetDefault,IEnumeration,"Default, UserSet1, UserSet2, UserSet3, UserSet4",Default
+UserSetErrorCode,IEnumeration,"UserSet_OK, UserSet_Tag_Checksum_Error, UserSet_SHA_ERROR, UserSet_Model_Error, UserSet_SHA_and_Model_Error, UserSet_Bootidx_Overflow_Error, UserSet_Checksum_Error, UserSet_LUTChecksum_Error",UserSet_Tag_Checksum_Error
+UserSetLoad,ICommand,,
+UserSetSave,ICommand,,
+UserSetSelector,IEnumeration,"Default, UserSet1, UserSet2, UserSet3, UserSet4",Default
+Width,IInteger,,640
+WorkDistOffset,IFloat,,200.0
