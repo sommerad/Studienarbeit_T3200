@@ -4,7 +4,15 @@
 \section{Architekturlimitationen des bisherigen Systems}
 \label{kap:Architekturlimitationen}
 
-\subsection{Punktwolkenverarbeitung Probleme}
+\subsection{Verwaltung der Punktwolken-Daten}
+Bei der Entwicklung der grafischen Benutzeroberfläche zeigte sich in der Ausgangslage ein kritisches Störverhalten innerhalb der Rendering-Engine des \textit{PCLVisualizer}. Beim Versuch, im Viewer platzierte 3D-Objekte sequenziell über den Index \textit{this->objectCount} zu entfernen, lief bereits der erste Löschvorgang fehlerhaft ab. Bei einem wiederholten Aufruf stürzte das Programm schließlich vollständig ab. Als Ursache hierfür wird vermutet, dass die zugrundeliegende Engine die Pointer-Referenzen oder die expliziten Speicheradressen der Objekte verliert.
+
+Die anschließende Ursachenanalyse deutet auf ein sogenanntes Race-Condition-Problem hin, das durch ungeschützte, geteilte Ressourcen entsteht. Da sowohl die 3D-Visualisierung der Point Cloud Library (PCL) als auch die algorithmische Punkteverarbeitung zeitgleich auf dieselben Speicherbereiche zugreifen, kommt es hier zu kritischen Datenkonflikten.
+
+\subsubsection*{Lösungsansätze und Gegenmaßnahmen:}
+Ein theoretischer Ansatz zur Stabilisierung ist die Absicherung der kritischen Speicherbereiche und der Visualisierungsinstanz mittels \textit{std::mutex}, um threadübergreifende Zugriffe sauber zu blockieren. Aus Zeitmangel wurde diese Methode im realen Betrieb jedoch noch nicht getestet. Stattdessen wurde eine algorithmische Vereinfachung erfolgreich durchgeführt: Die fehleranfällige Einzellöschung über \textit{removeShape} wurde durch die native PCL-Funktion \textit{removeAllShapes} ersetzt. Diese Methode leert den gesamten Viewport in einem einzigen Schritt, was die Rendering-Engine entlastet. In den Praxistests funktionierte dieser Ansatz einwandfrei und behob die Abstürze vollständig.
+
+\subsubsection*{Implementierung einer komfortablen Viewport-Konfiguration:} In der Vorgänger-Arbeit war zwar bereits die logische Auswahl vorgesehen, die Punktwolken vor jedem Neustart entweder komplett zu löschen oder zwei Punktwolken parallel anzuzeigen, allerdings war diese Konfiguration tief im Quellcode versteckt. Da dies bei der Bedienung schnell zu Fehlern führen konnte, wurde die Software um einen dedizierten Auswahlbutton direkt in der GUI erweitert. Der Benutzer kann die gewünschte Ansicht nun flexibel und sicher per Mausklick steuern. Der zugehörige, modifizierte Programmcode ist im Anhang dieser Arbeit dokumentiert.
 
 \subsection{Sequenzielle Befehlsstruktur}
 \label{Sequenzielle Befehelsstruktur}

@@ -4,9 +4,8 @@
 \section{Stand der Technik: Safety-Implementation \& Retrofitting}
 <<<<<<< Updated upstream
 \label{kap:safetyimplementation}
-=======
 In diesem Kapitel werden alle relevanten Fakten des Retrofittings im Kontext der Sicherheitsimplementation beleuchtet.
->>>>>>> Stashed changes
+
 \subsection{kollaborative Robotik}
 Für die Modernisierung älterer Industrie- und Robotersysteme (Retrofitting) im Hinblick auf aktuelle Sicherheitsstandards und moderne Sensortechnik existieren vielfältige technologische Ansätze. Diese lassen sich anhand verschiedener Systemparameter kategorisieren. Ein grundlegendes Unterscheidungsmerkmal ist die Dimensionierung der Bilderfassung, bei der entweder kostengünstige 2D-Kameras oder tiefenauflösende 3D-Kamerasysteme eingesetzt werden. Zudem variiert die Systemarchitektur hinsichtlich der Kameraanzahl: Während Monokamerasysteme eine einfache Raumüberwachung ermöglichen, bieten Multikamerasysteme durch hardwareseitige Redundanz eine deutlich verlässlichere Objekterkennung sowie Schutz vor Verdeckungen im sensornahen Bereich.
 \\
@@ -105,10 +104,10 @@ In diese Berechnung fließen die menschliche Annäherungsgeschwindigkeit $v_H$, 
 \subsubsection{Sicherheitsgerichtete Anforderungen an optische Schutzsysteme}
 
 Wird der Schutzraum volumetrisch überwacht, greift die Normenreihe \textbf{DIN EN IEC 61496-1} \cite{din_iec_61496_1_2021}, welche die Anforderungen an berührungslos wirkende Schutzeinrichtungen (ESPE) regelt. Für den Einsatz in sicherheitsgerichteten Applikationen müssen optische Systeme als ESPE des Typs 3 oder Typs 4 klassifiziert sein. Dies setzt voraus, dass das Sensorsystem über eine permanente, hardwarenahe Selbstüberwachung (z.B. zur Erkennung von Linsenverschmutzungen, Signalverlusten oder internen Rechenfehlern) verfügt. Standardmäßige, einkanalige Industriekameras ohne inhärente Redundanz sind für die Einleitung sicherheitsgerichteter Reaktionen normativ unzulässig.
-
-Ergänzend definiert die \textbf{DIN EN ISO 13855} \cite{din13855_2025} die Anordnung von Schutzeinrichtungen im Hinblick auf die Annäherungsgeschwindigkeit des menschlichen Körpers. Sobald ein System auf die Detektion von Teilbereichen des Körpers, wie Hände oder Finger, ausgelegt wird, fordert die Norm den Ansatz standardisierter, maximaler Handgeschwindigkeiten ($1600\,\text{mm/s}$ bis $2000\,\text{mm/s}$). Für optische Systeme, die auf Mustererkennung basieren, ergibt sich daraus theoretisch die Anforderung, dass die Verarbeitungsfrequenz (\textit{Frames per Second}) und die Pipeline-Latenz so dimensioniert sein müssen, dass eine Handbewegung innerhalb dieser Dynamikgrenzen deterministisch und ohne unzulässige Zeitverzögerung erfasst werden kann.
-
-Zusammenfassend ergibt sich in der mathematisch-deterministischen Validierung nach ISO 13849-1 \cite{din13849_1_2023} und IEC 61496 \cite{din_iec_61496_1_2021} eine theoretische Diskrepanz beim Einsatz stochastischer Auswertealgorithmen (wie maschinellen Lernverfahren). Da diese systembedingt keine klassischen deterministischen Zustandstabellen aufweisen, fordert die normative Praxis bei sicherheitskritischen Anwendungen stets eine Absicherung der mathematischen Ergebnisse durch diversitäre Sensorik oder fest programmierte Hardware-Gateways.
+\\
+\\Ergänzend definiert die \textbf{DIN EN ISO 13855} \cite{din13855_2025} die Anordnung von Schutzeinrichtungen im Hinblick auf die Annäherungsgeschwindigkeit des menschlichen Körpers. Sobald ein System auf die Detektion von Teilbereichen des Körpers, wie Hände oder Finger, ausgelegt wird, fordert die Norm den Ansatz standardisierter, maximaler Handgeschwindigkeiten ($1600\,\text{mm/s}$ bis $2000\,\text{mm/s}$). Für optische Systeme, die auf Mustererkennung basieren, ergibt sich daraus theoretisch die Anforderung, dass die Verarbeitungsfrequenz (\textit{Frames per Second}) und die Pipeline-Latenz so dimensioniert sein müssen, dass eine Handbewegung innerhalb dieser Dynamikgrenzen deterministisch und ohne unzulässige Zeitverzögerung erfasst werden kann.
+\\
+\\Zusammenfassend ergibt sich in der mathematisch-deterministischen Validierung nach ISO 13849-1 \cite{din13849_1_2023} und IEC 61496 \cite{din_iec_61496_1_2021} eine theoretische Diskrepanz beim Einsatz stochastischer Auswertealgorithmen (wie maschinellen Lernverfahren). Da diese systembedingt keine klassischen deterministischen Zustandstabellen aufweisen, fordert die normative Praxis bei sicherheitskritischen Anwendungen stets eine Absicherung der mathematischen Ergebnisse durch diversitäre Sensorik oder fest programmierte Hardware-Gateways.
 
 \subsection{Cascade classifier}
 Die fundamentale Aufgabe der Haar-Cascade-Methode liegt in der effizienten Erkennung und Extraktion spezifischer Merkmale (\textit{Features}) innerhalb einer digitalen Bildmatrix.\cite{Tamascelli2024} Diese bildbasierten Merkmale lassen sich dabei mathematisch und visuell anhand von grundlegenden Eigenschaften wie der Farbe, der geometrischen Form oder der absoluten Größe des zu detektierenden Objekts identifizieren und abgrenzen. \cite{apmonitor_cascade_2026} Um diese Erkennung prozesstechnisch umzusetzen, stützt sich die Architektur des Kaskadenklassifikators (\textit{Cascade Classifier}) auf eine sequentielle, hierarchisch strukturierte Liste von aufeinanderfolgenden Stufen (\textit{Stages}). Jede dieser einzelnen Stufen fungiert als separater Filter innerhalb der Kontrollkette und setzt sich wiederum aus einer definierten Liste von sogenannten schwachen Lernern (\textit{Weak Learners}) zusammen, welche in ihrer Gesamtheit eine hocheffiziente und rechenschonende Entscheidungsmatrix bilden. \cite{Tamascelli2024}
@@ -170,10 +169,9 @@ Der entscheidende Vorteil dieses Verfahrens zeigt sich bei der anschließenden m
 Da diese Operation unabhängig von der tatsächlichen Größe des Bildbereichs oder der Skalierungsstufe des Merkmals stets eine konstante Anzahl an Zugriffen erfordert, sinkt die rechentechnische Komplexität drastisch. Da die gesamte Pipeline somit fast ausschließlich auf einfachen Grundrechenarten wie der Addition und Subtraktion basiert, resultiert daraus eine bemerkenswert niedrige Rechenleistung. Dies begünstigt eine hardwarenahe Ausführung in Echtzeit, ohne das System auf kostenintensive grafische Beschleuniger anzuweisen. \cite{smarter_violajones_2018}
 
 \section{Bildverarbeitung}
-<<<<<<< Updated upstream
 \label{kap:Bildverarbeitung}
-Filter, Algorithmen, Linien-/Kantendetektion mit OpenCV
-=======
+Dieses Kapitel erläutert kurz gebündelt, die Funktionsweise der verwendeten Filter für die Bildverarbeitung.
+
 \subsection{Gaußfilter}
 Der Gauß-Filter (oft auch als Gauß-Weichzeichner oder Gaussian Blur bezeichnet) ist ein lineares Filterverfahren in der Bildverarbeitung, das primär zur Reduzierung von hochfrequentem Bildrauschen und zur Glättung von Pixelstrukturen eingesetzt wird. Der Algorithmus berechnet den neuen Farb- oder Graustufenwert eines Pixels über den gewichteten Durchschnitt seiner Nachbarpixel, wobei die Gewichtung auf einer zweidimensionalen Gauß-Verteilung basiert.Dadurch besitzen Bildpunkte im direkten Zentrum der Maske die höchste mathematische Relevanz, während der Einfluss umliegender Pixel mit zunehmendem Abstand exponentiell abnimmt. Technisch wird diese Operation durch die Faltung des Bildes mit einer quadratischen Matrix, dem sogenannten Gauß-Kernel, realisiert, dessen Glättungsintensität über die Standardabweichung $\sigma$ (Sigma) präzise gesteuert werden kann. Da das Verfahren feine Sensorstörungen effektiv eliminiert, die Hauptkanten des Objekts jedoch im Wesentlichen erhält, bildet es eine fundamentale Grundlage für die nachgeschaltete Merkmalserkennung \cite{burger2022}.
 
@@ -182,7 +180,6 @@ Der Graustufenfilter ist ein grundlegendes Bildverarbeitungsverfahren, das die d
 
 \subsection{Threshold von Graustufenbildern}
 Die Threshold-Methode von OpenCV ist ein fundamentales Verfahren zur Bildbinnarisierung, das ein Graustufenbild in ein reines Schwarz-Weiß-Bild überführt. Der Algorithmus analysiert jeden einzelnen Pixelwert der Graustufenmatrix und vergleicht diesen mit einem vordefinierten Schwellenwert (Threshold). Liegt der Helligkeitswert des aktuellen Pixels über diesem Schwellenwert, wird ihm mathematisch der maximale Intensitätswert (üblicherweise 255 für Weiß) zugewiesen, andernfalls wird er auf den Minimalwert (0 für Schwarz) gesetzt. Durch diese binäre Segmentierung wird das Zielobjekt trennscharf von seinem Hintergrund isoliert, wodurch nachfolgende Konturen- und Formanalysen erheblich erleichtert werden. Bibliotheken wie OpenCV stellen ,,ready to use'' -Lösungen zur Verfügung \cite{bradski2008}.
->>>>>>> Stashed changes
 
 \section{Grundlagen der Informatik}
 \label{kap:Grundlagen der Informatik}
