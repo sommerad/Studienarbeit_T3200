@@ -126,21 +126,6 @@ Smarter, ``Target detection: {Viola-Jones} detection algorithm ({Haar-like}
   (\url{https://zhuanlan.zhihu.com/p/38056144}), Jun. 2018, abgerufen am: 21.
   Juni 2026.
 
-<<<<<<< Updated upstream
-\bibitem{producerconsumer}
-\BIBentryALTinterwordspacing
-{Microsoft Developers}. How to implement a producer-consumer dataflow pattern.
-  [Online; Zugegriffen am 10. Juni 2026]. [Online]. Available:
-  \url{https://learn.microsoft.com/en-us/dotnet/standard/parallel-programming/how-to-implement-a-producer-consumer-dataflow-pattern}
-\BIBentrySTDinterwordspacing
-
-\bibitem{asynchroneMuster}
-\BIBentryALTinterwordspacing
-------. asynchrone programmiermuster. [Online; Zugegriffen am 10. Juni 2026].
-  [Online]. Available:
-  \url{https://learn.microsoft.com/de-de/dotnet/standard/asynchronous-programming-patterns/}
-\BIBentrySTDinterwordspacing
-=======
 \bibitem{burger2022}
 W.~Burger and M.~J. Burge, \emph{Digitale Bildverarbeitung: Eine algorithmische
   Einführung mit Java}, 4th~ed.\hskip 1em plus 0.5em minus 0.4em\relax Berlin,
@@ -155,7 +140,20 @@ B.~Jähne, \emph{Digitale Bildverarbeitung: Lehrbuch und Plattform für die
 G.~Bradski and A.~Kaehler, \emph{Learning OpenCV: Computer Vision with the
   OpenCV Library}, 1st~ed.\hskip 1em plus 0.5em minus 0.4em\relax Sebastopol,
   CA: O'Reilly Media, 2008.
->>>>>>> Stashed changes
+
+\bibitem{producerconsumer}
+\BIBentryALTinterwordspacing
+{Microsoft Developers}. How to implement a producer-consumer dataflow pattern.
+  [Online; Zugegriffen am 10. Juni 2026]. [Online]. Available:
+  \url{https://learn.microsoft.com/en-us/dotnet/standard/parallel-programming/how-to-implement-a-producer-consumer-dataflow-pattern}
+\BIBentrySTDinterwordspacing
+
+\bibitem{asynchroneMuster}
+\BIBentryALTinterwordspacing
+------. asynchrone programmiermuster. [Online; Zugegriffen am 10. Juni 2026].
+  [Online]. Available:
+  \url{https://learn.microsoft.com/de-de/dotnet/standard/asynchronous-programming-patterns/}
+\BIBentrySTDinterwordspacing
 
 \bibitem{TPL}
 \BIBentryALTinterwordspacing

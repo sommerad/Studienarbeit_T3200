@@ -3,38 +3,24 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Testbild Passiv-Infrarot Schutzeinrichtung an einer Kreissäge aus \cite {GRA03}}}{5}{figure.caption.4}%
-<<<<<<< Updated upstream
 \contentsline {figure}{\numberline {2.2}{\ignorespaces Prinzip-Skizze Haar-like-features aus \cite {smarter_violajones_2018}}}{10}{figure.caption.5}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Architektur eines Producer-Consumer-Patterns (eigene Darstellung)}}{13}{figure.caption.6}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Problematik von blockierenden Abläufen (eigene Darstellung)}}{14}{figure.caption.7}%
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Kinematische Parameter des RV-M1}}{17}{figure.caption.8}%
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Skizze Denavit-Hartenberg-Frames des RV-M1 \cite {benbelkacem2011explicit}}}{17}{figure.caption.8}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Architektur eines Producer-Consumer-Patterns (eigene Darstellung)}}{15}{figure.caption.6}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Problematik von blockierenden Abläufen (eigene Darstellung)}}{15}{figure.caption.7}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Kinematische Parameter des RV-M1}}{18}{figure.caption.8}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Skizze Denavit-Hartenberg-Frames des RV-M1 \cite {benbelkacem2011explicit}}}{18}{figure.caption.8}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Sequenzielle Abfolge an Befehlen (Eigene Darstellung)}}{20}{figure.caption.9}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Messexperiment zur Evaluation der Sortierperformance (eigene Darstellung)}}{22}{figure.caption.10}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Befehle innerhalb einer Objektsortierungssequenz (eigene Darstellung)}}{23}{figure.caption.12}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Sequenzielle Abfolge an Befehlen (Eigene Darstellung)}}{22}{figure.caption.9}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Messexperiment zur Evaluation der Sortierperformance (eigene Darstellung)}}{24}{figure.caption.10}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Befehle innerhalb einer Objektsortierungssequenz (eigene Darstellung)}}{25}{figure.caption.12}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Bewegungsablauf asynchrone/synchrone PTP nach \cite {wüstrobotik}}}{29}{figure.caption.15}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Vergleich zwischen monolithischer Befehlsverarbeitung und entkoppelter Pipeline-Architektur}}{30}{figure.caption.16}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Bewegungsablauf asynchrone/synchrone PTP nach \cite {wüstrobotik}}}{31}{figure.caption.15}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Vergleich zwischen monolithischer Befehlsverarbeitung und entkoppelter Pipeline-Architektur}}{32}{figure.caption.16}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Projektions- und kamerabasierte Technologie zur Arbeitsraumüberwachung}}{34}{figure.caption.18}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Flussdiagramm der Bildvorverarbeitungs-Pipeline für das ML-Modell.}}{38}{figure.caption.19}%
-=======
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Prinzip-Skizze Haar-like-features aus \cite {smarter_violajones_2018}}}{11}{figure.caption.5}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Problematik von blockierenden Abläufen}}{16}{figure.caption.7}%
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Sequenzielle Abfolge an Befehlen (Eigene Darstellung)}}{18}{figure.caption.8}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Messexperiment zur Evaluation der Sortierperformance (eigene Darstellung)}}{20}{figure.caption.9}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Befehle innerhalb einer Objektsortierungssequenz (eigene Darstellung)}}{21}{figure.caption.11}%
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Bewegungsablauf asynchrone/synchrone PTP nach \cite {wüstrobotik}}}{27}{figure.caption.14}%
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Projektions- und kamerabasierte Technologie zur Arbeitsraumüberwachung}}{31}{figure.caption.17}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Bildverarbeitungsstruktur dargestellt als Blockschaltbild}}{36}{figure.caption.18}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Testreihe (Hand allein)}}{37}{figure.caption.19}%
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Testreihe (Zuverlässige Handdetection)}}{38}{figure.caption.20}%
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Testreihe (Bewegte Hand)}}{39}{figure.caption.21}%
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Testreihe (Fehlerkennung von Fremdobjekten)}}{40}{figure.caption.22}%
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Testreihe (abgedeckte Systemobjekte)}}{40}{figure.caption.23}%
->>>>>>> Stashed changes
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Projektions- und kamerabasierte Technologie zur Arbeitsraumüberwachung}}{36}{figure.caption.18}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Struktur der Bildverarbeitung dargestellt als Blockschaltbild}}{41}{figure.caption.19}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Testreihe (Hand allein)}}{42}{figure.caption.20}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Testreihe (Zuverlässige Handdetektion)}}{43}{figure.caption.21}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Testreihe (Bewegte Hand)}}{44}{figure.caption.22}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Testreihe (Fehlerkennung von Fremdobjekten)}}{45}{figure.caption.23}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Testreihe (abgedeckte Systemobjekte)}}{45}{figure.caption.24}%
 \addvspace {10\p@ }
