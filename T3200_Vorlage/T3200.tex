@@ -363,64 +363,70 @@ Hiermit erklären wir, \autor{} und \autorzwei, dass wir diese schriftliche Stud
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% Abk"urzungsverzeichnis
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 \addcontentsline{toc}{chapter}{Abk"urzungsverzeichnis}
 \chapter*{Abk"urzungsverzeichnis}
 \markboth{ABKÜRZUNGSVERZEICHNIS}{ABKÜRZUNGSVERZEICHNIS}
 \begin{tabbing}
 	
-	% Definiere den Abstand: Hier 4cm für die Abkürzung, dann kommt der Rest
-	xxxxxxxxxxxxxx \= \kill 
+	% Definiere den Abstand: Hier ca. 3.5cm für die Abkürzung
+	xxxxxxxxxxxxxxxx \= \kill 
 	
+	2D \> Zweidimensional \\
+	3D \> Dreidimensional \\
+	CLR \> Common Language Runtime \\
+	Cobot \> Collaborative Robot \\
+	CPU \> central processing unit\\
+	CTS \> CancellationTokenSource \\
+	DH \> Denavit-Hartenberg \\
+	DIN \> Deutsches Institut für Normung \\
+	DLL \> Dynamic Link Library \\
+	DU \> Drive Unit \\
+	EMV \> Elektromagnetische Verträglichkeit\\
+	EN \> Europäische Norm \\
+	ESPE \> Berührungslos wirkende Schutzeinrichtung \\
+	FOV \> Field of View \\
+	fps \> frames per second (Bilder pro Sekunde) \\
+	GC \> Gripper close\\
+	GO \> Gripper open\\
+	GPU \> graphic processing unit\\
+	GUI \> Graphical User Interface (Grafische Benutzeroberfläche) \\
+	HRI \> Human-Robot Interaction \\
+	HSV \> Hue/Saturation/Value-Model\\
+	ISO \> International Organization for Standardization \\
+	JSON \> JavaScript Object Notation \\
+	KI \> Künstliche Intelligenz \\
+	LUT \> Look-up-Table\\
+	ML \> Maschinelles Lernen \\
+	MP \> move position\\
+	MRK \> Mensch-Roboter-Kollaboration \\
+	ms \> Millisekunde \\
+	Mutex \> Mutual Exclusion \\
+	NPU \> Network processing unit\\
+	OEE \> Overall Equipment Effectiveness \\
+	OG \> Origin\\
+	PCL \> Point Cloud Library \\
+	PFL \> Power and Force Limiting \\
+	PIR \> Passiv-Infrarot-Sensoren\\
+	PL \> Performance Level \\
+	RGB \> Rot-Grün-Blau\\
+	ROI \> Region of Interest \\
+	RS-232 \> Recommended Standard 232 \\
+	SAT \> Summed-Area Table \\
+	SLS \> Safely-Limited Speed \\
+	SP \> Speed \\
+	SSM \> Speed and Separation Monitoring \\
+	TAP \> Task-based Asynchronous Pattern \\
+	TCP \> Tool Center Point \\
+	TCP/IP \> Transmission Control Protocol/Internet Protocol \\
+	ToF \> Time of Flight \\
+	TPL \> Task Parallel Library \\
+	WH \> Where (Befehl zur Positionsabfrage)\\
+	YCbCr \> Farbmodell für Bild- und Videoaufzeichnungen\\
+	YOLO \> You only look once
 	
-	CLR \> Common Language Runtime
-	\\CMOS \> Complementary Metal-Oxide-Semiconducto
-	\\Cobot \> Collaborative Robot
-	\\CTS \> Clear to Send 
-	\\DFT \> Diskrete Fouriertransformation
-	\\DH \> Denavit Hartenberg
-	\\DIN \> Deutsches Institut für Normung
-	\\DLL \> Dynamic Link Library
-	\\DSR \> Data Set Ready 
-	\\DTR \> Data Terminal Ready
-	\\DU \> Drive Unit
-	\\EN \> Europäische Norm
-	\\ER \> Error Read
-	\\FG \> Frame Ground
-	\\FOV \> Field of View
-	\\fps \> frames per second (Bilder pro Sekunde)
-	\\IPK \> Institut für Produktionsanlagen und Konstruktionstechnik
-	\\ISO \> International Organization for Standardization
-	\\JSON \> JavaScript Object Notation
-	\\KI \> Künstliche Intelligenz
-	\\LED \> Leuchtdiode
-	\\LIDAR \> Light Detection and Ranging
-	\\MC \> Move Continuous 
-	\\ML \> Maschinelles Lernen
-	\\MO \> Move
-	\\ms \> Millisekunde
-	\\Mutex \> Mutual Exclusions
-	\\MVC \> Model View Controller
-	\\NC \> Not Connected 
-	\\P/Invoke \> Platform Invocation Services 
-	\\PCL \> Point Cloud Library 
-	\\PL \> Performance Level 
-	\\RANSAC \> Random Sample Consensus Algorithmus
-	\\RXD \> Receive Data
-	\\ROR \> Radius Outlier Removal 
-	\\RS-232 \> Recommended Standard 232
-	\\SCARA \> Selective Compliance Assembly Robot Arm 
-	\\SOR \> Statistical Outlier Removal 
-	\\SP \> Speed  
-	\\SSM \> Speed and Separation Monitoring 
-	\\TCP \> Tool Center Point 
-	\\TCP/IP \> Transmission Control Protocol/Internet Protocol 
-	\\ToF \> Time of Flight
-	\\TXD \> Transmit Data
-	\\WH \> Where
-	\\2D \> Zweidimensional  
-	\\3D \> Dreidimensional
 \end{tabbing}
+
+
 
 \newpage
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -544,7 +550,7 @@ Hiermit bestätigen wir, \autor{} und \autorzwei, dass die oben gemachten Angabe
 \section*{Inhalt des digitalen Anhangs}
 \label{Inhalt des digitalen Anhangs}
 \begin{itemize}
-	\item Anleitung zur Programmaufsetzung (Luis Thiel)
+	\item Änderung zu PCL-Verwaltung (Luis Thiel)
 	\item gesamter LaTeX-Ordner
 	\item MATLAB-Livescript für die Berechnung der Objekt-Verfahrzeiten
 	\item relevante .cs-Dateien (Roboter, Befehlspipeline, Controller, Bildverarbeitung)
