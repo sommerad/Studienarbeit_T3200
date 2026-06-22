@@ -5,6 +5,7 @@
 \label{kap:Architekturlimitationen}
 
 \subsection{Verwaltung der Punktwolken-Daten}
+\label{kap:Verwaltung der Punktwolke-Daten}
 Bei der Entwicklung der grafischen Benutzeroberfläche zeigte sich in der Ausgangslage ein kritisches Störverhalten innerhalb der Rendering-Engine des \textit{PCLVisualizer}. Beim Versuch, im Viewer platzierte 3D-Objekte sequenziell über den Index \textit{this->objectCount} zu entfernen, lief bereits der erste Löschvorgang fehlerhaft ab. Bei einem wiederholten Aufruf stürzte das Programm schließlich vollständig ab. Als Ursache hierfür wird vermutet, dass die zugrundeliegende Engine die Pointer-Referenzen oder die expliziten Speicheradressen der Objekte verliert.
 
 Die anschließende Ursachenanalyse deutet auf ein sogenanntes Race-Condition-Problem hin, das durch ungeschützte, geteilte Ressourcen entsteht. Da sowohl die 3D-Visualisierung der Point Cloud Library (PCL) als auch die algorithmische Punkteverarbeitung zeitgleich auf dieselben Speicherbereiche zugreifen, kommt es hier zu kritischen Datenkonflikten.
@@ -15,7 +16,7 @@ Ein theoretischer Ansatz zur Stabilisierung ist die Absicherung der kritischen S
 \subsubsection*{Implementierung einer komfortablen Viewport-Konfiguration:} In der Vorgänger-Arbeit war zwar bereits die logische Auswahl vorgesehen, die Punktwolken vor jedem Neustart entweder komplett zu löschen oder zwei Punktwolken parallel anzuzeigen, allerdings war diese Konfiguration tief im Quellcode versteckt. Da dies bei der Bedienung schnell zu Fehlern führen konnte, wurde die Software um einen dedizierten Auswahlbutton direkt in der GUI erweitert. Der Benutzer kann die gewünschte Ansicht nun flexibel und sicher per Mausklick steuern. Der zugehörige, modifizierte Programmcode ist im Anhang dieser Arbeit dokumentiert.
 
 \subsection{Sequenzielle Befehlsstruktur}
-\label{Sequenzielle Befehelsstruktur}
+\label{kap:Sequenzielle Befehelsstruktur}
 Die vorliegende Befehlsübermittlung an den Movemaster EX RV-M1 wird in der Software \textit{Objekterkennung\_RoboETH} sequenziell realisiert. \ref{fig:sequenzielle Abfolge an Befehlen} zeigt qualitativ auf, wie eine solche Abfolge aussieht.
 \begin{figure}[h!]
 	\centering
@@ -157,7 +158,6 @@ Die Geschwindigkeit des Roboters wird per Befehl \textbf{SP} fest auf Stufe 5 H 
 	\caption{Befehle innerhalb einer Objektsortierungssequenz (eigene Darstellung)}
 	\label{fig: objektsequenz}
 \end{figure}
-\newpage
 \subsubsection{Praktische Limitation - Laufzeitmessung mit Simulationsexperiment}
 Um die praktische Limitation der bisherigen Architektur sinnvoll beurteilen zu können, wird zunächst die theoretisch benötigte Laufzeit mit Gleichung \ref{Summation Befehlsausführungszeiten mit eingesetzten Zeiten} ermittelt.
 \begin{equation*}
@@ -184,7 +184,7 @@ Betrachtet man den Programmcode der Klasse \textit{Roboter.cs, Methode SendData}
 	\caption{Tabellarische Übersicht der Thread.Sleep()-Verzögerung pro Objektsequenz}
 	\label{tab:thread.sleep()-zeiten}
 \end{table} 
-\newpage Setzt man nun die statischen Werte aus Tabelle \ref{tab:thread.sleep()-zeiten}, die Wartezeiten bei jedem Senden sowie die benötigte Zeit für das Erreichen von Start- und Endposition in die Gleichung für die Gesamtdauer $T_{S}$ ein
+Setzt man nun die statischen Werte aus Tabelle \ref{tab:thread.sleep()-zeiten}, die Wartezeiten bei jedem Senden sowie die benötigte Zeit für das Erreichen von Start- und Endposition in die Gleichung für die Gesamtdauer $T_{S}$ ein
 \begin{equation}
 	T_{S} = 	T_{s} = 2*(1800ms) + \sum_{i=1}^{4} \sum_{j=1}^{9} (T_{senden, i, j} + T_{schlafen, i, j})
 \end{equation}

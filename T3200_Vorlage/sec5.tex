@@ -94,6 +94,7 @@ Der reale Einsatzkontext des entwickelten Systems ist durch eine industrieähnli
 \newpage
 
 \subsubsection{Testreihe}
+\label{kap:Testreihe}
 Die Durchführung der Testreihe dient primär der systematischen Validierung und dem funktionalen Nachweis der Erkennungsrate des Modells. Hierbei wird experimentell überprüft, inwieweit das System in der Lage ist, eine menschliche Hand unter idealen Randbedingungen deterministisch zu erfassen, in welchen Grenzfällen die Detektion versagt und ob fälschlicherweise fremde Objekte als Hand klassifiziert werden (Vermeidung von \textit{False Positives}). 
 \\
 \\Darüber hinaus bietet die Testumgebung die Möglichkeit, die zentralen mathematischen Stellgrößen des Algorithmus zu evaluieren und für eine optimale Handerkennung präzise zu parametrisieren. Zu diesen Stellgrößen gehört zum einen der Threshold-Wert der Schwellenwert-Segmentierung innerhalb der Bildvorverarbeitung, welcher im praktischen Versuch jedoch nur eine sehr geringe Auswirkung auf das finale Erkennungsergebnis zeigte. Zum anderen lassen sich die zwei kritischsten Kernparameter des eigentlichen Haar-Cascade-Algorithmus feinjustieren: der Skalierungsfaktor (\textit{Scale Factor}), welcher die relative Schrittweite bei der Vergrößerung des Suchfensters während der multidimensionalen Bildanalyse definiert, sowie der Parameter der minimalen Nachbarn (\textit{Minimum Neighbors}). Letzterer legt fest, wie viele qualifizierende Detektionsrechtecke sich in unmittelbarer Nachbarschaft überlagern müssen, damit eine Bildregion final und rechtssicher als Hand deklariert wird.
@@ -157,6 +158,7 @@ Die Software sieht eine Zensur von erkannten Systemobjekten die an den Roboter w
 \subsubsection*{Fazit}
 Aus der Versuchsreihe können wertvolle Erkenntnisse gezogen werden. Einerseits die Eingrenzung des Systemanwendungsbereichs, andererseits eine optimale Parametrisierung des Algorithmus für zuverlässige Ergebnisse. 
 \section{Befehlspipeline}
+\label{kap:befehlspipeline}
 \subsection{Vergleich von theoretischer und realer Performance}
 Nach der erfolgreichen Implementation der Befehlspipeline in die Steuerungsarchitektur wird das in Kapitel \ref{kap:messexperiment} eingeführte Messexperiment erneut durchgeführt. Für die bessere Vergleichbarkeit werden in MATLAB die zu erwartenden Ausführungszeiten berechnet und nachfolgend in Tabelle \ref{tab:ausfuehrungszeiten} dargestellt:
 	\begin{table}[h!]
@@ -195,7 +197,7 @@ Nach der erfolgreichen Implementation der Befehlspipeline in die Steuerungsarchi
 Auch hier kommen erneut\textit{Stopwatches} aus \textit{Systems.Diagnostics} zum Einsatz um die Laufzeit zu messen. Nach fünf Durchläufen kann eine gemittelte Zeit von 32,28 Sekunden festgestellt werden - das entspricht einer Abweichung vom erwarteten Wert von ca. 1,28\%. Es lässt sich erkennen, dass der Overhead beider Architekturen nahezu gleich ist.\\
 \\Die Befehlspipeline ermöglicht allerdings eine Reduktion auf 31\% der ursprünglichen Ausführungszeit.
 \section{Integration der Safety-Implementation in die Befehlspipeline}
-\label{Integration der Safety-Implementation in die Befehlspipeline}
+\label{kap:Integration der Safety-Implementation in die Befehlspipeline}
 Um eine reibungslose und latenzfreie Kombination aus der kontinuierlichen Bildverarbeitung (Kamera-Thread) und der zeitkritischen Robotersteuerung zu gewährleisten, wurde die Not-Aus-Signalisierung nach dem Task-based Asynchronous Pattern (TAP) realisiert.\\
 \\Klassische, synchrone Event-Handler bergen das Risiko, den aufrufenden Thread während der Ausführung nachgelagerter Logik zu blockieren. Da die Methode \textit{DetectHands} zyklisch mit der Bildwiederholungsrate der Kamera aurgerufen wird, würde eine blockierende Event-Architektur zu massiven Verzögerungen in der Bildverarbeitung führen. Aus diesem Grund wird der Abbruchimpuls bei positiver Detektion mit dem bool'schen Rückgabewert ($pHandDetected = true$) über ein asynchrones Delegaten-Event (\textit{Func<Task> OnHandDetectedAsync}) entkoppelt. Durch den Einsatz der Task Parallel Library (TPL) und der Methode \textit{Task.Run} wird die Not-Aus-Aktivierung sofort in einen unblockierten Thread des .NET-ThreadPools ausgelagert.
 

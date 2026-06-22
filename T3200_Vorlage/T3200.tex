@@ -466,7 +466,7 @@ Hiermit erklären wir, \autor{} und \autorzwei, dass wir diese schriftliche Stud
 Für die Erstellung dieser Studienarbeit wurden folgende Tools eingesetzt:
 \begin{itemize}
 	\item \textbf{Hardware:} SICK Visionary-T Mini-CX, Mitsubishi Movemaster EX-RV M1, uEye Industriekamera
-	\item \textbf{Software:} OpenCV Bibliothek, Visual Studio (C++ und \csharp), RoboETH, drawIO (Erstellung von Grafiken), texStudio, uEye-Cockpit und IDS Kameramanager, GitHub (Kollaboratives Arbeiten und Versionsverwaltung der LaTeX-Vorlage).
+	\item \textbf{Software:} OpenCV Bibliothek, Visual Studio (C++ und \csharp), RoboETH, drawIO (Erstellung von Grafiken), texStudio, uEye-Cockpit und IDS Kameramanager, GitHub (Kollaboratives Arbeiten und Versionsverwaltung der LaTeX-Vorlage), MATLAB 2025, GitHub CoPilot.
 \end{itemize}
 \subsubsection*{KI-	Tools und relevanter Einsatzbereich}
 \label{KI-Tools und relevanter Einsatzbereich}
@@ -478,6 +478,7 @@ Dies erfolgt im Einklang mit der entsprechenden Verordnung der DHBW \href{https:
 		\textbf{Tool} & \textbf{Art der Nutzung} & \textbf{Abschnitt} \\ \hline
 		{Google Gemini AI Student Pro License} & {Formatierung von LaTeX-Code, Erstellung von Blankovorlagen für Tabellen und Listen} & {gesamte Arbeit} \\ \hline
 		{DeepL AI Übersetzer} & {Formulierung des englischsprachigen Abstracts} & {Abstract} \\ \hline
+		{Github CoPilot mit Gemini API} & {Programmiersyntax und Formatierung der Projektmappe, IntelliSense-Erweiterung, Refactoring der Klassen "Roboter.cs, Befehlspipeline.cs, Controller.cs und Bildverarbeitung.cs} & {Visual Studio-Projektmappe} \\ \hline
 	\end{tabular}
 \end{table}
 \newpage
@@ -490,13 +491,18 @@ Die Erstellung der vorliegenden Studienarbeit erfolgte in gemeinsamer Kooperatio
 \begin{tabularx}{\textwidth}{|X|l|l|}
 	\hline
 	\textbf{Kapitel / Abschnitt} & \textbf{Kapitelnummer} & \textbf{Autor} \\ \hline
-	Einleitung                           & \ref{Einleitung} & Gemeinsame Bearbeitung \\ \hline
-	Safety-Implementation                             & \ref{kap:safetyimplementation} & \autor \\ \hline
-	Bildverarbeitung        & \ref{kap:Bildverarbeitung} & \autor \\ \hline
-	Grundlagen der Informatik            & \ref{kap:Grundlagen der Informatik} & \autorzwei \\ \hline
-	Inverse Kinematik                             & \ref{kap:Inverse Kinematik des Mitsubishi Movemaster EX RV-M1} & \autorzwei \\ \hline
-	Architekturlimitation                             & \ref{kap:Architekturlimitationen} & \autorzwei \\ \hline
-	Fazit und Ausblick                   & \ref{kap:Fazit und Ausblick} & Gemeinsame Bearbeitung \\ \hline
+	Einleitung & \ref{Einleitung} & Gemeinsame Bearbeitung \\ \hline
+	Safety-Implementation & \ref{kap:safetyimplementation} & \autor \\ \hline
+	Bildverarbeitung & \ref{kap:Bildverarbeitung} & \autor \\ \hline
+	Grundlagen der Informatik & \ref{kap:Grundlagen der Informatik} & \autorzwei \\ \hline
+	Inverse Kinematik & \ref{kap:Inverse Kinematik des Mitsubishi Movemaster EX RV-M1} & \autorzwei \\ \hline
+	Verwaltung von Punktwolken & \ref{kap:Verwaltung der Punktwolke-Daten} & \autor \\ \hline
+	Sequenzielle Befehlsstruktur  & \ref{kap:Sequenzielle Befehelsstruktur} & \autorzwei \\ \hline
+	Konzeptionierung der dynamischen Robotersteuerung & \ref{kap:Konzeptionierung der dynamischen Robotersteuerung} & \autorzwei \\ \hline
+	Safetyimplementation & \ref{Sichere Mensch-Roboter-Kolaboration} & \autor \\ \hline
+	Befehlspipeline & \ref{kap:befehlspipeline} & \autorzwei \\ \hline
+	Integration der Safety-Implementation in die Befehlspipeline & \ref{kap:Integration der Safety-Implementation in die Befehlspipeline} & \autorzwei \\ \hline
+	Fazit und Ausblick & \ref{kap:Fazit und Ausblick} & Gemeinsame Bearbeitung \\ \hline
 \end{tabularx}
 \newpage
 Hiermit bestätigen wir, \autor{} und \autorzwei, dass die oben gemachten Angaben der Wahrheit entsprechen.
@@ -541,7 +547,8 @@ Hiermit bestätigen wir, \autor{} und \autorzwei, dass die oben gemachten Angabe
 	\item Anleitung zur Programmaufsetzung (Luis Thiel)
 	\item gesamter LaTeX-Ordner
 	\item MATLAB-Livescript für die Berechnung der Objekt-Verfahrzeiten
-	\item gesamte Visual-Studio-Projektmapppe
+	\item relevante .cs-Dateien (Roboter, Befehlspipeline, Controller, Bildverarbeitung)
+	\item Link zur vollständigen Projektmappe
 \end{itemize}
 \newpage
 

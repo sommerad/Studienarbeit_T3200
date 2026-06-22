@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.6.15)  22 JUN 2026 08:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.6.15)  22 JUN 2026 09:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1464,7 +1464,7 @@ Overfull \hbox (2.40323pt too wide) in paragraph at lines 4--4
  []
 
 LaTeX Font Info:    Trying to load font information for T1+NotoSans-TLF on inpu
-t line 34.
+t line 32.
 
 (C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/noto\t1notosans-tlf.
 fd
@@ -1472,111 +1472,111 @@ File: T1NotoSans-TLF.fd 2021/09/07 (autoinst) Font definitions for T1/NotoSans-
 TLF.
 )
 LaTeX Font Info:    Font shape `T1/NotoSans-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 34.
+(Font)              scaled to size 12.0pt on input line 32.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `NotoSans-TLF' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/NotoSans-TLF/b/n' will be
-(Font)              scaled to size 12.0pt on input line 34.
+(Font)              scaled to size 12.0pt on input line 32.
 LaTeX Font Info:    Font shape `T1/NotoSans-TLF/b/n' will be
-(Font)              scaled to size 10.95pt on input line 34.
+(Font)              scaled to size 10.95pt on input line 32.
 
-Underfull \hbox (badness 1803) in paragraph at lines 11--43
+Underfull \hbox (badness 1803) in paragraph at lines 9--41
 \T1/NotoSerif-TLF/m/n/12 (+20) der Bil-der-fas-sung, bei der ent-we-der kos-ten
 -güns-ti-ge 2D-Kameras
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 11--43
+Underfull \hbox (badness 10000) in paragraph at lines 9--41
 \T1/NotoSerif-TLF/m/n/12 (+20) va-ri-iert die Sys-te-mar-chi-tek-tur hin-sicht-
 lich der Ka-me-raan-zahl:
  []
 
 
-Underfull \hbox (badness 1924) in paragraph at lines 11--43
+Underfull \hbox (badness 1924) in paragraph at lines 9--41
 \T1/NotoSerif-TLF/m/n/12 (+20) Wäh-rend Mo-no-ka-me-ra-sys-te-me ei-ne ein-fa-c
 he Raum-über-wa-chung
  []
 
 
-Underfull \hbox (badness 3240) in paragraph at lines 11--43
+Underfull \hbox (badness 3240) in paragraph at lines 9--41
 \T1/NotoSerif-TLF/m/n/12 (+20) er-mög-li-chen, bie-ten Mul-ti-ka-me-ra-sys-te-m
 e durch hard-wa-re-sei-ti-ge
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 11--43
+Underfull \hbox (badness 10000) in paragraph at lines 9--41
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 11--43
+Underfull \hbox (badness 10000) in paragraph at lines 9--41
 \T1/NotoSerif-TLF/m/n/12 (+20) Die al-go-rith-mi-sche Aus-wer-tung lässt sich w
 ie-der-um in zwei
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 11--43
+Underfull \hbox (badness 10000) in paragraph at lines 9--41
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 11--43
+Underfull \hbox (badness 10000) in paragraph at lines 9--41
 \T1/NotoSerif-TLF/m/n/12 (+20) Die in-for-ma-ti-ons-tech-ni-sche Ab-si-che-rung
  des Ar-beits-rau-mes
  []
 
 
-Underfull \hbox (badness 2762) in paragraph at lines 11--43
+Underfull \hbox (badness 2762) in paragraph at lines 9--41
 \T1/NotoSerif-TLF/m/n/12 (+20) Ge-schwin-dig-keits-re-ge-lung (Dy-na-mic Speed 
 Con-trol), bei der die
  []
 
 
-Underfull \hbox (badness 8132) in paragraph at lines 11--43
+Underfull \hbox (badness 8132) in paragraph at lines 9--41
 \T1/NotoSerif-TLF/m/n/12 (+20) Sys-tem-ge-schwin-dig-keit ad-ap-tiv an die Po-s
 i-ti-on des Men-schen
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 11--43
+Underfull \hbox (badness 10000) in paragraph at lines 9--41
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 11--43
+Underfull \hbox (badness 10000) in paragraph at lines 9--41
 \T1/NotoSerif-TLF/m/n/12 (+20) Ein zen-tra-les wis-sen-schaft-li-ches Fun-da-me
 nt für sol-che fle-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 11--43
+Underfull \hbox (badness 10000) in paragraph at lines 9--41
 \T1/NotoSerif-TLF/m/n/12 (+20) xiblen Si-cher-heits-ar-chi-tek-tu-ren be-schrei
 -ben Bdi-wi, M., Pfei-fer,
  []
 
 
-Underfull \hbox (badness 1902) in paragraph at lines 11--43
+Underfull \hbox (badness 1902) in paragraph at lines 9--41
 \T1/NotoSerif-TLF/m/n/12 (+20) M. und Ster-zing, A. [[]3[]], die sich in-ten-si
 v mit un-ter-schied-li-chen
  []
 
 
-Underfull \hbox (badness 1097) in paragraph at lines 11--43
+Underfull \hbox (badness 1097) in paragraph at lines 9--41
 \T1/NotoSerif-TLF/m/n/12 (+20) Die Au-to-ren schla-gen ei-ne sys-te-ma-ti-sche 
 Ta-xo-no-mie vor, wel-che
  []
 
 File: figures/dhbwlogo.png Graphic file (type png)
 <use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 43.
+Package pdftex.def Info: figures/dhbwlogo.png  used on input line 41.
 (pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
 [2
 
 ]
 LaTeX Font Info:    Trying to load font information for TS1+NotoSerif-TLF on in
-put line 45.
+put line 43.
 
 (C:\Users\sommerad\AppData\Local\Programs\MiKTeX\tex/latex/noto\ts1notoserif-tl
 f.fd
@@ -1592,459 +1592,508 @@ Package microtype Info: Character `textminus ' is missing
 (microtype)             Ignoring protrusion settings for this character.
 File: figures/dhbwlogo.png Graphic file (type png)
 <use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 48.
+Package pdftex.def Info: figures/dhbwlogo.png  used on input line 47.
 (pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
  [3{C:/Users/sommerad/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/noto/a_hono
 ps.enc}]
 <figures/InfRot-HE-Luis.png, id=372, 371.13657pt x 240.14719pt>
 File: figures/InfRot-HE-Luis.png Graphic file (type png)
 <use figures/InfRot-HE-Luis.png>
-Package pdftex.def Info: figures/InfRot-HE-Luis.png  used on input line 59.
+Package pdftex.def Info: figures/InfRot-HE-Luis.png  used on input line 57.
 (pdftex.def)             Requested size: 318.67207pt x 206.20374pt.
 
-Underfull \hbox (badness 2478) in paragraph at lines 63--66
+Underfull \hbox (badness 2478) in paragraph at lines 61--64
 \T1/NotoSerif-TLF/m/n/12 (+20) Ein eta-blier-ter An-satz zur De-tek-ti-on des m
 ensch-li-chen Kör-pers
  []
 
 
-Underfull \hbox (badness 2617) in paragraph at lines 63--66
+Underfull \hbox (badness 2617) in paragraph at lines 61--64
 \T1/NotoSerif-TLF/m/n/12 (+20) im in-fra-ro-ten Spek-tral-be-reich ope-rie-ren.
  Die-se Sys-te-me mes-sen
  []
 
 
-Underfull \hbox (badness 1189) in paragraph at lines 63--66
+Underfull \hbox (badness 1189) in paragraph at lines 61--64
 \T1/NotoSerif-TLF/m/n/12 (+20) die emit-tier-te Wär-me-strah-lung von Ob-jek-te
 n, die sich in-ner-halb
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 63--66
+Underfull \hbox (badness 10000) in paragraph at lines 61--64
 \T1/NotoSerif-TLF/m/n/12 (+20) des de-fi-nier-ten Er-fas-sungs-be-reichs be-fin
 -den. Mit-tels spe-zi-el-ler
  []
 
 
-Underfull \hbox (badness 1515) in paragraph at lines 63--66
+Underfull \hbox (badness 1515) in paragraph at lines 61--64
 \T1/NotoSerif-TLF/m/n/12 (+20) Ler-nal-go-rith-men, die auf ver-schie-de-nen em
 -pi-ri-schen Fall-stu-di-en
  []
 
 
-Underfull \hbox (badness 2600) in paragraph at lines 63--66
+Underfull \hbox (badness 2600) in paragraph at lines 61--64
 \T1/NotoSerif-TLF/m/n/12 (+20) ba-sie-ren, ge-lingt auf die-ser Grund-la-ge die
  se-lek-ti-ve Er-ken-nung
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 63--66
+Underfull \hbox (badness 10000) in paragraph at lines 61--64
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 63--66
+Underfull \hbox (badness 10000) in paragraph at lines 61--64
 \T1/NotoSerif-TLF/m/n/12 (+20) Als we-sent-li-cher Vor-teil die-ses sen-so-ri-s
 chen Prin-zips er-weist
  []
 
 
-Underfull \hbox (badness 4279) in paragraph at lines 63--66
+Underfull \hbox (badness 4279) in paragraph at lines 61--64
 \T1/NotoSerif-TLF/m/n/12 (+20) sich die ro-bus-te Ein-setz-bar-keit in rau-en, 
 in-dus-tri-ell ge-präg-ten
  []
 
 
-Underfull \hbox (badness 3386) in paragraph at lines 63--66
+Underfull \hbox (badness 3386) in paragraph at lines 61--64
 \T1/NotoSerif-TLF/m/n/12 (+20) Pro-duk-ti-ons-um-ge-bun-gen, da das Mess-prin-z
 ip weit-ge-hend un-ab-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 63--66
+Underfull \hbox (badness 10000) in paragraph at lines 61--64
 \T1/NotoSerif-TLF/m/n/12 (+20) hän-gig von sicht-ba-ren tran-si-en-ten Licht-ve
 r-hält-nis-sen ar-bei-tet.
  []
 
 
-Underfull \hbox (badness 2922) in paragraph at lines 63--66
+Underfull \hbox (badness 2922) in paragraph at lines 61--64
 \T1/NotoSerif-TLF/m/n/12 (+20) Dem-ge-gen-über ste-hen je-doch si-gni-fi-kan-te
  Nach-tei-le: Ne-ben der
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 63--66
+Underfull \hbox (badness 10000) in paragraph at lines 61--64
 \T1/NotoSerif-TLF/m/n/12 (+20) Hauto-ber-flä-chen-tem-pe-ra-tur äh-nelt. Dar-üb
 er hin-aus er-for-dert
  []
 
 
-Underfull \hbox (badness 7796) in paragraph at lines 63--66
+Underfull \hbox (badness 7796) in paragraph at lines 61--64
 \T1/NotoSerif-TLF/m/n/12 (+20) die ther-mo-gra-fi-sche Si-gnal-ver-ar-bei-tung 
 und die nach-ge-la-ger-te
  []
 
 
-Underfull \hbox (badness 4779) in paragraph at lines 63--66
+Underfull \hbox (badness 4779) in paragraph at lines 61--64
 \T1/NotoSerif-TLF/m/n/12 (+20) al-go-rith-mi-sche Merk-mals-be-rech-nung ei-ne 
 ver-gleichs-wei-se ho-he
  []
 
 File: figures/dhbwlogo.png Graphic file (type png)
 <use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 66.
+Package pdftex.def Info: figures/dhbwlogo.png  used on input line 64.
 (pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 68--75
+Underfull \hbox (badness 10000) in paragraph at lines 66--73
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--75
+Underfull \hbox (badness 10000) in paragraph at lines 66--73
 \T1/NotoSerif-TLF/m/n/12 (+20) Mithilfe der ToF-Struktur wird kon-ti-nu-ier-lic
 h die eu-kli-di-sche
  []
 
 
-Underfull \hbox (badness 1194) in paragraph at lines 68--75
+Underfull \hbox (badness 1194) in paragraph at lines 66--73
 \T1/NotoSerif-TLF/m/n/12 (+20) li-chen Ob-jek-ten er-mit-telt. Un-ter-schrei-te
 t der ge-mes-se-ne Ab-stand
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--75
+Underfull \hbox (badness 10000) in paragraph at lines 66--73
 
  []
 
 
-Underfull \hbox (badness 2884) in paragraph at lines 68--75
+Underfull \hbox (badness 2884) in paragraph at lines 66--73
 \T1/NotoSerif-TLF/m/n/12 (+20) Die Vor-tei-le die-ser Tech-no-lo-gie lie-gen in
  der Op-ti-on, ei-ne mit-
  []
 
 
-Underfull \hbox (badness 2027) in paragraph at lines 68--75
+Underfull \hbox (badness 2027) in paragraph at lines 66--73
 \T1/NotoSerif-TLF/m/n/12 (+20) in-hä-ren-te Kom-bi-na-ti-on aus In-ten-si-täts-
 bil-dern und drei-di-men-sio-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--75
+Underfull \hbox (badness 10000) in paragraph at lines 66--73
 
  []
 
 
-Underfull \hbox (badness 4699) in paragraph at lines 68--75
+Underfull \hbox (badness 4699) in paragraph at lines 66--73
 \T1/NotoSerif-TLF/m/n/12 (+20) Als kri-ti-scher Nach-teil er-weist sich je-doch
  die nor-ma-ti-ve Zer-
  []
 
 
-Underfull \hbox (badness 3612) in paragraph at lines 68--75
+Underfull \hbox (badness 3612) in paragraph at lines 66--73
 \T1/NotoSerif-TLF/m/n/12 (+20) ti-fi-zie-rung im Kon-text der funk-tio-na-len S
 i-cher-heit. Da-mit ei-ne
  []
 
 
-Underfull \hbox (badness 4940) in paragraph at lines 68--75
+Underfull \hbox (badness 4940) in paragraph at lines 66--73
 \T1/NotoSerif-TLF/m/n/12 (+20) zu-ge-las-sen wer-den kann, er-for-dert die Sys-
 te-mar-chi-tek-tur ei-ne
  []
 
 File: figures/dhbwlogo.png Graphic file (type png)
 <use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 75.
+Package pdftex.def Info: figures/dhbwlogo.png  used on input line 73.
 (pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
 [5 <./figures/InfRot-HE-Luis.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 77--82
+Underfull \hbox (badness 10000) in paragraph at lines 75--80
 \T1/NotoSerif-TLF/m/n/12 (+20) dar. Ent-spre-chen-de Al-go-rith-men nut-zen Sch
 well-wert-ver-fah-ren,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--82
+Underfull \hbox (badness 10000) in paragraph at lines 75--80
 
  []
 
 
-Underfull \hbox (badness 1019) in paragraph at lines 77--82
+Underfull \hbox (badness 1019) in paragraph at lines 75--80
 \T1/NotoSerif-TLF/m/n/12 (+20) Ökonomie, da für die Um-set-zung ei-ne klas-si-s
 che, kos-ten-güns-ti-ge
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--82
+Underfull \hbox (badness 10000) in paragraph at lines 75--80
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--82
+Underfull \hbox (badness 10000) in paragraph at lines 75--80
 \T1/NotoSerif-TLF/m/n/12 (+20) Dem ste-hen im in-dus-tri-el-len Ein-satz gra-vi
 e-ren-de Nach-tei-le
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--82
+Underfull \hbox (badness 10000) in paragraph at lines 75--80
 \T1/NotoSerif-TLF/m/n/12 (+20) ge-gen-über. Das Sys-tem ver-sagt in-hä-rent, so
 -bald der Wer-ker
  []
 
 File: figures/dhbwlogo.png Graphic file (type png)
 <use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 82.
+Package pdftex.def Info: figures/dhbwlogo.png  used on input line 80.
 (pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
 [6]
 File: figures/dhbwlogo.png Graphic file (type png)
 <use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 88.
+Package pdftex.def Info: figures/dhbwlogo.png  used on input line 86.
 (pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
  [7]
+Underfull \hbox (badness 1748) in paragraph at lines 105--110
+\T1/NotoSerif-TLF/m/n/12 (+20) wir-ken-de Schutzein-rich-tun-gen (ES-PE) re-gel
+t. Für den Ein-satz in
+ []
+
+
+Underfull \hbox (badness 8113) in paragraph at lines 105--110
+\T1/NotoSerif-TLF/m/n/12 (+20) dass das Sen-sor-sys-tem über ei-ne per-ma-nen-t
+e, hard-wa-re-na-he
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--110
+
+ []
+
+
+Underfull \hbox (badness 1394) in paragraph at lines 105--110
+\T1/NotoSerif-TLF/m/n/12 (+20) des mensch-li-chen Kör-pers. So-bald ein Sys-tem
+ auf die De-tek-ti-on
+ []
+
+
+Underfull \hbox (badness 2443) in paragraph at lines 105--110
+\T1/NotoSerif-TLF/m/n/12 (+20) wird, for-dert die Norm den An-satz stan-dar-di-
+sier-ter, ma-xi-ma-ler
+ []
+
+
+Underfull \hbox (badness 5519) in paragraph at lines 105--110
+\T1/NotoSerif-TLF/m/n/12 (+20) Hand-ge-schwin-dig-kei-ten ($\OT1/cmr/m/n/12 160
+0 []$ \T1/NotoSerif-TLF/m/n/12 (+20) bis $\OT1/cmr/m/n/12 2000 []$\T1/NotoSerif
+-TLF/m/n/12 (+20) ). Für op-ti-sche
+ []
+
+
+Underfull \hbox (badness 2409) in paragraph at lines 105--110
+\T1/NotoSerif-TLF/m/n/12 (+20) Sys-te-me, die auf Mus-te-rer-ken-nung ba-sie-re
+n, er-gibt sich dar-aus
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--110
+\T1/NotoSerif-TLF/m/n/12 (+20) theo-re-tisch die An-for-de-rung, dass die Ver-a
+r-bei-tungs-fre-quenz
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--110
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--110
+\T1/NotoSerif-TLF/m/n/12 (+20) Dis-kre-panz beim Ein-satz sto-chas-ti-scher Aus
+-wer-te-al-go-rith-men
+ []
+
+
+Underfull \hbox (badness 1024) in paragraph at lines 105--110
+\T1/NotoSerif-TLF/m/n/12 (+20) (wie ma-schi-nel-len Lern-ver-fah-ren). Da die-s
+e sys-tem-be-dingt kei-ne
+ []
+
 File: figures/dhbwlogo.png Graphic file (type png)
 <use figures/dhbwlogo.png>
 Package pdftex.def Info: figures/dhbwlogo.png  used on input line 110.
 (pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
- [8]
-Underfull \hbox (badness 10000) in paragraph at lines 111--112
-[]\T1/NotoSerif-TLF/m/n/12 (+20) Zusammenfassend er-gibt sich in der mathematis
-ch-
- []
-
-
-Underfull \hbox (badness 6493) in paragraph at lines 111--112
-\T1/NotoSerif-TLF/m/n/12 (+20) deterministischen Va-li-die-rung nach ISO 13849-
-1 [[]10[]] und IEC
- []
-
-
-Underfull \hbox (badness 5954) in paragraph at lines 111--112
-\T1/NotoSerif-TLF/m/n/12 (+20) An-wen-dun-gen stets ei-ne Ab-si-che-rung der ma
--the-ma-ti-schen Er-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 111--112
-\T1/NotoSerif-TLF/m/n/12 (+20) geb-nis-se durch di-ver-si-täre Sen-so-rik oder 
-fest pro-gram-mier-te
- []
-
+[8]
 <figures/haar-like-features.jpg, id=438, 636.3775pt x 386.44376pt>
 File: figures/haar-like-features.jpg Graphic file (type jpg)
 <use figures/haar-like-features.jpg>
-Package pdftex.def Info: figures/haar-like-features.jpg  used on input line 119
+Package pdftex.def Info: figures/haar-like-features.jpg  used on input line 117
 .
 (pdftex.def)             Requested size: 318.67207pt x 193.51033pt.
 
-Underfull \hbox (badness 1082) in paragraph at lines 116--126
+Underfull \hbox (badness 1082) in paragraph at lines 114--124
 \T1/NotoSerif-TLF/m/n/12 (+20) ver-scho-ben wird. In-ner-halb die-ses Pro-zes-s
 es führt je-de ein-zel-ne
  []
 
 
-Underfull \hbox (badness 2103) in paragraph at lines 116--126
+Underfull \hbox (badness 2103) in paragraph at lines 114--124
 \T1/NotoSerif-TLF/m/n/12 (+20) dass der Bild-aus-schnitt zur tiefer-ge-hen-den 
 Über-prü-fung an die
  []
 
 
-Underfull \hbox (badness 2065) in paragraph at lines 116--126
+Underfull \hbox (badness 2065) in paragraph at lines 114--124
 \T1/NotoSerif-TLF/m/n/12 (+20) sich das Prin-zip der Kon-fu-si-ons-ma-trix her-
 an-zie-hen, wel-che die
  []
 
 
-Underfull \hbox (badness 1577) in paragraph at lines 116--126
+Underfull \hbox (badness 1577) in paragraph at lines 114--124
 \T1/NotoSerif-TLF/m/n/12 (+20) Er-geb-nis-se in vier fun-da-men-ta-le Ka-te-go-
 ri-en un-ter-teilt. Ein \T1/NotoSerif-TLF/m/it/12 (+20) True
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 116--126
+Underfull \hbox (badness 10000) in paragraph at lines 114--124
 \T1/NotoSerif-TLF/m/n/12 (+20) die zu-tref-fen-de Iden-ti-fi-ka-ti-on von Hin-t
 er-grund-struk-tu-ren als
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 116--126
+Underfull \hbox (badness 10000) in paragraph at lines 114--124
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 116--126
+Underfull \hbox (badness 10000) in paragraph at lines 114--124
 \T1/NotoSerif-TLF/m/n/12 (+20) Aus die-ser Dy-na-mik lei-ten sich hoch-gra-dig 
 asym-me-tri-sche
  []
 
 
-Underfull \hbox (badness 1783) in paragraph at lines 116--126
+Underfull \hbox (badness 1783) in paragraph at lines 114--124
 \T1/NotoSerif-TLF/m/n/12 (+20) und si-cher-heits-kri-ti-sche An-for-de-run-gen 
 an die ein-zel-nen Kas-ka-
  []
 
 File: figures/dhbwlogo.png Graphic file (type png)
 <use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 126.
+Package pdftex.def Info: figures/dhbwlogo.png  used on input line 124.
 (pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
 [9]
 File: figures/dhbwlogo.png Graphic file (type png)
 <use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 126.
+Package pdftex.def Info: figures/dhbwlogo.png  used on input line 124.
 (pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
  [10 <./figures/haar-like-features.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 136--139
+Underfull \hbox (badness 10000) in paragraph at lines 134--137
 
  []
 
 
-Underfull \hbox (badness 5050) in paragraph at lines 136--139
+Underfull \hbox (badness 5050) in paragraph at lines 134--137
 \T1/NotoSerif-TLF/m/n/12 (+20) Durch das sys-te-ma-ti-sche Ver-schie-ben und ko
 n-ti-nu-ier-li-che Ska-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 136--139
+Underfull \hbox (badness 10000) in paragraph at lines 134--137
 \T1/NotoSerif-TLF/m/n/12 (+20) ei-ne kom-bi-na-to-ri-sche Ex-plo-si-on der zu b
 e-rech-nen-den Wer-te.
  []
 
 
-Underfull \hbox (badness 2418) in paragraph at lines 136--139
+Underfull \hbox (badness 2418) in paragraph at lines 134--137
 \T1/NotoSerif-TLF/m/n/12 (+20) Be-reits in-ner-halb ei-nes sehr klei-nen Standa
 rd-Suchfensters von
  []
 
 
-Underfull \hbox (badness 1205) in paragraph at lines 136--139
+Underfull \hbox (badness 1205) in paragraph at lines 134--137
 \T1/NotoSerif-TLF/m/n/12 (+20) un-ter-schied-li-che Merk-mals-wer-te. Die-se en
 or-me Viel-falt teilt sich
  []
 
 File: figures/dhbwlogo.png Graphic file (type png)
 <use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 145.
+Package pdftex.def Info: figures/dhbwlogo.png  used on input line 142.
 (pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
 [11]
 File: figures/dhbwlogo.png Graphic file (type png)
 <use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 169.
+Package pdftex.def Info: figures/dhbwlogo.png  used on input line 164.
 (pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
  [12]
 File: figures/dhbwlogo.png Graphic file (type png)
 <use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 182.
+Package pdftex.def Info: figures/dhbwlogo.png  used on input line 179.
 (pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
  [13]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 File: figures/dhbwlogo.png Graphic file (type png)
 <use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 223.
+Package pdftex.def Info: figures/dhbwlogo.png  used on input line 220.
 (pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
- [14]
+[14]
 LaTeX Font Info:    Font shape `T1/NotoSans-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 241.
+(Font)              scaled to size 8.0pt on input line 237.
 
-Underfull \hbox (badness 1924) in paragraph at lines 258--260
+Underfull \hbox (badness 1924) in paragraph at lines 254--256
 \T1/NotoSerif-TLF/m/n/12 (+20) Um die Rol-le der TPL im Kon-text die-ser Ar-bei
 t zu prä-zi-sie-ren,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 258--260
+Underfull \hbox (badness 10000) in paragraph at lines 254--256
 \T1/NotoSerif-TLF/m/n/12 (+20) muss zwi-schen Ne-ben-läu-fig-keit und Par-al-le
 -li-tät un-ter-schie-den
  []
 
 
-Underfull \hbox (badness 2680) in paragraph at lines 258--260
+Underfull \hbox (badness 2680) in paragraph at lines 254--256
 \T1/NotoSerif-TLF/m/n/12 (+20) Ein ne-ben-läu-fi-ges Sys-tem ist dar-auf aus-ge
 -legt, Auf-ga-ben durch
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 258--260
+Underfull \hbox (badness 10000) in paragraph at lines 254--256
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 258--260
+Underfull \hbox (badness 10000) in paragraph at lines 254--256
 \T1/NotoSerif-TLF/m/n/12 (+20) Dabei ist Mul-ti-threa-ding ^^U al-so die Ver-we
 n-dung meh-re-rer
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 258--260
+Underfull \hbox (badness 10000) in paragraph at lines 254--256
 \T1/NotoSerif-TLF/m/n/12 (+20) Aus-füh-rungs-strän-ge ^^U le-dig-lich ei-ne For
 m der ne-ben-läu-fi-gen
  []
 
 
-Underfull \hbox (badness 2913) in paragraph at lines 258--260
+Underfull \hbox (badness 2913) in paragraph at lines 254--256
 \T1/NotoSerif-TLF/m/n/12 (+20) über-ge-ord-ne-te Ab-strak-tio-nen, die den di-r
 ek-ten, feh-ler-an-fäl-li-gen
  []
 
 File: figures/dhbwlogo.png Graphic file (type png)
 <use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 260.
+Package pdftex.def Info: figures/dhbwlogo.png  used on input line 256.
 (pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
 [15]
-Underfull \hbox (badness 10000) in paragraph at lines 265--268
+Underfull \hbox (badness 10000) in paragraph at lines 261--264
 
  []
 
 
-Underfull \hbox (badness 8113) in paragraph at lines 265--268
+Underfull \hbox (badness 8113) in paragraph at lines 261--264
 \T1/NotoSerif-TLF/m/n/12 (+20) Die De-kla-ra-ti-on ei-ner Me-tho-de mit dem Sch
 lüs-sel-wort \T1/NotoSerif-TLF/m/it/12 (+20) async
  []
 
 
-Underfull \hbox (badness 1087) in paragraph at lines 265--268
+Underfull \hbox (badness 1087) in paragraph at lines 261--264
 \T1/NotoSerif-TLF/m/n/12 (+20) auf das Schlüs-sel-wort \T1/NotoSerif-TLF/m/it/1
 2 (+20) await\T1/NotoSerif-TLF/m/n/12 (+20) , wird die Aus-füh-rung der ak-tu-e
 l-len
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 265--268
+Underfull \hbox (badness 10000) in paragraph at lines 261--264
 
  []
 
 
-Underfull \hbox (badness 6063) in paragraph at lines 265--268
+Underfull \hbox (badness 6063) in paragraph at lines 261--264
 \T1/NotoSerif-TLF/m/n/12 (+20) Eine ge-naue-re Aus-füh-rung zu die-ser The-ma-t
 ik ist un-ter [[]26[]]
  []
 
 File: figures/dhbwlogo.png Graphic file (type png)
 <use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 273.
+Package pdftex.def Info: figures/dhbwlogo.png  used on input line 264.
 (pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
 [16]
-<figures/DH_frame_rvm1.png, id=510, 242.40562pt x 164.11313pt>
+<figures/DH_frame_rvm1.png, id=509, 242.40562pt x 164.11313pt>
 File: figures/DH_frame_rvm1.png Graphic file (type png)
 <use figures/DH_frame_rvm1.png>
-Package pdftex.def Info: figures/DH_frame_rvm1.png  used on input line 301.
+Package pdftex.def Info: figures/DH_frame_rvm1.png  used on input line 297.
 (pdftex.def)             Requested size: 170.71652pt x 115.58456pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+File: figures/dhbwlogo.png Graphic file (type png)
+<use figures/dhbwlogo.png>
+Package pdftex.def Info: figures/dhbwlogo.png  used on input line 303.
+(pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
+[17]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 308.
+(hyperref)                removing `\@ifnextchar' on input line 304.
 
 
-Underfull \hbox (badness 1394) in paragraph at lines 310--312
+Underfull \hbox (badness 1394) in paragraph at lines 306--308
 \T1/NotoSerif-TLF/m/n/12 (+20) Zur Re-du-zie-rung der ma-the-ma-ti-schen Kom-pl
 e-xi-tät und für ei-ne
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 310--312
+Underfull \hbox (badness 10000) in paragraph at lines 306--308
 
  []
 
 
-Underfull \hbox (badness 1838) in paragraph at lines 310--312
+Underfull \hbox (badness 1838) in paragraph at lines 306--308
 \T1/NotoSerif-TLF/m/n/12 (+20) Dabei re-prä-sen-tie-ren die Buch-sta-ben $\OML/
 cmm/m/it/12 c$ \T1/NotoSerif-TLF/m/n/12 (+20) und $\OML/cmm/m/it/12 s$ \T1/Noto
 Serif-TLF/m/n/12 (+20) die Kosinus- bzw.
@@ -2052,22 +2101,17 @@ Serif-TLF/m/n/12 (+20) die Kosinus- bzw.
 
 File: figures/dhbwlogo.png Graphic file (type png)
 <use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 312.
+Package pdftex.def Info: figures/dhbwlogo.png  used on input line 325.
 (pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
-[17]
+[18 <./figures/DH_frame_rvm1.png>]
 File: figures/dhbwlogo.png Graphic file (type png)
 <use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 329.
-(pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
- [18 <./figures/DH_frame_rvm1.png>]
-File: figures/dhbwlogo.png Graphic file (type png)
-<use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 358.
+Package pdftex.def Info: figures/dhbwlogo.png  used on input line 354.
 (pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
  [19]
 File: figures/dhbwlogo.png Graphic file (type png)
 <use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 380.
+Package pdftex.def Info: figures/dhbwlogo.png  used on input line 376.
 (pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
  [20]) (sec3.tex
 Kapitel 3.
@@ -2077,144 +2121,161 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--1
  []
 
 
-Underfull \hbox (badness 1515) in paragraph at lines 11--51
+Underfull \hbox (badness 2790) in paragraph at lines 9--10
+\T1/NotoSerif-TLF/m/n/12 (+20) in der Aus-gangs-la-ge ein kri-ti-sches Stör-ver
+-hal-ten in-ner-halb der
+ []
+
+
+Underfull \hbox (badness 5533) in paragraph at lines 9--10
+\T1/NotoSerif-TLF/m/n/12 (+20) Rendering-Engine des \T1/NotoSerif-TLF/m/it/12 (
++20) PCL-Vi-sua-li-zer\T1/NotoSerif-TLF/m/n/12 (+20) . Beim Ver-such, im View-e
+r
+ []
+
+File: figures/dhbwlogo.png Graphic file (type png)
+<use figures/dhbwlogo.png>
+Package pdftex.def Info: figures/dhbwlogo.png  used on input line 17.
+(pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
+[21
+
+
+]
+Underfull \hbox (badness 1515) in paragraph at lines 20--60
 []\T1/NotoSerif-TLF/m/n/12 (+20) 3.1[] zeigt qua-li-ta-tiv auf, wie ei-ne sol-c
 he Ab-fol-ge aus-sieht. Es ist
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 11--51
+Underfull \hbox (badness 10000) in paragraph at lines 20--60
 \T1/NotoSerif-TLF/m/n/12 (+20) den ge-sam-ten Haupt-thread für ei-ne nicht ver-
 nach-läs-sig-ba-re
  []
 
 
-Underfull \hbox (badness 2961) in paragraph at lines 11--51
+Underfull \hbox (badness 2961) in paragraph at lines 20--60
 \T1/NotoSerif-TLF/m/n/12 (+20) wird, bis ein Be-fehl voll-stän-dig an den Ro-bo
 -ter ge-sen-det, von
  []
 
 
-Underfull \hbox (badness 1584) in paragraph at lines 11--51
+Underfull \hbox (badness 1584) in paragraph at lines 20--60
 \T1/NotoSerif-TLF/m/n/12 (+20) ihm ver-ar-bei-tet und aus-ge-führt wird, lässt 
 sich ver-ein-facht mit
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 11--51
+Underfull \hbox (badness 10000) in paragraph at lines 20--60
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 11--51
+Underfull \hbox (badness 10000) in paragraph at lines 20--60
 \T1/NotoSerif-TLF/m/n/12 (+20) Während die-ser Zeit-span-ne friert die ge-sam-t
 e Be-nut-ze-ro-ber-
  []
 
 
-Underfull \hbox (badness 2689) in paragraph at lines 11--51
+Underfull \hbox (badness 2689) in paragraph at lines 20--60
 \T1/NotoSerif-TLF/m/n/12 (+20) flä-che so-wie die Hand-lungs-fä-hig-keit des Ha
 upt-threads ein. Um
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 11--51
+Underfull \hbox (badness 10000) in paragraph at lines 20--60
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 11--51
+Underfull \hbox (badness 10000) in paragraph at lines 20--60
 \T1/NotoSerif-TLF/m/n/12 (+20) Das Ziel die-ser Ana-ly-se ist die Iden-ti-fi-ka
 -ti-on der kri-ti-schen
  []
 
 File: figures/dhbwlogo.png Graphic file (type png)
 <use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 51.
+Package pdftex.def Info: figures/dhbwlogo.png  used on input line 60.
 (pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
-[21
-
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 53--55
+[22]
+Underfull \hbox (badness 10000) in paragraph at lines 62--64
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 53--55
+Underfull \hbox (badness 10000) in paragraph at lines 62--64
 \T1/NotoSerif-TLF/m/n/12 (+20) Die theo-re-ti-sche Ge-samt-lauf-zeit $\OML/cmm/
 m/it/12 T[]$ \T1/NotoSerif-TLF/m/n/12 (+20) ei-ner Be-fehls-se-quenz lässt
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 53--55
+Underfull \hbox (badness 10000) in paragraph at lines 62--64
 \T1/NotoSerif-TLF/m/n/12 (+20) sich so-mit durch Sum-ma-ti-on der Be-fehls-aus-
 füh-rungs-zei-ten
  []
 
 
-Underfull \hbox (badness 1418) in paragraph at lines 63--67
+Underfull \hbox (badness 1418) in paragraph at lines 72--76
 \T1/NotoSerif-TLF/m/n/12 (+20) der Be-ar-bei-tungs-rei-hen-fol-ge (mit $\OML/cm
 m/m/it/12 n$ \T1/NotoSerif-TLF/m/n/12 (+20) als Ge-samt-zahl der Ob-jek-te),
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 63--67
+Underfull \hbox (badness 10000) in paragraph at lines 72--76
 
  []
 
 
-Underfull \hbox (badness 1769) in paragraph at lines 63--67
+Underfull \hbox (badness 1769) in paragraph at lines 72--76
 \T1/NotoSerif-TLF/m/n/12 (+20) die Ge-samt-aus-füh-rungs-zeit ei-ner Be-fehls-s
 e-quenz (be-ste-hend aus
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 63--67
+Underfull \hbox (badness 10000) in paragraph at lines 72--76
 
  []
 
 
-Underfull \hbox (badness 2884) in paragraph at lines 63--67
+Underfull \hbox (badness 2884) in paragraph at lines 72--76
 \T1/NotoSerif-TLF/m/n/12 (+20) Bei die-ser theo-re-ti-schen Be-trach-tung wird 
 be-wusst ei-ne Worst-
  []
 
 
-Underfull \hbox (badness 4024) in paragraph at lines 63--67
+Underfull \hbox (badness 4024) in paragraph at lines 72--76
 \T1/NotoSerif-TLF/m/n/12 (+20) um si-cher-zu-stel-len, dass der Ro-bo-ter die B
 e-we-gung ga-ran-tiert
  []
 
 
-Underfull \hbox (badness 4266) in paragraph at lines 63--67
+Underfull \hbox (badness 4266) in paragraph at lines 72--76
 \T1/NotoSerif-TLF/m/n/12 (+20) Prak-tisch funk-tio-niert die-se Vor-ge-hens-wei
 -se, al-ler-dings kön-nen
  []
 
 File: figures/dhbwlogo.png Graphic file (type png)
 <use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 67.
+Package pdftex.def Info: figures/dhbwlogo.png  used on input line 76.
 (pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
-[22]
-<figures/Messexperiment.png, id=573, 2366.8425pt x 2276.505pt>
+[23]
+<figures/Messexperiment.png, id=577, 2366.8425pt x 2276.505pt>
 File: figures/Messexperiment.png Graphic file (type png)
 <use figures/Messexperiment.png>
-Package pdftex.def Info: figures/Messexperiment.png  used on input line 76.
+Package pdftex.def Info: figures/Messexperiment.png  used on input line 85.
 (pdftex.def)             Requested size: 179.25113pt x 172.39786pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 69--106
+Underfull \hbox (badness 10000) in paragraph at lines 78--115
 
  []
 
 
-Underfull \hbox (badness 8075) in paragraph at lines 69--106
+Underfull \hbox (badness 8075) in paragraph at lines 78--115
 \T1/NotoSerif-TLF/m/n/12 (+20) Das Mess-ex-pe-ri-ment wird mit vier Zy-lin-de-r
 -ob-jek-ten durch-ge-
  []
 
 
-Overfull \hbox (23.79189pt too wide) in paragraph at lines 109--118
+Overfull \hbox (23.79189pt too wide) in paragraph at lines 118--127
 [][] 
  []
 
@@ -2223,47 +2284,46 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 File: figures/dhbwlogo.png Graphic file (type png)
 <use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 121.
+Package pdftex.def Info: figures/dhbwlogo.png  used on input line 130.
 (pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
-[23 <./figures/Messexperiment.png>]
+[24 <./figures/Messexperiment.png>]
 LaTeX Font Info:    Font shape `T1/NotoSans-TLF/m/n' will be
-(Font)              scaled to size 6.0pt on input line 132.
+(Font)              scaled to size 6.0pt on input line 141.
 
-Overfull \hbox (10.07231pt too wide) in paragraph at lines 148--149
+Overfull \hbox (10.07231pt too wide) in paragraph at lines 157--158
  [][] 
  []
 
-File: figures/dhbwlogo.png Graphic file (type png)
-<use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 152.
-(pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
-[24]
-Underfull \hbox (badness 10000) in paragraph at lines 157--179
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--188
 
  []
 
 
-Underfull \hbox (badness 4660) in paragraph at lines 157--179
+Underfull \hbox (badness 4660) in paragraph at lines 165--188
 \T1/NotoSerif-TLF/m/n/12 (+20) Um die fest-ge-leg-te Zeit $\OML/cmm/m/it/12 T[]
 $ \T1/NotoSerif-TLF/m/n/12 (+20) für ein Ob-jekt zu er-mit-teln,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 157--179
+Underfull \hbox (badness 10000) in paragraph at lines 165--188
 \T1/NotoSerif-TLF/m/n/12 (+20) wer-den die Me-tho-den \T1/NotoSerif-TLF/m/it/12
  (+20) Send-Ko-or-di-na-ti-ons, Go-To-Ma-ga-zin so-wie
  []
 
 File: figures/dhbwlogo.png Graphic file (type png)
 <use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 179.
+Package pdftex.def Info: figures/dhbwlogo.png  used on input line 188.
 (pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
 [25]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 File: figures/dhbwlogo.png Graphic file (type png)
 <use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 207.
+Package pdftex.def Info: figures/dhbwlogo.png  used on input line 211.
 (pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
- [26])
+[26])
 File: figures/dhbwlogo.png Graphic file (type png)
 <use figures/dhbwlogo.png>
 Package pdftex.def Info: figures/dhbwlogo.png  used on input line 331.
@@ -2740,39 +2800,27 @@ si-sche und vi-su-el-
  []
 
 
-Underfull \hbox (badness 2990) in paragraph at lines 42--52
-\T1/NotoSerif-TLF/m/n/12 (+20) und Kon-takt-her-aus-for-de-rung über klas-si-sc
-he Kom-po-nen-ten wie
+Underfull \hbox (badness 1629) in paragraph at lines 42--52
+\T1/NotoSerif-TLF/m/n/12 (+20) und oft spe-zia-li-sier-te Aus-wer-te-elek-tro-n
+ik be-nö-tigt. Da phy-si-sche
  []
 
 
-Underfull \hbox (badness 5077) in paragraph at lines 42--52
-\T1/NotoSerif-TLF/m/n/12 (+20) rea-giert und oft spe-zia-li-sier-te Aus-wer-te-
-elek-tro-nik be-nö-tigt. Da
+Underfull \hbox (badness 5832) in paragraph at lines 42--52
+\T1/NotoSerif-TLF/m/n/12 (+20) Sys-te-me bie-ten den Vor-teil ei-ner zu-ver-läs
+-si-gen Klas-si-fi-zie-rung
  []
 
 
-Underfull \hbox (badness 3713) in paragraph at lines 42--52
-\T1/NotoSerif-TLF/m/n/12 (+20) ist der me-cha-ni-sche Ver-schleiÿ so-wie der ho
--he Montage- und
+Underfull \hbox (badness 1565) in paragraph at lines 42--52
+\T1/NotoSerif-TLF/m/n/12 (+20) die-sel-be Hard-wa-re so-wohl für Si-cher-heits-
+auf-ga-ben als auch für
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 42--52
-\T1/NotoSerif-TLF/m/n/12 (+20) nutzt Ka-me-ra-sys-te-me (2D-Systeme mit Kan-ten
--ex-trak-ti-on oder
- []
-
-
-Underfull \hbox (badness 3724) in paragraph at lines 42--52
-\T1/NotoSerif-TLF/m/n/12 (+20) 3D-Time-of-Flight-Sensoren mit Tie-fen-da-ten) z
-ur vo-lu-me-tri-schen
- []
-
-
-Underfull \hbox (badness 7308) in paragraph at lines 42--52
-\T1/NotoSerif-TLF/m/n/12 (+20) Raum-über-wa-chung. Vi-su-el-le Sys-te-me bie-te
-n den Vor-teil ei-ner
+Underfull \hbox (badness 3158) in paragraph at lines 42--52
+\T1/NotoSerif-TLF/m/n/12 (+20) bild-ver-ar-bei-tungs-ge-stütz-te Greif-pro-zes-
+se (Pick-and-Place) ge-nutzt
  []
 
 
@@ -2936,17 +2984,13 @@ File: figures/dhbwlogo.png Graphic file (type png)
 Package pdftex.def Info: figures/dhbwlogo.png  used on input line 60.
 (pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
 [37]
-
-LaTeX Warning: Reference `Bildverarbeitungsstruktur' on page 38 undefined on in
-put line 62.
-
 LaTeX Font Info:    Font shape `T1/NotoSans-TLF/m/n' will be
 (Font)              scaled to size 10.95pt on input line 79.
 File: figures/dhbwlogo.png Graphic file (type png)
 <use figures/dhbwlogo.png>
 Package pdftex.def Info: figures/dhbwlogo.png  used on input line 94.
 (pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
-[38]
+ [38]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -2955,192 +2999,192 @@ File: figures/dhbwlogo.png Graphic file (type png)
 Package pdftex.def Info: figures/dhbwlogo.png  used on input line 94.
 (pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
 [39]
-Underfull \hbox (badness 10000) in paragraph at lines 97--100
+Underfull \hbox (badness 10000) in paragraph at lines 98--101
 
  []
 
 
-Underfull \hbox (badness 6348) in paragraph at lines 97--100
+Underfull \hbox (badness 6348) in paragraph at lines 98--101
 \T1/NotoSerif-TLF/m/n/12 (+20) Darüber hin-aus bie-tet die Te-stum-ge-bung die 
 Mög-lich-keit, die
  []
 
 
-Underfull \hbox (badness 1275) in paragraph at lines 97--100
+Underfull \hbox (badness 1275) in paragraph at lines 98--101
 \T1/NotoSerif-TLF/m/n/12 (+20) Schwellenwert-Segmentierung in-ner-halb der Bild
 -vor-ver-ar-bei-tung,
  []
 
 
-Underfull \hbox (badness 3536) in paragraph at lines 97--100
+Underfull \hbox (badness 3536) in paragraph at lines 98--101
 \T1/NotoSerif-TLF/m/n/12 (+20) wel-cher im prak-ti-schen Ver-such je-doch nur e
 i-ne sehr ge-rin-ge
  []
 
 
-Underfull \hbox (badness 1728) in paragraph at lines 97--100
+Underfull \hbox (badness 1728) in paragraph at lines 98--101
 \T1/NotoSerif-TLF/m/n/12 (+20) Letz-te-rer legt fest, wie vie-le qua-li-fi-zie-
 ren-de De-tek-ti-ons-recht-e-cke
  []
 
 File: figures/dhbwlogo.png Graphic file (type png)
 <use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 100.
+Package pdftex.def Info: figures/dhbwlogo.png  used on input line 101.
 (pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
 [40]
-<figures/TR_13.png, id=700, 790.82953pt x 301.5014pt>
+<figures/TR_13.png, id=701, 790.82953pt x 301.5014pt>
 File: figures/TR_13.png Graphic file (type png)
 <use figures/TR_13.png>
-Package pdftex.def Info: figures/TR_13.png  used on input line 104.
+Package pdftex.def Info: figures/TR_13.png  used on input line 105.
 (pdftex.def)             Requested size: 318.67207pt x 121.49092pt.
 File: figures/dhbwlogo.png Graphic file (type png)
 <use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 115.
+Package pdftex.def Info: figures/dhbwlogo.png  used on input line 116.
 (pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
  [41 <./figures/TR_13.png>]
-<figures/TR_8.png, id=707, 790.82953pt x 300.7486pt>
+<figures/TR_8.png, id=708, 790.82953pt x 300.7486pt>
 File: figures/TR_8.png Graphic file (type png)
 <use figures/TR_8.png>
-Package pdftex.def Info: figures/TR_8.png  used on input line 120.
+Package pdftex.def Info: figures/TR_8.png  used on input line 121.
 (pdftex.def)             Requested size: 318.67207pt x 121.18758pt.
 File: figures/dhbwlogo.png Graphic file (type png)
 <use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 131.
+Package pdftex.def Info: figures/dhbwlogo.png  used on input line 132.
 (pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
  [42 <./figures/TR_8.png>]
-<figures/TR_12.png, id=715, 791.95876pt x 299.24297pt>
+<figures/TR_12.png, id=716, 791.95876pt x 299.24297pt>
 File: figures/TR_12.png Graphic file (type png)
 <use figures/TR_12.png>
-Package pdftex.def Info: figures/TR_12.png  used on input line 135.
+Package pdftex.def Info: figures/TR_12.png  used on input line 136.
 (pdftex.def)             Requested size: 318.67207pt x 120.41193pt.
-<figures/TR_11.png, id=716, 790.82953pt x 300.7486pt>
+<figures/TR_11.png, id=717, 790.82953pt x 300.7486pt>
 File: figures/TR_11.png Graphic file (type png)
 <use figures/TR_11.png>
-Package pdftex.def Info: figures/TR_11.png  used on input line 143.
+Package pdftex.def Info: figures/TR_11.png  used on input line 145.
 (pdftex.def)             Requested size: 318.67207pt x 121.18758pt.
 File: figures/dhbwlogo.png Graphic file (type png)
 <use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 147.
+Package pdftex.def Info: figures/dhbwlogo.png  used on input line 149.
 (pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
  [43 <./figures/TR_12.png>]
-<figures/TR_14.png, id=724, 922.19531pt x 299.24297pt>
+<figures/TR_14.png, id=725, 922.19531pt x 299.24297pt>
 File: figures/TR_14.png Graphic file (type png)
 <use figures/TR_14.png>
-Package pdftex.def Info: figures/TR_14.png  used on input line 152.
+Package pdftex.def Info: figures/TR_14.png  used on input line 154.
 (pdftex.def)             Requested size: 318.67207pt x 103.4033pt.
 
-Underfull \hbox (badness 5091) in paragraph at lines 160--196
+Underfull \hbox (badness 5091) in paragraph at lines 163--199
 \T1/NotoSerif-TLF/m/n/12 (+20) Nach der er-folg-rei-chen Im-ple-men-ta-ti-on de
 r Be-fehl-spi-pe-li-ne in
  []
 
 
-Underfull \hbox (badness 2452) in paragraph at lines 160--196
+Underfull \hbox (badness 2452) in paragraph at lines 163--199
 \T1/NotoSerif-TLF/m/n/12 (+20) und nach-fol-gend in Ta-bel-le []5.2[] dar-ge-st
 ellt: Auch hier kom-men
  []
 
 
-Underfull \hbox (badness 2726) in paragraph at lines 160--196
+Underfull \hbox (badness 2726) in paragraph at lines 163--199
 \T1/NotoSerif-TLF/m/n/12 (+20) er-neut\T1/NotoSerif-TLF/m/it/12 (+20) Stopwatch
 es \T1/NotoSerif-TLF/m/n/12 (+20) aus \T1/NotoSerif-TLF/m/it/12 (+20) Sys-tems.
 Diagnostics \T1/NotoSerif-TLF/m/n/12 (+20) zum Ein-satz um die
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 160--196
+Underfull \hbox (badness 10000) in paragraph at lines 163--199
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 160--196
+Underfull \hbox (badness 10000) in paragraph at lines 163--199
 \T1/NotoSerif-TLF/m/n/12 (+20) Die Be-fehl-spi-pe-li-ne er-mög-licht al-ler-din
 gs ei-ne Re-duk-ti-on auf
  []
 
 File: figures/dhbwlogo.png Graphic file (type png)
 <use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 196.
+Package pdftex.def Info: figures/dhbwlogo.png  used on input line 199.
 (pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
 [44 <./figures/TR_11.png> <./figures/TR_14.png>]
 File: figures/dhbwlogo.png Graphic file (type png)
 <use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 196.
+Package pdftex.def Info: figures/dhbwlogo.png  used on input line 199.
 (pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
  [45]
-Underfull \hbox (badness 10000) in paragraph at lines 198--200
+Underfull \hbox (badness 10000) in paragraph at lines 201--203
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 198--200
+Underfull \hbox (badness 10000) in paragraph at lines 201--203
 \T1/NotoSerif-TLF/m/n/12 (+20) Klassische, syn-chro-ne Event-Handler ber-gen da
 s Ri-si-ko, den
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 198--200
+Underfull \hbox (badness 10000) in paragraph at lines 201--203
 \T1/NotoSerif-TLF/m/n/12 (+20) auf-ru-fen-den Thread wäh-rend der Aus-füh-rung 
 nach-ge-la-ger-ter
  []
 
 
-Underfull \hbox (badness 6675) in paragraph at lines 198--200
+Underfull \hbox (badness 6675) in paragraph at lines 201--203
 \T1/NotoSerif-TLF/m/n/12 (+20) blo-ckie-ren-de Event-Architektur zu mas-si-ven 
 Ver-zö-ge-run-gen in
  []
 
 
-Underfull \hbox (badness 3701) in paragraph at lines 198--200
+Underfull \hbox (badness 3701) in paragraph at lines 201--203
 \T1/NotoSerif-TLF/m/n/12 (+20) ($\OML/cmm/m/it/12 pHandDetected \OT1/cmr/m/n/12
  = \OML/cmm/m/it/12 true$\T1/NotoSerif-TLF/m/n/12 (+20) ) über ein asyn-chro-ne
 s Delegaten-Event
  []
 
 
-Underfull \hbox (badness 1762) in paragraph at lines 202--206
+Underfull \hbox (badness 1762) in paragraph at lines 205--209
 \T1/NotoSerif-TLF/m/n/12 (+20) Das abon-nier-te Event greift di-rekt auf die th
 read-si-che-re Klas-se
  []
 
 
-Underfull \hbox (badness 2932) in paragraph at lines 202--206
+Underfull \hbox (badness 2932) in paragraph at lines 205--209
 \T1/NotoSerif-TLF/m/it/12 (+20) Ro-bot_Befehlspipeline \T1/NotoSerif-TLF/m/n/12
  (+20) zu. Der Kern des Stopps ba-siert auf dem
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 202--206
+Underfull \hbox (badness 10000) in paragraph at lines 205--209
 \T1/NotoSerif-TLF/m/n/12 (+20) Prin-zip des ko-ope-ra-ti-ven Ab-bruchs un-ter V
 er-wen-dung ei-ner
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 202--206
+Underfull \hbox (badness 10000) in paragraph at lines 205--209
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 202--206
+Underfull \hbox (badness 10000) in paragraph at lines 205--209
 \T1/NotoSerif-TLF/m/n/12 (+20) Der in-ter-ne Worker-Task der Pi-pe-li-ne (\T1/N
 otoSerif-TLF/m/it/12 (+20) Pro-cess-Queu-eA-sync\T1/NotoSerif-TLF/m/n/12 (+20) 
 )
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 202--206
+Underfull \hbox (badness 10000) in paragraph at lines 205--209
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 202--206
+Underfull \hbox (badness 10000) in paragraph at lines 205--209
 \T1/NotoSerif-TLF/m/n/12 (+20) Sobald das asyn-chro-ne Event der Bild-ver-ar-be
 i-tung den Not-
  []
 
 File: figures/dhbwlogo.png Graphic file (type png)
 <use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 207.
+Package pdftex.def Info: figures/dhbwlogo.png  used on input line 210.
 (pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
 [46])
 File: figures/dhbwlogo.png Graphic file (type png)
@@ -3173,37 +3217,37 @@ rt und im-ple-men-tiert.
  []
 
 )
-Underfull \hbox (badness 4242) in paragraph at lines 9--343
+Underfull \hbox (badness 4242) in paragraph at lines 11--343
 \T1/NotoSerif-TLF/m/n/12 (+20) mit-hil-fe der 2D-Kamera um-ge-setzt wer-den. Hi
 er-zu kommt die
  []
 
 
-Underfull \hbox (badness 2368) in paragraph at lines 9--343
+Underfull \hbox (badness 2368) in paragraph at lines 11--343
 \T1/NotoSerif-TLF/m/n/12 (+20) Machine-Learning-Methode \T1/NotoSerif-TLF/m/it/
 12 (+20) Haar Cas-ca-de Clas-si-fier \T1/NotoSerif-TLF/m/n/12 (+20) zum Ein-sat
 z.
  []
 
 
-Underfull \hbox (badness 3039) in paragraph at lines 9--343
+Underfull \hbox (badness 3039) in paragraph at lines 11--343
 \T1/NotoSerif-TLF/m/n/12 (+20) va-li-diert, in wel-cher auch ein Igno-rie-ren d
 er für den Ro-bo-ter
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9--343
+Underfull \hbox (badness 10000) in paragraph at lines 11--343
 
  []
 
 
-Underfull \hbox (badness 6741) in paragraph at lines 9--343
+Underfull \hbox (badness 6741) in paragraph at lines 11--343
 \T1/NotoSerif-TLF/m/n/12 (+20) Aufbauend auf die-ser Stu-di-en-ar-beit er-ge-be
 n sich für die Zu-
  []
 
 
-Underfull \hbox (badness 4699) in paragraph at lines 9--343
+Underfull \hbox (badness 4699) in paragraph at lines 11--343
 \T1/NotoSerif-TLF/m/n/12 (+20) Sensor/CPU-System um einen hard-wa-re-sei-ti-gen
  Not-Halt in die
  []
@@ -3214,7 +3258,12 @@ Package pdftex.def Info: figures/dhbwlogo.png  used on input line 343.
 (pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
 [48
 
-] (sec7.tex) (T3200.bbl
+]
+File: figures/dhbwlogo.png Graphic file (type png)
+<use figures/dhbwlogo.png>
+Package pdftex.def Info: figures/dhbwlogo.png  used on input line 343.
+(pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
+ [49] (sec7.tex) (T3200.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 30--34
 \T1/NotoSerif-TLF/m/n/12 (+20) / / www . i^^X . fraunhofer . de / de / geschaef
 tsbereiche / robotersysteme /
@@ -3344,50 +3393,110 @@ Underfull \hbox (badness 10000) in paragraph at lines 480--480
 []|\T1/NotoSerif-TLF/m/n/12 (+20) Formulierung des eng-lisch-
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 481--481
+\T1/NotoSerif-TLF/m/n/12 (+20) IntelliSense-Erweiterung,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 481--481
+\T1/NotoSerif-TLF/m/n/12 (+20) bo-ter.cs, Be-fehl-spi-pe-li-ne.cs,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 481--481
+[]|\T1/NotoSerif-TLF/m/n/12 (+20) Visual
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 481--481
+\T1/NotoSerif-TLF/m/n/12 (+20) Studio-
+ []
+
+
+Overfull \hbox (7.60129pt too wide) in paragraph at lines 481--481
+\T1/NotoSerif-TLF/m/n/12 (-20) Projektmappe| 
+ []
+
 File: figures/dhbwlogo.png Graphic file (type png)
 <use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 483.
+Package pdftex.def Info: figures/dhbwlogo.png  used on input line 484.
 (pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
 [14
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 500--500
+Underfull \hbox (badness 10000) in paragraph at lines 506--506
 []|\T1/NotoSerif-TLF/m/n/12 (+20) Safety-
  []
 
 
-Overfull \hbox (4.29959pt too wide) in paragraph at lines 500--500
-[]|\T1/NotoSerif-TLF/m/n/12 (-20) Architekturlimitation| 
+Underfull \hbox (badness 10000) in paragraph at lines 506--506
+[]|\T1/NotoSerif-TLF/m/n/12 (+20) Verwaltung von
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 506--506
+[]|\T1/NotoSerif-TLF/m/n/12 (+20) Sequenzielle Be-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 506--506
+[]|\T1/NotoSerif-TLF/m/n/12 (+20) Konzeptionierung
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 506--506
+\T1/NotoSerif-TLF/m/n/12 (+20) der dy-na-mi-schen
+ []
+
+
+Overfull \hbox (8.16862pt too wide) in paragraph at lines 506--506
+[]|\T1/NotoSerif-TLF/m/n/12 (-20) Safetyimplementation| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 506--506
+[]|\T1/NotoSerif-TLF/m/n/12 (+20) Integration
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 506--506
+\T1/NotoSerif-TLF/m/n/12 (+20) der Safety-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 506--506
+\T1/NotoSerif-TLF/m/n/12 (+20) Implementation
  []
 
 File: figures/dhbwlogo.png Graphic file (type png)
 <use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 501.
+Package pdftex.def Info: figures/dhbwlogo.png  used on input line 507.
 (pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
 [15]
 File: figures/L_Signature.png Graphic file (type png)
 <use figures/L_Signature.png>
-Package pdftex.def Info: figures/L_Signature.png  used on input line 511.
+Package pdftex.def Info: figures/L_Signature.png  used on input line 517.
 (pdftex.def)             Requested size: 91.89362pt x 42.67912pt.
 
-Underfull \hbox (badness 4859) in paragraph at lines 502--520
+Underfull \hbox (badness 4859) in paragraph at lines 508--526
 \T1/NotoSerif-TLF/m/n/12 (+20) dass die oben ge-mach-ten An-ga-ben der Wahr-hei
 t ent-spre-chen.
  []
 
 File: figures/A_Signature.png Graphic file (type png)
 <use figures/A_Signature.png>
-Package pdftex.def Info: figures/A_Signature.png  used on input line 528.
+Package pdftex.def Info: figures/A_Signature.png  used on input line 534.
 (pdftex.def)             Requested size: 114.75182pt x 42.67912pt.
 File: figures/dhbwlogo.png Graphic file (type png)
 <use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 535.
+Package pdftex.def Info: figures/dhbwlogo.png  used on input line 541.
 (pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
 [16]
 File: figures/dhbwlogo.png Graphic file (type png)
 <use figures/dhbwlogo.png>
-Package pdftex.def Info: figures/dhbwlogo.png  used on input line 546.
+Package pdftex.def Info: figures/dhbwlogo.png  used on input line 553.
 (pdftex.def)             Requested size: 67.9904pt x 28.45274pt.
  [17
 
@@ -3397,27 +3506,17 @@ Package pdftex.def Info: figures/dhbwlogo.png  used on input line 546.
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-05-26>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
-
-Package rerunfilecheck Warning: File `T3200.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `T3200.out':
-(rerunfilecheck)             Before: 80202F286DD254BC0AFA695A45F6A536;12975
-(rerunfilecheck)             After:  8BCFCBED29629F702D518421F418D1A2;12975.
+Package rerunfilecheck Info: File `T3200.out' has not changed.
+(rerunfilecheck)             Checksum: 6E19904563B435A95A9E5A416CB0DEEA;12978.
  ) 
 Here is how much of TeX's memory you used:
- 35601 strings out of 467509
- 735062 string characters out of 5407322
- 1141825 words of memory out of 5000000
- 63486 multiletter control sequences out of 15000+600000
- 779915 words of font info for 444 fonts, out of 8000000 for 9000
+ 35598 strings out of 467509
+ 734965 string characters out of 5407322
+ 1143990 words of memory out of 5000000
+ 63488 multiletter control sequences out of 15000+600000
+ 779381 words of font info for 440 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 123i,26n,131p,1612b,1569s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 123i,26n,131p,1612b,1571s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/sommerad/AppData/Local/Programs/MiKTeX/fonts/type1/google/noto/Noto
 Sans-Bold.pfb><C:/Users/sommerad/AppData/Local/Programs/MiKTeX/fonts/type1/goog
 le/noto/NotoSans-Regular.pfb><C:/Users/sommerad/AppData/Local/Programs/MiKTeX/f
@@ -3436,9 +3535,9 @@ fb><C:/Users/sommerad/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
 /cm/cmr12.pfb><C:/Users/sommerad/AppData/Local/Programs/MiKTeX/fonts/type1/publ
 ic/amsfonts/cm/cmr8.pfb><C:/Users/sommerad/AppData/Local/Programs/MiKTeX/fonts/
 type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on T3200.pdf (65 pages, 13831495 bytes).
+Output written on T3200.pdf (66 pages, 13836758 bytes).
 PDF statistics:
- 995 PDF objects out of 1000 (max. 8388607)
- 217 named destinations out of 1000 (max. 500000)
+ 1015 PDF objects out of 1200 (max. 8388607)
+ 218 named destinations out of 1000 (max. 500000)
  106608 words of extra memory for PDF output out of 106986 (max. 10000000)
 

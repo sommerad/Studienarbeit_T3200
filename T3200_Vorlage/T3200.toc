@@ -17,7 +17,7 @@
 \contentsline {subsubsection}{\numberline {2.1.4.2}Mathematische Grundlagen und algorithmische Optimierung der Haar-Merkmale}{11}{subsubsection.2.1.4.2}%
 \contentsline {section}{\numberline {2.2}Bildverarbeitung}{13}{section.2.2}%
 \contentsline {subsection}{\numberline {2.2.1}Gaußfilter}{13}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Greyfilter}{13}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.2}Grayfilter}{14}{subsection.2.2.2}%
 \contentsline {subsection}{\numberline {2.2.3}Threshold von Graustufenbildern}{14}{subsection.2.2.3}%
 \contentsline {section}{\numberline {2.3}Grundlagen der Informatik}{14}{section.2.3}%
 \contentsline {subsection}{\numberline {2.3.1}Producer-Consumer-Pattern}{14}{subsection.2.3.1}%
@@ -30,10 +30,10 @@
 \contentsline {subsection}{\numberline {2.4.3}Analytische Gelenkwinkelberechnung}{19}{subsection.2.4.3}%
 \contentsline {chapter}{\numberline {3}Ausgangssituation/IST-Analyse}{21}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Architekturlimitationen des bisherigen Systems}{21}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Punktwolkenverarbeitung Probleme}{21}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Sequenzielle Befehlsstruktur}{21}{subsection.3.1.2}%
-\contentsline {subsubsection}{\numberline {3.1.2.1}Theoretische Limitation}{22}{subsubsection.3.1.2.1}%
-\contentsline {subsubsection}{\numberline {3.1.2.2}Messexperiment}{23}{subsubsection.3.1.2.2}%
+\contentsline {subsection}{\numberline {3.1.1}Verwaltung der Punktwolken-Daten}{21}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Sequenzielle Befehlsstruktur}{22}{subsection.3.1.2}%
+\contentsline {subsubsection}{\numberline {3.1.2.1}Theoretische Limitation}{23}{subsubsection.3.1.2.1}%
+\contentsline {subsubsection}{\numberline {3.1.2.2}Messexperiment}{24}{subsubsection.3.1.2.2}%
 \contentsline {subsubsection}{\numberline {3.1.2.3}Praktische Limitation - Laufzeitmessung mit Simulationsexperiment}{25}{subsubsection.3.1.2.3}%
 \contentsline {chapter}{\numberline {4}Architekturoptimierung und -erweiterung}{28}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Konzeptionierung der dynamischen Robotersteuerung}{28}{section.4.1}%

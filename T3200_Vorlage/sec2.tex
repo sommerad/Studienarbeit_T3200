@@ -2,7 +2,6 @@
 \label{Grundlagen}
 
 \section{Stand der Technik: Safety-Implementation \& Retrofitting}
-<<<<<<< Updated upstream
 \label{kap:safetyimplementation}
 In diesem Kapitel werden alle relevanten Fakten des Retrofittings im Kontext der Sicherheitsimplementation beleuchtet.
 
@@ -175,7 +174,7 @@ Dieses Kapitel erläutert kurz gebündelt, die Funktionsweise der verwendeten Fi
 \subsection{Gaußfilter}
 Der Gauß-Filter (oft auch als Gauß-Weichzeichner oder Gaussian Blur bezeichnet) ist ein lineares Filterverfahren in der Bildverarbeitung, das primär zur Reduzierung von hochfrequentem Bildrauschen und zur Glättung von Pixelstrukturen eingesetzt wird. Der Algorithmus berechnet den neuen Farb- oder Graustufenwert eines Pixels über den gewichteten Durchschnitt seiner Nachbarpixel, wobei die Gewichtung auf einer zweidimensionalen Gauß-Verteilung basiert.Dadurch besitzen Bildpunkte im direkten Zentrum der Maske die höchste mathematische Relevanz, während der Einfluss umliegender Pixel mit zunehmendem Abstand exponentiell abnimmt. Technisch wird diese Operation durch die Faltung des Bildes mit einer quadratischen Matrix, dem sogenannten Gauß-Kernel, realisiert, dessen Glättungsintensität über die Standardabweichung $\sigma$ (Sigma) präzise gesteuert werden kann. Da das Verfahren feine Sensorstörungen effektiv eliminiert, die Hauptkanten des Objekts jedoch im Wesentlichen erhält, bildet es eine fundamentale Grundlage für die nachgeschaltete Merkmalserkennung \cite{burger2022}.
 
-\subsection{Greyfilter}
+\subsection{Grayfilter}
 Der Graustufenfilter ist ein grundlegendes Bildverarbeitungsverfahren, das die dreidimensionale Farbmatrix eines Bildes (meist im RGB-Format) in eine eindimensionale Luminanzmatrix überführt. Der Algorithmus reduziert den Rechenaufwand nachfolgender Merkmalserkennungen drastisch, da statt dreier Farbkanäle für Rot, Grün und Blau nur noch ein einziger Helligkeitswert pro Pixel verarbeitet werden muss. Durch diesen algorithmischen Schritt verliert das Bild zwar jegliche Farbinformation, behält jedoch alle für die Kantendetektion und Kontrastanalyse relevanten Geometrie- und Texturmerkmale bei \cite{jaehne2023}.
 
 \subsection{Threshold von Graustufenbildern}
@@ -185,7 +184,7 @@ Die Threshold-Methode von OpenCV ist ein fundamentales Verfahren zur Bildbinnari
 \label{kap:Grundlagen der Informatik}
 \subsection{Producer-Consumer-Pattern}
 \label{kap:Producer-Consumer-Pattern}
-Das \textit{Producer-Consumer-Pattern} ist ein Entwurfsmuster der Softwaretechnik zur Koordination asynchroner Prozesse. Es dient der Entkopplung von Datenkomponenten, die Informationen erzeugen (\textit{Producer}), und Komponenten, die diese Daten verarbeiten (\textit{Consumer}).Die Kommunikation erfolgt dabei über eine gemeinsame Warteschlange (\textit{engl. Queue}).
+Das \textit{Producer-Consumer-Pattern} ist ein Entwurfsmuster der Softwaretechnik zur Koordination asynchroner Prozesse. Es dient der Entkopplung von Datenkomponenten, die Informationen erzeugen (\textit{Producer}), und Komponenten, die diese Daten verarbeiten (\textit{Consumer}). Die Kommunikation erfolgt dabei über eine gemeinsame Warteschlange (\textit{engl. Queue}).
 
 \begin{figure}[h!]
 	\centering
